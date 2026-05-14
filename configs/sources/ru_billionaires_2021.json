@@ -1,0 +1,32 @@
+{
+  "source_id": "ru_billionaires_2021",
+  "agency": "Forbes 2021 List of Russian Billionaires",
+  "list_name": "Forbes 2021 List of Russian Billionaires",
+  "country": "RU",
+  "engine": "file_download",
+  "url": "https://data.opensanctions.org/datasets/latest/ru_billionaires_2021/targets.simple.csv",
+  "format": "csv",
+  "encoding": "utf-8",
+  "delimiter": ",",
+  "has_header": true,
+  "field_map": {
+    "name": "name",
+    "date_of_birth": "birth_date",
+    "address": "addresses",
+    "details": "schema,aliases,countries,identifiers,sanctions,program_ids,dataset"
+  },
+  "validation": {
+    "min_records": 1,
+    "required_fields": [
+      "name"
+    ],
+    "max_empty_name_pct": 10,
+    "allow_digit_only_names": true
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 240,
+    "snapshot_raw": true
+  }
+}
