@@ -1,0 +1,28 @@
+{
+  "source_id": "fdic_failed_banks_api",
+  "agency": "Federal Deposit Insurance Corporation (FDIC)",
+  "list_name": "Failed Banks (FDIC Direct API)",
+  "country": "US",
+  "engine": "api_json",
+  "url": "https://banks.data.fdic.gov/api/failures",
+  "method": "GET",
+  "body_template": {"limit": 10000, "offset": 0},
+  "response_path": "data",
+  "field_map": {
+    "name": "data.NAME",
+    "address": "data.CITYST,data.PSTALP",
+    "date_of_birth": "data.FAILDATE",
+    "details": "data.RESTYPE,data.RESTYPE1,data.SAVR,data.CHCLASS,data.QBFASSET,data.QBFDEP,data.COST,data.BIDNAME"
+  },
+  "validation": {
+    "min_records": 1000,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 10
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 120,
+    "snapshot_raw": true
+  }
+}

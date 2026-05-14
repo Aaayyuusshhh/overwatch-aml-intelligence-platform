@@ -1,0 +1,32 @@
+{
+  "source_id": "jp_mof_sanctions",
+  "agency": "Japan Ministry of Finance (MoF)",
+  "list_name": "Japan Economic Sanctions List",
+  "country": "JP",
+  "engine": "file_download",
+  "format": "csv",
+  "encoding": "utf-8",
+  "delimiter": ",",
+  "has_header": true,
+  "field_map": {
+    "name": "name",
+    "date_of_birth": "birth_date",
+    "address": "addresses",
+    "details": "schema,aliases,countries,identifiers,sanctions,program_ids,dataset"
+  },
+  "url": "https://data.opensanctions.org/datasets/latest/jp_mof_sanctions/targets.simple.csv",
+  "validation": {
+    "min_records": 500,
+    "required_fields": [
+      "name"
+    ],
+    "max_empty_name_pct": 10,
+    "allow_digit_only_names": true
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 180,
+    "snapshot_raw": true
+  }
+}

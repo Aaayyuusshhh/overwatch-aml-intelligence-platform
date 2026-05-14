@@ -1,0 +1,32 @@
+{
+  "source_id": "ru_acf_bribetakers",
+  "agency": "Anti-Corruption Foundation (ACF)",
+  "list_name": "List of War Enablers",
+  "country": "RU",
+  "engine": "file_download",
+  "url": "https://data.opensanctions.org/datasets/latest/ru_acf_bribetakers/targets.simple.csv",
+  "format": "csv",
+  "encoding": "utf-8",
+  "delimiter": ",",
+  "has_header": true,
+  "field_map": {
+    "name": "name",
+    "date_of_birth": "birth_date",
+    "address": "addresses",
+    "details": "schema,aliases,countries,identifiers,sanctions,program_ids,dataset"
+  },
+  "validation": {
+    "min_records": 4267,
+    "required_fields": [
+      "name"
+    ],
+    "max_empty_name_pct": 10,
+    "allow_digit_only_names": true
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 240,
+    "snapshot_raw": true
+  }
+}

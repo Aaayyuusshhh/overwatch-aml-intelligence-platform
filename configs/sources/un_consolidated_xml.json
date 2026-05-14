@@ -1,0 +1,26 @@
+{
+  "source_id": "un_consolidated_xml",
+  "agency": "United Nations Security Council",
+  "list_name": "UN Consolidated Sanctions XML (Direct)",
+  "country": "INT",
+  "engine": "file_download",
+  "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+  "format": "xml",
+  "response_path": ".//INDIVIDUAL",
+  "field_map": {
+    "name": "FIRST_NAME,SECOND_NAME,THIRD_NAME,FOURTH_NAME",
+    "date_of_birth": "DATE_OF_BIRTH",
+    "details": "DATAID,VERSIONNUM,UN_LIST_TYPE,REFERENCE_NUMBER,LISTED_ON,NAME_ORIGINAL_SCRIPT,COMMENTS1,DESIGNATION,NATIONALITY"
+  },
+  "validation": {
+    "min_records": 300,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 10
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 120,
+    "snapshot_raw": true
+  }
+}

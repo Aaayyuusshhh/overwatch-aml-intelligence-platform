@@ -1,0 +1,32 @@
+{
+  "source_id": "ch_seco_sanctions",
+  "agency": "Swiss State Secretariat for Economic Affairs (SECO)",
+  "list_name": "SECO Sanctions / Embargoes",
+  "country": "CH",
+  "engine": "file_download",
+  "format": "csv",
+  "encoding": "utf-8",
+  "delimiter": ",",
+  "has_header": true,
+  "field_map": {
+    "name": "name",
+    "date_of_birth": "birth_date",
+    "address": "addresses",
+    "details": "schema,aliases,countries,identifiers,sanctions,program_ids,dataset"
+  },
+  "url": "https://data.opensanctions.org/datasets/latest/ch_seco_sanctions/targets.simple.csv",
+  "validation": {
+    "min_records": 1000,
+    "required_fields": [
+      "name"
+    ],
+    "max_empty_name_pct": 10,
+    "allow_digit_only_names": true
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 180,
+    "snapshot_raw": true
+  }
+}

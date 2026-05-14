@@ -1,0 +1,32 @@
+{
+  "source_id": "ps_ohchr_settlement",
+  "agency": "OHCHR List of Companies Linked to Illegal Settlement in the West Bank",
+  "list_name": "OHCHR List of Companies Linked to Illegal Settlement in the West Bank",
+  "country": "International",
+  "engine": "file_download",
+  "url": "https://data.opensanctions.org/datasets/latest/ps_ohchr_settlement/targets.simple.csv",
+  "format": "csv",
+  "encoding": "utf-8",
+  "delimiter": ",",
+  "has_header": true,
+  "field_map": {
+    "name": "name",
+    "date_of_birth": "birth_date",
+    "address": "addresses",
+    "details": "schema,aliases,countries,identifiers,sanctions,program_ids,dataset"
+  },
+  "validation": {
+    "min_records": 78,
+    "required_fields": [
+      "name"
+    ],
+    "max_empty_name_pct": 10,
+    "allow_digit_only_names": true
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 240,
+    "snapshot_raw": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source_id": "hhs_oig_leie_direct",
+  "agency": "HHS Office of Inspector General (OIG)",
+  "list_name": "LEIE - Excluded Individuals/Entities (Direct CSV)",
+  "country": "US",
+  "engine": "file_download",
+  "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
+  "format": "csv",
+  "encoding": "utf-8",
+  "delimiter": ",",
+  "has_header": true,
+  "field_map": {
+    "name": "LASTNAME,FIRSTNAME,MIDNAME,BUSNAME",
+    "date_of_birth": "DOB",
+    "address": "ADDRESS,CITY,STATE,ZIP",
+    "details": "GENERAL,SPECIALTY,UPIN,NPI,EXCLTYPE,EXCLDATE,REINDATE,WAIVERDATE,WVRSTATE"
+  },
+  "validation": {
+    "min_records": 50000,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 10
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 180,
+    "snapshot_raw": true
+  }
+}
