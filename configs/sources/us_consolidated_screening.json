@@ -1,0 +1,30 @@
+{
+  "source_id": "us_consolidated_screening",
+  "agency": "International Trade Administration (ITA)",
+  "list_name": "Consolidated Screening List",
+  "country": "US",
+  "engine": "file_download",
+  "url": "https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.csv",
+  "format": "csv",
+  "encoding": "utf-8",
+  "delimiter": ",",
+  "has_header": true,
+  "field_map": {
+    "name": "name",
+    "address": "addresses",
+    "date_of_birth": "dates_of_birth",
+    "details": "source,type,programs,title,citizenships,nationalities,places_of_birth,ids,remarks,source_information_url"
+  },
+  "validation": {
+    "min_records": 1000,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 10,
+    "allow_digit_only_names": true
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 180,
+    "snapshot_raw": true
+  }
+}
