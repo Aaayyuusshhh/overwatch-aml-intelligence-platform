@@ -1,0 +1,28 @@
+{
+  "source_id": "australia_dfat_sanctions",
+  "agency": "Department of Foreign Affairs and Trade (DFAT)",
+  "list_name": "Consolidated Sanctions List",
+  "country": "AU",
+  "engine": "file_download",
+  "url": "https://www.dfat.gov.au/sites/default/files/regulation8_consolidated_2.xls",
+  "format": "xls",
+  "sheet_name": 0,
+  "has_header": true,
+  "field_map": {
+    "name": "Name of Individual or Entity",
+    "date_of_birth": "Date of Birth",
+    "address": "Place of Birth,Address",
+    "details": "Reference,Type,Name Type,Citizenship,Additional Information,Listing Information,Committees,Control Date"
+  },
+  "validation": {
+    "min_records": 1000,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 10
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 120,
+    "snapshot_raw": true
+  }
+}

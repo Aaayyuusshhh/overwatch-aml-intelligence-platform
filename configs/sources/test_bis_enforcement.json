@@ -1,0 +1,32 @@
+{
+  "source_id": "test_bis_enforcement",
+  "agency": "Bureau of Indian Standards (BIS)",
+  "list_name": "Enforcement (Test)",
+  "country": "IN",
+  "engine": "api_json",
+  "url": "https://www.services.bis.gov.in/php/BIS_2.0/consumer/enforcement-activities/fetch",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "X-Requested-With": "XMLHttpRequest"
+  },
+  "body_template": {"type": "ss", "fy": "2025-2026"},
+  "response_path": "$.html",
+  "response_format": "html_in_json",
+  "field_map": {
+    "name": "Name of Firm",
+    "details": "Region,Branch,Date of S&S,Product Name",
+    "address": "District,State"
+  },
+  "validation": {
+    "min_records": 1,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 10
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 30,
+    "snapshot_raw": true
+  }
+}

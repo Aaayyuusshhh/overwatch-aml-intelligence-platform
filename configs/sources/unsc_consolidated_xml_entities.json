@@ -1,0 +1,25 @@
+{
+  "source_id": "unsc_consolidated_xml_entities",
+  "agency": "United Nations Security Council (UNSC)",
+  "list_name": "Consolidated Sanctions List (Entities)",
+  "country": "International",
+  "engine": "file_download",
+  "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+  "format": "xml",
+  "response_path": ".//ENTITY",
+  "field_map": {
+    "name": "FIRST_NAME",
+    "details": "UN_LIST_TYPE,REFERENCE_NUMBER,LISTED_ON,LAST_DAY_UPDATED,COMMENTS1"
+  },
+  "validation": {
+    "min_records": 100,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 5
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 90,
+    "snapshot_raw": true
+  }
+}

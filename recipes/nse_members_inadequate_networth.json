@@ -1,0 +1,17 @@
+{
+  "recipe_id": "nse_members_inadequate_networth",
+  "source_id": null,
+  "url": "https://www.nseindia.com/regulations/exchange-market-surveillance-regulatory-actions",
+  "method": "GET",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Referer": "https://www.nseindia.com/",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "params": {},
+  "body": null,
+  "cookies": {},
+  "response_type": "html",
+  "notes": "NSE Members with Inadequate Networth — HTML table on regulations/exchange-market-surveillance page",
+  "discovered_at": "2026-05-08"
+}

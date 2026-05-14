@@ -1,0 +1,17 @@
+{
+  "recipe_id": "nse_authorized_persons_cancelled",
+  "source_id": null,
+  "url": "https://nsearchives.nseindia.com//web/mediaattachment/2026-05/List_of_AP_Cancelled_by_Members_on_account_of_Disciplinary_Reasons-_20260506_20260507124113.pdf",
+  "method": "GET",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Referer": "https://www.nseindia.com/",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "params": {},
+  "body": null,
+  "cookies": {},
+  "response_type": "binary",
+  "notes": "NSE Authorized Persons Cancelled by Trading Member — PDF, URL discovered from regulations page",
+  "discovered_at": "2026-05-08"
+}

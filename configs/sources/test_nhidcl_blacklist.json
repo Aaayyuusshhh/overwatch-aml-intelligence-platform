@@ -1,0 +1,25 @@
+{
+  "source_id": "test_nhidcl_blacklist",
+  "agency": "National Highways & Infrastructure Development Corporation Limited (NHIDCL)",
+  "list_name": "Blacklist / Debarment (Test)",
+  "country": "IN",
+  "engine": "html_table",
+  "url": "https://nhidcl.com/en/black-list-debarment",
+  "table_selector": "table",
+  "field_map": {
+    "name": "Name",
+    "details": "With Effect From,Duration",
+    "document_url": "_href"
+  },
+  "validation": {
+    "min_records": 10,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 5
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 60,
+    "snapshot_raw": true
+  }
+}

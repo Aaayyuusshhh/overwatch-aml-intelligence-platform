@@ -1,0 +1,549 @@
+{
+  "domain": "irdai.gov.in",
+  "status": "success",
+  "framework": "Liferay",
+  "pages_crawled": 34,
+  "total_links_found": 319,
+  "discoveries": [
+    {
+      "url": "https://irdai.gov.in/enforcement",
+      "title": "Warnings and Penalties - IRDAI",
+      "score": 80,
+      "keywords_found": [
+        "enforcement",
+        "fraud",
+        "vigilance"
+      ],
+      "strong_keywords": [
+        "enforcement"
+      ],
+      "has_table": true,
+      "table_row_count": 22,
+      "downloadable_files": [],
+      "page_size_kb": 455.6,
+      "depth": 0
+    },
+    {
+      "url": "https://irdai.gov.in/vigilance",
+      "title": "VIGILANCE - IRDAI",
+      "score": 80,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [
+        "vigilance"
+      ],
+      "has_table": true,
+      "table_row_count": 4,
+      "downloadable_files": [],
+      "page_size_kb": 292.7,
+      "depth": 0
+    },
+    {
+      "url": "https://irdai.gov.in/vigilance1",
+      "title": "Contact Details - IRDAI",
+      "score": 80,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [
+        "vigilance"
+      ],
+      "has_table": true,
+      "table_row_count": 4,
+      "downloadable_files": [],
+      "page_size_kb": 276.7,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/directory-of-employees",
+      "title": "Directory of employees - IRDAI",
+      "score": 70,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [
+        "enforcement"
+      ],
+      "has_table": true,
+      "table_row_count": 36,
+      "downloadable_files": [],
+      "page_size_kb": 353.2,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/annual-accounts",
+      "title": "Annual Accounts - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "fraud",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 23,
+      "downloadable_files": [],
+      "page_size_kb": 567.5,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/board1",
+      "title": "Chairman and Members of Authority - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 4,
+      "downloadable_files": [],
+      "page_size_kb": 301.7,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/chairman-and-members-of-authority",
+      "title": "Chairman and Members of Authority - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 4,
+      "downloadable_files": [],
+      "page_size_kb": 301.7,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/circulars",
+      "title": "Circulars - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "fraud",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 22,
+      "downloadable_files": [],
+      "page_size_kb": 480.2,
+      "depth": 0
+    },
+    {
+      "url": "https://irdai.gov.in/internship",
+      "title": "Internship - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "fraud",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 12,
+      "downloadable_files": [],
+      "page_size_kb": 410.8,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/list-of-holidays",
+      "title": "List of Holidays - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 20,
+      "downloadable_files": [],
+      "page_size_kb": 339.2,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/minutes-of-authority-meeting-public-disclosures",
+      "title": "Minutes of Authority Meetings - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 22,
+      "downloadable_files": [],
+      "page_size_kb": 380.2,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/notifications/vacancies",
+      "title": "Notifications/Vacancies - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "fraud",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 22,
+      "downloadable_files": [],
+      "page_size_kb": 477.2,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/profile-of-top-management",
+      "title": "Profile of Top Management - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 7,
+      "downloadable_files": [],
+      "page_size_kb": 449.5,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/regulations",
+      "title": "Regulations - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 4,
+      "downloadable_files": [],
+      "page_size_kb": 276.0,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/rosters",
+      "title": "Rosters - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "fraud",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 10,
+      "downloadable_files": [],
+      "page_size_kb": 478.6,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/tenders",
+      "title": "Tenders - IRDAI",
+      "score": 50,
+      "keywords_found": [
+        "enforcement",
+        "fraud",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 22,
+      "downloadable_files": [],
+      "page_size_kb": 475.8,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in",
+      "title": "Home - IRDAI",
+      "score": 40,
+      "keywords_found": [
+        "corruption",
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [
+        "enforcement",
+        "vigilance"
+      ],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 354.8,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/",
+      "title": "Home - IRDAI",
+      "score": 40,
+      "keywords_found": [
+        "corruption",
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [
+        "enforcement",
+        "vigilance"
+      ],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 354.8,
+      "depth": 0
+    },
+    {
+      "url": "https://irdai.gov.in/home",
+      "title": "Home - IRDAI",
+      "score": 40,
+      "keywords_found": [
+        "corruption",
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [
+        "enforcement",
+        "vigilance"
+      ],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 354.9,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/about-us1",
+      "title": "Mission Statement - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "fraud",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 275.6,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/account-statement-rules",
+      "title": "Account statement rules - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 275.1,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/accounts-and-audit-functions",
+      "title": "Accounts and Audit functions - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 276.4,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/address-for-communication",
+      "title": "Address for communication - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 279.6,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/appointment-notification-of-members",
+      "title": "Appointment Notification of Members - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 275.3,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/career-at-irdai",
+      "title": "Career at IRDAI - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 276.2,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/careers1",
+      "title": "What We Do - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 275.6,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/duties-and-responsibilities",
+      "title": "Duties and Responsibilities - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 280.9,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/mission-statement",
+      "title": "Mission Statement - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "fraud",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 275.6,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/opportunities",
+      "title": "Opportunities - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 275.9,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/organisational-matters1",
+      "title": "Accounts and Audit functions - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 276.4,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/organogram",
+      "title": "Organogram - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 295.9,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/results",
+      "title": "Results - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 274.3,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/what-we-do",
+      "title": "What We Do - IRDAI",
+      "score": 20,
+      "keywords_found": [
+        "enforcement",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [],
+      "page_size_kb": 275.6,
+      "depth": 1
+    },
+    {
+      "url": "https://irdai.gov.in/notices",
+      "title": "Notices - IRDAI",
+      "score": 10,
+      "keywords_found": [],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 2,
+      "downloadable_files": [],
+      "page_size_kb": 277.3,
+      "depth": 0
+    }
+  ],
+  "all_downloadable_files": [],
+  "sitemap_urls_with_keywords": [],
+  "robots_disallowed_paths": [],
+  "error": null
+}

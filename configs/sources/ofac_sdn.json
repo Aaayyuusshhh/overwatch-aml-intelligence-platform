@@ -1,0 +1,29 @@
+{
+  "source_id": "ofac_sdn",
+  "agency": "Office of Foreign Assets Control (OFAC)",
+  "list_name": "Specially Designated Nationals (SDN) List",
+  "country": "US",
+  "engine": "file_download",
+  "url": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+  "format": "csv",
+  "encoding": "latin-1",
+  "delimiter": ",",
+  "has_header": false,
+  "field_map": {
+    "name": "1",
+    "details": "2,3,4,5",
+    "address": "9,10,11"
+  },
+  "validation": {
+    "min_records": 100,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 10,
+    "allow_digit_only_names": true
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 120,
+    "snapshot_raw": true
+  }
+}

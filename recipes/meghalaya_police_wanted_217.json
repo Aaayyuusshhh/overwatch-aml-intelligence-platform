@@ -1,0 +1,16 @@
+{
+  "recipe_id": "meghalaya_police_wanted_217",
+  "source_id": "mp_list_of_wanted_person_217",
+  "url": "https://megpolice.gov.in/wanted-person",
+  "method": "GET",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "params": {},
+  "body": null,
+  "cookies": {},
+  "response_type": "html",
+  "notes": "Meghalaya Police wanted persons. Drupal 7 view; paginate with ?page=0..4. .wanted-person card selector.",
+  "discovered_at": "2026-05-11"
+}

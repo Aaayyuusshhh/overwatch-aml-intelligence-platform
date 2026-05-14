@@ -1,0 +1,27 @@
+{
+  "source_id": "unsc_consolidated_xml",
+  "agency": "United Nations Security Council (UNSC)",
+  "list_name": "Consolidated Sanctions List (Individuals)",
+  "country": "International",
+  "engine": "file_download",
+  "url": "https://scsanctions.un.org/resources/xml/en/consolidated.xml",
+  "format": "xml",
+  "response_path": ".//INDIVIDUAL",
+  "field_map": {
+    "name": "FIRST_NAME,SECOND_NAME,THIRD_NAME,FOURTH_NAME",
+    "gender": "GENDER",
+    "details": "UN_LIST_TYPE,REFERENCE_NUMBER,LISTED_ON,NATIONALITY,LAST_DAY_UPDATED,COMMENTS1",
+    "interpol_notice_id": "INTERPOL_LINK"
+  },
+  "validation": {
+    "min_records": 300,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 5
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 90,
+    "snapshot_raw": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "recipe_id": "cvc_get_all_inquirymatters",
+  "source_id": "cvc_penalties_for_prosecution_16",
+  "url": "https://cvc.gov.in/api/get-all-inquirymatters",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+  },
+  "response_type": "json",
+  "notes": "CVC inquiry-matters circulars list (returns JSON)",
+  "discovered_at": "2026-05-08",
+  "params": {},
+  "body": null,
+  "cookies": {}
+}

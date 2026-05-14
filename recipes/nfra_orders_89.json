@@ -1,0 +1,16 @@
+{
+  "recipe_id": "nfra_orders_89",
+  "source_id": "nfra_orders_89",
+  "url": "https://nfra.gov.in/document-category/orders/",
+  "method": "GET",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "params": {},
+  "body": null,
+  "cookies": {},
+  "response_type": "html",
+  "notes": "NFRA orders under Section 132(4). Paginate via BASE_URL + '/page/N' (1..~8).",
+  "discovered_at": "2026-05-11"
+}

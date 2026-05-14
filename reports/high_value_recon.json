@@ -1,0 +1,2000 @@
+[
+  {
+    "domain": "police.assam.gov.in",
+    "status": "success",
+    "framework": "React",
+    "pages_crawled": 11,
+    "total_links_found": 64,
+    "discoveries": [
+      {
+        "url": "https://police.assam.gov.in/information-services/crime-data",
+        "title": "Crime Data | Assam Police | Government Of Assam, India",
+        "score": 70,
+        "keywords_found": [
+          "most wanted",
+          "wanted"
+        ],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 11,
+        "downloadable_files": [
+          "crime_data-dec-2020.pdf",
+          "crime_against-women-2005-2020s.pdf",
+          "crime-data_june2020_0.pdf",
+          "crime_against_women_for_the_year_2005_to_2020_upto_june_0.pdf",
+          "crime_data-dec2019.pdf",
+          "crime_against_women_2005-2019.pdf",
+          "statement_of_crime_against_women_for_the_year_2005_to_2019_upto_may.pdf",
+          "crime-data-upto-may-2019.pdf",
+          "crime_data_updation_for_website_upto_2018_0.pdf",
+          "statement_of_crime_against_women_for_the_year_2005_to_2018_0.pdf"
+        ],
+        "page_size_kb": 46.2,
+        "depth": 1
+      },
+      {
+        "url": "https://police.assam.gov.in/information-services/most-wanted",
+        "title": "Most Wanted | Assam Police | Government Of Assam, India",
+        "score": 50,
+        "keywords_found": [
+          "most wanted",
+          "wanted"
+        ],
+        "strong_keywords": [
+          "most wanted",
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 41.4,
+        "depth": 1
+      },
+      {
+        "url": "https://police.assam.gov.in",
+        "title": "Home | Assam Police | Government Of Assam, India",
+        "score": 20,
+        "keywords_found": [
+          "wanted"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 55.1,
+        "depth": 1
+      },
+      {
+        "url": "https://police.assam.gov.in/",
+        "title": "Home | Assam Police | Government Of Assam, India",
+        "score": 20,
+        "keywords_found": [
+          "wanted"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 55.1,
+        "depth": 0
+      },
+      {
+        "url": "https://police.assam.gov.in/documents",
+        "title": "Documents | Assam Police | Government Of Assam, India",
+        "score": 20,
+        "keywords_found": [
+          "corruption",
+          "vigilance"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 45.3,
+        "depth": 1
+      },
+      {
+        "url": "https://police.assam.gov.in/documents/acts-and-rules",
+        "title": "Acts and Rules | Assam Police | Government Of Assam, India",
+        "score": 20,
+        "keywords_found": [
+          "corruption",
+          "vigilance"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 47.2,
+        "depth": 1
+      },
+      {
+        "url": "https://police.assam.gov.in/information-services",
+        "title": "Information &amp; Services | Assam Police | Government Of Assam, India",
+        "score": 20,
+        "keywords_found": [
+          "most wanted",
+          "wanted"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 40.5,
+        "depth": 1
+      },
+      {
+        "url": "https://police.assam.gov.in/information-services/assam-police-seva-setu",
+        "title": "Assam Police Seva Setu | Assam Police | Government Of Assam, India",
+        "score": 20,
+        "keywords_found": [
+          "most wanted",
+          "wanted"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 48.8,
+        "depth": 1
+      },
+      {
+        "url": "https://police.assam.gov.in/information-services/c-form",
+        "title": "C-Form | Assam Police | Government Of Assam, India",
+        "score": 20,
+        "keywords_found": [
+          "most wanted",
+          "wanted"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 41.9,
+        "depth": 1
+      },
+      {
+        "url": "https://police.assam.gov.in/information-services/private-security-agencies",
+        "title": "Licensed Agencies (Already Licensed) | Assam Police | Government Of Assam, India",
+        "score": 20,
+        "keywords_found": [
+          "most wanted",
+          "wanted"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 41.4,
+        "depth": 1
+      },
+      {
+        "url": "https://police.assam.gov.in/notice",
+        "title": "NOTICE | Assam Police | Government Of Assam, India",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 39.8,
+        "depth": 0
+      }
+    ],
+    "all_downloadable_files": [
+      {
+        "url": "https://police.assam.gov.in/sites/default/files/swf_utility_folder/departments/assampolice_webcomindia_org_oid_8/menu/information_and_services/crime_data-dec-2020.pdf",
+        "filename": "crime_data-dec-2020.pdf"
+      },
+      {
+        "url": "https://police.assam.gov.in/sites/default/files/swf_utility_folder/departments/assampolice_webcomindia_org_oid_8/menu/information_and_services/crime_against-women-2005-2020s.pdf",
+        "filename": "crime_against-women-2005-2020s.pdf"
+      },
+      {
+        "url": "https://police.assam.gov.in/sites/default/files/swf_utility_folder/departments/assampolice_webcomindia_org_oid_8/menu/information_and_services/crime-data_june2020_0.pdf",
+        "filename": "crime-data_june2020_0.pdf"
+      },
+      {
+        "url": "https://police.assam.gov.in/sites/default/files/swf_utility_folder/departments/assampolice_webcomindia_org_oid_8/menu/information_and_services/crime_against_women_for_the_year_2005_to_2020_upto_june_0.pdf",
+        "filename": "crime_against_women_for_the_year_2005_to_2020_upto_june_0.pdf"
+      },
+      {
+        "url": "https://police.assam.gov.in/sites/default/files/swf_utility_folder/departments/assampolice_webcomindia_org_oid_8/menu/information_and_services/crime_data-dec2019.pdf",
+        "filename": "crime_data-dec2019.pdf"
+      },
+      {
+        "url": "https://police.assam.gov.in/sites/default/files/swf_utility_folder/departments/assampolice_webcomindia_org_oid_8/menu/information_and_services/crime_against_women_2005-2019.pdf",
+        "filename": "crime_against_women_2005-2019.pdf"
+      },
+      {
+        "url": "https://police.assam.gov.in/sites/default/files/swf_utility_folder/departments/assampolice_webcomindia_org_oid_8/menu/information_and_services/statement_of_crime_against_women_for_the_year_2005_to_2019_upto_may.pdf",
+        "filename": "statement_of_crime_against_women_for_the_year_2005_to_2019_upto_may.pdf"
+      },
+      {
+        "url": "https://police.assam.gov.in/sites/default/files/swf_utility_folder/departments/assampolice_webcomindia_org_oid_8/menu/information_and_services/crime-data-upto-may-2019.pdf",
+        "filename": "crime-data-upto-may-2019.pdf"
+      },
+      {
+        "url": "https://police.assam.gov.in/sites/default/files/swf_utility_folder/departments/assampolice_webcomindia_org_oid_8/menu/information_and_services/crime_data_updation_for_website_upto_2018_0.pdf",
+        "filename": "crime_data_updation_for_website_upto_2018_0.pdf"
+      },
+      {
+        "url": "https://police.assam.gov.in/sites/default/files/swf_utility_folder/departments/assampolice_webcomindia_org_oid_8/menu/information_and_services/statement_of_crime_against_women_for_the_year_2005_to_2018_0.pdf",
+        "filename": "statement_of_crime_against_women_for_the_year_2005_to_2018_0.pdf"
+      }
+    ],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": null
+  },
+  {
+    "domain": "police.rajasthan.gov.in",
+    "status": "success",
+    "framework": "unknown",
+    "pages_crawled": 1,
+    "total_links_found": 0,
+    "discoveries": [
+      {
+        "url": "https://police.rajasthan.gov.in/",
+        "title": "Rajasthan Police | Official Website",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 52.5,
+        "depth": 0
+      }
+    ],
+    "all_downloadable_files": [],
+    "sitemap_urls_with_keywords": [
+      "https://police.rajasthan.gov.in/old/SearchCriminal.aspx",
+      "https://police.rajasthan.gov.in/portal/CriminalInformation",
+      "https://police.rajasthan.gov.in/portal/NewCriminalLaw",
+      "https://police.rajasthan.gov.in/portal/VigilanceBranch",
+      "https://police.rajasthan.gov.in/portal/rewardedcriminal",
+      "https://police.rajasthan.gov.in/portal/wantedpersonsearch"
+    ],
+    "robots_disallowed_paths": [],
+    "error": null
+  },
+  {
+    "domain": "cid.wb.gov.in",
+    "status": "unreachable",
+    "framework": "unknown",
+    "pages_crawled": 0,
+    "total_links_found": 0,
+    "discoveries": [],
+    "all_downloadable_files": [],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": "SSLError: HTTPSConnectionPool(host='cid.wb.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLE"
+  },
+  {
+    "domain": "socialjustice.gov.in",
+    "status": "success",
+    "framework": "unknown",
+    "pages_crawled": 19,
+    "total_links_found": 103,
+    "discoveries": [
+      {
+        "url": "https://socialjustice.gov.in/absconding-criminals",
+        "title": "404 Page not found | Department of Social Justice and Empowerment - Government of India",
+        "score": 70,
+        "keywords_found": [
+          "absconding",
+          "criminal"
+        ],
+        "strong_keywords": [
+          "absconding",
+          "criminal"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 48.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in/common/1510",
+        "title": "Organisational Set-Up | Department of Social Justice and Empowerment - Government of India",
+        "score": 70,
+        "keywords_found": [
+          "vigilance"
+        ],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 70,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 85.1,
+        "depth": 1
+      },
+      {
+        "url": "https://socialjustice.gov.in/directory/76721",
+        "title": "Who&#039;s Who | Department of Social Justice and Empowerment - Government of India",
+        "score": 70,
+        "keywords_found": [
+          "vigilance"
+        ],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 38,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 191.0,
+        "depth": 1
+      },
+      {
+        "url": "https://socialjustice.gov.in/most-wanted",
+        "title": "404 Page not found | Department of Social Justice and Empowerment - Government of India",
+        "score": 70,
+        "keywords_found": [
+          "wanted"
+        ],
+        "strong_keywords": [
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 48.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in/proclaimed-offender",
+        "title": "404 Page not found | Department of Social Justice and Empowerment - Government of India",
+        "score": 70,
+        "keywords_found": [
+          "offender",
+          "proclaimed"
+        ],
+        "strong_keywords": [
+          "offender",
+          "proclaimed"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 48.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in/proclaimed-offenders",
+        "title": "404 Page not found | Department of Social Justice and Empowerment - Government of India",
+        "score": 70,
+        "keywords_found": [
+          "offender",
+          "proclaimed"
+        ],
+        "strong_keywords": [
+          "offender",
+          "proclaimed"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 48.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in/wanted",
+        "title": "404 Page not found | Department of Social Justice and Empowerment - Government of India",
+        "score": 70,
+        "keywords_found": [
+          "wanted"
+        ],
+        "strong_keywords": [
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 48.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in/wanted-criminals",
+        "title": "404 Page not found | Department of Social Justice and Empowerment - Government of India",
+        "score": 70,
+        "keywords_found": [
+          "criminal",
+          "wanted"
+        ],
+        "strong_keywords": [
+          "criminal",
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 48.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in/wanted-person",
+        "title": "404 Page not found | Department of Social Justice and Empowerment - Government of India",
+        "score": 70,
+        "keywords_found": [
+          "wanted"
+        ],
+        "strong_keywords": [
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 48.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in/wanted-persons",
+        "title": "404 Page not found | Department of Social Justice and Empowerment - Government of India",
+        "score": 70,
+        "keywords_found": [
+          "wanted"
+        ],
+        "strong_keywords": [
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 48.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in",
+        "title": "Home | Department of Social Justice and Empowerment - Government of India",
+        "score": 40,
+        "keywords_found": [
+          "blacklist",
+          "suspended"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "68641776927848.pdf",
+          "83931776688661.pdf",
+          "93691776234871.pdf",
+          "71441776233188.pdf",
+          "74341775737422.pdf",
+          "21681775557329.pdf",
+          "82961773811933.pdf",
+          "73761769667065.pdf",
+          "19261768801533.pdf",
+          "95131767944207.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 97.7,
+        "depth": 1
+      },
+      {
+        "url": "https://socialjustice.gov.in/",
+        "title": "Home | Department of Social Justice and Empowerment - Government of India",
+        "score": 40,
+        "keywords_found": [
+          "blacklist",
+          "suspended"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "68641776927848.pdf",
+          "83931776688661.pdf",
+          "93691776234871.pdf",
+          "71441776233188.pdf",
+          "74341775737422.pdf",
+          "21681775557329.pdf",
+          "82961773811933.pdf",
+          "73761769667065.pdf",
+          "19261768801533.pdf",
+          "95131767944207.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 97.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in/common/1509",
+        "title": "Subjects Allocated | Department of Social Justice and Empowerment - Government of India",
+        "score": 40,
+        "keywords_found": [
+          "criminal"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 54.7,
+        "depth": 1
+      },
+      {
+        "url": "https://socialjustice.gov.in/absconder-list",
+        "title": "404 Page not found | Department of Social Justice and Empowerment - Government of India",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 48.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in/absconders",
+        "title": "404 Page not found | Department of Social Justice and Empowerment - Government of India",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 48.7,
+        "depth": 0
+      },
+      {
+        "url": "https://socialjustice.gov.in/common/1508",
+        "title": "Brief History | Department of Social Justice and Empowerment - Government of India",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 54.8,
+        "depth": 1
+      },
+      {
+        "url": "https://socialjustice.gov.in/common/76661",
+        "title": "Brief overview | Department of Social Justice and Empowerment - Government of India",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 51.9,
+        "depth": 1
+      },
+      {
+        "url": "https://socialjustice.gov.in/common/76662",
+        "title": "Sector-wise detailed information | Department of Social Justice and Empowerment - Government of India",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 53.1,
+        "depth": 1
+      },
+      {
+        "url": "https://socialjustice.gov.in/common/76722",
+        "title": "Citizen Charter | Department of Social Justice and Empowerment - Government of India",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "22001687773710.pdf",
+          "Citizen Charter 2016-17 new1.pdf",
+          "DOSJE_STQC.pdf"
+        ],
+        "page_size_kb": 51.1,
+        "depth": 1
+      }
+    ],
+    "all_downloadable_files": [
+      {
+        "url": "https://socialjustice.gov.in/public/ckeditor/upload/22001687773710.pdf",
+        "filename": "22001687773710.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/68641776927848.pdf",
+        "filename": "68641776927848.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/83931776688661.pdf",
+        "filename": "83931776688661.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/93691776234871.pdf",
+        "filename": "93691776234871.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/71441776233188.pdf",
+        "filename": "71441776233188.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/74341775737422.pdf",
+        "filename": "74341775737422.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/21681775557329.pdf",
+        "filename": "21681775557329.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/82961773811933.pdf",
+        "filename": "82961773811933.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/73761769667065.pdf",
+        "filename": "73761769667065.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/19261768801533.pdf",
+        "filename": "19261768801533.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/95131767944207.pdf",
+        "filename": "95131767944207.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/DOSJE_STQC.pdf",
+        "filename": "DOSJE_STQC.pdf"
+      },
+      {
+        "url": "https://socialjustice.gov.in/writereaddata/UploadFile/Citizen Charter 2016-17 new1.pdf",
+        "filename": "Citizen Charter 2016-17 new1.pdf"
+      }
+    ],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": null
+  },
+  {
+    "domain": "depwd.gov.in",
+    "status": "success",
+    "framework": "WordPress",
+    "pages_crawled": 17,
+    "total_links_found": 107,
+    "discoveries": [
+      {
+        "url": "https://depwd.gov.in/blacklist",
+        "title": "Blacklisted NGO | Department of Empowerment of Persons with Disabilities (DEPwD) | India",
+        "score": 100,
+        "keywords_found": [
+          "blacklist"
+        ],
+        "strong_keywords": [
+          "blacklist"
+        ],
+        "has_table": true,
+        "table_row_count": 7,
+        "downloadable_files": [
+          "202310171093337330.pdf",
+          "20240723162113284.pdf",
+          "202312121656936701.pdf",
+          "202312121779645359.pdf",
+          "20231018745295031.pdf",
+          "20231018218430844.pdf",
+          "202310181838370472.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 105.0,
+        "depth": 0
+      },
+      {
+        "url": "https://depwd.gov.in/blacklisted",
+        "title": "Blacklisted NGO | Department of Empowerment of Persons with Disabilities (DEPwD) | India",
+        "score": 100,
+        "keywords_found": [
+          "blacklist"
+        ],
+        "strong_keywords": [
+          "blacklist"
+        ],
+        "has_table": true,
+        "table_row_count": 7,
+        "downloadable_files": [
+          "202310171093337330.pdf",
+          "20240723162113284.pdf",
+          "202312121656936701.pdf",
+          "202312121779645359.pdf",
+          "20231018745295031.pdf",
+          "20231018218430844.pdf",
+          "202310181838370472.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 105.0,
+        "depth": 0
+      },
+      {
+        "url": "https://depwd.gov.in/penalty",
+        "title": "Penalty for delay in uploading of beneficiaries data on ARJUN Portal dated 2nd November 2023 | Department of Empowerment of Persons with Disabilities (DEPwD) | India",
+        "score": 70,
+        "keywords_found": [
+          "penalty"
+        ],
+        "strong_keywords": [
+          "penalty"
+        ],
+        "has_table": false,
+        "table_row_count": 2,
+        "downloadable_files": [
+          "202310171093337330.pdf",
+          "202311092094557646.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 97.0,
+        "depth": 0
+      },
+      {
+        "url": "https://depwd.gov.in/vigilance",
+        "title": "Vigilance | Department of Empowerment of Persons with Disabilities (DEPwD) | India",
+        "score": 70,
+        "keywords_found": [
+          "corruption",
+          "vigilance"
+        ],
+        "strong_keywords": [
+          "vigilance"
+        ],
+        "has_table": false,
+        "table_row_count": 2,
+        "downloadable_files": [
+          "202310171093337330.pdf",
+          "202512101986308491.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 99.4,
+        "depth": 0
+      },
+      {
+        "url": "https://depwd.gov.in/circulars",
+        "title": "Circulars | Department of Empowerment of Persons with Disabilities (DEPwD) | India",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 9,
+        "downloadable_files": [
+          "202310171093337330.pdf",
+          "20250929770894159.pdf",
+          "202501211202191354.pdf",
+          "20241121806937268.pdf",
+          "202411191213869596.pdf",
+          "20240719507170864.pdf",
+          "202407121070220008.pdf",
+          "20240515152522732.pdf",
+          "202403301170344874.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 109.1,
+        "depth": 0
+      },
+      {
+        "url": "https://depwd.gov.in/\u0938\u0939\u093e\u092f\u0924\u093e",
+        "title": "\u0938\u0939\u093e\u092f\u0924\u093e | Department of Empowerment of Persons with Disabilities (DEPwD) -Home | \u092d\u093e\u0930\u0924",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 10,
+        "downloadable_files": [
+          "202311061703012230.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 110.3,
+        "depth": 1
+      },
+      {
+        "url": "https://depwd.gov.in",
+        "title": "Homepage | Department of Empowerment of Persons with Disabilities (DEPwD) -Home | \u092d\u093e\u0930\u0924",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "202311061703012230.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 172.5,
+        "depth": 1
+      },
+      {
+        "url": "https://depwd.gov.in/",
+        "title": "Homepage | Department of Empowerment of Persons with Disabilities (DEPwD) -Home | \u092d\u093e\u0930\u0924",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "202311061703012230.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 172.5,
+        "depth": 0
+      },
+      {
+        "url": "https://depwd.gov.in/%e0%a4%95%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%af%e0%a5%8b%e0%a4%82",
+        "title": "\u0915\u093e\u0930\u094d\u092f\u094b\u0902 | Department of Empowerment of Persons with Disabilities (DEPwD) -Home | \u092d\u093e\u0930\u0924",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "202311061703012230.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 105.6,
+        "depth": 1
+      },
+      {
+        "url": "https://depwd.gov.in/%e0%a4%aa%e0%a4%b0%e0%a4%bf%e0%a4%95%e0%a4%b2%e0%a5%8d%e0%a4%aa%e0%a4%a8%e0%a4%be-%e0%a4%b2%e0%a4%95%e0%a5%8d%e0%a4%b7%e0%a5%8d%e0%a4%af",
+        "title": "\u092a\u0930\u093f\u0915\u0932\u094d\u092a\u0928\u093e/\u0932\u0915\u094d\u0937\u094d\u092f | Department of Empowerment of Persons with Disabilities (DEPwD) -Home | \u092d\u093e\u0930\u0924",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "202311061703012230.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 107.4,
+        "depth": 1
+      },
+      {
+        "url": "https://depwd.gov.in/%e0%a4%b8%e0%a4%82%e0%a4%95%e0%a5%8d%e0%a4%b7%e0%a4%bf%e0%a4%aa%e0%a5%8d%e0%a4%a4-%e0%a4%87%e0%a4%a4%e0%a4%bf%e0%a4%b9%e0%a4%be%e0%a4%b8",
+        "title": "\u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924 \u0907\u0924\u093f\u0939\u093e\u0938 | Department of Empowerment of Persons with Disabilities (DEPwD) -Home | \u092d\u093e\u0930\u0924",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "202311061703012230.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 107.0,
+        "depth": 1
+      },
+      {
+        "url": "https://depwd.gov.in/%e0%a4%b8%e0%a4%be%e0%a4%87%e0%a4%9f%e0%a4%ae%e0%a5%88%e0%a4%aa",
+        "title": "\u0938\u093e\u0907\u091f\u092e\u0948\u092a | Department of Empowerment of Persons with Disabilities (DEPwD) -Home | \u092d\u093e\u0930\u0924",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "202311061703012230.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 129.4,
+        "depth": 1
+      },
+      {
+        "url": "https://depwd.gov.in/%e0%a4%b9%e0%a4%ae%e0%a4%be%e0%a4%b0%e0%a5%87-%e0%a4%ac%e0%a4%be%e0%a4%b0%e0%a5%87-%e0%a4%ae%e0%a5%87%e0%a4%82",
+        "title": "\u0939\u092e\u093e\u0930\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 | Department of Empowerment of Persons with Disabilities (DEPwD) -Home | \u092d\u093e\u0930\u0924",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "202311061703012230.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 107.8,
+        "depth": 1
+      },
+      {
+        "url": "https://depwd.gov.in/e0-a4-b8-e0-a4-82-e0-a4-97-e0-a4-a0-e0-a4-a8-e0-a4-9a-e0-a4-be-e0-a4-b0-e0-a5-8d-e0-a4-9f",
+        "title": "\u0938\u0902\u0917\u0920\u0928 \u091a\u093e\u0930\u094d\u091f | Department of Empowerment of Persons with Disabilities (DEPwD) -Home | \u092d\u093e\u0930\u0924",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "202311061703012230.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 109.3,
+        "depth": 1
+      },
+      {
+        "url": "https://depwd.gov.in/en",
+        "title": "Homepage | Department of Empowerment of Persons with Disabilities (DEPwD) | India",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "202310171093337330.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 163.5,
+        "depth": 1
+      },
+      {
+        "url": "https://depwd.gov.in/en/notice",
+        "title": "NOTICE-EOI FOR \u201cDEVELOPMENT OF SIGN VOCABULARY IN INDIAN SIGN LANGUAGE\u201d | Department of Empowerment of Persons with Disabilities (DEPwD) | India",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 2,
+        "downloadable_files": [
+          "202310171093337330.pdf",
+          "202403061880634631.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 96.7,
+        "depth": 0
+      },
+      {
+        "url": "https://depwd.gov.in/notice",
+        "title": "NOTICE-EOI FOR \u201cDEVELOPMENT OF SIGN VOCABULARY IN INDIAN SIGN LANGUAGE\u201d | Department of Empowerment of Persons with Disabilities (DEPwD) | India",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 2,
+        "downloadable_files": [
+          "202310171093337330.pdf",
+          "202403061880634631.pdf",
+          "202507101337631353.pdf"
+        ],
+        "page_size_kb": 96.7,
+        "depth": 0
+      }
+    ],
+    "all_downloadable_files": [
+      {
+        "url": "https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2023/11/202311061703012230.pdf",
+        "filename": "202311061703012230.pdf"
+      },
+      {
+        "url": "https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2025/07/202507101337631353.pdf",
+        "filename": "202507101337631353.pdf"
+      },
+      {
+        "url": "https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2023/10/202310171093337330.pdf",
+        "filename": "202310171093337330.pdf"
+      }
+    ],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [
+      "/wp-admin/"
+    ],
+    "error": null
+  },
+  {
+    "domain": "tneow.tn.gov.in",
+    "status": "success",
+    "framework": "ASP.NET",
+    "pages_crawled": 9,
+    "total_links_found": 23,
+    "discoveries": [
+      {
+        "url": "https://tneow.tn.gov.in/unit_officers_details.html",
+        "title": "Welcome to Tamil Nadu Police - Economic Offences Wing Official Website",
+        "score": 40,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 20,
+        "downloadable_files": [],
+        "page_size_kb": 68.3,
+        "depth": 1
+      },
+      {
+        "url": "https://tneow.tn.gov.in",
+        "title": "Welcome to Tamil Nadu Police - Economic Offences Wing Official Website",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Press_Release_English.pdf",
+          "Press_Release_Tamil.pdf",
+          "version_1_english_final.pdf",
+          "version_1_Tamil_final.pdf",
+          "45_Accused_company_Details.pdf"
+        ],
+        "page_size_kb": 32.2,
+        "depth": 1
+      },
+      {
+        "url": "https://tneow.tn.gov.in/",
+        "title": "Welcome to Tamil Nadu Police - Economic Offences Wing Official Website",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Press_Release_English.pdf",
+          "Press_Release_Tamil.pdf",
+          "version_1_english_final.pdf",
+          "version_1_Tamil_final.pdf",
+          "45_Accused_company_Details.pdf"
+        ],
+        "page_size_kb": 32.2,
+        "depth": 0
+      },
+      {
+        "url": "https://tneow.tn.gov.in/index.html",
+        "title": "Welcome to Tamil Nadu Police - Economic Offences Wing Official Website",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Press_Release_English.pdf",
+          "Press_Release_Tamil.pdf",
+          "version_1_english_final.pdf",
+          "version_1_Tamil_final.pdf",
+          "45_Accused_company_Details.pdf"
+        ],
+        "page_size_kb": 32.2,
+        "depth": 1
+      },
+      {
+        "url": "https://tneow.tn.gov.in/AboutUs.html",
+        "title": "Welcome to Tamil Nadu Police - Economic Offences Wing Official Website",
+        "score": 20,
+        "keywords_found": [
+          "fraud"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 18.6,
+        "depth": 1
+      },
+      {
+        "url": "https://tneow.tn.gov.in/Awareness_photo.html",
+        "title": "Welcome to Tamil Nadu Police - Economic Offences Wing Official Website",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 18.7,
+        "depth": 1
+      },
+      {
+        "url": "https://tneow.tn.gov.in/org_structure.html",
+        "title": "Welcome to Tamil Nadu Police - Economic Offences Wing Official Website",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 37.2,
+        "depth": 1
+      },
+      {
+        "url": "https://tneow.tn.gov.in/sitemap.html",
+        "title": "Welcome to Tamil Nadu Police - Economic Offences Wing Official Website",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 21.0,
+        "depth": 1
+      },
+      {
+        "url": "https://tneow.tn.gov.in/unit_structure.html",
+        "title": "Welcome to Tamil Nadu Police - Economic Offences Wing Official Website",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 17.5,
+        "depth": 1
+      }
+    ],
+    "all_downloadable_files": [
+      {
+        "url": "https://tneow.tn.gov.in/assets/Press_Release_English.pdf",
+        "filename": "Press_Release_English.pdf"
+      },
+      {
+        "url": "https://tneow.tn.gov.in/assets/Press_Release_Tamil.pdf",
+        "filename": "Press_Release_Tamil.pdf"
+      },
+      {
+        "url": "https://tneow.tn.gov.in/assets/version_1_english_final.pdf",
+        "filename": "version_1_english_final.pdf"
+      },
+      {
+        "url": "https://tneow.tn.gov.in/assets/version_1_Tamil_final.pdf",
+        "filename": "version_1_Tamil_final.pdf"
+      },
+      {
+        "url": "https://tneow.tn.gov.in/assets/pdf/45_Accused_company_Details.pdf",
+        "filename": "45_Accused_company_Details.pdf"
+      }
+    ],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": null
+  },
+  {
+    "domain": "mahacid.gov.in",
+    "status": "success",
+    "framework": "ASP.NET",
+    "pages_crawled": 10,
+    "total_links_found": 39,
+    "discoveries": [
+      {
+        "url": "https://mahacid.gov.in/page/mspdm",
+        "title": "Pages | Criminal Investigation Department Maharashtra State",
+        "score": 90,
+        "keywords_found": [
+          "criminal"
+        ],
+        "strong_keywords": [
+          "criminal"
+        ],
+        "has_table": true,
+        "table_row_count": 12,
+        "downloadable_files": [
+          "Result_Observation_Test_15-09-2025.pdf",
+          "press_note_16.09.2025.pdf",
+          "Result_Computer_Awareness_competition_EVENT_1_(Objective Test)-16-09-25.pdf",
+          "Result_Antisabotage_check_Room_search_15-09-2025.pdf",
+          "Result_Criminal_law_paper 16-09-2025.pdf",
+          "Opening_ceremony_pressnote_17.09.2025.pdf",
+          "Computer_Awareness_Competition_Event_2_Office_Automation_17-09-2025(1).pdf",
+          "Police_Portrait_Updated_Result_17-09-2025.pdf",
+          "Result_17-09-2025_SAI_Lifting_Packing_Labelling.pdf",
+          "Result_Antisabotege_check_competition_Vehicle_Search_17-09-2025.pdf",
+          "Result_Police_Videography_17-09-2025.pdf",
+          "rti.pdf"
+        ],
+        "page_size_kb": 61.4,
+        "depth": 1
+      },
+      {
+        "url": "https://mahacid.gov.in",
+        "title": "Home | Criminal Investigation Department Maharashtra State",
+        "score": 60,
+        "keywords_found": [
+          "criminal",
+          "fraud",
+          "wanted"
+        ],
+        "strong_keywords": [
+          "criminal"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "rti.pdf"
+        ],
+        "page_size_kb": 92.9,
+        "depth": 1
+      },
+      {
+        "url": "https://mahacid.gov.in/",
+        "title": "Home | Criminal Investigation Department Maharashtra State",
+        "score": 60,
+        "keywords_found": [
+          "criminal",
+          "fraud",
+          "wanted"
+        ],
+        "strong_keywords": [
+          "criminal"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "rti.pdf"
+        ],
+        "page_size_kb": 92.9,
+        "depth": 0
+      },
+      {
+        "url": "https://mahacid.gov.in/general_transfer_promotion",
+        "title": "Mahacid | General Transfer Promotion",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 10,
+        "downloadable_files": [
+          "1748612959-gtp-\u0939\u0938\u094d\u0924\u093e\u0915\u094d\u0937\u0930 \u0935 \u091b\u093e\u092f\u093e\u091a\u200d\u093f\u0924\u094d\u0930\u0915\u093e\u0930 \u0935\u093f\u092d\u093e\u0917 \u0935\u093f\u0928\u0902\u0924\u0940 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf",
+          "1748612419-gtp-\u0938\u0939\u093e\u092f\u0915 \u0936\u093e\u0938\u0915\u0940\u092f \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u092a\u0930\u093f\u0915\u094d\u0937\u0915 \u0938\u0930\u094d\u0935\u0938\u093e\u0927\u093e\u0930\u0923 \u092c\u0926\u0932\u0940.pdf",
+          "1748612411-gtp-\u0938\u0939\u093e.\u091b\u093e\u092f\u093e\u091a\u093f\u0924\u094d\u0930\u0915\u093e\u0930 \u092a\u0926\u094b\u0928\u094d\u0928\u0924\u0940 \u0928\u0947\u092e\u0923\u0942\u0915 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf",
+          "1748612398-gtp-\u0936\u093e\u0938\u0915\u0940\u092f \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u092a\u0930\u093f\u0915\u094d\u0937\u0915 \u0938\u0930\u094d\u0935\u0938\u093e\u0927\u093e\u0930\u0923 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf",
+          "1748612388-gtp-\u0936\u093e\u0938\u0915\u0940\u092f \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u092a\u0930\u093f\u0915\u094d\u0937\u0915 \u092a\u0926\u094b\u0928\u094d\u0928\u0924\u0940\u0928\u0947 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf",
+          "1748612367-gtp-\u091b\u093e\u092f\u093e\u091a\u093f\u0924\u094d\u0930\u0915\u093e\u0930 \u0938\u0930\u094d\u0935\u0938\u093e\u0927\u093e\u0930\u0923 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf",
+          "1747994596-gtp-\u0905\u0902\u0917\u0941\u0932\u0940 \u092e\u0941\u0926\u094d\u0930\u093e \u0915\u0947\u0902\u0926\u094d\u0930 \u0938\u093e\u0930\u094d\u0935\u0924\u094d\u0930\u200d\u093f\u0915 \u092c\u0926\u0932\u094d\u092f\u093e 2025.pdf",
+          "1732629457-gtp-General Transfers Handwriting and Photography section.pdf",
+          "1732629443-gtp-General Transfers FPB.pdf",
+          "rti.pdf"
+        ],
+        "page_size_kb": 47.5,
+        "depth": 1
+      },
+      {
+        "url": "https://mahacid.gov.in/page/about-maharashtra-cid",
+        "title": "Home | Criminal Investigation Department Maharashtra State",
+        "score": 60,
+        "keywords_found": [
+          "criminal",
+          "fraud",
+          "wanted"
+        ],
+        "strong_keywords": [
+          "criminal"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "rti.pdf"
+        ],
+        "page_size_kb": 92.9,
+        "depth": 1
+      },
+      {
+        "url": "https://mahacid.gov.in/recruitments",
+        "title": "Mahacid | Recruitments",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 13,
+        "downloadable_files": [
+          "recruitment-1773063995-WHe95kHCBv.pdf",
+          "recruitment-1770701227-Gfl3rJKQYG.pdf",
+          "1738146828-recruitment-Appointment of Law Officer Group B ( Date 29-01-2025 ).pdf",
+          "1732629287-recruitment-Marklist of Written and Oral Exam of Law officers Group B.pdf",
+          "1732628178-recruitment-LAW OFFICER GROUP B WRITTEN EXAM RESULT.pdf",
+          "1732628156-recruitment-LAW OFFICER GROUP B WRITTEN EXAM SHEDULED ON 23-11-2022.pdf",
+          "1732628139-recruitment-Appointment of Law Officer Group B on contract basis for 11 month ( Date 29-09-2022 ).pdf",
+          "1732628049-recruitment-Recruitment of Law Officer Group B on Contract Basis.pdf",
+          "1732627982-recruitment-Law Officer Grade B Exam Written and Interview Marks.pdf",
+          "1732627970-recruitment-List of Law Officer Grade B Exam. Candidates Marks.pdf",
+          "1732627952-recruitment-Answer Key of Exam conducted for the post of Law Officer Grade B Exam on 12-07-2022.pdf",
+          "1732627929-recruitment-Applications are invited for the post of Law Officer Gr. B on contractual basis for a period of 11 months..pdf",
+          "rti.pdf"
+        ],
+        "page_size_kb": 51.6,
+        "depth": 1
+      },
+      {
+        "url": "https://mahacid.gov.in/tenders",
+        "title": "Mahacid | Tenders",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 44,
+        "downloadable_files": [
+          "\u0932\u0947\u0916\u093e\u0902\u0915\u0928 \u0935 \u0932\u0947\u0916\u093e\u092a\u0930\u200d\u093f\u0915\u094d\u0937\u0923 \u0915\u0930\u0923\u094d\u092f\u093e\u0915\u0930\u200d\u093f\u0924\u093e \u0938\u0928\u0926\u0940 \u0932\u0947\u0916\u093e\u092a\u093e\u0932 \u092a\u0930\u200d\u093f\u0915\u094d\u0937\u0923 \u091c\u093e\u0939\u200d\u093f\u0930\u093e\u0924.pdf",
+          "New Doc 03-20-2026 11.20.pdf",
+          "file-sample_150kB.pdf",
+          "File Folder procurement.pdf",
+          "Interactive Panal Display (Mother Board) \u0916\u0930\u0947\u0926\u0940 \u092e\u093e\u0917\u0923\u0940\u092a\u0924\u094d\u0930.pdf",
+          "\u0905\u0902\u092e\u0932\u0940 \u092a\u0926\u093e\u0930\u094d\u0925 \u0935\u093f\u0930\u094b\u0927\u0940 \u091f\u093e\u0938\u094d\u0915 \u092b\u094b\u0930\u094d\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f\u093e\u0938\u093e\u0920\u0940 \u0915\u093e\u092f\u0926\u0947 \u0935\u093f\u0937\u092f\u0915 \u092a\u0941\u0938\u094d\u0924\u0915\u0947 \u0916\u0930\u0947\u0926\u0940\u092c\u093e\u092c\u0924.pdf",
+          "\u0938\u093e\u0927\u0928\u0938\u093e\u092e\u0941\u0917\u094d\u0930\u0940 \u0916\u0930\u0947\u0926\u0940 \u091c\u093e\u0939\u093f\u0930\u093e\u0924.pdf",
+          "Curtain for doors and Window, channels, Pannel and other accesories.pdf",
+          "Godarej Tijori.pdf",
+          "ANTF ID Card.pdf",
+          "CID website AMC quotation.pdf",
+          "FPB document.pdf",
+          "CID OFFICE COMPUTER AMC.pdf",
+          "Video Conferencing advertisement.pdf",
+          "\u0917\u0941\u0905\u0935\u093f \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f\u093e\u0924\u0940\u0932 \u0935\u0930\u094d\u0924\u092e\u093e\u0928\u092a\u0924\u094d\u0930\u093e\u091a\u0940 \u0930\u0926\u0926\u0940 \u0935\u093f\u0915\u094d\u0930\u0940\u092c\u093e\u092c\u0924 \u091c\u093e\u0939\u200d\u093f\u0930\u093e\u0924.pdf",
+          "CB \u0938\u0941\u091a\u0928\u093e \u0915\u094d\u0930.02-2025.pdf",
+          "1745308208-tender-\u0938\u0940\u0921\u0940\u0906\u0930 \u0924\u093e\u0902\u0924\u094d\u0930\u093f\u0915 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923 \u0915\u093e\u0930\u094d\u092f\u092a\u094d\u0930\u0923\u093e\u0932\u0940 \u0916\u0930\u0947\u0926\u0940.pdf",
+          "1732618948-tender-CID MS Website hosting and maintenace.pdf",
+          "1732618835-tender-Quotation are invited for Filling of Quarterly electronics returns.pdf",
+          "1732618603-tender-Quotation Invited for the Contract for Printing of the Book i.e. Crime in Maharashtra - 2021.pdf",
+          "1732618531-tender-Annual Maintenance Contract OF 320 KVA Generator Set at ADGP CID Office Pune.pdf",
+          "1732618516-tender-E-Scrap Quotation Call Letter.pdf",
+          "1732618473-tender-EPABX System 3 x 8 with installation (Qty =01).pdf",
+          "1732618421-tender-To Run CID Hqrs Pune Canteen on Leave & License Basis.pdf",
+          "1732618378-tender-Run CID Hqrs Pune Canteen on Leave & License Basis.pdf",
+          "1732618339-tender-To Run CID Hqrs Pune Canteen on Leave and Licence Basis.pdf",
+          "1732618321-tender-Quotation For Spotlight Presentation Remote.pdf",
+          "1732618305-tender-Quotation are invited for Filling of Quarterly electronics returns.pdf",
+          "1732618289-tender-Quotation for Video Conferencing Software.pdf",
+          "1732618274-tender-Quotations are Invited for Filing of Quarterly E-TDS Returns on Income Tax department Website.pdf",
+          "1732618243-tender-Applications are invited for the post of Law Officer Gr. B on contractual basis for a period of 11 months..pdf",
+          "1732618119-tender-Purchase of Interactive Board- Amplifier with Mike & Speakers-HDMI Cables- and accessories as per the list.pdf",
+          "1732618078-tender-Purchase of LED TV - HDMI Cable-Telephone Instruments- MDF Box-WiFi Router Modem -UPS & Cordless Bell.pdf",
+          "1732617871-tender-Annual Maintenance Contract Of Computer - Printers in the Office Of Addl.DGP CID MS PuneMaintenance.pdf",
+          "1732617769-tender-CID Canteen Advertise.pdf",
+          "1732617726-tender-Crime In Maharashtra.pdf",
+          "1732617325-tender-Filing of E-TDS on Income Tax Website of CID Office Pune by CA General-.pdf",
+          "1732617238-tender-M.C.R Software.pdf",
+          "1732616615-tender-CID MS Website hosting and maintenace.pdf",
+          "1732616583-tender-Quotation call letter for filling quarterly E-TDS.pdf",
+          "1732616533-tender-Quotation call letter for 12Volt 100AHC Battery.pdf",
+          "1732615936-tender-Regarding quotation for CID Rest house furniture and other accesseries.pdf",
+          "1732618005-tender-Extension 1:- Annual Maintenance Contract Of Computer - Printers in the Office Of Addl.DGP CID MS PuneMaintenance.pdf",
+          "rti.pdf"
+        ],
+        "page_size_kb": 89.1,
+        "depth": 1
+      },
+      {
+        "url": "https://mahacid.gov.in/antf",
+        "title": "ANTF | MAHACID",
+        "score": 40,
+        "keywords_found": [
+          "enforcement"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "rti.pdf"
+        ],
+        "page_size_kb": 178.5,
+        "depth": 1
+      },
+      {
+        "url": "https://mahacid.gov.in/message-from-cid-cheif",
+        "title": "Message From CID Chief",
+        "score": 40,
+        "keywords_found": [
+          "criminal"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "rti.pdf"
+        ],
+        "page_size_kb": 52.2,
+        "depth": 1
+      },
+      {
+        "url": "https://mahacid.gov.in/contactus",
+        "title": "Contact Us | MAHACID",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "rti.pdf"
+        ],
+        "page_size_kb": 45.2,
+        "depth": 1
+      }
+    ],
+    "all_downloadable_files": [
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/rti.pdf",
+        "filename": "rti.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/Result_Observation_Test_15-09-2025.pdf",
+        "filename": "Result_Observation_Test_15-09-2025.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/press_note_16.09.2025.pdf",
+        "filename": "press_note_16.09.2025.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/Result_Computer_Awareness_competition_EVENT_1_(Objective Test)-16-09-25.pdf",
+        "filename": "Result_Computer_Awareness_competition_EVENT_1_(Objective Test)-16-09-25.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/Result_Antisabotage_check_Room_search_15-09-2025.pdf",
+        "filename": "Result_Antisabotage_check_Room_search_15-09-2025.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/Result_Criminal_law_paper 16-09-2025.pdf",
+        "filename": "Result_Criminal_law_paper 16-09-2025.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/Opening_ceremony_pressnote_17.09.2025.pdf",
+        "filename": "Opening_ceremony_pressnote_17.09.2025.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/Computer_Awareness_Competition_Event_2_Office_Automation_17-09-2025(1).pdf",
+        "filename": "Computer_Awareness_Competition_Event_2_Office_Automation_17-09-2025(1).pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/Police_Portrait_Updated_Result_17-09-2025.pdf",
+        "filename": "Police_Portrait_Updated_Result_17-09-2025.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/Result_17-09-2025_SAI_Lifting_Packing_Labelling.pdf",
+        "filename": "Result_17-09-2025_SAI_Lifting_Packing_Labelling.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/Result_Antisabotege_check_competition_Vehicle_Search_17-09-2025.pdf",
+        "filename": "Result_Antisabotege_check_competition_Vehicle_Search_17-09-2025.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public/uploads/file/mspdm/Result_Police_Videography_17-09-2025.pdf",
+        "filename": "Result_Police_Videography_17-09-2025.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/\u0932\u0947\u0916\u093e\u0902\u0915\u0928 \u0935 \u0932\u0947\u0916\u093e\u092a\u0930\u200d\u093f\u0915\u094d\u0937\u0923 \u0915\u0930\u0923\u094d\u092f\u093e\u0915\u0930\u200d\u093f\u0924\u093e \u0938\u0928\u0926\u0940 \u0932\u0947\u0916\u093e\u092a\u093e\u0932 \u092a\u0930\u200d\u093f\u0915\u094d\u0937\u0923 \u091c\u093e\u0939\u200d\u093f\u0930\u093e\u0924.pdf",
+        "filename": "\u0932\u0947\u0916\u093e\u0902\u0915\u0928 \u0935 \u0932\u0947\u0916\u093e\u092a\u0930\u200d\u093f\u0915\u094d\u0937\u0923 \u0915\u0930\u0923\u094d\u092f\u093e\u0915\u0930\u200d\u093f\u0924\u093e \u0938\u0928\u0926\u0940 \u0932\u0947\u0916\u093e\u092a\u093e\u0932 \u092a\u0930\u200d\u093f\u0915\u094d\u0937\u0923 \u091c\u093e\u0939\u200d\u093f\u0930\u093e\u0924.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/New Doc 03-20-2026 11.20.pdf",
+        "filename": "New Doc 03-20-2026 11.20.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/file-sample_150kB.pdf",
+        "filename": "file-sample_150kB.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/File Folder procurement.pdf",
+        "filename": "File Folder procurement.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/Interactive Panal Display (Mother Board) \u0916\u0930\u0947\u0926\u0940 \u092e\u093e\u0917\u0923\u0940\u092a\u0924\u094d\u0930.pdf",
+        "filename": "Interactive Panal Display (Mother Board) \u0916\u0930\u0947\u0926\u0940 \u092e\u093e\u0917\u0923\u0940\u092a\u0924\u094d\u0930.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/\u0905\u0902\u092e\u0932\u0940 \u092a\u0926\u093e\u0930\u094d\u0925 \u0935\u093f\u0930\u094b\u0927\u0940 \u091f\u093e\u0938\u094d\u0915 \u092b\u094b\u0930\u094d\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f\u093e\u0938\u093e\u0920\u0940 \u0915\u093e\u092f\u0926\u0947 \u0935\u093f\u0937\u092f\u0915 \u092a\u0941\u0938\u094d\u0924\u0915\u0947 \u0916\u0930\u0947\u0926\u0940\u092c\u093e\u092c\u0924.pdf",
+        "filename": "\u0905\u0902\u092e\u0932\u0940 \u092a\u0926\u093e\u0930\u094d\u0925 \u0935\u093f\u0930\u094b\u0927\u0940 \u091f\u093e\u0938\u094d\u0915 \u092b\u094b\u0930\u094d\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f\u093e\u0938\u093e\u0920\u0940 \u0915\u093e\u092f\u0926\u0947 \u0935\u093f\u0937\u092f\u0915 \u092a\u0941\u0938\u094d\u0924\u0915\u0947 \u0916\u0930\u0947\u0926\u0940\u092c\u093e\u092c\u0924.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/\u0938\u093e\u0927\u0928\u0938\u093e\u092e\u0941\u0917\u094d\u0930\u0940 \u0916\u0930\u0947\u0926\u0940 \u091c\u093e\u0939\u093f\u0930\u093e\u0924.pdf",
+        "filename": "\u0938\u093e\u0927\u0928\u0938\u093e\u092e\u0941\u0917\u094d\u0930\u0940 \u0916\u0930\u0947\u0926\u0940 \u091c\u093e\u0939\u093f\u0930\u093e\u0924.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/Curtain for doors and Window, channels, Pannel and other accesories.pdf",
+        "filename": "Curtain for doors and Window, channels, Pannel and other accesories.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/Godarej Tijori.pdf",
+        "filename": "Godarej Tijori.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/ANTF ID Card.pdf",
+        "filename": "ANTF ID Card.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/CID website AMC quotation.pdf",
+        "filename": "CID website AMC quotation.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/FPB document.pdf",
+        "filename": "FPB document.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/CID OFFICE COMPUTER AMC.pdf",
+        "filename": "CID OFFICE COMPUTER AMC.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/Video Conferencing advertisement.pdf",
+        "filename": "Video Conferencing advertisement.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/\u0917\u0941\u0905\u0935\u093f \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f\u093e\u0924\u0940\u0932 \u0935\u0930\u094d\u0924\u092e\u093e\u0928\u092a\u0924\u094d\u0930\u093e\u091a\u0940 \u0930\u0926\u0926\u0940 \u0935\u093f\u0915\u094d\u0930\u0940\u092c\u093e\u092c\u0924 \u091c\u093e\u0939\u200d\u093f\u0930\u093e\u0924.pdf",
+        "filename": "\u0917\u0941\u0905\u0935\u093f \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f\u093e\u0924\u0940\u0932 \u0935\u0930\u094d\u0924\u092e\u093e\u0928\u092a\u0924\u094d\u0930\u093e\u091a\u0940 \u0930\u0926\u0926\u0940 \u0935\u093f\u0915\u094d\u0930\u0940\u092c\u093e\u092c\u0924 \u091c\u093e\u0939\u200d\u093f\u0930\u093e\u0924.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/CB \u0938\u0941\u091a\u0928\u093e \u0915\u094d\u0930.02-2025.pdf",
+        "filename": "CB \u0938\u0941\u091a\u0928\u093e \u0915\u094d\u0930.02-2025.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1745308208-tender-\u0938\u0940\u0921\u0940\u0906\u0930 \u0924\u093e\u0902\u0924\u094d\u0930\u093f\u0915 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923 \u0915\u093e\u0930\u094d\u092f\u092a\u094d\u0930\u0923\u093e\u0932\u0940 \u0916\u0930\u0947\u0926\u0940.pdf",
+        "filename": "1745308208-tender-\u0938\u0940\u0921\u0940\u0906\u0930 \u0924\u093e\u0902\u0924\u094d\u0930\u093f\u0915 \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923 \u0915\u093e\u0930\u094d\u092f\u092a\u094d\u0930\u0923\u093e\u0932\u0940 \u0916\u0930\u0947\u0926\u0940.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618948-tender-CID MS Website hosting and maintenace.pdf",
+        "filename": "1732618948-tender-CID MS Website hosting and maintenace.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618835-tender-Quotation are invited for Filling of Quarterly electronics returns.pdf",
+        "filename": "1732618835-tender-Quotation are invited for Filling of Quarterly electronics returns.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618603-tender-Quotation Invited for the Contract for Printing of the Book i.e. Crime in Maharashtra - 2021.pdf",
+        "filename": "1732618603-tender-Quotation Invited for the Contract for Printing of the Book i.e. Crime in Maharashtra - 2021.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618531-tender-Annual Maintenance Contract OF 320 KVA Generator Set at ADGP CID Office Pune.pdf",
+        "filename": "1732618531-tender-Annual Maintenance Contract OF 320 KVA Generator Set at ADGP CID Office Pune.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618516-tender-E-Scrap Quotation Call Letter.pdf",
+        "filename": "1732618516-tender-E-Scrap Quotation Call Letter.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618473-tender-EPABX System 3 x 8 with installation (Qty =01).pdf",
+        "filename": "1732618473-tender-EPABX System 3 x 8 with installation (Qty =01).pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618421-tender-To Run CID Hqrs Pune Canteen on Leave & License Basis.pdf",
+        "filename": "1732618421-tender-To Run CID Hqrs Pune Canteen on Leave & License Basis.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618378-tender-Run CID Hqrs Pune Canteen on Leave & License Basis.pdf",
+        "filename": "1732618378-tender-Run CID Hqrs Pune Canteen on Leave & License Basis.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618339-tender-To Run CID Hqrs Pune Canteen on Leave and Licence Basis.pdf",
+        "filename": "1732618339-tender-To Run CID Hqrs Pune Canteen on Leave and Licence Basis.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618321-tender-Quotation For Spotlight Presentation Remote.pdf",
+        "filename": "1732618321-tender-Quotation For Spotlight Presentation Remote.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618305-tender-Quotation are invited for Filling of Quarterly electronics returns.pdf",
+        "filename": "1732618305-tender-Quotation are invited for Filling of Quarterly electronics returns.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618289-tender-Quotation for Video Conferencing Software.pdf",
+        "filename": "1732618289-tender-Quotation for Video Conferencing Software.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618274-tender-Quotations are Invited for Filing of Quarterly E-TDS Returns on Income Tax department Website.pdf",
+        "filename": "1732618274-tender-Quotations are Invited for Filing of Quarterly E-TDS Returns on Income Tax department Website.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618243-tender-Applications are invited for the post of Law Officer Gr. B on contractual basis for a period of 11 months..pdf",
+        "filename": "1732618243-tender-Applications are invited for the post of Law Officer Gr. B on contractual basis for a period of 11 months..pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618119-tender-Purchase of Interactive Board- Amplifier with Mike & Speakers-HDMI Cables- and accessories as per the list.pdf",
+        "filename": "1732618119-tender-Purchase of Interactive Board- Amplifier with Mike & Speakers-HDMI Cables- and accessories as per the list.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618078-tender-Purchase of LED TV - HDMI Cable-Telephone Instruments- MDF Box-WiFi Router Modem -UPS & Cordless Bell.pdf",
+        "filename": "1732618078-tender-Purchase of LED TV - HDMI Cable-Telephone Instruments- MDF Box-WiFi Router Modem -UPS & Cordless Bell.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732617871-tender-Annual Maintenance Contract Of Computer - Printers in the Office Of Addl.DGP CID MS PuneMaintenance.pdf",
+        "filename": "1732617871-tender-Annual Maintenance Contract Of Computer - Printers in the Office Of Addl.DGP CID MS PuneMaintenance.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732617769-tender-CID Canteen Advertise.pdf",
+        "filename": "1732617769-tender-CID Canteen Advertise.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732617726-tender-Crime In Maharashtra.pdf",
+        "filename": "1732617726-tender-Crime In Maharashtra.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732617325-tender-Filing of E-TDS on Income Tax Website of CID Office Pune by CA General-.pdf",
+        "filename": "1732617325-tender-Filing of E-TDS on Income Tax Website of CID Office Pune by CA General-.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732617238-tender-M.C.R Software.pdf",
+        "filename": "1732617238-tender-M.C.R Software.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732616615-tender-CID MS Website hosting and maintenace.pdf",
+        "filename": "1732616615-tender-CID MS Website hosting and maintenace.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732616583-tender-Quotation call letter for filling quarterly E-TDS.pdf",
+        "filename": "1732616583-tender-Quotation call letter for filling quarterly E-TDS.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732616533-tender-Quotation call letter for 12Volt 100AHC Battery.pdf",
+        "filename": "1732616533-tender-Quotation call letter for 12Volt 100AHC Battery.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732615936-tender-Regarding quotation for CID Rest house furniture and other accesseries.pdf",
+        "filename": "1732615936-tender-Regarding quotation for CID Rest house furniture and other accesseries.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/tender/1732618005-tender-Extension 1:- Annual Maintenance Contract Of Computer - Printers in the Office Of Addl.DGP CID MS PuneMaintenance.pdf",
+        "filename": "1732618005-tender-Extension 1:- Annual Maintenance Contract Of Computer - Printers in the Office Of Addl.DGP CID MS PuneMaintenance.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/gtp/1748612959-gtp-\u0939\u0938\u094d\u0924\u093e\u0915\u094d\u0937\u0930 \u0935 \u091b\u093e\u092f\u093e\u091a\u200d\u093f\u0924\u094d\u0930\u0915\u093e\u0930 \u0935\u093f\u092d\u093e\u0917 \u0935\u093f\u0928\u0902\u0924\u0940 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf",
+        "filename": "1748612959-gtp-\u0939\u0938\u094d\u0924\u093e\u0915\u094d\u0937\u0930 \u0935 \u091b\u093e\u092f\u093e\u091a\u200d\u093f\u0924\u094d\u0930\u0915\u093e\u0930 \u0935\u093f\u092d\u093e\u0917 \u0935\u093f\u0928\u0902\u0924\u0940 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/gtp/1748612419-gtp-\u0938\u0939\u093e\u092f\u0915 \u0936\u093e\u0938\u0915\u0940\u092f \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u092a\u0930\u093f\u0915\u094d\u0937\u0915 \u0938\u0930\u094d\u0935\u0938\u093e\u0927\u093e\u0930\u0923 \u092c\u0926\u0932\u0940.pdf",
+        "filename": "1748612419-gtp-\u0938\u0939\u093e\u092f\u0915 \u0936\u093e\u0938\u0915\u0940\u092f \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u092a\u0930\u093f\u0915\u094d\u0937\u0915 \u0938\u0930\u094d\u0935\u0938\u093e\u0927\u093e\u0930\u0923 \u092c\u0926\u0932\u0940.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/gtp/1748612411-gtp-\u0938\u0939\u093e.\u091b\u093e\u092f\u093e\u091a\u093f\u0924\u094d\u0930\u0915\u093e\u0930 \u092a\u0926\u094b\u0928\u094d\u0928\u0924\u0940 \u0928\u0947\u092e\u0923\u0942\u0915 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf",
+        "filename": "1748612411-gtp-\u0938\u0939\u093e.\u091b\u093e\u092f\u093e\u091a\u093f\u0924\u094d\u0930\u0915\u093e\u0930 \u092a\u0926\u094b\u0928\u094d\u0928\u0924\u0940 \u0928\u0947\u092e\u0923\u0942\u0915 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/gtp/1748612398-gtp-\u0936\u093e\u0938\u0915\u0940\u092f \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u092a\u0930\u093f\u0915\u094d\u0937\u0915 \u0938\u0930\u094d\u0935\u0938\u093e\u0927\u093e\u0930\u0923 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf",
+        "filename": "1748612398-gtp-\u0936\u093e\u0938\u0915\u0940\u092f \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u092a\u0930\u093f\u0915\u094d\u0937\u0915 \u0938\u0930\u094d\u0935\u0938\u093e\u0927\u093e\u0930\u0923 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/gtp/1748612388-gtp-\u0936\u093e\u0938\u0915\u0940\u092f \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u092a\u0930\u093f\u0915\u094d\u0937\u0915 \u092a\u0926\u094b\u0928\u094d\u0928\u0924\u0940\u0928\u0947 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf",
+        "filename": "1748612388-gtp-\u0936\u093e\u0938\u0915\u0940\u092f \u0926\u0938\u094d\u0924\u0910\u0935\u091c \u092a\u0930\u093f\u0915\u094d\u0937\u0915 \u092a\u0926\u094b\u0928\u094d\u0928\u0924\u0940\u0928\u0947 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/gtp/1748612367-gtp-\u091b\u093e\u092f\u093e\u091a\u093f\u0924\u094d\u0930\u0915\u093e\u0930 \u0938\u0930\u094d\u0935\u0938\u093e\u0927\u093e\u0930\u0923 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf",
+        "filename": "1748612367-gtp-\u091b\u093e\u092f\u093e\u091a\u093f\u0924\u094d\u0930\u0915\u093e\u0930 \u0938\u0930\u094d\u0935\u0938\u093e\u0927\u093e\u0930\u0923 \u092c\u0926\u0932\u0940 \u0906\u0926\u0947\u0936.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/gtp/1747994596-gtp-\u0905\u0902\u0917\u0941\u0932\u0940 \u092e\u0941\u0926\u094d\u0930\u093e \u0915\u0947\u0902\u0926\u094d\u0930 \u0938\u093e\u0930\u094d\u0935\u0924\u094d\u0930\u200d\u093f\u0915 \u092c\u0926\u0932\u094d\u092f\u093e 2025.pdf",
+        "filename": "1747994596-gtp-\u0905\u0902\u0917\u0941\u0932\u0940 \u092e\u0941\u0926\u094d\u0930\u093e \u0915\u0947\u0902\u0926\u094d\u0930 \u0938\u093e\u0930\u094d\u0935\u0924\u094d\u0930\u200d\u093f\u0915 \u092c\u0926\u0932\u094d\u092f\u093e 2025.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/gtp/1732629457-gtp-General Transfers Handwriting and Photography section.pdf",
+        "filename": "1732629457-gtp-General Transfers Handwriting and Photography section.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/gtp/1732629443-gtp-General Transfers FPB.pdf",
+        "filename": "1732629443-gtp-General Transfers FPB.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/recruitment-1773063995-WHe95kHCBv.pdf",
+        "filename": "recruitment-1773063995-WHe95kHCBv.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/recruitment-1770701227-Gfl3rJKQYG.pdf",
+        "filename": "recruitment-1770701227-Gfl3rJKQYG.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/1738146828-recruitment-Appointment of Law Officer Group B ( Date 29-01-2025 ).pdf",
+        "filename": "1738146828-recruitment-Appointment of Law Officer Group B ( Date 29-01-2025 ).pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/1732629287-recruitment-Marklist of Written and Oral Exam of Law officers Group B.pdf",
+        "filename": "1732629287-recruitment-Marklist of Written and Oral Exam of Law officers Group B.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/1732628178-recruitment-LAW OFFICER GROUP B WRITTEN EXAM RESULT.pdf",
+        "filename": "1732628178-recruitment-LAW OFFICER GROUP B WRITTEN EXAM RESULT.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/1732628156-recruitment-LAW OFFICER GROUP B WRITTEN EXAM SHEDULED ON 23-11-2022.pdf",
+        "filename": "1732628156-recruitment-LAW OFFICER GROUP B WRITTEN EXAM SHEDULED ON 23-11-2022.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/1732628139-recruitment-Appointment of Law Officer Group B on contract basis for 11 month ( Date 29-09-2022 ).pdf",
+        "filename": "1732628139-recruitment-Appointment of Law Officer Group B on contract basis for 11 month ( Date 29-09-2022 ).pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/1732628049-recruitment-Recruitment of Law Officer Group B on Contract Basis.pdf",
+        "filename": "1732628049-recruitment-Recruitment of Law Officer Group B on Contract Basis.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/1732627982-recruitment-Law Officer Grade B Exam Written and Interview Marks.pdf",
+        "filename": "1732627982-recruitment-Law Officer Grade B Exam Written and Interview Marks.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/1732627970-recruitment-List of Law Officer Grade B Exam. Candidates Marks.pdf",
+        "filename": "1732627970-recruitment-List of Law Officer Grade B Exam. Candidates Marks.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/1732627952-recruitment-Answer Key of Exam conducted for the post of Law Officer Grade B Exam on 12-07-2022.pdf",
+        "filename": "1732627952-recruitment-Answer Key of Exam conducted for the post of Law Officer Grade B Exam on 12-07-2022.pdf"
+      },
+      {
+        "url": "https://mahacid.gov.in/public//uploads/file/recruitment/1732627929-recruitment-Applications are invited for the post of Law Officer Gr. B on contractual basis for a period of 11 months..pdf",
+        "filename": "1732627929-recruitment-Applications are invited for the post of Law Officer Gr. B on contractual basis for a period of 11 months..pdf"
+      }
+    ],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": null
+  },
+  {
+    "domain": "www.nlcindia.in",
+    "status": "success",
+    "framework": "unknown",
+    "pages_crawled": 1,
+    "total_links_found": 0,
+    "discoveries": [],
+    "all_downloadable_files": [],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": null
+  },
+  {
+    "domain": "www.vizagsteel.com",
+    "status": "success",
+    "framework": "ASP.NET",
+    "pages_crawled": 10,
+    "total_links_found": 109,
+    "discoveries": [
+      {
+        "url": "https://www.vizagsteel.com",
+        "title": "RINL - GoI Undertaking",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 1,
+        "downloadable_files": [
+          "2024 08 08 MOS Website Updation-RINL and BGC-D1.pdf",
+          "Provisions  & Benefits to PWD employees in RINL.pdf",
+          "E%20Sahaika.pdf",
+          "tenders%20usermanual.pdf",
+          "RINL_Brochure2018_compressed.pdf"
+        ],
+        "page_size_kb": 115.2,
+        "depth": 1
+      },
+      {
+        "url": "https://www.vizagsteel.com/",
+        "title": "RINL - GoI Undertaking",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 1,
+        "downloadable_files": [
+          "2024 08 08 MOS Website Updation-RINL and BGC-D1.pdf",
+          "Provisions  & Benefits to PWD employees in RINL.pdf",
+          "E%20Sahaika.pdf",
+          "tenders%20usermanual.pdf",
+          "RINL_Brochure2018_compressed.pdf"
+        ],
+        "page_size_kb": 115.2,
+        "depth": 0
+      },
+      {
+        "url": "https://www.vizagsteel.com/code/r_port_new",
+        "title": "REIS",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 1,
+        "downloadable_files": [
+          "GMIS_2026.pdf",
+          "Withdrawal of RINLPRMS_2026.pdf",
+          "gmip_circular_2026.pdf",
+          "nutshell gmip in biligual.pdf",
+          "REVISED_LIFE_CERTIFICATE_FORMAT.pdf",
+          "Income Tax Instructions ,Help file.pdf"
+        ],
+        "page_size_kb": 27.2,
+        "depth": 1
+      },
+      {
+        "url": "https://www.vizagsteel.com/index.asp",
+        "title": "RINL - GoI Undertaking",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 1,
+        "downloadable_files": [
+          "2024 08 08 MOS Website Updation-RINL and BGC-D1.pdf",
+          "Provisions  & Benefits to PWD employees in RINL.pdf",
+          "E%20Sahaika.pdf",
+          "tenders%20usermanual.pdf",
+          "RINL_Brochure2018_compressed.pdf"
+        ],
+        "page_size_kb": 97.0,
+        "depth": 1
+      },
+      {
+        "url": "https://www.vizagsteel.com/indexhindi.asp",
+        "title": "RINL - GoI Undertaking",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 1,
+        "downloadable_files": [
+          "2024 08 08 MOS Website Updation-RINL and BGC-D1.pdf",
+          "Provisions  & Benefits to PWD employees in RINL.pdf",
+          "E%20Sahaika.pdf",
+          "tenders%20usermanual.pdf",
+          "RINL_Brochure2018_compressed.pdf"
+        ],
+        "page_size_kb": 115.2,
+        "depth": 1
+      },
+      {
+        "url": "https://www.vizagsteel.com/mobile/mob/index.html",
+        "title": "RINL Mobile App",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 6,
+        "downloadable_files": [],
+        "page_size_kb": 2.4,
+        "depth": 1
+      },
+      {
+        "url": "https://www.vizagsteel.com/myindexhindi.asp?tm=1&url=code/search/searchcrawler.asp",
+        "title": "RINL - GoI Undertaking",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 1,
+        "downloadable_files": [
+          "2024 08 08 MOS Website Updation-RINL and BGC-D1.pdf",
+          "Provisions  & Benefits to PWD employees in RINL.pdf",
+          "E%20Sahaika.pdf",
+          "tenders%20usermanual.pdf"
+        ],
+        "page_size_kb": 97.7,
+        "depth": 1
+      },
+      {
+        "url": "https://www.vizagsteel.com/myindexhindi.asp?tm=1&url=webdptool/webdptool.asp",
+        "title": "RINL - GoI Undertaking",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 1,
+        "downloadable_files": [
+          "2024 08 08 MOS Website Updation-RINL and BGC-D1.pdf",
+          "Provisions  & Benefits to PWD employees in RINL.pdf",
+          "E%20Sahaika.pdf",
+          "tenders%20usermanual.pdf"
+        ],
+        "page_size_kb": 97.7,
+        "depth": 1
+      },
+      {
+        "url": "https://www.vizagsteel.com/myindexhindi.asp?tm=11&url=start.asp?login=1",
+        "title": "RINL - GoI Undertaking",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 1,
+        "downloadable_files": [
+          "2024 08 08 MOS Website Updation-RINL and BGC-D1.pdf",
+          "Provisions  & Benefits to PWD employees in RINL.pdf",
+          "E%20Sahaika.pdf",
+          "tenders%20usermanual.pdf"
+        ],
+        "page_size_kb": 93.5,
+        "depth": 1
+      },
+      {
+        "url": "https://www.vizagsteel.com/ptms",
+        "title": "Project Trainee Registration System",
+        "score": 20,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "faq.pdf",
+          "guidelines.pdf",
+          "dependent.pdf",
+          "instLtr.pdf"
+        ],
+        "page_size_kb": 7.5,
+        "depth": 1
+      }
+    ],
+    "all_downloadable_files": [
+      {
+        "url": "https://www.vizagsteel.com/2024 08 08 MOS Website Updation-RINL and BGC-D1.pdf",
+        "filename": "2024 08 08 MOS Website Updation-RINL and BGC-D1.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/Provisions  & Benefits to PWD employees in RINL.pdf",
+        "filename": "Provisions  & Benefits to PWD employees in RINL.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/files/E%20Sahaika.pdf",
+        "filename": "E%20Sahaika.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/code/tenders/tenders%20usermanual.pdf",
+        "filename": "tenders%20usermanual.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/insiderinl/docs/RINL_Brochure2018_compressed.pdf",
+        "filename": "RINL_Brochure2018_compressed.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/code/GMIS_2026.pdf",
+        "filename": "GMIS_2026.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/code/Withdrawal of RINLPRMS_2026.pdf",
+        "filename": "Withdrawal of RINLPRMS_2026.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/code/gmip_circular_2026.pdf",
+        "filename": "gmip_circular_2026.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/code/nutshell gmip in biligual.pdf",
+        "filename": "nutshell gmip in biligual.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/code/REVISED_LIFE_CERTIFICATE_FORMAT.pdf",
+        "filename": "REVISED_LIFE_CERTIFICATE_FORMAT.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/code/Income Tax Instructions ,Help file.pdf",
+        "filename": "Income Tax Instructions ,Help file.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/formats/faq.pdf",
+        "filename": "faq.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/formats/guidelines.pdf",
+        "filename": "guidelines.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/formats/dependent.pdf",
+        "filename": "dependent.pdf"
+      },
+      {
+        "url": "https://www.vizagsteel.com/formats/instLtr.pdf",
+        "filename": "instLtr.pdf"
+      }
+    ],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": null
+  }
+]

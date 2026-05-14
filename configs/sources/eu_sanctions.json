@@ -1,0 +1,29 @@
+{
+  "source_id": "eu_sanctions",
+  "agency": "European Union (EU)",
+  "list_name": "Consolidated Sanctions List",
+  "country": "EU",
+  "engine": "file_download",
+  "url": "https://webgate.ec.europa.eu/fsd/fsf/public/files/csvFullSanctionsList/content?token=dG9rZW4tMjAxNw",
+  "format": "csv",
+  "encoding": "utf-8-sig",
+  "delimiter": ";",
+  "has_header": true,
+  "field_map": {
+    "name": "Naal_wholename",
+    "date_of_birth": "Birt_date",
+    "address": "Addr_street,Addr_city,Addr_zipcode,Addr_country",
+    "details": "Programme,Subject_type,Naal_function,Naal_title,Birt_place,Birt_country,Entity_remark"
+  },
+  "validation": {
+    "min_records": 5000,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 10
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 180,
+    "snapshot_raw": true
+  }
+}

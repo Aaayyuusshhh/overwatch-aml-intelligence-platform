@@ -1,0 +1,17 @@
+{
+  "recipe_id": "nse_defaulting_clients_240",
+  "source_id": null,
+  "url": "https://nsearchives.nseindia.com/web/sites/default/files/inline-files/Defaulting_Client_Database%202_1_1%20%281%29%20%281%29.xlsx",
+  "method": "GET",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Referer": "https://www.nseindia.com/",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "params": {},
+  "body": null,
+  "cookies": {},
+  "response_type": "binary",
+  "notes": "NSE Defaulting Clients Database (canonical #240)",
+  "discovered_at": "2026-05-08"
+}

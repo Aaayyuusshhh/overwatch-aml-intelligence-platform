@@ -1,0 +1,30 @@
+{
+  "source_id": "test_cci_antitrust",
+  "agency": "Competition Commission of India (CCI)",
+  "list_name": "Antitrust Orders (Test)",
+  "country": "IN",
+  "engine": "api_json",
+  "url": "https://cci.gov.in/antitrust/orders/list",
+  "method": "GET",
+  "headers": {
+    "X-Requested-With": "XMLHttpRequest",
+    "Accept": "application/json"
+  },
+  "response_path": "$.data",
+  "field_map": {
+    "name": "description",
+    "details": "case_no,type,order_date",
+    "case_unit": "case_no"
+  },
+  "validation": {
+    "min_records": 100,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 5
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 60,
+    "snapshot_raw": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source_id": "canada_sanctions",
+  "agency": "Global Affairs Canada (GAC)",
+  "list_name": "Consolidated Canadian Autonomous Sanctions List",
+  "country": "CA",
+  "engine": "file_download",
+  "url": "https://www.international.gc.ca/world-monde/assets/office_docs/international_relations-relations_internationales/sanctions/sema-lmes.xml",
+  "format": "xml",
+  "response_path": ".//record",
+  "field_map": {
+    "name": "LastName,GivenName,Entity,Aliases",
+    "date_of_birth": "DateOfBirth",
+    "details": "Country,Schedule,Item,DateOfListing"
+  },
+  "validation": {
+    "min_records": 1000,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 10
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 90,
+    "snapshot_raw": true
+  }
+}

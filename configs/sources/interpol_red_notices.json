@@ -1,0 +1,43 @@
+{
+  "source_id": "interpol_red_notices",
+  "agency": "Interpol",
+  "list_name": "Red Notices",
+  "country": "International",
+  "engine": "api_json",
+  "url": "https://ws-public.interpol.int/notices/v1/red",
+  "method": "GET",
+  "headers": {
+    "Accept": "application/json",
+    "Origin": "https://www.interpol.int",
+    "Referer": "https://www.interpol.int/"
+  },
+  "body_template": {
+    "resultPerPage": 160,
+    "page": 1
+  },
+  "response_path": "$._embedded.notices",
+  "field_map": {
+    "name": "name",
+    "date_of_birth": "date_of_birth",
+    "details": "forename,nationalities",
+    "interpol_notice_id": "entity_id",
+    "document_url": "$._links.self.href"
+  },
+  "pagination": {
+    "type": "page_number",
+    "param": "page",
+    "page_size": 160,
+    "max_pages": 60
+  },
+  "validation": {
+    "min_records": 1000,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 5
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 60,
+    "snapshot_raw": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "recipe_id": "nse_icdr_fines",
+  "source_id": null,
+  "url": "https://nsearchives.nseindia.com//web/mediaattachment/2026-04/ICDR_Fines_17.04.2026_20260421161852.xls",
+  "method": "GET",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Referer": "https://www.nseindia.com/",
+    "Accept-Language": "en-US,en;q=0.9"
+  },
+  "params": {},
+  "body": null,
+  "cookies": {},
+  "response_type": "binary",
+  "notes": "NSE ICDR Fines — list of companies non-compliant with SEBI ICDR",
+  "discovered_at": "2026-05-08"
+}

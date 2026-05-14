@@ -1,0 +1,30 @@
+{
+  "source_id": "bse_suspended",
+  "agency": "Bombay Stock Exchange (BSE)",
+  "list_name": "Suspended Companies",
+  "country": "IN",
+  "engine": "file_download",
+  "url": "https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&Scripcode=&industry=&segment=Equity&status=Suspended",
+  "format": "json",
+  "headers": {
+    "Accept": "application/json, text/plain, */*",
+    "Referer": "https://www.bseindia.com/"
+  },
+  "field_map": {
+    "name": "Issuer_Name",
+    "case_unit": "SCRIP_CD",
+    "details": "Scrip_Name,Status,GROUP,FACE_VALUE,ISIN_NUMBER,scrip_id,Segment,Mktcap",
+    "document_url": "NSURL"
+  },
+  "validation": {
+    "min_records": 500,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 5
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 60,
+    "snapshot_raw": true
+  }
+}

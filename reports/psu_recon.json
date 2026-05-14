@@ -1,0 +1,4353 @@
+[
+  {
+    "domain": "powergridindia.com",
+    "status": "unreachable",
+    "framework": "unknown",
+    "pages_crawled": 0,
+    "total_links_found": 0,
+    "discoveries": [],
+    "all_downloadable_files": [],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": "ConnectionError: HTTPSConnectionPool(host='powergridindia.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='powergridindia."
+  },
+  {
+    "domain": "nlcindia.in",
+    "status": "unreachable",
+    "framework": "unknown",
+    "pages_crawled": 0,
+    "total_links_found": 0,
+    "discoveries": [],
+    "all_downloadable_files": [],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": "ConnectTimeout: HTTPConnectionPool(host='www.nlcindia.in', port=80): Max retries exceeded with url: /website/en/ (Caused by ConnectTimeoutError(<HTTPConnection(host='www.nlcind"
+  },
+  {
+    "domain": "aai.aero",
+    "status": "success",
+    "framework": "Drupal",
+    "pages_crawled": 39,
+    "total_links_found": 259,
+    "discoveries": [
+      {
+        "url": "https://aai.aero/vigilance",
+        "title": "Vigilance | AIRPORTS AUTHORITY OF INDIA",
+        "score": 70,
+        "keywords_found": [
+          "vigilance"
+        ],
+        "strong_keywords": [
+          "vigilance"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "AAI_CORPORATE_PLAN_2017-26_with_revised_vision_&_mission.pdf"
+        ],
+        "page_size_kb": 80.2,
+        "depth": 0
+      },
+      {
+        "url": "https://aai.aero/en/airports/chennai",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 40,
+        "keywords_found": [
+          "vigilance"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Advertisement%20for%20Engaging%20Medical%20Consultant%20%28Non%20Specialist%29%20at%20Chennai%20Airport%20-%202026%20%281%29.pdf",
+          "Anti%20Hijack%20Mock%20Exercise%20%20Aerodrome%20Committee%20Meeting%20at%20Chennai%20Airport.pdf",
+          "MAAPRE29072024.pdf",
+          "MAAPRE20072024.pdf",
+          "MAAPRE12072024.pdf"
+        ],
+        "page_size_kb": 81.2,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/",
+        "title": "AIRPORTS AUTHORITY OF INDIA | (A Miniratna - Category -1 Public Sector Enterprise)",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "AAI_CORPORATE_PLAN_2017-26_with_revised_vision_&_mission.pdf"
+        ],
+        "page_size_kb": 104.1,
+        "depth": 0
+      },
+      {
+        "url": "https://aai.aero/en/airports/agra",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "EC%20Compliance%20report%20for%20June%202024%20with%20Annexure.pdf",
+          "EC%20Compliance%20Report%20for%20December%202024%20with%20Annexure.pdf",
+          "EC%20Compliance%20report%20for%20June%202025%20with%20Annexure.pdf"
+        ],
+        "page_size_kb": 81.9,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/ahmedabad",
+        "title": "| AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "AAI_CORPORATE_PLAN_2017-26_with_revised_vision_&_mission.pdf",
+          "CoD-Notification-Ahmedabad.pdf",
+          "Concession-Agreement-Ahmedabad-Airport.pdf"
+        ],
+        "page_size_kb": 81.4,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/amritsar",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Final%20Report.pdf"
+        ],
+        "page_size_kb": 85.5,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/bhopal",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "international%20airport.pdf",
+          "news%20today.pdf",
+          "convenience%20%281%29.pdf",
+          "kids%20play.pdf",
+          "PLI%20Training_0.pdf"
+        ],
+        "page_size_kb": 99.0,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/bhubaneswar",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Noise%20mapping%20final%20report%20Bhubaneswar%20airport%20050724.pdf",
+          "AIC%2004%202024_BBSR%20Airport.pdf"
+        ],
+        "page_size_kb": 81.2,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/bhuj",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "AAC.pdf"
+        ],
+        "page_size_kb": 76.8,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/calicut",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Noise%20Mapping-Final%20Report%20Calicut%20Airport.pdf",
+          "Noise_Approval_Calicut_dated16thAug2024.pdf",
+          "Night%26day%20noise%20contour.pdf",
+          "List%20of%20Empaneled%20Hospitals%20Calicut%20airport.pdf"
+        ],
+        "page_size_kb": 80.6,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/chandigarh",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "WINTER%20SCHDULE%202023-24.pdf",
+          "aera%20order%2021-26_0001.pdf",
+          "aera%20order%2016-21_0001.pdf",
+          "Latest_Scheduld_Flights_%20wef%2006.7.23.pdf",
+          "Schedule%20of%20Parking%20Charges.pdf"
+        ],
+        "page_size_kb": 84.1,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/coimbatore",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Noise%20Map%20full%20report%20approved%20by%20DGCA..pdf",
+          "Night%20%26%20Day-%20Noise%20contour.pdf",
+          "Noise_Approval_Coimbatore_dated16thAug2024.pdf"
+        ],
+        "page_size_kb": 79.6,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/dehradun",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Environmental%20Clearance%20Dehradun%20.pdf",
+          "Final%20report%20of%20Noise%20mapping%20of%20Dehradun%20Airport.pdf"
+        ],
+        "page_size_kb": 80.2,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/deoghar",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Parking%20Rate-%20new.pdf",
+          "Parking%20Tariff%20at%20Deoghar%20airport.pdf"
+        ],
+        "page_size_kb": 80.7,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/diu",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "xx.pdf",
+          "News%20New%20Guideline.pdf",
+          "news%20update_1.pdf"
+        ],
+        "page_size_kb": 71.1,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/gaya",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Vijyanta%20Tank.pdf",
+          "paryatan1.pdf",
+          "Runway.pdf"
+        ],
+        "page_size_kb": 88.3,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/gondia",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Updated_Birsi_Final%20Report%20Noise%20Mapping%20at%20Birsi%20Airportt_181125.pdf",
+          "Approval%20of%20Airport%20Noise%20Zone-Gondia%20%281%29.pdf",
+          "Tree%20plantation_1.pdf"
+        ],
+        "page_size_kb": 73.3,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/gorakhpur",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Gorakhpur%20EC%20letter.pdf"
+        ],
+        "page_size_kb": 72.6,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/guwahati",
+        "title": "| AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "AAI_CORPORATE_PLAN_2017-26_with_revised_vision_&_mission.pdf",
+          "CoD-Notification-Guwahati-Airport.pdf",
+          "Concessioon-Agreement-Guwahati-Airport.pdf"
+        ],
+        "page_size_kb": 81.4,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/hindon",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "HDO%20Schedule%20-%20updated.pdf",
+          "Passengers%20Charter%20MoCA.pdf"
+        ],
+        "page_size_kb": 79.4,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/airports/page-not-found",
+        "title": "Airport Not Found | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 50.7,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/adampur",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 68.8,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/agartala",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 77.7,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/agatti",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 72.2,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/akola",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 68.4,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/aurangabad",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 80.8,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/bagdogra",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 73.8,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/bareilly",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 79.1,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/bathinda",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 75.5,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/behala",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 68.5,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/belgaum",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 74.6,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/bhavnagar",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 78.1,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/bikaner",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 76.2,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/coochbehar",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 76.2,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/dibrugarh",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 75.2,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/dimapur",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 71.8,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/goa",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 100.3,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/airports/gwalior",
+        "title": "AAI Airport's | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 84.4,
+        "depth": 1
+      },
+      {
+        "url": "https://aai.aero/en/user/password",
+        "title": "User account | AIRPORTS AUTHORITY OF INDIA",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 32.4,
+        "depth": 1
+      }
+    ],
+    "all_downloadable_files": [
+      {
+        "url": "https://www.aai.aero/sites/default/files/AAI_CORPORATE_PLAN_2017-26_with_revised_vision_&_mission.pdf",
+        "filename": "AAI_CORPORATE_PLAN_2017-26_with_revised_vision_&_mission.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/EC%20Compliance%20report%20for%20June%202024%20with%20Annexure.pdf",
+        "filename": "EC%20Compliance%20report%20for%20June%202024%20with%20Annexure.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/EC%20Compliance%20Report%20for%20December%202024%20with%20Annexure.pdf",
+        "filename": "EC%20Compliance%20Report%20for%20December%202024%20with%20Annexure.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/EC%20Compliance%20report%20for%20June%202025%20with%20Annexure.pdf",
+        "filename": "EC%20Compliance%20report%20for%20June%202025%20with%20Annexure.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/CoD-Notification-Ahmedabad.pdf",
+        "filename": "CoD-Notification-Ahmedabad.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Concession-Agreement-Ahmedabad-Airport.pdf",
+        "filename": "Concession-Agreement-Ahmedabad-Airport.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Final%20Report.pdf",
+        "filename": "Final%20Report.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/international%20airport.pdf",
+        "filename": "international%20airport.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/news%20today.pdf",
+        "filename": "news%20today.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/convenience%20%281%29.pdf",
+        "filename": "convenience%20%281%29.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/kids%20play.pdf",
+        "filename": "kids%20play.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/PLI%20Training_0.pdf",
+        "filename": "PLI%20Training_0.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Noise%20mapping%20final%20report%20Bhubaneswar%20airport%20050724.pdf",
+        "filename": "Noise%20mapping%20final%20report%20Bhubaneswar%20airport%20050724.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/AIC%2004%202024_BBSR%20Airport.pdf",
+        "filename": "AIC%2004%202024_BBSR%20Airport.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/AAC.pdf",
+        "filename": "AAC.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Noise%20Mapping-Final%20Report%20Calicut%20Airport.pdf",
+        "filename": "Noise%20Mapping-Final%20Report%20Calicut%20Airport.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Noise_Approval_Calicut_dated16thAug2024.pdf",
+        "filename": "Noise_Approval_Calicut_dated16thAug2024.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Night%26day%20noise%20contour.pdf",
+        "filename": "Night%26day%20noise%20contour.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/List%20of%20Empaneled%20Hospitals%20Calicut%20airport.pdf",
+        "filename": "List%20of%20Empaneled%20Hospitals%20Calicut%20airport.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/WINTER%20SCHDULE%202023-24.pdf",
+        "filename": "WINTER%20SCHDULE%202023-24.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/aera%20order%2021-26_0001.pdf",
+        "filename": "aera%20order%2021-26_0001.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/aera%20order%2016-21_0001.pdf",
+        "filename": "aera%20order%2016-21_0001.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Latest_Scheduld_Flights_%20wef%2006.7.23.pdf",
+        "filename": "Latest_Scheduld_Flights_%20wef%2006.7.23.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Schedule%20of%20Parking%20Charges.pdf",
+        "filename": "Schedule%20of%20Parking%20Charges.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Advertisement%20for%20Engaging%20Medical%20Consultant%20%28Non%20Specialist%29%20at%20Chennai%20Airport%20-%202026%20%281%29.pdf",
+        "filename": "Advertisement%20for%20Engaging%20Medical%20Consultant%20%28Non%20Specialist%29%20at%20Chennai%20Airport%20-%202026%20%281%29.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Anti%20Hijack%20Mock%20Exercise%20%20Aerodrome%20Committee%20Meeting%20at%20Chennai%20Airport.pdf",
+        "filename": "Anti%20Hijack%20Mock%20Exercise%20%20Aerodrome%20Committee%20Meeting%20at%20Chennai%20Airport.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/MAAPRE29072024.pdf",
+        "filename": "MAAPRE29072024.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/MAAPRE20072024.pdf",
+        "filename": "MAAPRE20072024.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/MAAPRE12072024.pdf",
+        "filename": "MAAPRE12072024.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Noise%20Map%20full%20report%20approved%20by%20DGCA..pdf",
+        "filename": "Noise%20Map%20full%20report%20approved%20by%20DGCA..pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Night%20%26%20Day-%20Noise%20contour.pdf",
+        "filename": "Night%20%26%20Day-%20Noise%20contour.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Noise_Approval_Coimbatore_dated16thAug2024.pdf",
+        "filename": "Noise_Approval_Coimbatore_dated16thAug2024.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Environmental%20Clearance%20Dehradun%20.pdf",
+        "filename": "Environmental%20Clearance%20Dehradun%20.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Final%20report%20of%20Noise%20mapping%20of%20Dehradun%20Airport.pdf",
+        "filename": "Final%20report%20of%20Noise%20mapping%20of%20Dehradun%20Airport.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Parking%20Rate-%20new.pdf",
+        "filename": "Parking%20Rate-%20new.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Parking%20Tariff%20at%20Deoghar%20airport.pdf",
+        "filename": "Parking%20Tariff%20at%20Deoghar%20airport.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/xx.pdf",
+        "filename": "xx.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/News%20New%20Guideline.pdf",
+        "filename": "News%20New%20Guideline.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/news%20update_1.pdf",
+        "filename": "news%20update_1.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Vijyanta%20Tank.pdf",
+        "filename": "Vijyanta%20Tank.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/paryatan1.pdf",
+        "filename": "paryatan1.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Runway.pdf",
+        "filename": "Runway.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Updated_Birsi_Final%20Report%20Noise%20Mapping%20at%20Birsi%20Airportt_181125.pdf",
+        "filename": "Updated_Birsi_Final%20Report%20Noise%20Mapping%20at%20Birsi%20Airportt_181125.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Approval%20of%20Airport%20Noise%20Zone-Gondia%20%281%29.pdf",
+        "filename": "Approval%20of%20Airport%20Noise%20Zone-Gondia%20%281%29.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Tree%20plantation_1.pdf",
+        "filename": "Tree%20plantation_1.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Gorakhpur%20EC%20letter.pdf",
+        "filename": "Gorakhpur%20EC%20letter.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/CoD-Notification-Guwahati-Airport.pdf",
+        "filename": "CoD-Notification-Guwahati-Airport.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Concessioon-Agreement-Guwahati-Airport.pdf",
+        "filename": "Concessioon-Agreement-Guwahati-Airport.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/HDO%20Schedule%20-%20updated.pdf",
+        "filename": "HDO%20Schedule%20-%20updated.pdf"
+      },
+      {
+        "url": "https://www.aai.aero/sites/default/files/Passengers%20Charter%20MoCA.pdf",
+        "filename": "Passengers%20Charter%20MoCA.pdf"
+      }
+    ],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": null
+  },
+  {
+    "domain": "nhidcl.com",
+    "status": "success",
+    "framework": "React",
+    "pages_crawled": 49,
+    "total_links_found": 12,
+    "discoveries": [
+      {
+        "url": "https://nhidcl.com/en/black-list-debarment",
+        "title": "Blacklist / Debarment | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 90,
+        "keywords_found": [
+          "blacklist"
+        ],
+        "strong_keywords": [
+          "blacklist"
+        ],
+        "has_table": true,
+        "table_row_count": 11,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "nhidcl_hq_letter_no_110_dt_03.02.2026.pdf",
+          "ro_agt_letter_no-606.pdf",
+          "ro_agt_letter_no-235_1.pdf",
+          "letter-no.4475-dated-30.01.2025-termination-notice.pdf"
+        ],
+        "page_size_kb": 81.5,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/corporate-office",
+        "title": "Corporate Office | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 70,
+        "keywords_found": [
+          "vigilance"
+        ],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 41,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 318.4,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/en/chief-vigilance-officer-cvo",
+        "title": "Chief Vigilance officer (CVO) | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 70,
+        "keywords_found": [
+          "vigilance"
+        ],
+        "strong_keywords": [
+          "vigilance"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 43.4,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/corporate-office",
+        "title": "Corporate Office | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 70,
+        "keywords_found": [
+          "vigilance"
+        ],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 41,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 318.4,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/current-jobs",
+        "title": "Current Vacancies | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 22,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "bp-50m45_20260123_145751_0.pdf",
+          "bp-50m45_20260227_111403_0.pdf",
+          "notice-merged_0.pdf",
+          "statewise_list_of_shortlisted_candidates.pdf",
+          "public_notice_final_dt21.11.2025.pdf",
+          "ssgs_interview_assam_wb.pdf",
+          "public_notice_state_gps_aoocation_dt_09.12.2025.pdf",
+          "hiring_notice_no._05_of_2025_addendum_23.12.2025.pdf",
+          "285565e6-77e9-4437-8c9a-776914852f9a.pdf",
+          "public_notice_no._199_dated_14.01.2026_parta_partb_0.pdf",
+          "cadre_rule_hindi_ink_signed_copy_dated_01.08.2025.pdf",
+          "nhidcl_it_printer_20260202_123118.pdf",
+          "bp-50m45_20260319_182741_0.pdf",
+          "public_notice_0.pdf",
+          "notice_for_extension_of_last_date_of_applications_for_engagement_of_young_professionals_2.pdf",
+          "approved_yp_scheme_for_yp_ep_poe.pdf",
+          "bp-50m45_20260506_145757_0.pdf",
+          "public_notice_dt_19.12.2025.pdf",
+          "window_advt_hiring_notice_no._05_of_2025_addendum_23.12.2025.pdf",
+          "recruitment_notice_no._03_of_2025_ink_signed_copy_addendum_13.01.2026_1.pdf",
+          "operational_instruction_1_2026.pdf",
+          "recruitment_notice_no._052026.pdf",
+          "hindi_version_01_2026.pdf"
+        ],
+        "page_size_kb": 74.1,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/en/annual-report",
+        "title": "Annual Reports | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 11,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "nhidcl_ar_2023-24_eng.pdf",
+          "nhidcl_ar_2023-24_hindi_final.pdf",
+          "nhidcl_ar_2022-23_eng-final-29.05.2024-low-1.pdf",
+          "final-english-nhidcl-2023.pdf",
+          "annual-report-english.pdf",
+          "english-annual-report-2019-20-1.pdf",
+          "nhidcl-ar-2018-19-15-web-2.pdf",
+          "nhidcl-ar-2017-18-14.pdf",
+          "nhidcl-annual-report-2016-2017-new.pdf",
+          "english-annual-report-2015-16.pdf",
+          "annual_report_2014-2015_20062017.pdf"
+        ],
+        "page_size_kb": 53.3,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/annual-return-of-nhidcl",
+        "title": "Annual Return of NHIDCL | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 7,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "annual_return_2024-25.pdf",
+          "form-mgt-7-ar-for-fy-2023-24.pdf",
+          "form-mgt-7-ar-for-fy-2022-23.pdf",
+          "annaul-return-2022.pdf",
+          "annaul-return-2021.pdf",
+          "mgt-9.pdf"
+        ],
+        "page_size_kb": 47.8,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/board-of-directors",
+        "title": "Board of Directors | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 4,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 43.2,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/csr",
+        "title": "CSR | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 10,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "CSR-Revised-policy.pdf"
+        ],
+        "page_size_kb": 52.6,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/current-jobs",
+        "title": "Current Vacancies | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 22,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "bp-50m45_20260123_145751_0.pdf",
+          "bp-50m45_20260227_111403_0.pdf",
+          "notice-merged_0.pdf",
+          "statewise_list_of_shortlisted_candidates.pdf",
+          "public_notice_final_dt21.11.2025.pdf",
+          "ssgs_interview_assam_wb.pdf",
+          "public_notice_state_gps_aoocation_dt_09.12.2025.pdf",
+          "hiring_notice_no._05_of_2025_addendum_23.12.2025.pdf",
+          "285565e6-77e9-4437-8c9a-776914852f9a.pdf",
+          "public_notice_no._199_dated_14.01.2026_parta_partb_0.pdf",
+          "cadre_rule_hindi_ink_signed_copy_dated_01.08.2025.pdf",
+          "nhidcl_it_printer_20260202_123118.pdf",
+          "bp-50m45_20260319_182741_0.pdf",
+          "public_notice_0.pdf",
+          "notice_for_extension_of_last_date_of_applications_for_engagement_of_young_professionals_2.pdf",
+          "approved_yp_scheme_for_yp_ep_poe.pdf",
+          "bp-50m45_20260506_145757_0.pdf",
+          "public_notice_dt_19.12.2025.pdf",
+          "window_advt_hiring_notice_no._05_of_2025_addendum_23.12.2025.pdf",
+          "recruitment_notice_no._03_of_2025_ink_signed_copy_addendum_13.01.2026_1.pdf",
+          "operational_instruction_1_2026.pdf",
+          "recruitment_notice_no._052026.pdf",
+          "hindi_version_01_2026.pdf"
+        ],
+        "page_size_kb": 74.1,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/en/current-status",
+        "title": "Ongoing/Completed Projects | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 17,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "nhidcl_projects_status_as_on_31.03.2026_for_website.pdf",
+          "project-status-report-march_0.xlsx"
+        ],
+        "page_size_kb": 75.3,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/en/moa",
+        "title": "Memorandum of Association | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 3,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "moa.final-2016_1_0.pdf",
+          "moa_aoa_nhidcl-amended-upto-08.04.2019_0.pdf"
+        ],
+        "page_size_kb": 44.6,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/rti",
+        "title": "RTI | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 11,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "annual_report.pdf",
+          "auditreport.pdf"
+        ],
+        "page_size_kb": 52.2,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/skill-development-training-program",
+        "title": "Skill Development &amp; Training Programs | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 5,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 46.8,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/tender",
+        "title": "Current Tenders | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 11,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "notice-for-e-pbg-tender-fee-and-emd.pdf",
+          "circular-02-issuance-of-ebg.pdf"
+        ],
+        "page_size_kb": 64.4,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/en/termination",
+        "title": "Termination | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 36,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "termination_order_t-h_d-g_4979_dated_20.04.2026.pdf",
+          "nhidcl_hq_letter_no_3389_dt_17.03.2026.pdf",
+          "letter_no._234_dated_10.03.2026.pdf",
+          "letter_no._235_dated_10.03.2026.pdf",
+          "termination_notice_binni_construction_dated_05.03.2026.pdf",
+          "nhidcl_hq_letter_no_3360_dt_27.02.2026.pdf",
+          "letter_no._4850_dated_25.02.2026-termination_of_contract_under_clause_23.1_ii_of_contract_agreement_vertex.pdf",
+          "nhidcl_hq_letter_no_108_dt_03.02.2026.pdf",
+          "termination_notice_dated_02.02.2026.pdf",
+          "letter_no._4827_dated_27.01.2026_amendment_to_termination_notice_dated_01.08.2025_in_compliance_with_honbe_delhi_high_court_dated_30.10.2025-reg.pdf",
+          "hq_letter_no._721_dated_04.09.2025_termination_notice_under_cl._23.1_of_contract_agreement.pdf",
+          "letter_no_805_dated_03.10.2025_1.pdf",
+          "hq_nhidcl_letter_no._2918_dated_10.07.2025_regarding_termination_notice.pdf",
+          "termination_order_letter_no._4536_dated_05.06.2025.pdf",
+          "letter-no.4475-dated-30.01.2025-termination-notice.pdf",
+          "termination-of-contract-under-gcc-of-ca-nhidcl-hq-letter-no-2671-dt-02.12.2024.pdf",
+          "letter_no._3975_dt._28.08.2024-termination_order.pdf",
+          "termination-letter-to-epc-contractor-dated-24.06.2024.pdf",
+          "TerminationNotice-AK-Construction.pdf",
+          "Termination-of-Contract-of-Ms-KLD-Creation-Infrastructure-Pvt.-Ltd..pdf",
+          "Ms-Mantena-Vasishta-Bridge-JV.pdf",
+          "RO-SHG-L.No_.3751.pdf",
+          "Ms-ARSS-Infrastructure-Projects-Ltd.pdf",
+          "Ms-SL-Infra-Project-India.pdf",
+          "Ms-Hindustan-windows-Mfg.-co.-pkg-II.pdf",
+          "Ms-Hindustan-windows-Mfg.-co.-pkg-I.pdf",
+          "Ms-Feedback-Infra-Pvt.-Ltd..pdf",
+          "Termination-letter-no-1430-dated-07.06.2022.pdf",
+          "L.No_.1233-HQ-to-NPCC-21.12.2021.pdf",
+          "termination-order-npccl-dated-12.08.2021.pdf",
+          "Termination-Ms-real-Letter-No.797.pdf",
+          "Termination-Order-in-ro-Sh.-Ram-Niwas-ex-DGM-P.pdf",
+          "Termination-Letter.pdf",
+          "RO-867.pdf",
+          "Atlanta-Termination-20032018.pdf"
+        ],
+        "page_size_kb": 101.0,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/screen-reader-access",
+        "title": "Screen Reader Access | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 8,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 41.7,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/tender",
+        "title": "Current Tenders | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 11,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "notice-for-e-pbg-tender-fee-and-emd.pdf",
+          "circular-02-issuance-of-ebg.pdf"
+        ],
+        "page_size_kb": 64.4,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/sitemap",
+        "title": "Sitemap | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 40,
+        "keywords_found": [
+          "blacklist",
+          "vigilance"
+        ],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 48.4,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/event",
+        "title": "Events | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 51.5,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/en/independent-external-monitor-iem",
+        "title": "Independent External Monitor (IEM) | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 43.4,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/internal-complaints-committee-icc-",
+        "title": "Internal Complaints Committee (ICC) | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "office_order_regarding_composition_of_icc_dated_20.09.2024.pdf",
+          "posh-act.pdf",
+          "posh-act_0.pdf"
+        ],
+        "page_size_kb": 43.1,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/international-cooperation",
+        "title": "International Cooperation | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 44.2,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/Mizoram",
+        "title": "Mizoram | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 121.7,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/andaman-nicobar",
+        "title": "Andaman &amp; Nicobar | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 76.1,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/arunachal-pradesh",
+        "title": "Arunachal Pradesh | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 205.9,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/assam",
+        "title": "Assam | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 129.4,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/manipur",
+        "title": "Manipur | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 70.3,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/meghalaya",
+        "title": "Meghalaya | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 74.0,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/nagaland",
+        "title": "Nagaland | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 139.4,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/sikkim",
+        "title": "Sikkim | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 110.1,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/tripura",
+        "title": "Tripura | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 108.2,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/union-territory-of-jammu-kashmir",
+        "title": "Union Territory of Jammu &amp; Kashmir | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "ssgs_interview_assam_wb.pdf",
+          "advertisement_for_engagement_of_young_professionals_0.pdf",
+          "recruitment_notice_no._02_of_2026_ink_signed_16.02.2026_0.pdf",
+          "extension-recruitment.pdf"
+        ],
+        "page_size_kb": 74.1,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/union-territory-of-ladakh",
+        "title": "Union Territory of Ladakh | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 87.0,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/ut-jk-kashmir",
+        "title": "UT of J&amp;K (Kashmir) | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 65.2,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/uttarakhand",
+        "title": "Uttarakhand | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 100.7,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/micro-site/west-bengal",
+        "title": "West Bengal | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 92.8,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/our-mission",
+        "title": "Our Mission | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 43.6,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/our-organisation",
+        "title": "Our Organisation | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 47.7,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/our-vision",
+        "title": "Our Vision | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 43.8,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/en/tender-archives",
+        "title": "Tender Archives | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 41.5,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/event",
+        "title": "Events | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 51.5,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/form/feedback",
+        "title": "Feedback | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf"
+        ],
+        "page_size_kb": 46.0,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/homepage",
+        "title": "Home | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "recruitment_notice_no._052026.pdf",
+          "ssgs_interview_assam_wb.pdf",
+          "advertisement_for_engagement_of_young_professionals_0.pdf",
+          "recruitment_notice_no._02_of_2026_ink_signed_16.02.2026_0.pdf",
+          "extension-recruitment.pdf",
+          "nhidcl_ar_2023-24_eng.pdf"
+        ],
+        "page_size_kb": 143.6,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/homepage?themecolor=black",
+        "title": "Home | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "recruitment_notice_no._052026.pdf",
+          "ssgs_interview_assam_wb.pdf",
+          "advertisement_for_engagement_of_young_professionals_0.pdf",
+          "recruitment_notice_no._02_of_2026_ink_signed_16.02.2026_0.pdf",
+          "extension-recruitment.pdf",
+          "nhidcl_ar_2023-24_eng.pdf"
+        ],
+        "page_size_kb": 143.8,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com/homepage?themecolor=blue",
+        "title": "Home | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "sh.-nitin-gadkari-ji-message.pdf",
+          "recruitment_notice_no._052026.pdf",
+          "ssgs_interview_assam_wb.pdf",
+          "advertisement_for_engagement_of_young_professionals_0.pdf",
+          "recruitment_notice_no._02_of_2026_ink_signed_16.02.2026_0.pdf",
+          "extension-recruitment.pdf",
+          "nhidcl_ar_2023-24_eng.pdf"
+        ],
+        "page_size_kb": 143.8,
+        "depth": 2
+      },
+      {
+        "url": "https://nhidcl.com",
+        "title": "Home Page | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 36.0,
+        "depth": 1
+      },
+      {
+        "url": "https://nhidcl.com/",
+        "title": "Home Page | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 36.0,
+        "depth": 0
+      },
+      {
+        "url": "https://nhidcl.com/en",
+        "title": "Home Page | National Highways &amp; Infrastructure Development Corporation Ltd.",
+        "score": 10,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [],
+        "page_size_kb": 36.0,
+        "depth": 2
+      }
+    ],
+    "all_downloadable_files": [
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/sh.-nitin-gadkari-ji-message.pdf",
+        "filename": "sh.-nitin-gadkari-ji-message.pdf"
+      },
+      {
+        "url": "https://www.nhidcl.com/sites/default/files/2026-04/recruitment_notice_no._052026.pdf",
+        "filename": "recruitment_notice_no._052026.pdf"
+      },
+      {
+        "url": "https://www.nhidcl.com/sites/default/files/2026-05/ssgs_interview_assam_wb.pdf",
+        "filename": "ssgs_interview_assam_wb.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-03/advertisement_for_engagement_of_young_professionals_0.pdf",
+        "filename": "advertisement_for_engagement_of_young_professionals_0.pdf"
+      },
+      {
+        "url": "https://www.nhidcl.com/sites/default/files/2026-02/recruitment_notice_no._02_of_2026_ink_signed_16.02.2026_0.pdf",
+        "filename": "recruitment_notice_no._02_of_2026_ink_signed_16.02.2026_0.pdf"
+      },
+      {
+        "url": "https://www.nhidcl.com/sites/default/files/2026-01/extension-recruitment.pdf",
+        "filename": "extension-recruitment.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-05/nhidcl_ar_2023-24_eng.pdf",
+        "filename": "nhidcl_ar_2023-24_eng.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-11/notice-for-e-pbg-tender-fee-and-emd.pdf",
+        "filename": "notice-for-e-pbg-tender-fee-and-emd.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-11/circular-02-issuance-of-ebg.pdf",
+        "filename": "circular-02-issuance-of-ebg.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-01/bp-50m45_20260123_145751_0.pdf",
+        "filename": "bp-50m45_20260123_145751_0.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-02/bp-50m45_20260227_111403_0.pdf",
+        "filename": "bp-50m45_20260227_111403_0.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-11/notice-merged_0.pdf",
+        "filename": "notice-merged_0.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-03/statewise_list_of_shortlisted_candidates.pdf",
+        "filename": "statewise_list_of_shortlisted_candidates.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-11/public_notice_final_dt21.11.2025.pdf",
+        "filename": "public_notice_final_dt21.11.2025.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-05/ssgs_interview_assam_wb.pdf",
+        "filename": "ssgs_interview_assam_wb.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-12/public_notice_state_gps_aoocation_dt_09.12.2025.pdf",
+        "filename": "public_notice_state_gps_aoocation_dt_09.12.2025.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-12/hiring_notice_no._05_of_2025_addendum_23.12.2025.pdf",
+        "filename": "hiring_notice_no._05_of_2025_addendum_23.12.2025.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-01/285565e6-77e9-4437-8c9a-776914852f9a.pdf",
+        "filename": "285565e6-77e9-4437-8c9a-776914852f9a.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-01/public_notice_no._199_dated_14.01.2026_parta_partb_0.pdf",
+        "filename": "public_notice_no._199_dated_14.01.2026_parta_partb_0.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-01/cadre_rule_hindi_ink_signed_copy_dated_01.08.2025.pdf",
+        "filename": "cadre_rule_hindi_ink_signed_copy_dated_01.08.2025.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-02/nhidcl_it_printer_20260202_123118.pdf",
+        "filename": "nhidcl_it_printer_20260202_123118.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-03/bp-50m45_20260319_182741_0.pdf",
+        "filename": "bp-50m45_20260319_182741_0.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-11/public_notice_0.pdf",
+        "filename": "public_notice_0.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-04/notice_for_extension_of_last_date_of_applications_for_engagement_of_young_professionals_2.pdf",
+        "filename": "notice_for_extension_of_last_date_of_applications_for_engagement_of_young_professionals_2.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-12/approved_yp_scheme_for_yp_ep_poe.pdf",
+        "filename": "approved_yp_scheme_for_yp_ep_poe.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-05/bp-50m45_20260506_145757_0.pdf",
+        "filename": "bp-50m45_20260506_145757_0.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-12/public_notice_dt_19.12.2025.pdf",
+        "filename": "public_notice_dt_19.12.2025.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-12/window_advt_hiring_notice_no._05_of_2025_addendum_23.12.2025.pdf",
+        "filename": "window_advt_hiring_notice_no._05_of_2025_addendum_23.12.2025.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-01/recruitment_notice_no._03_of_2025_ink_signed_copy_addendum_13.01.2026_1.pdf",
+        "filename": "recruitment_notice_no._03_of_2025_ink_signed_copy_addendum_13.01.2026_1.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-01/operational_instruction_1_2026.pdf",
+        "filename": "operational_instruction_1_2026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-04/recruitment_notice_no._052026.pdf",
+        "filename": "recruitment_notice_no._052026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2026-04/hindi_version_01_2026.pdf",
+        "filename": "hindi_version_01_2026.pdf"
+      },
+      {
+        "url": "https://www.nhidcl.com/sites/default/files/2026-04/nhidcl_projects_status_as_on_31.03.2026_for_website.pdf",
+        "filename": "nhidcl_projects_status_as_on_31.03.2026_for_website.pdf"
+      },
+      {
+        "url": "https://www.nhidcl.com/sites/default/files/2026-04/project-status-report-march_0.xlsx",
+        "filename": "project-status-report-march_0.xlsx"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/annual_report/nhidcl_ar_2023-24_hindi_final.pdf",
+        "filename": "nhidcl_ar_2023-24_hindi_final.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-01/nhidcl_ar_2022-23_eng-final-29.05.2024-low-1.pdf",
+        "filename": "nhidcl_ar_2022-23_eng-final-29.05.2024-low-1.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/final-english-nhidcl-2023.pdf",
+        "filename": "final-english-nhidcl-2023.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/annual-report-english.pdf",
+        "filename": "annual-report-english.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/english-annual-report-2019-20-1.pdf",
+        "filename": "english-annual-report-2019-20-1.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/nhidcl-ar-2018-19-15-web-2.pdf",
+        "filename": "nhidcl-ar-2018-19-15-web-2.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/nhidcl-ar-2017-18-14.pdf",
+        "filename": "nhidcl-ar-2017-18-14.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/nhidcl-annual-report-2016-2017-new.pdf",
+        "filename": "nhidcl-annual-report-2016-2017-new.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/english-annual-report-2015-16.pdf",
+        "filename": "english-annual-report-2015-16.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/annual_report_2014-2015_20062017.pdf",
+        "filename": "annual_report_2014-2015_20062017.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/CSR/CSR-Revised-policy.pdf",
+        "filename": "CSR-Revised-policy.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-12/annual_return_2024-25.pdf",
+        "filename": "annual_return_2024-25.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-04/form-mgt-7-ar-for-fy-2023-24.pdf",
+        "filename": "form-mgt-7-ar-for-fy-2023-24.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-04/form-mgt-7-ar-for-fy-2022-23.pdf",
+        "filename": "form-mgt-7-ar-for-fy-2022-23.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/annaul-return-2022.pdf",
+        "filename": "annaul-return-2022.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/annaul-return-2021.pdf",
+        "filename": "annaul-return-2021.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-05/mgt-9.pdf",
+        "filename": "mgt-9.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-10/annual_report.pdf",
+        "filename": "annual_report.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-10/auditreport.pdf",
+        "filename": "auditreport.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/MOA%20And%20Notices/moa.final-2016_1_0.pdf",
+        "filename": "moa.final-2016_1_0.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/MOA%20And%20Notices/moa_aoa_nhidcl-amended-upto-08.04.2019_0.pdf",
+        "filename": "moa_aoa_nhidcl-amended-upto-08.04.2019_0.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2025-07/office_order_regarding_composition_of_icc_dated_20.09.2024.pdf",
+        "filename": "office_order_regarding_composition_of_icc_dated_20.09.2024.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-08/posh-act.pdf",
+        "filename": "posh-act.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/2024-08/posh-act_0.pdf",
+        "filename": "posh-act_0.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/index.php/sites/default/files/2024-05/sh.-nitin-gadkari-ji-message.pdf",
+        "filename": "sh.-nitin-gadkari-ji-message.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/black_list/nhidcl_hq_letter_no_110_dt_03.02.2026.pdf",
+        "filename": "nhidcl_hq_letter_no_110_dt_03.02.2026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/black_list/ro_agt_letter_no-606.pdf",
+        "filename": "ro_agt_letter_no-606.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/black_list/ro_agt_letter_no-235_1.pdf",
+        "filename": "ro_agt_letter_no-235_1.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/black_list/letter-no.4475-dated-30.01.2025-termination-notice.pdf",
+        "filename": "letter-no.4475-dated-30.01.2025-termination-notice.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/termination_order_t-h_d-g_4979_dated_20.04.2026.pdf",
+        "filename": "termination_order_t-h_d-g_4979_dated_20.04.2026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/nhidcl_hq_letter_no_3389_dt_17.03.2026.pdf",
+        "filename": "nhidcl_hq_letter_no_3389_dt_17.03.2026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/letter_no._234_dated_10.03.2026.pdf",
+        "filename": "letter_no._234_dated_10.03.2026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/letter_no._235_dated_10.03.2026.pdf",
+        "filename": "letter_no._235_dated_10.03.2026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/termination_notice_binni_construction_dated_05.03.2026.pdf",
+        "filename": "termination_notice_binni_construction_dated_05.03.2026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/nhidcl_hq_letter_no_3360_dt_27.02.2026.pdf",
+        "filename": "nhidcl_hq_letter_no_3360_dt_27.02.2026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/letter_no._4850_dated_25.02.2026-termination_of_contract_under_clause_23.1_ii_of_contract_agreement_vertex.pdf",
+        "filename": "letter_no._4850_dated_25.02.2026-termination_of_contract_under_clause_23.1_ii_of_contract_agreement_vertex.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/nhidcl_hq_letter_no_108_dt_03.02.2026.pdf",
+        "filename": "nhidcl_hq_letter_no_108_dt_03.02.2026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/termination_notice_dated_02.02.2026.pdf",
+        "filename": "termination_notice_dated_02.02.2026.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/letter_no._4827_dated_27.01.2026_amendment_to_termination_notice_dated_01.08.2025_in_compliance_with_honbe_delhi_high_court_dated_30.10.2025-reg.pdf",
+        "filename": "letter_no._4827_dated_27.01.2026_amendment_to_termination_notice_dated_01.08.2025_in_compliance_with_honbe_delhi_high_court_dated_30.10.2025-reg.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/hq_letter_no._721_dated_04.09.2025_termination_notice_under_cl._23.1_of_contract_agreement.pdf",
+        "filename": "hq_letter_no._721_dated_04.09.2025_termination_notice_under_cl._23.1_of_contract_agreement.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/letter_no_805_dated_03.10.2025_1.pdf",
+        "filename": "letter_no_805_dated_03.10.2025_1.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/hq_nhidcl_letter_no._2918_dated_10.07.2025_regarding_termination_notice.pdf",
+        "filename": "hq_nhidcl_letter_no._2918_dated_10.07.2025_regarding_termination_notice.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/termination_order_letter_no._4536_dated_05.06.2025.pdf",
+        "filename": "termination_order_letter_no._4536_dated_05.06.2025.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/letter-no.4475-dated-30.01.2025-termination-notice.pdf",
+        "filename": "letter-no.4475-dated-30.01.2025-termination-notice.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/termination-of-contract-under-gcc-of-ca-nhidcl-hq-letter-no-2671-dt-02.12.2024.pdf",
+        "filename": "termination-of-contract-under-gcc-of-ca-nhidcl-hq-letter-no-2671-dt-02.12.2024.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/letter_no._3975_dt._28.08.2024-termination_order.pdf",
+        "filename": "letter_no._3975_dt._28.08.2024-termination_order.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/termination-letter-to-epc-contractor-dated-24.06.2024.pdf",
+        "filename": "termination-letter-to-epc-contractor-dated-24.06.2024.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/TerminationNotice-AK-Construction.pdf",
+        "filename": "TerminationNotice-AK-Construction.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Termination-of-Contract-of-Ms-KLD-Creation-Infrastructure-Pvt.-Ltd..pdf",
+        "filename": "Termination-of-Contract-of-Ms-KLD-Creation-Infrastructure-Pvt.-Ltd..pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Ms-Mantena-Vasishta-Bridge-JV.pdf",
+        "filename": "Ms-Mantena-Vasishta-Bridge-JV.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/RO-SHG-L.No_.3751.pdf",
+        "filename": "RO-SHG-L.No_.3751.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Ms-ARSS-Infrastructure-Projects-Ltd.pdf",
+        "filename": "Ms-ARSS-Infrastructure-Projects-Ltd.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Ms-SL-Infra-Project-India.pdf",
+        "filename": "Ms-SL-Infra-Project-India.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Ms-Hindustan-windows-Mfg.-co.-pkg-II.pdf",
+        "filename": "Ms-Hindustan-windows-Mfg.-co.-pkg-II.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Ms-Hindustan-windows-Mfg.-co.-pkg-I.pdf",
+        "filename": "Ms-Hindustan-windows-Mfg.-co.-pkg-I.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Ms-Feedback-Infra-Pvt.-Ltd..pdf",
+        "filename": "Ms-Feedback-Infra-Pvt.-Ltd..pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Termination-letter-no-1430-dated-07.06.2022.pdf",
+        "filename": "Termination-letter-no-1430-dated-07.06.2022.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/L.No_.1233-HQ-to-NPCC-21.12.2021.pdf",
+        "filename": "L.No_.1233-HQ-to-NPCC-21.12.2021.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/termination-order-npccl-dated-12.08.2021.pdf",
+        "filename": "termination-order-npccl-dated-12.08.2021.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Termination-Ms-real-Letter-No.797.pdf",
+        "filename": "Termination-Ms-real-Letter-No.797.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Termination-Order-in-ro-Sh.-Ram-Niwas-ex-DGM-P.pdf",
+        "filename": "Termination-Order-in-ro-Sh.-Ram-Niwas-ex-DGM-P.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Termination-Letter.pdf",
+        "filename": "Termination-Letter.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/RO-867.pdf",
+        "filename": "RO-867.pdf"
+      },
+      {
+        "url": "https://nhidcl.com/sites/default/files/Termination/Atlanta-Termination-20032018.pdf",
+        "filename": "Atlanta-Termination-20032018.pdf"
+      }
+    ],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": null
+  },
+  {
+    "domain": "rinl.in",
+    "status": "unreachable",
+    "framework": "unknown",
+    "pages_crawled": 0,
+    "total_links_found": 0,
+    "discoveries": [],
+    "all_downloadable_files": [],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='rinl.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='rinl.in', port=443) at 0x7"
+  },
+  {
+    "domain": "recindia.nic.in",
+    "status": "success",
+    "framework": "unknown",
+    "pages_crawled": 99,
+    "total_links_found": 51,
+    "discoveries": [
+      {
+        "url": "https://recindia.nic.in/absconding-criminals",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "absconding",
+          "criminal"
+        ],
+        "strong_keywords": [
+          "absconding",
+          "criminal"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/banned",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "banned"
+        ],
+        "strong_keywords": [
+          "banned"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/banned-firms",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "banned"
+        ],
+        "strong_keywords": [
+          "banned"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/blacklist",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "blacklist"
+        ],
+        "strong_keywords": [
+          "blacklist"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/blacklisted",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "blacklist"
+        ],
+        "strong_keywords": [
+          "blacklist"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/blacklisted-firms",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "blacklist"
+        ],
+        "strong_keywords": [
+          "blacklist"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/blacklisted-vendors",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "blacklist"
+        ],
+        "strong_keywords": [
+          "blacklist"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/debarred",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "debarred"
+        ],
+        "strong_keywords": [
+          "debarred"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/debarred-list",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "debarred"
+        ],
+        "strong_keywords": [
+          "debarred"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/debarred-vendors",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "debarred"
+        ],
+        "strong_keywords": [
+          "debarred"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/defaulter",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "defaulter"
+        ],
+        "strong_keywords": [
+          "defaulter"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/defaulters",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "defaulter"
+        ],
+        "strong_keywords": [
+          "defaulter"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/defaulters-list",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "defaulter"
+        ],
+        "strong_keywords": [
+          "defaulter"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/economic-offenders",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "offender"
+        ],
+        "strong_keywords": [
+          "offender"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/enforcement",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "enforcement"
+        ],
+        "strong_keywords": [
+          "enforcement"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/enforcement-action",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "enforcement"
+        ],
+        "strong_keywords": [
+          "enforcement"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/enforcement-orders",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "enforcement"
+        ],
+        "strong_keywords": [
+          "enforcement"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/fugitive",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "fugitive"
+        ],
+        "strong_keywords": [
+          "fugitive"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/fugitives",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "fugitive"
+        ],
+        "strong_keywords": [
+          "fugitive"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/most-wanted",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "wanted"
+        ],
+        "strong_keywords": [
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/penalty",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "penalty"
+        ],
+        "strong_keywords": [
+          "penalty"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/proclaimed-offender",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "offender",
+          "proclaimed"
+        ],
+        "strong_keywords": [
+          "offender",
+          "proclaimed"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/proclaimed-offenders",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "offender",
+          "proclaimed"
+        ],
+        "strong_keywords": [
+          "offender",
+          "proclaimed"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/suspended",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "suspended"
+        ],
+        "strong_keywords": [
+          "suspended"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/suspended-members",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "suspended"
+        ],
+        "strong_keywords": [
+          "suspended"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/tax-defaulters",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "defaulter"
+        ],
+        "strong_keywords": [
+          "defaulter"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/vendor-blacklist",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "blacklist"
+        ],
+        "strong_keywords": [
+          "blacklist"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/vigilance",
+        "title": "Vigilance",
+        "score": 70,
+        "keywords_found": [
+          "vigilance"
+        ],
+        "strong_keywords": [
+          "vigilance"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Vigilance-Monitoring-System-in-REC.pdf",
+          "Website-HindiFile.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 23.4,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/vigilance-orders",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "vigilance"
+        ],
+        "strong_keywords": [
+          "vigilance"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/wanted",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "wanted"
+        ],
+        "strong_keywords": [
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/wanted-criminals",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "criminal",
+          "wanted"
+        ],
+        "strong_keywords": [
+          "criminal",
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/wanted-person",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "wanted"
+        ],
+        "strong_keywords": [
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/wanted-persons",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "wanted"
+        ],
+        "strong_keywords": [
+          "wanted"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/wilful-defaulter",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "defaulter",
+          "wilful"
+        ],
+        "strong_keywords": [
+          "defaulter",
+          "wilful"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/wilful-defaulters",
+        "title": "",
+        "score": 70,
+        "keywords_found": [
+          "defaulter",
+          "wilful"
+        ],
+        "strong_keywords": [
+          "defaulter",
+          "wilful"
+        ],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/54EC",
+        "title": "54 EC Capital Gain Tax Exemption Bonds",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 6,
+        "downloadable_files": [
+          "co-cs-necs-ecs-neft-direct-credit-mandate-form-hin-dt090124.pdf",
+          "6.pdf",
+          "co-cs-Constitution-of-Board-level-Committees-dt-010526.pdf",
+          "Website-HindiFile.pdf",
+          "co-rtail-bnds-unclmd-stale-intrst-rdmptn-rtail-bnds-as-on-300426.pdf",
+          "co-instl-bond-policy-unclaimed-amount-hin-dt150424.pdf",
+          "co-cs-signedIntimationVotingresults-55th-agm-dt-191225.pdf",
+          "co-cs-signedIntimationVotingresults-55th-agm-dt-220824-h.pdf",
+          "co-cs-voting-results-54th-agm-hindi-dt221123.pdf",
+          "co-cs-voting-results-53rd-agm-hindi-dt221123.pdf",
+          "co-rtl-bnd-Issue-open-Notice-Hindi-dt-070426.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 36.4,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/ami-test-demonstration",
+        "title": "AMI Test Demonstration",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 67,
+        "downloadable_files": [
+          "FAQs-Smart-Meter-Booklet-with-revised-text-on-27-10-2021.pdf",
+          "AIML-letter-dt210326-with-Annx.pdf",
+          "CO-RDSS-Office-OrderExtension-of-Validity-of-Empanelment-Certificates-dt-25062024.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 49.7,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/careers",
+        "title": "Careers",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 4,
+        "downloadable_files": [
+          "detailed-advertisement-CTO-h.pdf",
+          "co-hr-Status-of-Backlog-vacancies-dt-110725.pdf",
+          "OBC-caste-certificate-format-H.pdf",
+          "4--SCST-Caste-Certificate-Format.docx",
+          "co-hr-EWS-h.pdf",
+          "5--Format-of-PWD-Certificate.docx",
+          "List-of-empanneled-Hospital.docx",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 25.0,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/content-archival-cap-policy",
+        "title": "Content Archival (CAP) Policy",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 9,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 27.4,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/disclosures-under-regulation-46-of-sebi",
+        "title": "Disclosures under Regulation 46 and 62 of SEBI",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 36,
+        "downloadable_files": [
+          "co-cs-necs-ecs-neft-direct-credit-mandate-form-hin-dt090124.pdf",
+          "6.pdf",
+          "co-cs-Constitution-of-Board-level-Committees-dt-010526.pdf",
+          "Website-HindiFile.pdf",
+          "co-rtail-bnds-unclmd-stale-intrst-rdmptn-rtail-bnds-as-on-300426.pdf",
+          "co-instl-bond-policy-unclaimed-amount-hin-dt150424.pdf",
+          "co-cs-signedIntimationVotingresults-55th-agm-dt-191225.pdf",
+          "co-cs-signedIntimationVotingresults-55th-agm-dt-220824-h.pdf",
+          "co-cs-voting-results-54th-agm-hindi-dt221123.pdf",
+          "co-cs-voting-results-53rd-agm-hindi-dt221123.pdf",
+          "Details-of-Business-hindi.pdf",
+          "Hindi-Terms--Conditions-for-appointment-of-IDs-in-REC.pdf",
+          "co-cs-Constitution-of-Board-level-Committees-dt-010526.pdf",
+          "co-cs-CodeBusinessConductEthics-h.pdf",
+          "6-Whistle-Blower-Policy-Revised-H.pdf",
+          "7-Criteria-of-making-payments-to-Non-executive-directors--Provided-in-Annual-Reporth.pdf",
+          "RPT-Policy-of-REC-dated-hinid-290126.pdf",
+          "9Policy-Determining-Material-Subsidiaries-h.pdf",
+          "co-cs-familriztn-progrm-indpndt-directr-hindi-dt020823.pdf",
+          "co-cs-equity-investor-services-contact-details-dt-091225-H.pdf",
+          "14-Name-of-the-debenture-trustee-with-full-contact-details-h.pdf",
+          "23-Credit-ratings-Institutional.pdf",
+          "co-cs-disclsr-plcy-dtrmntn-mtrialty-evnts-info-dt-130126-h.pdf",
+          "co-ca-Final-Dividend-Distribution-Hindi-PolicyDec25.pdf",
+          "co-cs-REC-Altered-MoA-AoA-aft-Obj-chng-2022-dt-201224.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 44.1,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/help",
+        "title": "Help",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 5,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 25.9,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/mou",
+        "title": "MoU",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 7,
+        "downloadable_files": [
+          "co-bdm-MoU--2025-26--dt-020925.pdf",
+          "co-bdm-mou-booklet-fy24-25-dt-27082024-h.pdf",
+          "co-bdm-mou-booklet-fy23-24-dt311023.pdf",
+          "MoU-Booklet-FY2022-23-Dt20-02-23.pdf",
+          "moutarget2021-22-of-REC.pdf",
+          "MoU-28-Oct-2020.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 147.7,
+        "depth": 1
+      },
+      {
+        "url": "https://www.recindia.nic.in/screen-reader-access",
+        "title": "",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 10,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 33.6,
+        "depth": 1
+      },
+      {
+        "url": "https://www.recindia.nic.in/tender_list.php",
+        "title": "Tenders",
+        "score": 60,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": true,
+        "table_row_count": 21,
+        "downloadable_files": [
+          "RECVDP2025-26.pdf",
+          "RECs_on_TReDS.pdf",
+          "Annual Procurement Plan FY 2019-20.pdf",
+          "Annual Procurement Plan FY 2020-21.pdf",
+          "co-pcm-annual-prcurmnt-plan-fy21-22-dt191223.pdf",
+          "co-pcm-next-5yrs-prcrmnt-plns-estmts-hin-dt191223.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 50.5,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/struck-off",
+        "title": "",
+        "score": 40,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in",
+        "title": "REC LIMITED",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 42.9,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/",
+        "title": "REC LIMITED",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 42.9,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/absconder-list",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/absconders",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/banning-list",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/circulars",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/cirp",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/contact",
+        "title": "Contact Us",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 39.5,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/content-contribution-moderation-approval-policy-cmap",
+        "title": "Content Contribution, Moderation &amp;amp; Approval Policy (CMAP)",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 23.2,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/content-review-crp-policy",
+        "title": "Content Review (CRP) Policy",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 22.5,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/contingency-management-plan",
+        "title": "Contingency Management Plan",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 25.1,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/copyright-policy",
+        "title": "Copyright Policy",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 22.6,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/employee-portal",
+        "title": "Employee Portal",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Circularleavefortheyear2025-27112024.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 23.3,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/feedback.php",
+        "title": "\u092a\u094d\u0930\u0924\u093f\u0915\u094d\u0930\u093f\u092f\u093e",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 28.6,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/financial-products",
+        "title": "Financial Products",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "co-loans-recvry-consmr-awrnes-litrture-hin-dt190923.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 25.4,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/government-schemes",
+        "title": "Government Schemes",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "FAQs-Smart-Meter-Booklet-with-revised-text-on-27-10-2021.pdf",
+          "AIML-letter-dt210326-with-Annx.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 25.8,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/grievances",
+        "title": "Grievances",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Contact-details-of-grievance-redressal-officer-under-fair-practice-code-h.pdf",
+          "CO-ESG-Grievance-Redressal-Mechanism-Document-New-090426.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 23.1,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/gst-corner",
+        "title": "GST Corner",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "co-taxation-gst-helpdesk-hin-dt020224.pdf",
+          "co-taxation-recl-gstin-details-hin-dt020224.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 23.1,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/home",
+        "title": "REC LIMITED",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 42.9,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/hyperlink-policy",
+        "title": "Hyperlink Policy",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 22.9,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/india-energy-stack",
+        "title": "India Energy Stack",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 2,
+        "downloadable_files": [
+          "IESStrategy-Documentv02-dt130126.pdf",
+          "IES-ArchitectureDocument-v02-dt-130126.pdf",
+          "IESStrategy-Documentv0.pdf",
+          "IES-Architecture-Documentv0-3Final.pdf",
+          "Press-ReleasePress-Information-Bureau-IES.pdf",
+          "Taskforce-const-along-with-additional-member-dt130126.pdf",
+          "co-ies-Digital-Consumer-Lifecycle-Management-dt100226.pdf",
+          "co-ies-Regulatory-Data-Exchange-dt100226.pdf",
+          "co-ies-Energy-Policy-as-Code-dt100226.pdf",
+          "co-ies-Inter-Discom-P2P-Energy-Trading-India-dt100226.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 36.0,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/india-ndash-africa-strategic-partnership-meet-held-at-bharat-electricity-summit",
+        "title": "India and Africa Strategic Partnership Meet held at Bharat Electricity Summit",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 28.3,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/insolvency-resolution",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/liquidation",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/news_archive.php",
+        "title": "\u0938\u092e\u093e\u091a\u093e\u0930 \u0914\u0930 \u092a\u094d\u0930\u0947\u0938 \u0935\u093f\u091c\u094d\u091e\u092a\u094d\u0924\u093f \u092a\u0941\u0930\u093e\u0932\u0947\u0916",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 33.7,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/notice",
+        "title": "Current Updates",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "co-cs-necs-ecs-neft-direct-credit-mandate-form-hin-dt090124.pdf",
+          "6.pdf",
+          "co-cs-Constitution-of-Board-level-Committees-dt-010526.pdf",
+          "Website-HindiFile.pdf",
+          "co-rtail-bnds-unclmd-stale-intrst-rdmptn-rtail-bnds-as-on-300426.pdf",
+          "co-instl-bond-policy-unclaimed-amount-hin-dt150424.pdf",
+          "co-cs-signedIntimationVotingresults-55th-agm-dt-191225.pdf",
+          "co-cs-signedIntimationVotingresults-55th-agm-dt-220824-h.pdf",
+          "co-cs-voting-results-54th-agm-hindi-dt221123.pdf",
+          "co-cs-voting-results-53rd-agm-hindi-dt221123.pdf",
+          "co-cs-SignedIntimationregardingchange-inBoardofDirectors-Hindi-dt-010526.pdf",
+          "co-cs-SignedIntimationregardingchangeinSeniorManagement-Hindi-dt-060526.pdf",
+          "co-cs-signedIntimation-newspaper-clipping-Hindi-dt-060526.pdf",
+          "co-cs-SignedIntimationofBoardMeeting-Hindi-dt230426.pdf",
+          "co-cs-SignedIntimationregardingcompletionoftenureofID-Hindi-dt200426.pdf",
+          "co-cs-Outcome-of-Board-Meeting-Hindi-dated-April-150426.pdf",
+          "co-cs-SignedDraftintimationChnage-in-KMP-Hindi-dt-130426.pdf",
+          "co-cs-SignedReconciliationofShareCapitalAuditReport-dt-310326.pdf",
+          "co-cs-SignedIntimationregardingchange-inBoardofDirectors-Hindi-dt-070426.pdf",
+          "SignedCompliancecertificateunderreg-745ofSEBI-dt-060426.pdf",
+          "co-cs-SignedIntimationregardingchange-inBoardofDirectors-Hindi-dt-020426.pdf",
+          "co-cs-Intimation-for-Closure-of-trading-window-Hindi-dt-250326.pdf",
+          "co-cs-Outcome-of-Board-Meeting-Hindi-dated-March-250326.pdf",
+          "co-cs-SignedIntimationofBoardMeeting-Hindi-dt200326.pdf",
+          "co-cs-BoardCommentsonFine-LeviedbytheExchanges-Hindi-dt180326.pdf",
+          "co-cs-SignedNewspaperClippings-Hindi-dt-170326.pdf",
+          "co-cs-Outcome-of-Board-Meeting-Hindi-dated-March-160326.pdf",
+          "co-cs-SignedIntimationofBoardMeeting-Hindi-dt110326.pdf",
+          "co-cs-SignedIntimationregardingcompletionoftenureofID-Hindi-dt030326.pdf",
+          "co-cs-SignedIntimationregardingchangeinSeniorManagementdt-Hindi-010326.pdf",
+          "co-cs-SignedIntimationofsaleandtransferSPV-Hindi-dt-260226.pdf",
+          "co-cs-SignedIntimationincorporationsubsidiarycompany-Hindi-160226.pdf",
+          "co-cs-SignedIntimationbriefupdateregardingRECPFCrestructuring-Hindi-dt-120226.pdf",
+          "co-cs-SignedIntimationofsaleandtransferSPV-Hindi-dt-120226.pdf",
+          "co-cs-SignedIntimationregardingchangeinSeniorManagementdt-Hindi-110226.pdf",
+          "co-cs-SignedOutcomeofBoardMeeting060226Hindi.pdf",
+          "co-cs-SignedClarificationonNewsitems-2709E-dt-030226Hindi.pdf",
+          "co-cs-SignedIntimationregardingchange-inBoardofDirectors-Hindi-dt-010226.pdf",
+          "co-cs-SignedNewspaperpublicationIntimation300126Hindi.pdf",
+          "co-cs-Outcome-of-Board-Meeting-dt290126Hinid.pdf",
+          "co-cs-SignedIntimationofBoardMeeting-H-dt230126.pdf",
+          "co-cs-SignedIntimationOfStrikeOff200126-H.pdf",
+          "co-cs-BoardCommentsonFine-LeviedbytheExchanges190126-H.pdf",
+          "co-cs-SignedIntimationofBoardMeeting190126-H.pdf",
+          "co-cs-Signed-Intimation-of-sale-transfer-project-specific-SPVs-dt-090126H.pdf",
+          "co-cs-signedIntimationMoURatingREC080126H.pdf",
+          "SignedIntimationofIncorpoof-SubsComdt070126H.pdf",
+          "SignedReconciliationofShareCapitalAuditReport-dt-060126.pdf",
+          "SignedCompliancecertificateunderreg-745ofSEBI-dt-060126.pdf",
+          "SignedIntimationregardingchangeinSeniorManagementdt010126H.pdf",
+          "co-cs-SignedintimationofNewspaperpublication-dt-291225.pdf",
+          "co-cs-signedInfofIncorpoof-SuryCom-dt-261225H.pdf",
+          "Signed-Intimation-closure-oftrad-window-dt-261225.pdf",
+          "co-cs-signedInfmtnLtrofIncorpoof-SubsidiaryCom-Hindi-dt-251225.pdf",
+          "co-cs-signedInfmtnLtrofIncorporationof-SubsidiaryCompany-2658-dt-201225.pdf",
+          "co-cs-signedInfmtnLtrofIncorporationof-SubsidiaryCompany-2657-dt-191225.pdf",
+          "co-cs-signedInfmtnLtrofIncorporationof-SubsidiaryCompany-2655-dt-191225.pdf",
+          "INITIMATION-REGARDING-CHANGE-IN-SENIOR-MANAGEMENT.pdf",
+          "Intimation-regarding-change-in-Company-Secretary-and-Compliance-Officer-h.pdf",
+          "SignedIntimationofIncorporationofSubsidiaryCompanies-h.pdf",
+          "co-cs-SignedIntimationinvestorcall-dt-291025-h.pdf",
+          "co-cs-SignedintimationofNewspaperPublication181025.pdf",
+          "Intimation-of-sale-and-transfer-of-project-specific-SPVs-Subsidiaries-1.pdf",
+          "Outcome-of-Board-Meeting-held-on-October-17-2025-1.pdf",
+          "co-cs-BoardCommentsonFine-LeviedbytheExchanges-hindi-161025.pdf",
+          "co-cs-SignedIntimationofBoardMeetingHindi-141025.pdf",
+          "Submission-of-Reconciliation-of-Share-Capital-Audit-Report-for-the-quarter-ended-September-302025.pdf",
+          "co-cs-SignedIntimationregardingchangeinSeniorManagementHindidt071025.pdf",
+          "Certificate-under-Regulation-745-of-SEBI-Depositories-and-Participants-Regulations-2018.pdf",
+          "co-cs-Intimation-regarding-change-in-Board-of-Directors-hindi-031025.pdf",
+          "co-cs-SignedIntimationofIncorpoof-SubsComdt300925.pdf",
+          "Intimation-of-sale-and-transfer-of-project-specific-subsidiarySPV-h.pdf",
+          "co-cs-SignedIntimationofIncorpoof-SubsComdt250925.pdf",
+          "SignedIntimationforclosureoftradingwindow-h.pdf",
+          "SignedIntimationofsaleandtransferofSPV-h.pdf",
+          "Intimation-regarding-change-in-Senior-Management-h.pdf",
+          "SignedAppointmentofStatutoryAuditors160925-h.pdf",
+          "co-cs-Signedvotingresultsof56thAGM-dt-290825-h.pdf",
+          "co-cs-signedProceedings56thAGM-dt-270825-h.pdf",
+          "co-cs-Newspaper-publication-of-Notice-of-56th-AGM-dt-040825-h.pdf",
+          "Notice-of-56th-AGM-FY-24-25-H.pdf",
+          "Business-Responsibility--Sustainability-Report-for-FY-2024-25-H.pdf",
+          "co-cs-SignedIntimationofnewspaperpublication-Hindi-dt-310725.pdf",
+          "co-cs-SignedIntimationofAudioRecording-dt-310725-h.pdf",
+          "co-cs-SignedintimationofNewspaperPublication250725-h.pdf",
+          "co-cs-Outcome-of-Board-Meeting-dt240725.pdf",
+          "co-cs-signedintimationofboardmeeting2107-h.pdf",
+          "co-cs-SignedintimationofNewspaperpublication-dt-190725merged-h.pdf",
+          "Submission-of-Reconciliation-of-Share-Capital-Audit-Report-for-the-quarter-ended-300625.pdf",
+          "co-cs-Signedboardcommentsonfine-080725-H.pdf",
+          "Certificate-under-Regulation-745-of-SEBI-Depositories-and-Participants-Regulations-hindi080725.pdf",
+          "co-cs-Signed-Intimation-incorporationofsubsidiary-070725-H.pdf",
+          "co-cs-SignedIntimationofincorporationofsubsidiarycompany-dt-010725-h.pdf",
+          "co-cs-SignedIntimationchangeinBoardofDirectors-Hindi-dt-010725.pdf",
+          "co-cs-SignedIntimationregardingchangeinSeniorManagement-Hindi-dt-010725.pdf",
+          "co-cs-Signedclarificationonmediareports-dt-H-300625.pdf",
+          "co-cs-Incorporationofsubsidiarycompany-dt-300625-h.pdf",
+          "co-cs-Intimation-for-Closure-of-trading-window-dt-270625-H.pdf",
+          "co-cs-SignedIintimationIncorporationofsubsidiary270625-h.pdf",
+          "co-cs-Signedincorporationofsubsidiarycompany-dt-260625-h.pdf",
+          "co-cs-SignedIntimationincorporationofsubsidiary-dt-180625-h.pdf",
+          "co-cs-SignedOutcomeofBoD040625-h.pdf",
+          "co-cs-SignedIntimationsaleofSPV-dt-300525-H.pdf",
+          "co-cs-SignedIncoporationRobertsganj290525-H.pdf",
+          "co-cs-SignedBoardcommentsfine-dt-260525--h.pdf",
+          "co-cs-SignedIntimationincorporationdt-21052025-H.pdf",
+          "co-cs-SignedIntimationincorporationdt-dt-20052025-H.pdf",
+          "co-cs-SignedIntimationAudiorecording140525-h.pdf",
+          "co-cs-signedIntimationnewspaper-dt-090525-h.pdf",
+          "co-cs-Intimation-of-Investors-Conference-Call-on-14-may-2025-h.pdf",
+          "co-cs-Outcome-of-Board-Meeting-held-on-May-8-2025-H.pdf",
+          "co-cs-SignedIntimationregardingchange-inBoardofDirectors-dt-220425-H.pdf",
+          "co-cs-IntimationregardingAppointmentofIndependentDirectorsSigned-dt-180425-H.pdf",
+          "co-cs-SignedIntimationchangeinSM-dt160425-H.pdf",
+          "co-cs-SignedReconciliationofShareCapital-dt-090425-h.pdf",
+          "co-cs-SignedIntimationCertificateunderRegulation745040425-h.pdf",
+          "co-cs-SignedIntimationincorporationdt-310325-h.pdf",
+          "co-cs-signedIntimationSaleandtransfer260325-h.pdf",
+          "co-cs-SignedIntimation-sale-dt-280325-h.pdf",
+          "co-cs-DSCBMOutcomeCIA260325--H.pdf",
+          "co-cs-SignedIntimationforclosureoftradingwindow-dt-250325-h.pdf",
+          "co-cs-SignedIntimationSaleandtransfer240325-h.pdf",
+          "co-cs-SignedIntimationofBOD-dt-210325-h.pdf",
+          "co-cs-SignedintimationChangeinBoard-dt-210325-h.pdf",
+          "co-cs-SignedNewspaperClippingsregdgRecordDate-dt-200325--h.pdf",
+          "co-cs-SignedIntimationofInvestormeet070325-h.pdf",
+          "co-cs-SignedIntimationofBoardMeeting-03032025-h.pdf",
+          "co-cs-SignedMergedintimation18022025.pdf",
+          "co-cs-DSCRECSaleofSPV14022025-h.pdf",
+          "co-cs-SignedIntimationfornewspaperclippings-dt-070225-h.pdf",
+          "co-cs-Outcome-of-Board-Meeting-dt-06022025-h.pdf",
+          "co-cs-SignedIntimationICAIAward-dt-020225-h.pdf",
+          "co-cs-SignedIntimationofBoardMeeting-dt-300125-h.pdf",
+          "co-cs-Signed-chng-mgmt-dt-150125-h.pdf",
+          "co-cs-SignedReg745-dt-080125--h.pdf",
+          "co-cs-Signedbusinessperformance-dt-030125-h.pdf",
+          "co-cs-signedIntimationSaleofsubsidiaries-dt-30122024-h.pdf",
+          "co-cs-SignedBoardComments131224-Hindi.pdf",
+          "co-cs-News-Clippings-111224-hindi.pdf",
+          "co-cs-DSCBMOutcomeCIA06122024-Hindi.pdf",
+          "co-cs-Signedintimation-chng-sr-mgmt-dt-011224.pdf",
+          "co-cs-SignedIntimation30112024-Hindi.pdf",
+          "co-cs-SignedIntimationregardingchangeinSM291124-Hindi.pdf",
+          "co-cs-SignedIntimationIncorporation201124-h.pdf",
+          "co-cs-cessation-of-Independent-Director-New-dt-151124-h.pdf",
+          "co-cs-ERES-dt-141124-h.pdf",
+          "co-cs-SignedIntimationSaleBikanerABikanerB111124-h.pdf",
+          "co-cs-SignedIncorporationSubsidiaryCompany301024.pdf",
+          "co-cs-SignedRECCIM01112024-h.pdf",
+          "co-cs-SignedAudioRecordingInvestorCall281024-h.pdf",
+          "co-cs-outcomebm-dt-261024.pdf",
+          "co-cs-SignedIntimationIncorporationBanaskantha261024-1.pdf",
+          "co-cs-SignedIntimationincorporation-241024-h.pdf",
+          "co-cs-signedintimationchangeinSM011024-h.pdf",
+          "co-cs-DSCRECBMOutcome-dt-30092024-h.pdf",
+          "co-cs-DSCRECAuditorAppointment26092024-h.pdf",
+          "Website-HindiFile.pdf",
+          "co-cs-SignedIntimationKhavdaIVAIVC-h-dt-300824.pdf",
+          "co-cs-signedIntimationSaleBhadlaIII-h-dt-280824.pdf",
+          "co-cs-signedrajastahnpowerivb-dt150824--h.pdf",
+          "co-cs-SignedClarificationon-news-item-h-dt-27082024.pdf",
+          "CO-Cs-DSCRECBMOutcome27072024-h.pdf",
+          "co-cs-Intimation-on-Board-Meeting-on-270724-updated.pdf",
+          "CO-Cs-Intimation-of-Board-Meeting--on-July-27-2024.pdf",
+          "Co-Cs-Intimation-for-change-of-Investor-email-id.pdf",
+          "CO-CS--Reconciliation-Share-Capital-Audit-Report-for-the-quarter-ended-June-30-2024.pdf",
+          "CO-CS-Certificate-under-Regulation-745-of-SEBI-Depositories-and-Participants-Regulations-2018-dt-080724.pdf",
+          "co-cs-DSCRECBusinessUpdates01072024.pdf",
+          "co-cs-Closure-of-trading-window-dated-28-june-2024-h.pdf",
+          "co-cs-press-release-dt-190624-h.pdf",
+          "co-cs-record-date-dt280624-h.pdf",
+          "Co-CS-Information-regarding-loss-of-share-certificates-dt-14062024.pdf",
+          "co-cs-intimation-change-in-senior-management-dt-010624-h.pdf",
+          "CO-CS-DSCRECSaleofSPV30052024.pdf",
+          "CO-CS-Intimation-of-Board-Meeting-scheduled-on-31-05-2024.pdf",
+          "CO-CS-Intimation-regarding-chage-in-Senior-Management.pdf",
+          "CO-CS-Intimation-of-incorporation-of-subsidiary-companies.pdf",
+          "CO-CS-Information-regarding-appointment-of-Director-Finance-of-REC-Limited.pdf",
+          "CO-CS-DSCRECinformationregardinglossofsharecertificates.pdf",
+          "co-cs-intmtn-invstrs-confrnce-call-dsc-080524-h.pdf",
+          "co-cs-general-updates-receipt-noc-rbi-dt030524-h.pdf",
+          "co-cs-outcm-brd-mtng-hin-dt030524.pdf",
+          "co-cs-crtfcte-regltn-745-sebi-dpstries-prtcpnts-regltns-2018-hin-dt030524.pdf",
+          "co-cs-sbmsn-cmplnc-crtfct-regltn-73-sebi-lodr-regltns2015-hin-dt230424.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 93.6,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/notice-regarding-launch-of-new-series-rec-cgte-bonds",
+        "title": "Notice regarding Launch of New Series of REC CGTE Bonds",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 23.2,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/notices",
+        "title": "Notices",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 22.9,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/oda-loans",
+        "title": "ODA Loans",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 22.1,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/official-language-department",
+        "title": "OFFICIAL LANGUAGE DEPARTMENT",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 27.9,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/our-csr-initiatives",
+        "title": "Our CSR Initiatives",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "co-csr-compendium-dt080923.pdf",
+          "co-csr-Updated-list-of-project-sanctioned-Hindi-dt-300625.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 26.2,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/penalties",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/public-announcement",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/public-announcements",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/rec-declares-highest-ever-profits-of-rs-16-282-crore-and-total-dividend-18-55-per-share-for-the-year",
+        "title": "REC DECLARES HIGHEST EVER PROFITS OF RS. 16,282 CRORE  AND HIGHEST TOTAL DIVIDEND OF \u20b918.55 PER SHARE FOR THE YEAR",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 29.2,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/regulatory-actions",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/regulatory-orders",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/resource-center",
+        "title": "Resource Center",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "Scan20170823162228.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 23.0,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/right-to-information",
+        "title": "Right to Information",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "RTI-Act-H-2005-dt-18-11-2025.pdf",
+          "co-rti-handbook-xvi-name-desig-other-particulars-pio-dt291225-H.pdf",
+          "rtihowapplyh.pdf",
+          "RTI-Audit-summary-report-provided-by-NPTI-year-2020-21-Hindi.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 24.0,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/security-policy",
+        "title": "Security Policy",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 22.6,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/shri-rajesh-kumar-assumes-charge-as-director-finance-of-rec-limited",
+        "title": "Shri Rajesh Kumar Assumes Charge as Director (Finance) of REC Limited",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 26.8,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/sitemap",
+        "title": "Sitemap",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "co-loans-recvry-consmr-awrnes-litrture-hin-dt190923.pdf",
+          "co-cs-necs-ecs-neft-direct-credit-mandate-form-hin-dt090124.pdf",
+          "6.pdf",
+          "co-cs-Constitution-of-Board-level-Committees-dt-010526.pdf",
+          "Website-HindiFile.pdf",
+          "co-rtail-bnds-unclmd-stale-intrst-rdmptn-rtail-bnds-as-on-300426.pdf",
+          "co-instl-bond-policy-unclaimed-amount-hin-dt150424.pdf",
+          "co-cs-signedIntimationVotingresults-55th-agm-dt-191225.pdf",
+          "co-cs-signedIntimationVotingresults-55th-agm-dt-220824-h.pdf",
+          "co-cs-voting-results-54th-agm-hindi-dt221123.pdf",
+          "co-cs-voting-results-53rd-agm-hindi-dt221123.pdf",
+          "co-csr-compendium-dt080923.pdf",
+          "co-csr-Updated-list-of-project-sanctioned-Hindi-dt-300625.pdf",
+          "FAQs-Smart-Meter-Booklet-with-revised-text-on-27-10-2021.pdf",
+          "AIML-letter-dt210326-with-Annx.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 39.1,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/smart-odr-portal",
+        "title": "SMART ODR Portal",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 22.2,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/sustainability",
+        "title": "ESG",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 1,
+        "downloadable_files": [
+          "1-ESG-Governance-pdf-100426.pdf",
+          "2-Materiality-Analysis--Stakeholder-Engagement-pdf-230426.pdf",
+          "3-Climate-Action-Transition-finance--Green-Portfolio-Growth-pdf-100426.pdf",
+          "4-Environment--Social-Risk-assessmnet-pdf-100426.pdf",
+          "5-Operational-Footprint-Management-pdf-100426.pdf",
+          "6-Diversity--talent-Management-pdf-100426.pdf",
+          "7-Employe-Safety-Health-and-Wellbeing-pdf-100426.pdf",
+          "8-Corporate-Social-Responsbility-pdf-100426.pdf",
+          "9-Cyber-Ressiliance-and-Data-Security-pdf-100426.pdf",
+          "10-Board-Structure-and-Governance-dt-070526.pdf",
+          "11-Business-Ethics-pdf-100426.pdf",
+          "12-Risk-Management-pdf-100426.pdf",
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 34.0,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/terms-conditions",
+        "title": "Terms & Conditions",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 23.4,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/union-ministers-inaugurate-rec-limited-rsquo-s-green-multiplier-pavilion-at-bharat-electricity-summit",
+        "title": "Union Ministers Inaugurate REC Limited Green Multiplier Pavilion at Bharat Electricity Summit",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 27.7,
+        "depth": 1
+      },
+      {
+        "url": "https://recindia.nic.in/vendor-debarment",
+        "title": "",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 20.0,
+        "depth": 0
+      },
+      {
+        "url": "https://recindia.nic.in/website-monitoring-plan",
+        "title": "Website Monitoring Plan",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 22.8,
+        "depth": 1
+      },
+      {
+        "url": "https://www.recindia.nic.in/broken-links-policy",
+        "title": "Broken Links Policy",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 22.2,
+        "depth": 1
+      },
+      {
+        "url": "https://www.recindia.nic.in/corporate-profile",
+        "title": "REC LTD - Corporate Profile",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 1,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 29.1,
+        "depth": 1
+      },
+      {
+        "url": "https://www.recindia.nic.in/press-release",
+        "title": "Press Release",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 32.5,
+        "depth": 1
+      },
+      {
+        "url": "https://www.recindia.nic.in/privacy-policy",
+        "title": "Privacy Policy",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 24.5,
+        "depth": 1
+      },
+      {
+        "url": "https://www.recindia.nic.in/recipmt",
+        "title": "REC Institute Of Power Management and Training (RECIPMT)",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 26.7,
+        "depth": 1
+      },
+      {
+        "url": "https://www.recindia.nic.in/recpdcl",
+        "title": "RECPDCL",
+        "score": 30,
+        "keywords_found": [],
+        "strong_keywords": [],
+        "has_table": false,
+        "table_row_count": 0,
+        "downloadable_files": [
+          "stqc_certificate.pdf",
+          "REC-ISO27001.pdf"
+        ],
+        "page_size_kb": 74.9,
+        "depth": 1
+      }
+    ],
+    "all_downloadable_files": [
+      {
+        "url": "https://recindia.nic.in/images/pdf-files/stqc_certificate.pdf",
+        "filename": "stqc_certificate.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/REC-ISO27001.pdf",
+        "filename": "REC-ISO27001.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/images/pdf-files/stqc_certificate.pdf",
+        "filename": "stqc_certificate.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-loans-recvry-consmr-awrnes-litrture-hin-dt190923.pdf",
+        "filename": "co-loans-recvry-consmr-awrnes-litrture-hin-dt190923.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-cs-necs-ecs-neft-direct-credit-mandate-form-hin-dt090124.pdf",
+        "filename": "co-cs-necs-ecs-neft-direct-credit-mandate-form-hin-dt090124.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/6.pdf",
+        "filename": "6.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-cs-Constitution-of-Board-level-Committees-dt-010526.pdf",
+        "filename": "co-cs-Constitution-of-Board-level-Committees-dt-010526.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/Website-HindiFile.pdf",
+        "filename": "Website-HindiFile.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-rtail-bnds-unclmd-stale-intrst-rdmptn-rtail-bnds-as-on-300426.pdf",
+        "filename": "co-rtail-bnds-unclmd-stale-intrst-rdmptn-rtail-bnds-as-on-300426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-instl-bond-policy-unclaimed-amount-hin-dt150424.pdf",
+        "filename": "co-instl-bond-policy-unclaimed-amount-hin-dt150424.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-cs-signedIntimationVotingresults-55th-agm-dt-191225.pdf",
+        "filename": "co-cs-signedIntimationVotingresults-55th-agm-dt-191225.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-cs-signedIntimationVotingresults-55th-agm-dt-220824-h.pdf",
+        "filename": "co-cs-signedIntimationVotingresults-55th-agm-dt-220824-h.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-cs-voting-results-54th-agm-hindi-dt221123.pdf",
+        "filename": "co-cs-voting-results-54th-agm-hindi-dt221123.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-cs-voting-results-53rd-agm-hindi-dt221123.pdf",
+        "filename": "co-cs-voting-results-53rd-agm-hindi-dt221123.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-rtl-bnd-Issue-open-Notice-Hindi-dt-070426.pdf",
+        "filename": "co-rtl-bnd-Issue-open-Notice-Hindi-dt-070426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/Details-of-Business-hindi.pdf",
+        "filename": "Details-of-Business-hindi.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/Hindi-Terms--Conditions-for-appointment-of-IDs-in-REC.pdf",
+        "filename": "Hindi-Terms--Conditions-for-appointment-of-IDs-in-REC.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-cs-Constitution-of-Board-level-Committees-dt-010526.pdf",
+        "filename": "co-cs-Constitution-of-Board-level-Committees-dt-010526.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-cs-CodeBusinessConductEthics-h.pdf",
+        "filename": "co-cs-CodeBusinessConductEthics-h.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/6-Whistle-Blower-Policy-Revised-H.pdf",
+        "filename": "6-Whistle-Blower-Policy-Revised-H.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/7-Criteria-of-making-payments-to-Non-executive-directors--Provided-in-Annual-Reporth.pdf",
+        "filename": "7-Criteria-of-making-payments-to-Non-executive-directors--Provided-in-Annual-Reporth.pdf"
+      },
+      {
+        "url": "https://recindia.nic.in/uploads/files/RPT-Policy-of-REC-dated-hinid-290126.pdf",
+        "filename": "RPT-Policy-of-REC-dated-hinid-290126.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/9Policy-Determining-Material-Subsidiaries-h.pdf",
+        "filename": "9Policy-Determining-Material-Subsidiaries-h.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-cs-familriztn-progrm-indpndt-directr-hindi-dt020823.pdf",
+        "filename": "co-cs-familriztn-progrm-indpndt-directr-hindi-dt020823.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-cs-equity-investor-services-contact-details-dt-091225-H.pdf",
+        "filename": "co-cs-equity-investor-services-contact-details-dt-091225-H.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/14-Name-of-the-debenture-trustee-with-full-contact-details-h.pdf",
+        "filename": "14-Name-of-the-debenture-trustee-with-full-contact-details-h.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/23-Credit-ratings-Institutional.pdf",
+        "filename": "23-Credit-ratings-Institutional.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-cs-disclsr-plcy-dtrmntn-mtrialty-evnts-info-dt-130126-h.pdf",
+        "filename": "co-cs-disclsr-plcy-dtrmntn-mtrialty-evnts-info-dt-130126-h.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-ca-Final-Dividend-Distribution-Hindi-PolicyDec25.pdf",
+        "filename": "co-ca-Final-Dividend-Distribution-Hindi-PolicyDec25.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-cs-REC-Altered-MoA-AoA-aft-Obj-chng-2022-dt-201224.pdf",
+        "filename": "co-cs-REC-Altered-MoA-AoA-aft-Obj-chng-2022-dt-201224.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-csr-compendium-dt080923.pdf",
+        "filename": "co-csr-compendium-dt080923.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-csr-Updated-list-of-project-sanctioned-Hindi-dt-300625.pdf",
+        "filename": "co-csr-Updated-list-of-project-sanctioned-Hindi-dt-300625.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/IESStrategy-Documentv02-dt130126.pdf",
+        "filename": "IESStrategy-Documentv02-dt130126.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/IES-ArchitectureDocument-v02-dt-130126.pdf",
+        "filename": "IES-ArchitectureDocument-v02-dt-130126.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/IESStrategy-Documentv0.pdf",
+        "filename": "IESStrategy-Documentv0.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/IES-Architecture-Documentv0-3Final.pdf",
+        "filename": "IES-Architecture-Documentv0-3Final.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/Press-ReleasePress-Information-Bureau-IES.pdf",
+        "filename": "Press-ReleasePress-Information-Bureau-IES.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/Taskforce-const-along-with-additional-member-dt130126.pdf",
+        "filename": "Taskforce-const-along-with-additional-member-dt130126.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-ies-Digital-Consumer-Lifecycle-Management-dt100226.pdf",
+        "filename": "co-ies-Digital-Consumer-Lifecycle-Management-dt100226.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-ies-Regulatory-Data-Exchange-dt100226.pdf",
+        "filename": "co-ies-Regulatory-Data-Exchange-dt100226.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-ies-Energy-Policy-as-Code-dt100226.pdf",
+        "filename": "co-ies-Energy-Policy-as-Code-dt100226.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-ies-Inter-Discom-P2P-Energy-Trading-India-dt100226.pdf",
+        "filename": "co-ies-Inter-Discom-P2P-Energy-Trading-India-dt100226.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/FAQs-Smart-Meter-Booklet-with-revised-text-on-27-10-2021.pdf",
+        "filename": "FAQs-Smart-Meter-Booklet-with-revised-text-on-27-10-2021.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/AIML-letter-dt210326-with-Annx.pdf",
+        "filename": "AIML-letter-dt210326-with-Annx.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/CO-RDSS-Office-OrderExtension-of-Validity-of-Empanelment-Certificates-dt-25062024.pdf",
+        "filename": "CO-RDSS-Office-OrderExtension-of-Validity-of-Empanelment-Certificates-dt-25062024.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/1-ESG-Governance-pdf-100426.pdf",
+        "filename": "1-ESG-Governance-pdf-100426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/2-Materiality-Analysis--Stakeholder-Engagement-pdf-230426.pdf",
+        "filename": "2-Materiality-Analysis--Stakeholder-Engagement-pdf-230426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/3-Climate-Action-Transition-finance--Green-Portfolio-Growth-pdf-100426.pdf",
+        "filename": "3-Climate-Action-Transition-finance--Green-Portfolio-Growth-pdf-100426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/4-Environment--Social-Risk-assessmnet-pdf-100426.pdf",
+        "filename": "4-Environment--Social-Risk-assessmnet-pdf-100426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/5-Operational-Footprint-Management-pdf-100426.pdf",
+        "filename": "5-Operational-Footprint-Management-pdf-100426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/6-Diversity--talent-Management-pdf-100426.pdf",
+        "filename": "6-Diversity--talent-Management-pdf-100426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/7-Employe-Safety-Health-and-Wellbeing-pdf-100426.pdf",
+        "filename": "7-Employe-Safety-Health-and-Wellbeing-pdf-100426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/8-Corporate-Social-Responsbility-pdf-100426.pdf",
+        "filename": "8-Corporate-Social-Responsbility-pdf-100426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/9-Cyber-Ressiliance-and-Data-Security-pdf-100426.pdf",
+        "filename": "9-Cyber-Ressiliance-and-Data-Security-pdf-100426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/10-Board-Structure-and-Governance-dt-070526.pdf",
+        "filename": "10-Board-Structure-and-Governance-dt-070526.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/11-Business-Ethics-pdf-100426.pdf",
+        "filename": "11-Business-Ethics-pdf-100426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/12-Risk-Management-pdf-100426.pdf",
+        "filename": "12-Risk-Management-pdf-100426.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/RECVDP2025-26.pdf",
+        "filename": "RECVDP2025-26.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/RECs_on_TReDS.pdf",
+        "filename": "RECs_on_TReDS.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/Annual Procurement Plan FY 2019-20.pdf",
+        "filename": "Annual Procurement Plan FY 2019-20.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/Annual Procurement Plan FY 2020-21.pdf",
+        "filename": "Annual Procurement Plan FY 2020-21.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-pcm-annual-prcurmnt-plan-fy21-22-dt191223.pdf",
+        "filename": "co-pcm-annual-prcurmnt-plan-fy21-22-dt191223.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/co-pcm-next-5yrs-prcrmnt-plns-estmts-hin-dt191223.pdf",
+        "filename": "co-pcm-next-5yrs-prcrmnt-plns-estmts-hin-dt191223.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/Circularleavefortheyear2025-27112024.pdf",
+        "filename": "Circularleavefortheyear2025-27112024.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/detailed-advertisement-CTO-h.pdf",
+        "filename": "detailed-advertisement-CTO-h.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-hr-Status-of-Backlog-vacancies-dt-110725.pdf",
+        "filename": "co-hr-Status-of-Backlog-vacancies-dt-110725.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/OBC-caste-certificate-format-H.pdf",
+        "filename": "OBC-caste-certificate-format-H.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/4--SCST-Caste-Certificate-Format.docx",
+        "filename": "4--SCST-Caste-Certificate-Format.docx"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-hr-EWS-h.pdf",
+        "filename": "co-hr-EWS-h.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/5--Format-of-PWD-Certificate.docx",
+        "filename": "5--Format-of-PWD-Certificate.docx"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/List-of-empanneled-Hospital.docx",
+        "filename": "List-of-empanneled-Hospital.docx"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-bdm-MoU--2025-26--dt-020925.pdf",
+        "filename": "co-bdm-MoU--2025-26--dt-020925.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-bdm-mou-booklet-fy24-25-dt-27082024-h.pdf",
+        "filename": "co-bdm-mou-booklet-fy24-25-dt-27082024-h.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-bdm-mou-booklet-fy23-24-dt311023.pdf",
+        "filename": "co-bdm-mou-booklet-fy23-24-dt311023.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/MoU-Booklet-FY2022-23-Dt20-02-23.pdf",
+        "filename": "MoU-Booklet-FY2022-23-Dt20-02-23.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/moutarget2021-22-of-REC.pdf",
+        "filename": "moutarget2021-22-of-REC.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/MoU-28-Oct-2020.pdf",
+        "filename": "MoU-28-Oct-2020.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/Contact-details-of-grievance-redressal-officer-under-fair-practice-code-h.pdf",
+        "filename": "Contact-details-of-grievance-redressal-officer-under-fair-practice-code-h.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/CO-ESG-Grievance-Redressal-Mechanism-Document-New-090426.pdf",
+        "filename": "CO-ESG-Grievance-Redressal-Mechanism-Document-New-090426.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/Vigilance-Monitoring-System-in-REC.pdf",
+        "filename": "Vigilance-Monitoring-System-in-REC.pdf"
+      },
+      {
+        "url": "https://recindia.nic.in/uploads/files/Website-HindiFile.pdf",
+        "filename": "Website-HindiFile.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-taxation-gst-helpdesk-hin-dt020224.pdf",
+        "filename": "co-taxation-gst-helpdesk-hin-dt020224.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-taxation-recl-gstin-details-hin-dt020224.pdf",
+        "filename": "co-taxation-recl-gstin-details-hin-dt020224.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/RTI-Act-H-2005-dt-18-11-2025.pdf",
+        "filename": "RTI-Act-H-2005-dt-18-11-2025.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/co-rti-handbook-xvi-name-desig-other-particulars-pio-dt291225-H.pdf",
+        "filename": "co-rti-handbook-xvi-name-desig-other-particulars-pio-dt291225-H.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/rtihowapplyh.pdf",
+        "filename": "rtihowapplyh.pdf"
+      },
+      {
+        "url": "http://www.recindia.nic.in/uploads/files/RTI-Audit-summary-report-provided-by-NPTI-year-2020-21-Hindi.pdf",
+        "filename": "RTI-Audit-summary-report-provided-by-NPTI-year-2020-21-Hindi.pdf"
+      },
+      {
+        "url": "https://www.recindia.nic.in/uploads/files/Scan20170823162228.pdf",
+        "filename": "Scan20170823162228.pdf"
+      }
+    ],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [
+      "/dr-p-v-ramesh-ias",
+      "/dr-p-v-ramesh-ias_old",
+      "/framework/"
+    ],
+    "error": null
+  },
+  {
+    "domain": "uppcl.org",
+    "status": "success",
+    "framework": "unknown",
+    "pages_crawled": 1,
+    "total_links_found": 0,
+    "discoveries": [],
+    "all_downloadable_files": [],
+    "sitemap_urls_with_keywords": [],
+    "robots_disallowed_paths": [],
+    "error": null
+  }
+]

@@ -1,0 +1,586 @@
+ppt_number,agency,source_list,url_tried,status_code,final_url,content_type,content_length,aml_keywords_found,download_links_found,confidence,err
+1,All India Bank Employees Association (AIBEA),Wilful Defaulter List (All Banks),https://aibea.in/wilful-defaulter-list-all-banks,404,https://aibea.in/wilful-defaulter-list-all-banks,text/html; charset=UTF-8,0,,0,dead,
+1,All India Bank Employees Association (AIBEA),Wilful Defaulter List (All Banks),https://aibea.in/wilful-defaulter-banks,404,https://aibea.in/wilful-defaulter-banks,text/html; charset=UTF-8,0,,0,dead,
+1,All India Bank Employees Association (AIBEA),Wilful Defaulter List (All Banks),https://aibea.in/wilful-defaulter,404,https://aibea.in/wilful-defaulter,text/html; charset=UTF-8,0,,0,dead,
+1,All India Bank Employees Association (AIBEA),Wilful Defaulter List (All Banks),https://aibea.in/wilful,404,https://aibea.in/wilful,text/html; charset=UTF-8,0,,0,dead,
+1,All India Bank Employees Association (AIBEA),Wilful Defaulter List (All Banks),https://aibea.in/blacklist,404,https://aibea.in/blacklist,text/html; charset=UTF-8,0,,0,dead,
+1,All India Bank Employees Association (AIBEA),Wilful Defaulter List (All Banks),https://aibea.in/blacklisted,404,https://aibea.in/blacklisted,text/html; charset=UTF-8,0,,0,dead,
+1,All India Bank Employees Association (AIBEA),Wilful Defaulter List (All Banks),https://aibea.in/debarred,404,https://aibea.in/debarred,text/html; charset=UTF-8,0,,0,dead,
+1,All India Bank Employees Association (AIBEA),Wilful Defaulter List (All Banks),https://aibea.in/debarment,404,https://aibea.in/debarment,text/html; charset=UTF-8,0,,0,dead,
+5,Central Board of Direct Taxes (CBDT),Suspected Shell Companies,https://incometaxindia.gov.in/suspected-shell-companies,404,https://www.incometaxindia.gov.in/suspected-shell-companies,text/html;charset=UTF-8,1,,0,dead,
+5,Central Board of Direct Taxes (CBDT),Suspected Shell Companies,https://incometaxindia.gov.in/suspected-shell,404,https://www.incometaxindia.gov.in/suspected-shell,text/html;charset=UTF-8,1,,0,dead,
+5,Central Board of Direct Taxes (CBDT),Suspected Shell Companies,https://incometaxindia.gov.in/suspected,404,https://www.incometaxindia.gov.in/suspected,text/html;charset=UTF-8,1,,0,dead,
+5,Central Board of Direct Taxes (CBDT),Suspected Shell Companies,https://incometaxindia.gov.in/blacklist,404,https://www.incometaxindia.gov.in/blacklist,text/html;charset=UTF-8,1,,0,dead,
+5,Central Board of Direct Taxes (CBDT),Suspected Shell Companies,https://incometaxindia.gov.in/blacklisted,404,https://www.incometaxindia.gov.in/blacklisted,text/html;charset=UTF-8,1,,0,dead,
+5,Central Board of Direct Taxes (CBDT),Suspected Shell Companies,https://incometaxindia.gov.in/debarred,404,https://www.incometaxindia.gov.in/debarred,text/html;charset=UTF-8,1,,0,dead,
+5,Central Board of Direct Taxes (CBDT),Suspected Shell Companies,https://incometaxindia.gov.in/debarment,404,https://www.incometaxindia.gov.in/debarment,text/html;charset=UTF-8,1,,0,dead,
+5,Central Board of Direct Taxes (CBDT),Suspected Shell Companies,https://incometaxindia.gov.in/debarred-firms,404,https://www.incometaxindia.gov.in/debarred-firms,text/html;charset=UTF-8,1,,0,dead,
+20,Debts Recovery Tribunals (DRTs),DRT Causelist,https://drt.gov.in/drt-causelist,404,https://drt.gov.in/drt-causelist,text/html; charset=iso-8859-1,0,,0,dead,
+20,Debts Recovery Tribunals (DRTs),DRT Causelist,https://drt.gov.in/drt,404,https://drt.gov.in/drt,text/html; charset=iso-8859-1,0,,0,dead,
+20,Debts Recovery Tribunals (DRTs),DRT Causelist,https://drt.gov.in/blacklist,404,https://drt.gov.in/blacklist,text/html; charset=iso-8859-1,0,,0,dead,
+20,Debts Recovery Tribunals (DRTs),DRT Causelist,https://drt.gov.in/blacklisted,404,https://drt.gov.in/blacklisted,text/html; charset=iso-8859-1,0,,0,dead,
+20,Debts Recovery Tribunals (DRTs),DRT Causelist,https://drt.gov.in/debarred,404,https://drt.gov.in/debarred,text/html; charset=iso-8859-1,0,,0,dead,
+20,Debts Recovery Tribunals (DRTs),DRT Causelist,https://drt.gov.in/debarment,404,https://drt.gov.in/debarment,text/html; charset=iso-8859-1,0,,0,dead,
+20,Debts Recovery Tribunals (DRTs),DRT Causelist,https://drt.gov.in/debarred-firms,404,https://drt.gov.in/debarred-firms,text/html; charset=iso-8859-1,0,,0,dead,
+20,Debts Recovery Tribunals (DRTs),DRT Causelist,https://drt.gov.in/debarred-entities,404,https://drt.gov.in/debarred-entities,text/html; charset=iso-8859-1,0,,0,dead,
+21,Directorate General of Foreign Trade (DGFT),Penalized Companies,https://dgft.gov.in/penalized-companies,404,https://www.dgft.gov.in:443/penalized-companies,text/html; charset=iso-8859-1,0,,0,dead,
+21,Directorate General of Foreign Trade (DGFT),Penalized Companies,https://dgft.gov.in/penalized,404,https://www.dgft.gov.in:443/penalized,text/html; charset=iso-8859-1,0,,0,dead,
+21,Directorate General of Foreign Trade (DGFT),Penalized Companies,https://dgft.gov.in/blacklist,404,https://www.dgft.gov.in:443/blacklist,text/html; charset=iso-8859-1,0,,0,dead,
+21,Directorate General of Foreign Trade (DGFT),Penalized Companies,https://dgft.gov.in/blacklisted,404,https://www.dgft.gov.in:443/blacklisted,text/html; charset=iso-8859-1,0,,0,dead,
+21,Directorate General of Foreign Trade (DGFT),Penalized Companies,https://dgft.gov.in/debarred,404,https://www.dgft.gov.in:443/debarred,text/html; charset=iso-8859-1,0,,0,dead,
+21,Directorate General of Foreign Trade (DGFT),Penalized Companies,https://dgft.gov.in/debarment,404,https://www.dgft.gov.in:443/debarment,text/html; charset=iso-8859-1,0,,0,dead,
+21,Directorate General of Foreign Trade (DGFT),Penalized Companies,https://dgft.gov.in/debarred-firms,404,https://www.dgft.gov.in:443/debarred-firms,text/html; charset=iso-8859-1,0,,0,dead,
+21,Directorate General of Foreign Trade (DGFT),Penalized Companies,https://dgft.gov.in/debarred-entities,404,https://www.dgft.gov.in:443/debarred-entities,text/html; charset=iso-8859-1,0,,0,dead,
+22,Directorate of Enforcement (ED),List of Fugitive Economic Offender,https://enforcementdirectorate.gov.in/list-of-fugitive-economic-offender,404,https://enforcementdirectorate.gov.in/list-of-fugitive-economic-offender,text/html; charset=utf-8,662,,0,dead,
+22,Directorate of Enforcement (ED),List of Fugitive Economic Offender,https://enforcementdirectorate.gov.in/fugitive-economic-offender,404,https://enforcementdirectorate.gov.in/fugitive-economic-offender,text/html; charset=utf-8,662,,0,dead,
+22,Directorate of Enforcement (ED),List of Fugitive Economic Offender,https://enforcementdirectorate.gov.in/fugitive-economic,404,https://enforcementdirectorate.gov.in/fugitive-economic,text/html; charset=utf-8,662,,0,dead,
+22,Directorate of Enforcement (ED),List of Fugitive Economic Offender,https://enforcementdirectorate.gov.in/fugitive,404,https://enforcementdirectorate.gov.in/fugitive,text/html; charset=utf-8,662,,0,dead,
+22,Directorate of Enforcement (ED),List of Fugitive Economic Offender,https://enforcementdirectorate.gov.in/blacklist,404,https://enforcementdirectorate.gov.in/blacklist,text/html; charset=utf-8,662,,0,dead,
+22,Directorate of Enforcement (ED),List of Fugitive Economic Offender,https://enforcementdirectorate.gov.in/blacklisted,404,https://enforcementdirectorate.gov.in/blacklisted,text/html; charset=utf-8,662,,0,dead,
+22,Directorate of Enforcement (ED),List of Fugitive Economic Offender,https://enforcementdirectorate.gov.in/debarred,404,https://enforcementdirectorate.gov.in/debarred,text/html; charset=utf-8,662,,0,dead,
+22,Directorate of Enforcement (ED),List of Fugitive Economic Offender,https://enforcementdirectorate.gov.in/debarment,404,https://enforcementdirectorate.gov.in/debarment,text/html; charset=utf-8,662,,0,dead,
+25,Economic Offence Wing,Tamil Nadu (TNEOW) - Persons Wanted in Economic Offence Wing Cases,https://eow.tn.gov.in/tamil-nadu-tneow-persons-wanted-in-economic-offence-wing-cases,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='eow.tn.gov.in', port=443): Max retries exceeded with u"
+25,Economic Offence Wing,Tamil Nadu (TNEOW) - Persons Wanted in Economic Offence Wing Cases,https://eow.tn.gov.in/tamil-nadu-tneow-persons-wanted-economic-offence-wing-cases,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='eow.tn.gov.in', port=443): Max retries exceeded with u"
+25,Economic Offence Wing,Tamil Nadu (TNEOW) - Persons Wanted in Economic Offence Wing Cases,https://eow.tn.gov.in/tamil-nadu,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='eow.tn.gov.in', port=443): Max retries exceeded with u"
+25,Economic Offence Wing,Tamil Nadu (TNEOW) - Persons Wanted in Economic Offence Wing Cases,https://eow.tn.gov.in/tamil,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='eow.tn.gov.in', port=443): Max retries exceeded with u"
+25,Economic Offence Wing,Tamil Nadu (TNEOW) - Persons Wanted in Economic Offence Wing Cases,https://eow.tn.gov.in/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='eow.tn.gov.in', port=443): Max retries exceeded with u"
+25,Economic Offence Wing,Tamil Nadu (TNEOW) - Persons Wanted in Economic Offence Wing Cases,https://eow.tn.gov.in/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='eow.tn.gov.in', port=443): Max retries exceeded with u"
+25,Economic Offence Wing,Tamil Nadu (TNEOW) - Persons Wanted in Economic Offence Wing Cases,https://eow.tn.gov.in/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='eow.tn.gov.in', port=443): Max retries exceeded with u"
+25,Economic Offence Wing,Tamil Nadu (TNEOW) - Persons Wanted in Economic Offence Wing Cases,https://eow.tn.gov.in/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='eow.tn.gov.in', port=443): Max retries exceeded with u"
+29,Financial Intelligence Unit (FIU),List of NBFCs categorized as High Risk Financial Institutions,https://fiuindia.gov.in/list-of-nbfcs-categorized-as-high-risk-financial-institutions,200,https://fiuindia.gov.in/list-of-nbfcs-categorized-as-high-risk-financial-institutions,text/html; charset=utf-8,246,,0,medium,
+29,Financial Intelligence Unit (FIU),List of NBFCs categorized as High Risk Financial Institutions,https://fiuindia.gov.in/nbfcs-categorized-high-risk-financial-institutions,200,https://fiuindia.gov.in/nbfcs-categorized-high-risk-financial-institutions,text/html; charset=utf-8,246,,0,medium,
+29,Financial Intelligence Unit (FIU),List of NBFCs categorized as High Risk Financial Institutions,https://fiuindia.gov.in/nbfcs-categorized,200,https://fiuindia.gov.in/nbfcs-categorized,text/html; charset=utf-8,246,,0,medium,
+29,Financial Intelligence Unit (FIU),List of NBFCs categorized as High Risk Financial Institutions,https://fiuindia.gov.in/nbfcs,200,https://fiuindia.gov.in/nbfcs,text/html; charset=utf-8,246,,0,medium,
+29,Financial Intelligence Unit (FIU),List of NBFCs categorized as High Risk Financial Institutions,https://fiuindia.gov.in/blacklist,200,https://fiuindia.gov.in/blacklist,text/html; charset=utf-8,246,,0,medium,
+29,Financial Intelligence Unit (FIU),List of NBFCs categorized as High Risk Financial Institutions,https://fiuindia.gov.in/blacklisted,200,https://fiuindia.gov.in/blacklisted,text/html; charset=utf-8,246,,0,medium,
+29,Financial Intelligence Unit (FIU),List of NBFCs categorized as High Risk Financial Institutions,https://fiuindia.gov.in/debarred,200,https://fiuindia.gov.in/debarred,text/html; charset=utf-8,246,,0,medium,
+29,Financial Intelligence Unit (FIU),List of NBFCs categorized as High Risk Financial Institutions,https://fiuindia.gov.in/debarment,200,https://fiuindia.gov.in/debarment,text/html; charset=utf-8,246,,0,medium,
+30,Financial Intelligence Unit (FIU),Non Compliant NBFC List,https://fiuindia.gov.in/non-compliant-nbfc-list,200,https://fiuindia.gov.in/non-compliant-nbfc-list,text/html; charset=utf-8,246,,0,medium,
+30,Financial Intelligence Unit (FIU),Non Compliant NBFC List,https://fiuindia.gov.in/non-compliant-nbfc,200,https://fiuindia.gov.in/non-compliant-nbfc,text/html; charset=utf-8,246,,0,medium,
+30,Financial Intelligence Unit (FIU),Non Compliant NBFC List,https://fiuindia.gov.in/non-compliant,200,https://fiuindia.gov.in/non-compliant,text/html; charset=utf-8,246,,0,medium,
+30,Financial Intelligence Unit (FIU),Non Compliant NBFC List,https://fiuindia.gov.in/non,200,https://fiuindia.gov.in/non,text/html; charset=utf-8,246,,0,medium,
+30,Financial Intelligence Unit (FIU),Non Compliant NBFC List,https://fiuindia.gov.in/blacklist,200,https://fiuindia.gov.in/blacklist,text/html; charset=utf-8,246,,0,medium,
+30,Financial Intelligence Unit (FIU),Non Compliant NBFC List,https://fiuindia.gov.in/blacklisted,200,https://fiuindia.gov.in/blacklisted,text/html; charset=utf-8,246,,0,medium,
+30,Financial Intelligence Unit (FIU),Non Compliant NBFC List,https://fiuindia.gov.in/debarred,200,https://fiuindia.gov.in/debarred,text/html; charset=utf-8,246,,0,medium,
+30,Financial Intelligence Unit (FIU),Non Compliant NBFC List,https://fiuindia.gov.in/debarment,200,https://fiuindia.gov.in/debarment,text/html; charset=utf-8,246,,0,medium,
+32,Financial Intelligence Unit (FIU),Section 12A of Weapons of Mass Destruction and Their Delivery Systems (Prohibition of Unlawful Activities) Act 2005 - Designated List,https://fiuindia.gov.in/section-12a-of-weapons-of-mass-destruction-and-their-delivery-systems-prohibition-of-unlawful-activities-act-2005-designated-list,200,https://fiuindia.gov.in/section-12a-of-weapons-of-mass-destruction-and-their-delivery-systems-prohibition-of-unlawful-activities-act-2005-designated-list,text/html; charset=utf-8,246,,0,medium,
+32,Financial Intelligence Unit (FIU),Section 12A of Weapons of Mass Destruction and Their Delivery Systems (Prohibition of Unlawful Activities) Act 2005 - Designated List,https://fiuindia.gov.in/section-12a-weapons-mass-destruction-their-delivery-systems-prohibition-unlawful-activities-act-2005-designated,200,https://fiuindia.gov.in/section-12a-weapons-mass-destruction-their-delivery-systems-prohibition-unlawful-activities-act-2005-designated,text/html; charset=utf-8,246,,0,medium,
+32,Financial Intelligence Unit (FIU),Section 12A of Weapons of Mass Destruction and Their Delivery Systems (Prohibition of Unlawful Activities) Act 2005 - Designated List,https://fiuindia.gov.in/section-12a,200,https://fiuindia.gov.in/section-12a,text/html; charset=utf-8,246,,0,medium,
+32,Financial Intelligence Unit (FIU),Section 12A of Weapons of Mass Destruction and Their Delivery Systems (Prohibition of Unlawful Activities) Act 2005 - Designated List,https://fiuindia.gov.in/section,200,https://fiuindia.gov.in/section,text/html; charset=utf-8,246,,0,medium,
+32,Financial Intelligence Unit (FIU),Section 12A of Weapons of Mass Destruction and Their Delivery Systems (Prohibition of Unlawful Activities) Act 2005 - Designated List,https://fiuindia.gov.in/blacklist,200,https://fiuindia.gov.in/blacklist,text/html; charset=utf-8,246,,0,medium,
+32,Financial Intelligence Unit (FIU),Section 12A of Weapons of Mass Destruction and Their Delivery Systems (Prohibition of Unlawful Activities) Act 2005 - Designated List,https://fiuindia.gov.in/blacklisted,200,https://fiuindia.gov.in/blacklisted,text/html; charset=utf-8,246,,0,medium,
+32,Financial Intelligence Unit (FIU),Section 12A of Weapons of Mass Destruction and Their Delivery Systems (Prohibition of Unlawful Activities) Act 2005 - Designated List,https://fiuindia.gov.in/debarred,200,https://fiuindia.gov.in/debarred,text/html; charset=utf-8,246,,0,medium,
+32,Financial Intelligence Unit (FIU),Section 12A of Weapons of Mass Destruction and Their Delivery Systems (Prohibition of Unlawful Activities) Act 2005 - Designated List,https://fiuindia.gov.in/debarment,200,https://fiuindia.gov.in/debarment,text/html; charset=utf-8,246,,0,medium,
+34,Government of Maharashtra,Department of Goods and Services Tax (GST) - Non Genuine Dealers,https://mahagst.gov.in/department-of-goods-and-services-tax-gst-non-genuine-dealers,404,https://www.mahagst.gov.in/department-of-goods-and-services-tax-gst-non-genuine-dealers,text/html; charset=UTF-8,0,,0,dead,
+34,Government of Maharashtra,Department of Goods and Services Tax (GST) - Non Genuine Dealers,https://mahagst.gov.in/department-goods-services-tax-gst-non-genuine-dealers,404,https://www.mahagst.gov.in/department-goods-services-tax-gst-non-genuine-dealers,text/html; charset=UTF-8,0,,0,dead,
+34,Government of Maharashtra,Department of Goods and Services Tax (GST) - Non Genuine Dealers,https://mahagst.gov.in/department-goods,404,https://www.mahagst.gov.in/department-goods,text/html; charset=UTF-8,0,,0,dead,
+34,Government of Maharashtra,Department of Goods and Services Tax (GST) - Non Genuine Dealers,https://mahagst.gov.in/department,404,https://www.mahagst.gov.in/department,text/html; charset=UTF-8,0,,0,dead,
+34,Government of Maharashtra,Department of Goods and Services Tax (GST) - Non Genuine Dealers,https://mahagst.gov.in/blacklist,404,https://www.mahagst.gov.in/blacklist,text/html; charset=UTF-8,0,,0,dead,
+34,Government of Maharashtra,Department of Goods and Services Tax (GST) - Non Genuine Dealers,https://mahagst.gov.in/blacklisted,404,https://www.mahagst.gov.in/blacklisted,text/html; charset=UTF-8,0,,0,dead,
+34,Government of Maharashtra,Department of Goods and Services Tax (GST) - Non Genuine Dealers,https://mahagst.gov.in/debarred,404,https://www.mahagst.gov.in/debarred,text/html; charset=UTF-8,0,,0,dead,
+34,Government of Maharashtra,Department of Goods and Services Tax (GST) - Non Genuine Dealers,https://mahagst.gov.in/debarment,404,https://www.mahagst.gov.in/debarment,text/html; charset=UTF-8,0,,0,dead,
+36,Insurance Regulatory and Development Authority of India (IRDAI),Blacklisted Agents,https://irdai.gov.in/blacklisted-agents,403,https://irdai.gov.in/blacklisted-agents,text/html,0,,0,dead,
+36,Insurance Regulatory and Development Authority of India (IRDAI),Blacklisted Agents,https://irdai.gov.in/blacklisted,403,https://irdai.gov.in/blacklisted,text/html,0,,0,dead,
+36,Insurance Regulatory and Development Authority of India (IRDAI),Blacklisted Agents,https://irdai.gov.in/blacklist,403,https://irdai.gov.in/blacklist,text/html,0,,0,dead,
+36,Insurance Regulatory and Development Authority of India (IRDAI),Blacklisted Agents,https://irdai.gov.in/debarred,403,https://irdai.gov.in/debarred,text/html,0,,0,dead,
+36,Insurance Regulatory and Development Authority of India (IRDAI),Blacklisted Agents,https://irdai.gov.in/debarment,403,https://irdai.gov.in/debarment,text/html,0,,0,dead,
+36,Insurance Regulatory and Development Authority of India (IRDAI),Blacklisted Agents,https://irdai.gov.in/debarred-firms,403,https://irdai.gov.in/debarred-firms,text/html,0,,0,dead,
+36,Insurance Regulatory and Development Authority of India (IRDAI),Blacklisted Agents,https://irdai.gov.in/debarred-entities,403,https://irdai.gov.in/debarred-entities,text/html,0,,0,dead,
+36,Insurance Regulatory and Development Authority of India (IRDAI),Blacklisted Agents,https://irdai.gov.in/debarred-vendors,403,https://irdai.gov.in/debarred-vendors,text/html,0,,0,dead,
+38,Insurance Regulatory and Development Authority of India (IRDAI),United Nations Security Council (UNSC) - ISIL (Da'esh) & Al-Qaida Sanctions List,https://irdai.gov.in/united-nations-security-council-unsc-isil-da-esh-al-qaida-sanctions-list,403,https://irdai.gov.in/united-nations-security-council-unsc-isil-da-esh-al-qaida-sanctions-list,text/html,0,,0,dead,
+38,Insurance Regulatory and Development Authority of India (IRDAI),United Nations Security Council (UNSC) - ISIL (Da'esh) & Al-Qaida Sanctions List,https://irdai.gov.in/united-nations-security-council-unsc-isil-esh-qaida-sanctions,403,https://irdai.gov.in/united-nations-security-council-unsc-isil-esh-qaida-sanctions,text/html,0,,0,dead,
+38,Insurance Regulatory and Development Authority of India (IRDAI),United Nations Security Council (UNSC) - ISIL (Da'esh) & Al-Qaida Sanctions List,https://irdai.gov.in/united-nations,403,https://irdai.gov.in/united-nations,text/html,0,,0,dead,
+38,Insurance Regulatory and Development Authority of India (IRDAI),United Nations Security Council (UNSC) - ISIL (Da'esh) & Al-Qaida Sanctions List,https://irdai.gov.in/united,403,https://irdai.gov.in/united,text/html,0,,0,dead,
+38,Insurance Regulatory and Development Authority of India (IRDAI),United Nations Security Council (UNSC) - ISIL (Da'esh) & Al-Qaida Sanctions List,https://irdai.gov.in/blacklist,403,https://irdai.gov.in/blacklist,text/html,0,,0,dead,
+38,Insurance Regulatory and Development Authority of India (IRDAI),United Nations Security Council (UNSC) - ISIL (Da'esh) & Al-Qaida Sanctions List,https://irdai.gov.in/blacklisted,403,https://irdai.gov.in/blacklisted,text/html,0,,0,dead,
+38,Insurance Regulatory and Development Authority of India (IRDAI),United Nations Security Council (UNSC) - ISIL (Da'esh) & Al-Qaida Sanctions List,https://irdai.gov.in/debarred,403,https://irdai.gov.in/debarred,text/html,0,,0,dead,
+38,Insurance Regulatory and Development Authority of India (IRDAI),United Nations Security Council (UNSC) - ISIL (Da'esh) & Al-Qaida Sanctions List,https://irdai.gov.in/debarment,403,https://irdai.gov.in/debarment,text/html,0,,0,dead,
+42,Ministry of Corporate Affairs (MCA),Defaulter Companies List,https://mca.gov.in/defaulter-companies-list,403,https://www.mca.gov.in/defaulter-companies-list,text/html,400,,0,dead,
+42,Ministry of Corporate Affairs (MCA),Defaulter Companies List,https://mca.gov.in/defaulter-companies,403,https://www.mca.gov.in/defaulter-companies,text/html,391,,0,dead,
+42,Ministry of Corporate Affairs (MCA),Defaulter Companies List,https://mca.gov.in/defaulter,403,https://www.mca.gov.in/defaulter,text/html,377,,0,dead,
+42,Ministry of Corporate Affairs (MCA),Defaulter Companies List,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,379,,0,dead,
+42,Ministry of Corporate Affairs (MCA),Defaulter Companies List,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,379,,0,dead,
+42,Ministry of Corporate Affairs (MCA),Defaulter Companies List,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,376,,0,dead,
+42,Ministry of Corporate Affairs (MCA),Defaulter Companies List,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,379,,0,dead,
+42,Ministry of Corporate Affairs (MCA),Defaulter Companies List,https://mca.gov.in/debarred-firms,403,https://www.mca.gov.in/debarred-firms,text/html,386,,0,dead,
+43,Ministry of Corporate Affairs (MCA),Defaulter Directors List,https://mca.gov.in/defaulter-directors-list,403,https://www.mca.gov.in/defaulter-directors-list,text/html,400,,0,dead,
+43,Ministry of Corporate Affairs (MCA),Defaulter Directors List,https://mca.gov.in/defaulter-directors,403,https://www.mca.gov.in/defaulter-directors,text/html,391,,0,dead,
+43,Ministry of Corporate Affairs (MCA),Defaulter Directors List,https://mca.gov.in/defaulter,403,https://www.mca.gov.in/defaulter,text/html,377,,0,dead,
+43,Ministry of Corporate Affairs (MCA),Defaulter Directors List,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,379,,0,dead,
+43,Ministry of Corporate Affairs (MCA),Defaulter Directors List,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,379,,0,dead,
+43,Ministry of Corporate Affairs (MCA),Defaulter Directors List,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,376,,0,dead,
+43,Ministry of Corporate Affairs (MCA),Defaulter Directors List,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,381,,0,dead,
+43,Ministry of Corporate Affairs (MCA),Defaulter Directors List,https://mca.gov.in/debarred-firms,403,https://www.mca.gov.in/debarred-firms,text/html,390,,0,dead,
+44,Ministry of Corporate Affairs (MCA),Defaulter Secretaries List,https://mca.gov.in/defaulter-secretaries-list,403,https://www.mca.gov.in/defaulter-secretaries-list,text/html,406,,0,dead,
+44,Ministry of Corporate Affairs (MCA),Defaulter Secretaries List,https://mca.gov.in/defaulter-secretaries,403,https://www.mca.gov.in/defaulter-secretaries,text/html,397,,0,dead,
+44,Ministry of Corporate Affairs (MCA),Defaulter Secretaries List,https://mca.gov.in/defaulter,403,https://www.mca.gov.in/defaulter,text/html,381,,0,dead,
+44,Ministry of Corporate Affairs (MCA),Defaulter Secretaries List,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,381,,0,dead,
+44,Ministry of Corporate Affairs (MCA),Defaulter Secretaries List,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,383,,0,dead,
+44,Ministry of Corporate Affairs (MCA),Defaulter Secretaries List,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,380,,0,dead,
+44,Ministry of Corporate Affairs (MCA),Defaulter Secretaries List,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,381,,0,dead,
+44,Ministry of Corporate Affairs (MCA),Defaulter Secretaries List,https://mca.gov.in/debarred-firms,403,https://www.mca.gov.in/debarred-firms,text/html,390,,0,dead,
+46,Ministry of Corporate Affairs (MCA),Dormant List,https://mca.gov.in/dormant-list,403,https://www.mca.gov.in/dormant-list,text/html,388,,0,dead,
+46,Ministry of Corporate Affairs (MCA),Dormant List,https://mca.gov.in/dormant,403,https://www.mca.gov.in/dormant,text/html,379,,0,dead,
+46,Ministry of Corporate Affairs (MCA),Dormant List,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,381,,0,dead,
+46,Ministry of Corporate Affairs (MCA),Dormant List,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,383,,0,dead,
+46,Ministry of Corporate Affairs (MCA),Dormant List,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,378,,0,dead,
+46,Ministry of Corporate Affairs (MCA),Dormant List,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,377,,0,dead,
+46,Ministry of Corporate Affairs (MCA),Dormant List,https://mca.gov.in/debarred-firms,403,https://www.mca.gov.in/debarred-firms,text/html,388,,0,dead,
+46,Ministry of Corporate Affairs (MCA),Dormant List,https://mca.gov.in/debarred-entities,403,https://www.mca.gov.in/debarred-entities,text/html,391,,0,dead,
+47,Ministry of Corporate Affairs (MCA),List of Companies Struck-Off By RoCs (STK-7) U/S 248(5) CA 13,https://mca.gov.in/list-of-companies-struck-off-by-rocs-stk-7-u-s-248-5-ca-13,403,https://www.mca.gov.in/list-of-companies-struck-off-by-rocs-stk-7-u-s-248-5-ca-13,text/html,484,,0,dead,
+47,Ministry of Corporate Affairs (MCA),List of Companies Struck-Off By RoCs (STK-7) U/S 248(5) CA 13,https://mca.gov.in/companies-struck-off-rocs-stk-248,403,https://www.mca.gov.in/companies-struck-off-rocs-stk-248,text/html,425,,0,dead,
+47,Ministry of Corporate Affairs (MCA),List of Companies Struck-Off By RoCs (STK-7) U/S 248(5) CA 13,https://mca.gov.in/companies-struck,403,https://www.mca.gov.in/companies-struck,text/html,392,,0,dead,
+47,Ministry of Corporate Affairs (MCA),List of Companies Struck-Off By RoCs (STK-7) U/S 248(5) CA 13,https://mca.gov.in/companies,403,https://www.mca.gov.in/companies,text/html,381,,0,dead,
+47,Ministry of Corporate Affairs (MCA),List of Companies Struck-Off By RoCs (STK-7) U/S 248(5) CA 13,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,381,,0,dead,
+47,Ministry of Corporate Affairs (MCA),List of Companies Struck-Off By RoCs (STK-7) U/S 248(5) CA 13,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,383,,0,dead,
+47,Ministry of Corporate Affairs (MCA),List of Companies Struck-Off By RoCs (STK-7) U/S 248(5) CA 13,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,380,,0,dead,
+47,Ministry of Corporate Affairs (MCA),List of Companies Struck-Off By RoCs (STK-7) U/S 248(5) CA 13,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,381,,0,dead,
+50,Ministry of Corporate Affairs (MCA),List of Disqualified Directors Section 274,https://mca.gov.in/list-of-disqualified-directors-section-274,403,https://www.mca.gov.in/list-of-disqualified-directors-section-274,text/html,434,,0,dead,
+50,Ministry of Corporate Affairs (MCA),List of Disqualified Directors Section 274,https://mca.gov.in/disqualified-directors-section-274,403,https://www.mca.gov.in/disqualified-directors-section-274,text/html,418,,0,dead,
+50,Ministry of Corporate Affairs (MCA),List of Disqualified Directors Section 274,https://mca.gov.in/disqualified-directors,403,https://www.mca.gov.in/disqualified-directors,text/html,398,,0,dead,
+50,Ministry of Corporate Affairs (MCA),List of Disqualified Directors Section 274,https://mca.gov.in/disqualified,403,https://www.mca.gov.in/disqualified,text/html,384,,0,dead,
+50,Ministry of Corporate Affairs (MCA),List of Disqualified Directors Section 274,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,381,,0,dead,
+50,Ministry of Corporate Affairs (MCA),List of Disqualified Directors Section 274,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,383,,0,dead,
+50,Ministry of Corporate Affairs (MCA),List of Disqualified Directors Section 274,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,380,,0,dead,
+50,Ministry of Corporate Affairs (MCA),List of Disqualified Directors Section 274,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,379,,0,dead,
+51,Ministry of Corporate Affairs (MCA),List of Disqualified Directors U/S 164 (2)(A),https://mca.gov.in/list-of-disqualified-directors-u-s-164-2-a,403,https://www.mca.gov.in/list-of-disqualified-directors-u-s-164-2-a,text/html,446,,0,dead,
+51,Ministry of Corporate Affairs (MCA),List of Disqualified Directors U/S 164 (2)(A),https://mca.gov.in/disqualified-directors-164,403,https://www.mca.gov.in/disqualified-directors-164,text/html,406,,0,dead,
+51,Ministry of Corporate Affairs (MCA),List of Disqualified Directors U/S 164 (2)(A),https://mca.gov.in/disqualified-directors,403,https://www.mca.gov.in/disqualified-directors,text/html,398,,0,dead,
+51,Ministry of Corporate Affairs (MCA),List of Disqualified Directors U/S 164 (2)(A),https://mca.gov.in/disqualified,403,https://www.mca.gov.in/disqualified,text/html,384,,0,dead,
+51,Ministry of Corporate Affairs (MCA),List of Disqualified Directors U/S 164 (2)(A),https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,381,,0,dead,
+51,Ministry of Corporate Affairs (MCA),List of Disqualified Directors U/S 164 (2)(A),https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,383,,0,dead,
+51,Ministry of Corporate Affairs (MCA),List of Disqualified Directors U/S 164 (2)(A),https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,380,,0,dead,
+51,Ministry of Corporate Affairs (MCA),List of Disqualified Directors U/S 164 (2)(A),https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,377,,0,dead,
+54,Ministry of Corporate Affairs (MCA),LLPs Under Process of Strike Off,https://mca.gov.in/llps-under-process-of-strike-off,403,https://www.mca.gov.in/llps-under-process-of-strike-off,text/html,422,,0,dead,
+54,Ministry of Corporate Affairs (MCA),LLPs Under Process of Strike Off,https://mca.gov.in/llps-under-process-strike-off,403,https://www.mca.gov.in/llps-under-process-strike-off,text/html,415,,0,dead,
+54,Ministry of Corporate Affairs (MCA),LLPs Under Process of Strike Off,https://mca.gov.in/llps-under,403,https://www.mca.gov.in/llps-under,text/html,384,,0,dead,
+54,Ministry of Corporate Affairs (MCA),LLPs Under Process of Strike Off,https://mca.gov.in/llps,403,https://www.mca.gov.in/llps,text/html,374,,0,dead,
+54,Ministry of Corporate Affairs (MCA),LLPs Under Process of Strike Off,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,379,,0,dead,
+54,Ministry of Corporate Affairs (MCA),LLPs Under Process of Strike Off,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,379,,0,dead,
+54,Ministry of Corporate Affairs (MCA),LLPs Under Process of Strike Off,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,380,,0,dead,
+54,Ministry of Corporate Affairs (MCA),LLPs Under Process of Strike Off,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,381,,0,dead,
+56,Ministry of Corporate Affairs (MCA),Notice of Strike-Off Under LLP Rule 37,https://mca.gov.in/notice-of-strike-off-under-llp-rule-37,403,https://www.mca.gov.in/notice-of-strike-off-under-llp-rule-37,text/html,438,,0,dead,
+56,Ministry of Corporate Affairs (MCA),Notice of Strike-Off Under LLP Rule 37,https://mca.gov.in/notice-strike-off-under-llp-rule,403,https://www.mca.gov.in/notice-strike-off-under-llp-rule,text/html,424,,0,dead,
+56,Ministry of Corporate Affairs (MCA),Notice of Strike-Off Under LLP Rule 37,https://mca.gov.in/notice-strike,403,https://www.mca.gov.in/notice-strike,text/html,389,,0,dead,
+56,Ministry of Corporate Affairs (MCA),Notice of Strike-Off Under LLP Rule 37,https://mca.gov.in/notice,403,https://www.mca.gov.in/notice,text/html,378,,0,dead,
+56,Ministry of Corporate Affairs (MCA),Notice of Strike-Off Under LLP Rule 37,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,381,,0,dead,
+56,Ministry of Corporate Affairs (MCA),Notice of Strike-Off Under LLP Rule 37,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,383,,0,dead,
+56,Ministry of Corporate Affairs (MCA),Notice of Strike-Off Under LLP Rule 37,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,380,,0,dead,
+56,Ministry of Corporate Affairs (MCA),Notice of Strike-Off Under LLP Rule 37,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,381,,0,dead,
+57,Ministry of Corporate Affairs (MCA),Public Notices (STK-5) U/S 248(1)-CA 13,https://mca.gov.in/public-notices-stk-5-u-s-248-1-ca-13,403,https://www.mca.gov.in/public-notices-stk-5-u-s-248-1-ca-13,text/html,444,,0,dead,
+57,Ministry of Corporate Affairs (MCA),Public Notices (STK-5) U/S 248(1)-CA 13,https://mca.gov.in/public-notices-stk-248,403,https://www.mca.gov.in/public-notices-stk-248,text/html,406,,0,dead,
+57,Ministry of Corporate Affairs (MCA),Public Notices (STK-5) U/S 248(1)-CA 13,https://mca.gov.in/public-notices,403,https://www.mca.gov.in/public-notices,text/html,390,,0,dead,
+57,Ministry of Corporate Affairs (MCA),Public Notices (STK-5) U/S 248(1)-CA 13,https://mca.gov.in/public,403,https://www.mca.gov.in/public,text/html,378,,0,dead,
+57,Ministry of Corporate Affairs (MCA),Public Notices (STK-5) U/S 248(1)-CA 13,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,379,,0,dead,
+57,Ministry of Corporate Affairs (MCA),Public Notices (STK-5) U/S 248(1)-CA 13,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,381,,0,dead,
+57,Ministry of Corporate Affairs (MCA),Public Notices (STK-5) U/S 248(1)-CA 13,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,378,,0,dead,
+57,Ministry of Corporate Affairs (MCA),Public Notices (STK-5) U/S 248(1)-CA 13,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,379,,0,dead,
+58,Ministry of Corporate Affairs (MCA),Public Notices (STK-6) U/S 248(2)-CA 2013,https://mca.gov.in/public-notices-stk-6-u-s-248-2-ca-2013,403,https://www.mca.gov.in/public-notices-stk-6-u-s-248-2-ca-2013,text/html,444,,0,dead,
+58,Ministry of Corporate Affairs (MCA),Public Notices (STK-6) U/S 248(2)-CA 2013,https://mca.gov.in/public-notices-stk-248-2013,403,https://www.mca.gov.in/public-notices-stk-248-2013,text/html,411,,0,dead,
+58,Ministry of Corporate Affairs (MCA),Public Notices (STK-6) U/S 248(2)-CA 2013,https://mca.gov.in/public-notices,403,https://www.mca.gov.in/public-notices,text/html,386,,0,dead,
+58,Ministry of Corporate Affairs (MCA),Public Notices (STK-6) U/S 248(2)-CA 2013,https://mca.gov.in/public,403,https://www.mca.gov.in/public,text/html,376,,0,dead,
+58,Ministry of Corporate Affairs (MCA),Public Notices (STK-6) U/S 248(2)-CA 2013,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,379,,0,dead,
+58,Ministry of Corporate Affairs (MCA),Public Notices (STK-6) U/S 248(2)-CA 2013,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,379,,0,dead,
+58,Ministry of Corporate Affairs (MCA),Public Notices (STK-6) U/S 248(2)-CA 2013,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,378,,0,dead,
+58,Ministry of Corporate Affairs (MCA),Public Notices (STK-6) U/S 248(2)-CA 2013,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,377,,0,dead,
+59,Ministry of Corporate Affairs (MCA),RD Adjudication Orders,https://mca.gov.in/rd-adjudication-orders,403,https://www.mca.gov.in/rd-adjudication-orders,text/html,402,,0,dead,
+59,Ministry of Corporate Affairs (MCA),RD Adjudication Orders,https://mca.gov.in/adjudication-orders,403,https://www.mca.gov.in/adjudication-orders,text/html,395,,0,dead,
+59,Ministry of Corporate Affairs (MCA),RD Adjudication Orders,https://mca.gov.in/adjudication,403,https://www.mca.gov.in/adjudication,text/html,384,,0,dead,
+59,Ministry of Corporate Affairs (MCA),RD Adjudication Orders,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,381,,0,dead,
+59,Ministry of Corporate Affairs (MCA),RD Adjudication Orders,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,383,,0,dead,
+59,Ministry of Corporate Affairs (MCA),RD Adjudication Orders,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,380,,0,dead,
+59,Ministry of Corporate Affairs (MCA),RD Adjudication Orders,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,381,,0,dead,
+59,Ministry of Corporate Affairs (MCA),RD Adjudication Orders,https://mca.gov.in/debarred-firms,403,https://www.mca.gov.in/debarred-firms,text/html,390,,0,dead,
+60,Ministry of Corporate Affairs (MCA),ROC Adjudication Orders,https://mca.gov.in/roc-adjudication-orders,403,https://www.mca.gov.in/roc-adjudication-orders,text/html,403,,0,dead,
+60,Ministry of Corporate Affairs (MCA),ROC Adjudication Orders,https://mca.gov.in/roc-adjudication,403,https://www.mca.gov.in/roc-adjudication,text/html,392,,0,dead,
+60,Ministry of Corporate Affairs (MCA),ROC Adjudication Orders,https://mca.gov.in/roc,403,https://www.mca.gov.in/roc,text/html,375,,0,dead,
+60,Ministry of Corporate Affairs (MCA),ROC Adjudication Orders,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,381,,0,dead,
+60,Ministry of Corporate Affairs (MCA),ROC Adjudication Orders,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,383,,0,dead,
+60,Ministry of Corporate Affairs (MCA),ROC Adjudication Orders,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,378,,0,dead,
+60,Ministry of Corporate Affairs (MCA),ROC Adjudication Orders,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,379,,0,dead,
+60,Ministry of Corporate Affairs (MCA),ROC Adjudication Orders,https://mca.gov.in/debarred-firms,403,https://www.mca.gov.in/debarred-firms,text/html,386,,0,dead,
+61,Ministry of Corporate Affairs (MCA),Vanishing Companies,https://mca.gov.in/vanishing-companies,403,https://www.mca.gov.in/vanishing-companies,text/html,393,,0,dead,
+61,Ministry of Corporate Affairs (MCA),Vanishing Companies,https://mca.gov.in/vanishing,403,https://www.mca.gov.in/vanishing,text/html,377,,0,dead,
+61,Ministry of Corporate Affairs (MCA),Vanishing Companies,https://mca.gov.in/blacklist,403,https://www.mca.gov.in/blacklist,text/html,379,,0,dead,
+61,Ministry of Corporate Affairs (MCA),Vanishing Companies,https://mca.gov.in/blacklisted,403,https://www.mca.gov.in/blacklisted,text/html,379,,0,dead,
+61,Ministry of Corporate Affairs (MCA),Vanishing Companies,https://mca.gov.in/debarred,403,https://www.mca.gov.in/debarred,text/html,376,,0,dead,
+61,Ministry of Corporate Affairs (MCA),Vanishing Companies,https://mca.gov.in/debarment,403,https://www.mca.gov.in/debarment,text/html,379,,0,dead,
+61,Ministry of Corporate Affairs (MCA),Vanishing Companies,https://mca.gov.in/debarred-firms,403,https://www.mca.gov.in/debarred-firms,text/html,388,,0,dead,
+61,Ministry of Corporate Affairs (MCA),Vanishing Companies,https://mca.gov.in/debarred-entities,403,https://www.mca.gov.in/debarred-entities,text/html,391,,0,dead,
+67,Ministry of Finance (MOF),List of NGOs Blacklisted by Department of Financial Services,https://dfs.gov.in/list-of-ngos-blacklisted-by-department-of-financial-services,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='dfs.gov.in', port=443): Max retries exceeded with url:"
+67,Ministry of Finance (MOF),List of NGOs Blacklisted by Department of Financial Services,https://dfs.gov.in/ngos-blacklisted-department-financial-services,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='dfs.gov.in', port=443): Max retries exceeded with url:"
+67,Ministry of Finance (MOF),List of NGOs Blacklisted by Department of Financial Services,https://dfs.gov.in/ngos-blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='dfs.gov.in', port=443): Max retries exceeded with url:"
+67,Ministry of Finance (MOF),List of NGOs Blacklisted by Department of Financial Services,https://dfs.gov.in/ngos,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='dfs.gov.in', port=443): Max retries exceeded with url:"
+67,Ministry of Finance (MOF),List of NGOs Blacklisted by Department of Financial Services,https://dfs.gov.in/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='dfs.gov.in', port=443): Max retries exceeded with url:"
+67,Ministry of Finance (MOF),List of NGOs Blacklisted by Department of Financial Services,https://dfs.gov.in/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='dfs.gov.in', port=443): Max retries exceeded with url:"
+67,Ministry of Finance (MOF),List of NGOs Blacklisted by Department of Financial Services,https://dfs.gov.in/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='dfs.gov.in', port=443): Max retries exceeded with url:"
+67,Ministry of Finance (MOF),List of NGOs Blacklisted by Department of Financial Services,https://dfs.gov.in/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='dfs.gov.in', port=443): Max retries exceeded with url:"
+72,Ministry of Home Affairs (MHA),List of Prior Permission Granted Under FCRA,https://mha.gov.in/list-of-prior-permission-granted-under-fcra,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+72,Ministry of Home Affairs (MHA),List of Prior Permission Granted Under FCRA,https://mha.gov.in/prior-permission-granted-under-fcra,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+72,Ministry of Home Affairs (MHA),List of Prior Permission Granted Under FCRA,https://mha.gov.in/prior-permission,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+72,Ministry of Home Affairs (MHA),List of Prior Permission Granted Under FCRA,https://mha.gov.in/prior,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+72,Ministry of Home Affairs (MHA),List of Prior Permission Granted Under FCRA,https://mha.gov.in/blacklist,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+72,Ministry of Home Affairs (MHA),List of Prior Permission Granted Under FCRA,https://mha.gov.in/blacklisted,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+72,Ministry of Home Affairs (MHA),List of Prior Permission Granted Under FCRA,https://mha.gov.in/debarred,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+72,Ministry of Home Affairs (MHA),List of Prior Permission Granted Under FCRA,https://mha.gov.in/debarment,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+74,Ministry of Home Affairs (MHA),Unlawful Associations Under Section 3 of Unlawful Activities (Prevention) Act 1967,https://mha.gov.in/unlawful-associations-under-section-3-of-unlawful-activities-prevention-act-1967,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+74,Ministry of Home Affairs (MHA),Unlawful Associations Under Section 3 of Unlawful Activities (Prevention) Act 1967,https://mha.gov.in/unlawful-associations-under-section-unlawful-activities-prevention-act-1967,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+74,Ministry of Home Affairs (MHA),Unlawful Associations Under Section 3 of Unlawful Activities (Prevention) Act 1967,https://mha.gov.in/unlawful-associations,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+74,Ministry of Home Affairs (MHA),Unlawful Associations Under Section 3 of Unlawful Activities (Prevention) Act 1967,https://mha.gov.in/unlawful,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+74,Ministry of Home Affairs (MHA),Unlawful Associations Under Section 3 of Unlawful Activities (Prevention) Act 1967,https://mha.gov.in/blacklist,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+74,Ministry of Home Affairs (MHA),Unlawful Associations Under Section 3 of Unlawful Activities (Prevention) Act 1967,https://mha.gov.in/blacklisted,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+74,Ministry of Home Affairs (MHA),Unlawful Associations Under Section 3 of Unlawful Activities (Prevention) Act 1967,https://mha.gov.in/debarred,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+74,Ministry of Home Affairs (MHA),Unlawful Associations Under Section 3 of Unlawful Activities (Prevention) Act 1967,https://mha.gov.in/debarment,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+78,Ministry of Women and Child Development Government of India (MWCD),Blacklisted NGOs,https://wcd.gov.in/blacklisted-ngos,400,https://wcd.gov.in/blacklisted-ngos,text/html,4905,,0,dead,
+78,Ministry of Women and Child Development Government of India (MWCD),Blacklisted NGOs,https://wcd.gov.in/blacklisted,400,https://wcd.gov.in/blacklisted,text/html,4905,,0,dead,
+78,Ministry of Women and Child Development Government of India (MWCD),Blacklisted NGOs,https://wcd.gov.in/blacklist,400,https://wcd.gov.in/blacklist,text/html,4905,,0,dead,
+78,Ministry of Women and Child Development Government of India (MWCD),Blacklisted NGOs,https://wcd.gov.in/debarred,400,https://wcd.gov.in/debarred,text/html,4905,,0,dead,
+78,Ministry of Women and Child Development Government of India (MWCD),Blacklisted NGOs,https://wcd.gov.in/debarment,400,https://wcd.gov.in/debarment,text/html,4905,,0,dead,
+78,Ministry of Women and Child Development Government of India (MWCD),Blacklisted NGOs,https://wcd.gov.in/debarred-firms,400,https://wcd.gov.in/debarred-firms,text/html,4905,,0,dead,
+78,Ministry of Women and Child Development Government of India (MWCD),Blacklisted NGOs,https://wcd.gov.in/debarred-entities,400,https://wcd.gov.in/debarred-entities,text/html,4905,,0,dead,
+78,Ministry of Women and Child Development Government of India (MWCD),Blacklisted NGOs,https://wcd.gov.in/debarred-vendors,400,https://wcd.gov.in/debarred-vendors,text/html,4905,,0,dead,
+79,Narcotics Control Bureau (NCB),Important Seizures,https://narcoticsindia.nic.in/important-seizures,404,https://narcoticsindia.nic.in/important-seizures,text/html,1245,,0,dead,
+79,Narcotics Control Bureau (NCB),Important Seizures,https://narcoticsindia.nic.in/important,404,https://narcoticsindia.nic.in/important,text/html,1245,,0,dead,
+79,Narcotics Control Bureau (NCB),Important Seizures,https://narcoticsindia.nic.in/blacklist,404,https://narcoticsindia.nic.in/blacklist,text/html,1245,,0,dead,
+79,Narcotics Control Bureau (NCB),Important Seizures,https://narcoticsindia.nic.in/blacklisted,404,https://narcoticsindia.nic.in/blacklisted,text/html,1245,,0,dead,
+79,Narcotics Control Bureau (NCB),Important Seizures,https://narcoticsindia.nic.in/debarred,404,https://narcoticsindia.nic.in/debarred,text/html,1245,,0,dead,
+79,Narcotics Control Bureau (NCB),Important Seizures,https://narcoticsindia.nic.in/debarment,404,https://narcoticsindia.nic.in/debarment,text/html,1245,,0,dead,
+79,Narcotics Control Bureau (NCB),Important Seizures,https://narcoticsindia.nic.in/debarred-firms,404,https://narcoticsindia.nic.in/debarred-firms,text/html,1245,,0,dead,
+79,Narcotics Control Bureau (NCB),Important Seizures,https://narcoticsindia.nic.in/debarred-entities,404,https://narcoticsindia.nic.in/debarred-entities,text/html,1245,,0,dead,
+90,National Housing Bank (NHB),Companies Not Valid for Acceptance of Public Deposits,https://nhb.org.in/companies-not-valid-for-acceptance-of-public-deposits,404,https://www.nhb.org.in/companies-not-valid-for-acceptance-of-public-deposits,text/html; charset=UTF-8,0,,0,high,
+90,National Housing Bank (NHB),Companies Not Valid for Acceptance of Public Deposits,https://nhb.org.in/companies-not-valid-acceptance-public-deposits,404,https://www.nhb.org.in/companies-not-valid-acceptance-public-deposits,text/html; charset=UTF-8,0,,0,high,
+90,National Housing Bank (NHB),Companies Not Valid for Acceptance of Public Deposits,https://nhb.org.in/companies-not,404,https://www.nhb.org.in/companies-not,text/html; charset=UTF-8,0,,0,high,
+90,National Housing Bank (NHB),Companies Not Valid for Acceptance of Public Deposits,https://nhb.org.in/companies,200,https://www.nhb.org.in/companies-whose-application-for-cor-have-been-cancelled/,text/html; charset=UTF-8,135709,cancelled,16,high,
+96,National Institute of Electronics and Information Technology (NIELIT),Debarred Vendors List,https://nielit.gov.in/debarred-vendors-list,404,https://www.nielit.gov.in/debarred-vendors-list,text/html; charset=utf-8,0,,0,dead,
+96,National Institute of Electronics and Information Technology (NIELIT),Debarred Vendors List,https://nielit.gov.in/debarred-vendors,404,https://www.nielit.gov.in/debarred-vendors,text/html; charset=utf-8,0,,0,dead,
+96,National Institute of Electronics and Information Technology (NIELIT),Debarred Vendors List,https://nielit.gov.in/debarred,404,https://www.nielit.gov.in/debarred,text/html; charset=utf-8,0,,0,dead,
+96,National Institute of Electronics and Information Technology (NIELIT),Debarred Vendors List,https://nielit.gov.in/blacklist,404,https://www.nielit.gov.in/blacklist,text/html; charset=utf-8,0,,0,dead,
+96,National Institute of Electronics and Information Technology (NIELIT),Debarred Vendors List,https://nielit.gov.in/blacklisted,404,https://www.nielit.gov.in/blacklisted,text/html; charset=utf-8,0,,0,dead,
+96,National Institute of Electronics and Information Technology (NIELIT),Debarred Vendors List,https://nielit.gov.in/debarment,404,https://www.nielit.gov.in/debarment,text/html; charset=utf-8,0,,0,dead,
+96,National Institute of Electronics and Information Technology (NIELIT),Debarred Vendors List,https://nielit.gov.in/debarred-firms,404,https://www.nielit.gov.in/debarred-firms,text/html; charset=utf-8,0,,0,dead,
+96,National Institute of Electronics and Information Technology (NIELIT),Debarred Vendors List,https://nielit.gov.in/debarred-entities,404,https://www.nielit.gov.in/debarred-entities,text/html; charset=utf-8,0,,0,dead,
+97,National Institution for Transforming India (NITI) Aayog,Blacklisted NGOs,https://niti.gov.in/blacklisted-ngos,404,https://niti.gov.in/blacklisted-ngos,text/html; charset=UTF-8,0,,0,dead,
+97,National Institution for Transforming India (NITI) Aayog,Blacklisted NGOs,https://niti.gov.in/blacklisted,404,https://niti.gov.in/blacklisted,text/html; charset=UTF-8,0,,0,dead,
+97,National Institution for Transforming India (NITI) Aayog,Blacklisted NGOs,https://niti.gov.in/blacklist,404,https://niti.gov.in/blacklist,text/html; charset=UTF-8,0,,0,dead,
+97,National Institution for Transforming India (NITI) Aayog,Blacklisted NGOs,https://niti.gov.in/debarred,404,https://niti.gov.in/debarred,text/html; charset=UTF-8,0,,0,dead,
+97,National Institution for Transforming India (NITI) Aayog,Blacklisted NGOs,https://niti.gov.in/debarment,404,https://niti.gov.in/debarment,text/html; charset=UTF-8,0,,0,dead,
+97,National Institution for Transforming India (NITI) Aayog,Blacklisted NGOs,https://niti.gov.in/debarred-firms,404,https://niti.gov.in/debarred-firms,text/html; charset=UTF-8,0,,0,dead,
+97,National Institution for Transforming India (NITI) Aayog,Blacklisted NGOs,https://niti.gov.in/debarred-entities,404,https://niti.gov.in/debarred-entities,text/html; charset=UTF-8,0,,0,dead,
+97,National Institution for Transforming India (NITI) Aayog,Blacklisted NGOs,https://niti.gov.in/debarred-vendors,404,https://niti.gov.in/debarred-vendors,text/html; charset=UTF-8,0,,0,dead,
+98,National Institution for Transforming India (NITI) Aayog,List of VOs/NGOs signed up on the NGO-DARPAN,https://niti.gov.in/list-of-vos-ngos-signed-up-on-the-ngo-darpan,404,https://niti.gov.in/list-of-vos-ngos-signed-up-on-the-ngo-darpan,text/html; charset=UTF-8,0,,0,dead,
+98,National Institution for Transforming India (NITI) Aayog,List of VOs/NGOs signed up on the NGO-DARPAN,https://niti.gov.in/vos-ngos-signed-ngo-darpan,404,https://niti.gov.in/vos-ngos-signed-ngo-darpan,text/html; charset=UTF-8,0,,0,dead,
+98,National Institution for Transforming India (NITI) Aayog,List of VOs/NGOs signed up on the NGO-DARPAN,https://niti.gov.in/vos-ngos,404,https://niti.gov.in/vos-ngos,text/html; charset=UTF-8,0,,0,dead,
+98,National Institution for Transforming India (NITI) Aayog,List of VOs/NGOs signed up on the NGO-DARPAN,https://niti.gov.in/vos,404,https://niti.gov.in/vos,text/html; charset=UTF-8,0,,0,dead,
+98,National Institution for Transforming India (NITI) Aayog,List of VOs/NGOs signed up on the NGO-DARPAN,https://niti.gov.in/blacklist,404,https://niti.gov.in/blacklist,text/html; charset=UTF-8,0,,0,dead,
+98,National Institution for Transforming India (NITI) Aayog,List of VOs/NGOs signed up on the NGO-DARPAN,https://niti.gov.in/blacklisted,404,https://niti.gov.in/blacklisted,text/html; charset=UTF-8,0,,0,dead,
+98,National Institution for Transforming India (NITI) Aayog,List of VOs/NGOs signed up on the NGO-DARPAN,https://niti.gov.in/debarred,404,https://niti.gov.in/debarred,text/html; charset=UTF-8,0,,0,dead,
+98,National Institution for Transforming India (NITI) Aayog,List of VOs/NGOs signed up on the NGO-DARPAN,https://niti.gov.in/debarment,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without"
+105,Reserve Bank of India (RBI),List of Cancelled NBFCs,https://rbi.org.in/list-of-cancelled-nbfcs,418,https://rbi.org.in/list-of-cancelled-nbfcs,text/html; charset=utf-8,627,,0,dead,
+105,Reserve Bank of India (RBI),List of Cancelled NBFCs,https://rbi.org.in/cancelled-nbfcs,418,https://rbi.org.in/cancelled-nbfcs,text/html; charset=utf-8,627,,0,dead,
+105,Reserve Bank of India (RBI),List of Cancelled NBFCs,https://rbi.org.in/cancelled,418,https://rbi.org.in/cancelled,text/html; charset=utf-8,627,,0,dead,
+105,Reserve Bank of India (RBI),List of Cancelled NBFCs,https://rbi.org.in/blacklist,418,https://rbi.org.in/blacklist,text/html; charset=utf-8,627,,0,dead,
+105,Reserve Bank of India (RBI),List of Cancelled NBFCs,https://rbi.org.in/blacklisted,418,https://rbi.org.in/blacklisted,text/html; charset=utf-8,627,,0,dead,
+105,Reserve Bank of India (RBI),List of Cancelled NBFCs,https://rbi.org.in/debarred,418,https://rbi.org.in/debarred,text/html; charset=utf-8,628,,0,dead,
+105,Reserve Bank of India (RBI),List of Cancelled NBFCs,https://rbi.org.in/debarment,418,https://rbi.org.in/debarment,text/html; charset=utf-8,627,,0,dead,
+105,Reserve Bank of India (RBI),List of Cancelled NBFCs,https://rbi.org.in/debarred-firms,418,https://rbi.org.in/debarred-firms,text/html; charset=utf-8,628,,0,dead,
+107,Reserve Bank of India (RBI),United Nations Security Council Act 1947,https://rbi.org.in/united-nations-security-council-act-1947,418,https://rbi.org.in/united-nations-security-council-act-1947,text/html; charset=utf-8,628,,0,dead,
+107,Reserve Bank of India (RBI),United Nations Security Council Act 1947,https://rbi.org.in/united-nations,418,https://rbi.org.in/united-nations,text/html; charset=utf-8,627,,0,dead,
+107,Reserve Bank of India (RBI),United Nations Security Council Act 1947,https://rbi.org.in/united,418,https://rbi.org.in/united,text/html; charset=utf-8,627,,0,dead,
+107,Reserve Bank of India (RBI),United Nations Security Council Act 1947,https://rbi.org.in/blacklist,418,https://rbi.org.in/blacklist,text/html; charset=utf-8,628,,0,dead,
+107,Reserve Bank of India (RBI),United Nations Security Council Act 1947,https://rbi.org.in/blacklisted,418,https://rbi.org.in/blacklisted,text/html; charset=utf-8,627,,0,dead,
+107,Reserve Bank of India (RBI),United Nations Security Council Act 1947,https://rbi.org.in/debarred,418,https://rbi.org.in/debarred,text/html; charset=utf-8,627,,0,dead,
+107,Reserve Bank of India (RBI),United Nations Security Council Act 1947,https://rbi.org.in/debarment,418,https://rbi.org.in/debarment,text/html; charset=utf-8,627,,0,dead,
+107,Reserve Bank of India (RBI),United Nations Security Council Act 1947,https://rbi.org.in/debarred-firms,418,https://rbi.org.in/debarred-firms,text/html; charset=utf-8,628,,0,dead,
+128,Wildlife Crime Control Bureau (WCCB),Convicts,https://wccb.gov.in/convicts,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+128,Wildlife Crime Control Bureau (WCCB),Convicts,https://wccb.gov.in/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+128,Wildlife Crime Control Bureau (WCCB),Convicts,https://wccb.gov.in/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+128,Wildlife Crime Control Bureau (WCCB),Convicts,https://wccb.gov.in/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+128,Wildlife Crime Control Bureau (WCCB),Convicts,https://wccb.gov.in/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+128,Wildlife Crime Control Bureau (WCCB),Convicts,https://wccb.gov.in/debarred-firms,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+128,Wildlife Crime Control Bureau (WCCB),Convicts,https://wccb.gov.in/debarred-entities,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+128,Wildlife Crime Control Bureau (WCCB),Convicts,https://wccb.gov.in/debarred-vendors,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+129,Wildlife Crime Control Bureau (WCCB),Court Judgements,https://wccb.gov.in/court-judgements,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+129,Wildlife Crime Control Bureau (WCCB),Court Judgements,https://wccb.gov.in/court,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+129,Wildlife Crime Control Bureau (WCCB),Court Judgements,https://wccb.gov.in/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+129,Wildlife Crime Control Bureau (WCCB),Court Judgements,https://wccb.gov.in/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+129,Wildlife Crime Control Bureau (WCCB),Court Judgements,https://wccb.gov.in/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+129,Wildlife Crime Control Bureau (WCCB),Court Judgements,https://wccb.gov.in/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+129,Wildlife Crime Control Bureau (WCCB),Court Judgements,https://wccb.gov.in/debarred-firms,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+129,Wildlife Crime Control Bureau (WCCB),Court Judgements,https://wccb.gov.in/debarred-entities,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='wccb.gov.in', port=443): Max retries exceeded with url"
+133,Indian Bank (IB),Wilful Defaulters,https://indianbank.in/wilful-defaulters,404,https://indianbank.bank.in/wilful-defaulters,text/html; charset=UTF-8,0,,0,dead,
+133,Indian Bank (IB),Wilful Defaulters,https://indianbank.in/wilful,404,https://indianbank.bank.in/wilful,text/html; charset=UTF-8,0,,0,dead,
+133,Indian Bank (IB),Wilful Defaulters,https://indianbank.in/blacklist,404,https://indianbank.bank.in/blacklist,text/html; charset=UTF-8,0,,0,dead,
+133,Indian Bank (IB),Wilful Defaulters,https://indianbank.in/blacklisted,404,https://indianbank.bank.in/blacklisted,text/html; charset=UTF-8,0,,0,dead,
+133,Indian Bank (IB),Wilful Defaulters,https://indianbank.in/debarred,404,https://indianbank.bank.in/debarred,text/html; charset=UTF-8,0,,0,dead,
+133,Indian Bank (IB),Wilful Defaulters,https://indianbank.in/debarment,404,https://indianbank.bank.in/debarment,text/html; charset=UTF-8,0,,0,dead,
+133,Indian Bank (IB),Wilful Defaulters,https://indianbank.in/debarred-firms,404,https://indianbank.bank.in/debarred-firms,text/html; charset=UTF-8,0,,0,dead,
+133,Indian Bank (IB),Wilful Defaulters,https://indianbank.in/debarred-entities,404,https://indianbank.bank.in/debarred-entities,text/html; charset=UTF-8,0,,0,dead,
+137,UCO Bank (UCO),Wilful Defaulters,https://ucobank.com/wilful-defaulters,404,https://uco.bank.in/wilful-defaulters,text/html;charset=UTF-8,173931,,0,dead,
+137,UCO Bank (UCO),Wilful Defaulters,https://ucobank.com/wilful,404,https://uco.bank.in/wilful,text/html;charset=UTF-8,167756,,0,dead,
+137,UCO Bank (UCO),Wilful Defaulters,https://ucobank.com/blacklist,404,https://uco.bank.in/blacklist,text/html;charset=UTF-8,167816,,0,dead,
+137,UCO Bank (UCO),Wilful Defaulters,https://ucobank.com/blacklisted,404,https://uco.bank.in/blacklisted,text/html;charset=UTF-8,167856,,0,dead,
+137,UCO Bank (UCO),Wilful Defaulters,https://ucobank.com/debarred,404,https://uco.bank.in/debarred,text/html;charset=UTF-8,170280,,0,dead,
+137,UCO Bank (UCO),Wilful Defaulters,https://ucobank.com/debarment,404,https://uco.bank.in/debarment,text/html;charset=UTF-8,173715,,0,dead,
+137,UCO Bank (UCO),Wilful Defaulters,https://ucobank.com/debarred-firms,404,https://uco.bank.in/debarred-firms,text/html;charset=UTF-8,173850,,0,dead,
+137,UCO Bank (UCO),Wilful Defaulters,https://ucobank.com/debarred-entities,404,https://uco.bank.in/debarred-entities,text/html;charset=UTF-8,173931,,0,dead,
+138,Airport Authority of India (AAI),Vendor Debarred List,https://aai.aero/vendor-debarred-list,404,https://aai.aero/vendor-debarred-list,text/html; charset=utf-8,0,,0,dead,
+138,Airport Authority of India (AAI),Vendor Debarred List,https://aai.aero/vendor-debarred,404,https://aai.aero/vendor-debarred,text/html; charset=utf-8,0,,0,dead,
+138,Airport Authority of India (AAI),Vendor Debarred List,https://aai.aero/vendor,404,https://aai.aero/vendor,text/html; charset=utf-8,0,,0,dead,
+138,Airport Authority of India (AAI),Vendor Debarred List,https://aai.aero/blacklist,404,https://aai.aero/blacklist,text/html; charset=utf-8,0,,0,dead,
+138,Airport Authority of India (AAI),Vendor Debarred List,https://aai.aero/blacklisted,404,https://aai.aero/blacklisted,text/html; charset=utf-8,0,,0,dead,
+138,Airport Authority of India (AAI),Vendor Debarred List,https://aai.aero/debarred,404,https://aai.aero/debarred,text/html; charset=utf-8,0,,0,dead,
+138,Airport Authority of India (AAI),Vendor Debarred List,https://aai.aero/debarment,404,https://aai.aero/debarment,text/html; charset=utf-8,0,,0,dead,
+138,Airport Authority of India (AAI),Vendor Debarred List,https://aai.aero/debarred-firms,404,https://aai.aero/debarred-firms,text/html; charset=utf-8,0,,0,dead,
+145,Hindustan Copper Ltd (HCL),Black Listed Vendors,https://hindustancopper.com/black-listed-vendors,200,https://hindustancopper.com/black-listed-vendors,text/html; charset=utf-8,95142,,0,high,
+145,Hindustan Copper Ltd (HCL),Black Listed Vendors,https://hindustancopper.com/black-listed,200,https://hindustancopper.com/black-listed,text/html; charset=utf-8,95142,,0,high,
+145,Hindustan Copper Ltd (HCL),Black Listed Vendors,https://hindustancopper.com/black,200,https://hindustancopper.com/black,text/html; charset=utf-8,95142,,0,high,
+145,Hindustan Copper Ltd (HCL),Black Listed Vendors,https://hindustancopper.com/blacklist,200,https://hindustancopper.com/blacklist,text/html; charset=utf-8,95142,blacklist,0,high,
+151,NLC India Limited (NLC),List of Banned / Debarred Vendors,https://nlcindia.in/list-of-banned-debarred-vendors,,,,0,,0,dead,"ConnectTimeout: HTTPConnectionPool(host='www.nlcindia.in', port=80): Max retries exceeded with u"
+151,NLC India Limited (NLC),List of Banned / Debarred Vendors,https://nlcindia.in/banned-debarred-vendors,,,,0,,0,dead,"ConnectTimeout: HTTPConnectionPool(host='www.nlcindia.in', port=80): Max retries exceeded with u"
+151,NLC India Limited (NLC),List of Banned / Debarred Vendors,https://nlcindia.in/banned-debarred,,,,0,,0,dead,"ConnectTimeout: HTTPConnectionPool(host='www.nlcindia.in', port=80): Max retries exceeded with u"
+151,NLC India Limited (NLC),List of Banned / Debarred Vendors,https://nlcindia.in/banned,,,,0,,0,dead,"ConnectTimeout: HTTPConnectionPool(host='www.nlcindia.in', port=80): Max retries exceeded with u"
+151,NLC India Limited (NLC),List of Banned / Debarred Vendors,https://nlcindia.in/blacklist,,,,0,,0,dead,"ConnectTimeout: HTTPConnectionPool(host='www.nlcindia.in', port=80): Max retries exceeded with u"
+151,NLC India Limited (NLC),List of Banned / Debarred Vendors,https://nlcindia.in/blacklisted,,,,0,,0,dead,"ConnectTimeout: HTTPConnectionPool(host='www.nlcindia.in', port=80): Max retries exceeded with u"
+151,NLC India Limited (NLC),List of Banned / Debarred Vendors,https://nlcindia.in/debarred,,,,0,,0,dead,"ConnectTimeout: HTTPConnectionPool(host='www.nlcindia.in', port=80): Max retries exceeded with u"
+151,NLC India Limited (NLC),List of Banned / Debarred Vendors,https://nlcindia.in/debarment,,,,0,,0,dead,"ConnectTimeout: HTTPConnectionPool(host='www.nlcindia.in', port=80): Max retries exceeded with u"
+155,Rashtriya Ispat Nigam Limited (RINL),List of Banned / Debarred Vendors,https://vizagsteel.com/list-of-banned-debarred-vendors,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='vizagsteel.com', port=443): Max retries exceeded with "
+155,Rashtriya Ispat Nigam Limited (RINL),List of Banned / Debarred Vendors,https://vizagsteel.com/banned-debarred-vendors,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='vizagsteel.com', port=443): Max retries exceeded with "
+155,Rashtriya Ispat Nigam Limited (RINL),List of Banned / Debarred Vendors,https://vizagsteel.com/banned-debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='vizagsteel.com', port=443): Max retries exceeded with "
+155,Rashtriya Ispat Nigam Limited (RINL),List of Banned / Debarred Vendors,https://vizagsteel.com/banned,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='vizagsteel.com', port=443): Max retries exceeded with "
+155,Rashtriya Ispat Nigam Limited (RINL),List of Banned / Debarred Vendors,https://vizagsteel.com/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='vizagsteel.com', port=443): Max retries exceeded with "
+155,Rashtriya Ispat Nigam Limited (RINL),List of Banned / Debarred Vendors,https://vizagsteel.com/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='vizagsteel.com', port=443): Max retries exceeded with "
+155,Rashtriya Ispat Nigam Limited (RINL),List of Banned / Debarred Vendors,https://vizagsteel.com/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='vizagsteel.com', port=443): Max retries exceeded with "
+155,Rashtriya Ispat Nigam Limited (RINL),List of Banned / Debarred Vendors,https://vizagsteel.com/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='vizagsteel.com', port=443): Max retries exceeded with "
+157,Telecom Regulatory Authority of India (TRAI),List of Defaulters,https://trai.gov.in/list-of-defaulters,404,https://trai.gov.in/list-of-defaulters,text/html; charset=UTF-8,0,,0,dead,
+157,Telecom Regulatory Authority of India (TRAI),List of Defaulters,https://trai.gov.in/defaulters,404,https://trai.gov.in/defaulters,text/html; charset=UTF-8,0,,0,dead,
+157,Telecom Regulatory Authority of India (TRAI),List of Defaulters,https://trai.gov.in/blacklist,404,https://trai.gov.in/blacklist,text/html; charset=UTF-8,0,,0,dead,
+157,Telecom Regulatory Authority of India (TRAI),List of Defaulters,https://trai.gov.in/blacklisted,404,https://trai.gov.in/blacklisted,text/html; charset=UTF-8,0,,0,dead,
+157,Telecom Regulatory Authority of India (TRAI),List of Defaulters,https://trai.gov.in/debarred,404,https://trai.gov.in/debarred,text/html; charset=UTF-8,0,,0,dead,
+157,Telecom Regulatory Authority of India (TRAI),List of Defaulters,https://trai.gov.in/debarment,404,https://trai.gov.in/debarment,text/html; charset=UTF-8,0,,0,dead,
+157,Telecom Regulatory Authority of India (TRAI),List of Defaulters,https://trai.gov.in/debarred-firms,404,https://trai.gov.in/debarred-firms,text/html; charset=UTF-8,0,,0,dead,
+157,Telecom Regulatory Authority of India (TRAI),List of Defaulters,https://trai.gov.in/debarred-entities,404,https://trai.gov.in/debarred-entities,text/html; charset=UTF-8,0,,0,dead,
+158,Uttar Pradesh Power Corporation Limited (UPPCL),Blacklisted Company,https://uppcl.org/blacklisted-company,404,https://uppcl.org/blacklisted-company,text/html,1245,,0,dead,
+158,Uttar Pradesh Power Corporation Limited (UPPCL),Blacklisted Company,https://uppcl.org/blacklisted,404,https://uppcl.org/blacklisted,text/html,1245,,0,dead,
+158,Uttar Pradesh Power Corporation Limited (UPPCL),Blacklisted Company,https://uppcl.org/blacklist,404,https://uppcl.org/blacklist,text/html,1245,,0,dead,
+158,Uttar Pradesh Power Corporation Limited (UPPCL),Blacklisted Company,https://uppcl.org/debarred,404,https://uppcl.org/debarred,text/html,1245,,0,dead,
+158,Uttar Pradesh Power Corporation Limited (UPPCL),Blacklisted Company,https://uppcl.org/debarment,404,https://uppcl.org/debarment,text/html,1245,,0,dead,
+158,Uttar Pradesh Power Corporation Limited (UPPCL),Blacklisted Company,https://uppcl.org/debarred-firms,404,https://uppcl.org/debarred-firms,text/html,1245,,0,dead,
+158,Uttar Pradesh Power Corporation Limited (UPPCL),Blacklisted Company,https://uppcl.org/debarred-entities,404,https://uppcl.org/debarred-entities,text/html,1245,,0,dead,
+158,Uttar Pradesh Power Corporation Limited (UPPCL),Blacklisted Company,https://uppcl.org/debarred-vendors,404,https://uppcl.org/debarred-vendors,text/html,1245,,0,dead,
+161,Central Depository Services (India) Limited (CDSL),Arbitration,https://cdslindia.com/arbitration,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+161,Central Depository Services (India) Limited (CDSL),Arbitration,https://cdslindia.com/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+161,Central Depository Services (India) Limited (CDSL),Arbitration,https://cdslindia.com/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+161,Central Depository Services (India) Limited (CDSL),Arbitration,https://cdslindia.com/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+161,Central Depository Services (India) Limited (CDSL),Arbitration,https://cdslindia.com/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+161,Central Depository Services (India) Limited (CDSL),Arbitration,https://cdslindia.com/debarred-firms,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+161,Central Depository Services (India) Limited (CDSL),Arbitration,https://cdslindia.com/debarred-entities,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+161,Central Depository Services (India) Limited (CDSL),Arbitration,https://cdslindia.com/debarred-vendors,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+162,Central Depository Services (India) Limited (CDSL),Complaints and Arbitration Details,https://cdslindia.com/complaints-and-arbitration-details,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+162,Central Depository Services (India) Limited (CDSL),Complaints and Arbitration Details,https://cdslindia.com/complaints-arbitration-details,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+162,Central Depository Services (India) Limited (CDSL),Complaints and Arbitration Details,https://cdslindia.com/complaints-arbitration,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+162,Central Depository Services (India) Limited (CDSL),Complaints and Arbitration Details,https://cdslindia.com/complaints,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+162,Central Depository Services (India) Limited (CDSL),Complaints and Arbitration Details,https://cdslindia.com/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+162,Central Depository Services (India) Limited (CDSL),Complaints and Arbitration Details,https://cdslindia.com/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+162,Central Depository Services (India) Limited (CDSL),Complaints and Arbitration Details,https://cdslindia.com/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+162,Central Depository Services (India) Limited (CDSL),Complaints and Arbitration Details,https://cdslindia.com/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+163,Central Depository Services (India) Limited (CDSL),List of PANs Frozen on Account of Non,https://cdslindia.com/list-of-pans-frozen-on-account-of-non,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+163,Central Depository Services (India) Limited (CDSL),List of PANs Frozen on Account of Non,https://cdslindia.com/pans-frozen-account-non,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+163,Central Depository Services (India) Limited (CDSL),List of PANs Frozen on Account of Non,https://cdslindia.com/pans-frozen,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+163,Central Depository Services (India) Limited (CDSL),List of PANs Frozen on Account of Non,https://cdslindia.com/pans,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+163,Central Depository Services (India) Limited (CDSL),List of PANs Frozen on Account of Non,https://cdslindia.com/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+163,Central Depository Services (India) Limited (CDSL),List of PANs Frozen on Account of Non,https://cdslindia.com/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+163,Central Depository Services (India) Limited (CDSL),List of PANs Frozen on Account of Non,https://cdslindia.com/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+163,Central Depository Services (India) Limited (CDSL),List of PANs Frozen on Account of Non,https://cdslindia.com/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='cdslindia.com', port=443): Max retries exceeded with u"
+164,DSE Estates Limited (DEL),Delisted Companies,https://dseindia.com/delisted-companies,404,https://www.dseindia.com/delisted-companies,text/html,1903,,0,dead,
+164,DSE Estates Limited (DEL),Delisted Companies,https://dseindia.com/delisted,404,https://www.dseindia.com/delisted,text/html,1903,,0,dead,
+164,DSE Estates Limited (DEL),Delisted Companies,https://dseindia.com/blacklist,404,https://www.dseindia.com/blacklist,text/html,1903,,0,dead,
+164,DSE Estates Limited (DEL),Delisted Companies,https://dseindia.com/blacklisted,404,https://www.dseindia.com/blacklisted,text/html,1903,,0,dead,
+164,DSE Estates Limited (DEL),Delisted Companies,https://dseindia.com/debarred,404,https://www.dseindia.com/debarred,text/html,1903,,0,dead,
+164,DSE Estates Limited (DEL),Delisted Companies,https://dseindia.com/debarment,404,https://www.dseindia.com/debarment,text/html,1903,,0,dead,
+164,DSE Estates Limited (DEL),Delisted Companies,https://dseindia.com/debarred-firms,404,https://www.dseindia.com/debarred-firms,text/html,1903,,0,dead,
+164,DSE Estates Limited (DEL),Delisted Companies,https://dseindia.com/debarred-entities,404,https://www.dseindia.com/debarred-entities,text/html,1903,,0,dead,
+165,DSE Estates Limited (DEL),List of Suspended Companies,https://dseindia.com/list-of-suspended-companies,404,https://www.dseindia.com/list-of-suspended-companies,text/html,1903,,0,dead,
+165,DSE Estates Limited (DEL),List of Suspended Companies,https://dseindia.com/suspended-companies,404,https://www.dseindia.com/suspended-companies,text/html,1903,,0,dead,
+165,DSE Estates Limited (DEL),List of Suspended Companies,https://dseindia.com/suspended,404,https://www.dseindia.com/suspended,text/html,1903,,0,dead,
+165,DSE Estates Limited (DEL),List of Suspended Companies,https://dseindia.com/blacklist,404,https://www.dseindia.com/blacklist,text/html,1903,,0,dead,
+165,DSE Estates Limited (DEL),List of Suspended Companies,https://dseindia.com/blacklisted,404,https://www.dseindia.com/blacklisted,text/html,1903,,0,dead,
+165,DSE Estates Limited (DEL),List of Suspended Companies,https://dseindia.com/debarred,404,https://www.dseindia.com/debarred,text/html,1903,,0,dead,
+165,DSE Estates Limited (DEL),List of Suspended Companies,https://dseindia.com/debarment,404,https://www.dseindia.com/debarment,text/html,1903,,0,dead,
+165,DSE Estates Limited (DEL),List of Suspended Companies,https://dseindia.com/debarred-firms,404,https://www.dseindia.com/debarred-firms,text/html,1903,,0,dead,
+169,Indian Commodity Exchange Ltd (ICEX),List of Surrendered Members,https://icexindia.com/list-of-surrendered-members,200,https://www.icexindia.com/list-of-surrendered-members,text/html; charset=utf-8,13511,"defaulter,expelled",3,high,
+179,Multi Commodity Exchange (MCX),List of Members Expelled,https://mcxindia.com/list-of-members-expelled,403,https://www.mcxindia.com/list-of-members-expelled,text/html,406,,0,dead,
+179,Multi Commodity Exchange (MCX),List of Members Expelled,https://mcxindia.com/members-expelled,403,https://www.mcxindia.com/members-expelled,text/html,390,,0,dead,
+179,Multi Commodity Exchange (MCX),List of Members Expelled,https://mcxindia.com/members,403,https://www.mcxindia.com/members,text/html,377,,0,dead,
+179,Multi Commodity Exchange (MCX),List of Members Expelled,https://mcxindia.com/blacklist,403,https://www.mcxindia.com/blacklist,text/html,379,,0,dead,
+179,Multi Commodity Exchange (MCX),List of Members Expelled,https://mcxindia.com/blacklisted,403,https://www.mcxindia.com/blacklisted,text/html,381,,0,dead,
+179,Multi Commodity Exchange (MCX),List of Members Expelled,https://mcxindia.com/debarred,403,https://www.mcxindia.com/debarred,text/html,378,,0,dead,
+179,Multi Commodity Exchange (MCX),List of Members Expelled,https://mcxindia.com/debarment,403,https://www.mcxindia.com/debarment,text/html,379,,0,dead,
+179,Multi Commodity Exchange (MCX),List of Members Expelled,https://mcxindia.com/debarred-firms,403,https://www.mcxindia.com/debarred-firms,text/html,388,,0,dead,
+192,National Spot Exchange Limited (NSEL),Defaulters,https://nationalspotexchange.com/defaulters,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+192,National Spot Exchange Limited (NSEL),Defaulters,https://nationalspotexchange.com/blacklist,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+192,National Spot Exchange Limited (NSEL),Defaulters,https://nationalspotexchange.com/blacklisted,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+192,National Spot Exchange Limited (NSEL),Defaulters,https://nationalspotexchange.com/debarred,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+192,National Spot Exchange Limited (NSEL),Defaulters,https://nationalspotexchange.com/debarment,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+192,National Spot Exchange Limited (NSEL),Defaulters,https://nationalspotexchange.com/debarred-firms,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+192,National Spot Exchange Limited (NSEL),Defaulters,https://nationalspotexchange.com/debarred-entities,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+192,National Spot Exchange Limited (NSEL),Defaulters,https://nationalspotexchange.com/debarred-vendors,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+196,National Spot Exchange Limited (NSEL),Details of Decrees obtained After Determination of Liability by HCC,https://nationalspotexchange.com/details-of-decrees-obtained-after-determination-of-liability-by-hcc,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+196,National Spot Exchange Limited (NSEL),Details of Decrees obtained After Determination of Liability by HCC,https://nationalspotexchange.com/details-decrees-obtained-after-determination-liability-hcc,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+196,National Spot Exchange Limited (NSEL),Details of Decrees obtained After Determination of Liability by HCC,https://nationalspotexchange.com/details-decrees,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+196,National Spot Exchange Limited (NSEL),Details of Decrees obtained After Determination of Liability by HCC,https://nationalspotexchange.com/details,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+196,National Spot Exchange Limited (NSEL),Details of Decrees obtained After Determination of Liability by HCC,https://nationalspotexchange.com/blacklist,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+196,National Spot Exchange Limited (NSEL),Details of Decrees obtained After Determination of Liability by HCC,https://nationalspotexchange.com/blacklisted,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+196,National Spot Exchange Limited (NSEL),Details of Decrees obtained After Determination of Liability by HCC,https://nationalspotexchange.com/debarred,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+196,National Spot Exchange Limited (NSEL),Details of Decrees obtained After Determination of Liability by HCC,https://nationalspotexchange.com/debarment,,,,0,,0,dead,"ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+198,National Stock Exchange (NSE),Arbitration Awards,https://nseindia.com/arbitration-awards,404,https://www.nseindia.com/arbitration-awards,text/html; charset=utf-8,272,,0,dead,
+198,National Stock Exchange (NSE),Arbitration Awards,https://nseindia.com/arbitration,404,https://www.nseindia.com/arbitration,text/html; charset=utf-8,272,,0,dead,
+198,National Stock Exchange (NSE),Arbitration Awards,https://nseindia.com/blacklist,404,https://www.nseindia.com/blacklist,text/html; charset=utf-8,272,,0,dead,
+198,National Stock Exchange (NSE),Arbitration Awards,https://nseindia.com/blacklisted,404,https://www.nseindia.com/blacklisted,text/html; charset=utf-8,272,,0,dead,
+198,National Stock Exchange (NSE),Arbitration Awards,https://nseindia.com/debarred,404,https://www.nseindia.com/debarred,text/html; charset=utf-8,272,,0,dead,
+198,National Stock Exchange (NSE),Arbitration Awards,https://nseindia.com/debarment,404,https://www.nseindia.com/debarment,text/html; charset=utf-8,272,,0,dead,
+198,National Stock Exchange (NSE),Arbitration Awards,https://nseindia.com/debarred-firms,404,https://www.nseindia.com/debarred-firms,text/html; charset=utf-8,272,,0,dead,
+198,National Stock Exchange (NSE),Arbitration Awards,https://nseindia.com/debarred-entities,404,https://www.nseindia.com/debarred-entities,text/html; charset=utf-8,272,,0,dead,
+202,National Stock Exchange (NSE),Other Orders of Member and Core Settlement Guarantee Fund Committee (MCSGFC),https://nseindia.com/other-orders-of-member-and-core-settlement-guarantee-fund-committee-mcsgfc,404,https://www.nseindia.com/other-orders-of-member-and-core-settlement-guarantee-fund-committee-mcsgfc,text/html; charset=utf-8,272,,0,dead,
+202,National Stock Exchange (NSE),Other Orders of Member and Core Settlement Guarantee Fund Committee (MCSGFC),https://nseindia.com/other-orders-member-core-settlement-guarantee-fund-committee-mcsgfc,404,https://www.nseindia.com/other-orders-member-core-settlement-guarantee-fund-committee-mcsgfc,text/html; charset=utf-8,272,,0,dead,
+202,National Stock Exchange (NSE),Other Orders of Member and Core Settlement Guarantee Fund Committee (MCSGFC),https://nseindia.com/other-orders,404,https://www.nseindia.com/other-orders,text/html; charset=utf-8,272,,0,dead,
+202,National Stock Exchange (NSE),Other Orders of Member and Core Settlement Guarantee Fund Committee (MCSGFC),https://nseindia.com/other,404,https://www.nseindia.com/other,text/html; charset=utf-8,272,,0,dead,
+202,National Stock Exchange (NSE),Other Orders of Member and Core Settlement Guarantee Fund Committee (MCSGFC),https://nseindia.com/blacklist,404,https://www.nseindia.com/blacklist,text/html; charset=utf-8,272,,0,dead,
+202,National Stock Exchange (NSE),Other Orders of Member and Core Settlement Guarantee Fund Committee (MCSGFC),https://nseindia.com/blacklisted,404,https://www.nseindia.com/blacklisted,text/html; charset=utf-8,272,,0,dead,
+202,National Stock Exchange (NSE),Other Orders of Member and Core Settlement Guarantee Fund Committee (MCSGFC),https://nseindia.com/debarred,404,https://www.nseindia.com/debarred,text/html; charset=utf-8,272,,0,dead,
+202,National Stock Exchange (NSE),Other Orders of Member and Core Settlement Guarantee Fund Committee (MCSGFC),https://nseindia.com/debarment,404,https://www.nseindia.com/debarment,text/html; charset=utf-8,272,,0,dead,
+203,NSE Clearing Limited (NSECL),Cessation of Membership,https://nscclindia.com/cessation-of-membership,404,https://www.nseclearing.in/cessation-of-membership,text/html; charset=UTF-8,0,,0,dead,
+203,NSE Clearing Limited (NSECL),Cessation of Membership,https://nscclindia.com/cessation-membership,404,https://www.nseclearing.in/cessation-membership,text/html; charset=UTF-8,0,,0,dead,
+203,NSE Clearing Limited (NSECL),Cessation of Membership,https://nscclindia.com/cessation,404,https://www.nseclearing.in/cessation,text/html; charset=UTF-8,0,,0,dead,
+203,NSE Clearing Limited (NSECL),Cessation of Membership,https://nscclindia.com/blacklist,404,https://www.nseclearing.in/blacklist,text/html; charset=UTF-8,0,,0,dead,
+203,NSE Clearing Limited (NSECL),Cessation of Membership,https://nscclindia.com/blacklisted,404,https://www.nseclearing.in/blacklisted,text/html; charset=UTF-8,0,,0,dead,
+203,NSE Clearing Limited (NSECL),Cessation of Membership,https://nscclindia.com/debarred,404,https://www.nseclearing.in/debarred,text/html; charset=UTF-8,0,,0,dead,
+203,NSE Clearing Limited (NSECL),Cessation of Membership,https://nscclindia.com/debarment,404,https://www.nseclearing.in/debarment,text/html; charset=UTF-8,0,,0,dead,
+203,NSE Clearing Limited (NSECL),Cessation of Membership,https://nscclindia.com/debarred-firms,404,https://www.nseclearing.in/debarred-firms,text/html; charset=UTF-8,0,,0,dead,
+204,NSE Clearing Limited (NSECL),Defaulter Members,https://nscclindia.com/defaulter-members,404,https://www.nseclearing.in/defaulter-members,text/html; charset=UTF-8,0,,0,dead,
+204,NSE Clearing Limited (NSECL),Defaulter Members,https://nscclindia.com/defaulter,404,https://www.nseclearing.in/defaulter,text/html; charset=UTF-8,0,,0,dead,
+204,NSE Clearing Limited (NSECL),Defaulter Members,https://nscclindia.com/blacklist,404,https://www.nseclearing.in/blacklist,text/html; charset=UTF-8,0,,0,dead,
+204,NSE Clearing Limited (NSECL),Defaulter Members,https://nscclindia.com/blacklisted,404,https://www.nseclearing.in/blacklisted,text/html; charset=UTF-8,0,,0,dead,
+204,NSE Clearing Limited (NSECL),Defaulter Members,https://nscclindia.com/debarred,404,https://www.nseclearing.in/debarred,text/html; charset=UTF-8,0,,0,dead,
+204,NSE Clearing Limited (NSECL),Defaulter Members,https://nscclindia.com/debarment,404,https://www.nseclearing.in/debarment,text/html; charset=UTF-8,0,,0,dead,
+204,NSE Clearing Limited (NSECL),Defaulter Members,https://nscclindia.com/debarred-firms,404,https://www.nseclearing.in/debarred-firms,text/html; charset=UTF-8,0,,0,dead,
+204,NSE Clearing Limited (NSECL),Defaulter Members,https://nscclindia.com/debarred-entities,404,https://www.nseclearing.in/debarred-entities,text/html; charset=UTF-8,0,,0,dead,
+205,Andaman and Nicobar Police (ANP),Wanted Criminals,https://police.and.nic.in/wanted-criminals,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='police.and.nic.in', port=443): Max retries exceeded wi"
+205,Andaman and Nicobar Police (ANP),Wanted Criminals,https://police.and.nic.in/wanted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='police.and.nic.in', port=443): Max retries exceeded wi"
+205,Andaman and Nicobar Police (ANP),Wanted Criminals,https://police.and.nic.in/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='police.and.nic.in', port=443): Max retries exceeded wi"
+205,Andaman and Nicobar Police (ANP),Wanted Criminals,https://police.and.nic.in/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='police.and.nic.in', port=443): Max retries exceeded wi"
+205,Andaman and Nicobar Police (ANP),Wanted Criminals,https://police.and.nic.in/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='police.and.nic.in', port=443): Max retries exceeded wi"
+205,Andaman and Nicobar Police (ANP),Wanted Criminals,https://police.and.nic.in/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='police.and.nic.in', port=443): Max retries exceeded wi"
+205,Andaman and Nicobar Police (ANP),Wanted Criminals,https://police.and.nic.in/debarred-firms,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='police.and.nic.in', port=443): Max retries exceeded wi"
+205,Andaman and Nicobar Police (ANP),Wanted Criminals,https://police.and.nic.in/debarred-entities,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='police.and.nic.in', port=443): Max retries exceeded wi"
+207,Assam Police (AP),Most Wanted,https://assampolice.gov.in/most-wanted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='assampolice.gov.in', port=443): Max retries exceeded w"
+207,Assam Police (AP),Most Wanted,https://assampolice.gov.in/most,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='assampolice.gov.in', port=443): Max retries exceeded w"
+207,Assam Police (AP),Most Wanted,https://assampolice.gov.in/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='assampolice.gov.in', port=443): Max retries exceeded w"
+207,Assam Police (AP),Most Wanted,https://assampolice.gov.in/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='assampolice.gov.in', port=443): Max retries exceeded w"
+207,Assam Police (AP),Most Wanted,https://assampolice.gov.in/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='assampolice.gov.in', port=443): Max retries exceeded w"
+207,Assam Police (AP),Most Wanted,https://assampolice.gov.in/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='assampolice.gov.in', port=443): Max retries exceeded w"
+207,Assam Police (AP),Most Wanted,https://assampolice.gov.in/debarred-firms,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='assampolice.gov.in', port=443): Max retries exceeded w"
+207,Assam Police (AP),Most Wanted,https://assampolice.gov.in/debarred-entities,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='assampolice.gov.in', port=443): Max retries exceeded w"
+210,Delhi Police (DP),Most Wanted,https://delhipolice.gov.in/most-wanted,404,https://delhipolice.gov.in/most-wanted,text/html,1245,,0,dead,
+210,Delhi Police (DP),Most Wanted,https://delhipolice.gov.in/most,404,https://delhipolice.gov.in/most,text/html,1245,,0,dead,
+210,Delhi Police (DP),Most Wanted,https://delhipolice.gov.in/blacklist,404,https://delhipolice.gov.in/blacklist,text/html,1245,,0,dead,
+210,Delhi Police (DP),Most Wanted,https://delhipolice.gov.in/blacklisted,404,https://delhipolice.gov.in/blacklisted,text/html,1245,,0,dead,
+210,Delhi Police (DP),Most Wanted,https://delhipolice.gov.in/debarred,404,https://delhipolice.gov.in/debarred,text/html,1245,,0,dead,
+210,Delhi Police (DP),Most Wanted,https://delhipolice.gov.in/debarment,404,https://delhipolice.gov.in/debarment,text/html,1245,,0,dead,
+210,Delhi Police (DP),Most Wanted,https://delhipolice.gov.in/debarred-firms,404,https://delhipolice.gov.in/debarred-firms,text/html,1245,,0,dead,
+210,Delhi Police (DP),Most Wanted,https://delhipolice.gov.in/debarred-entities,404,https://delhipolice.gov.in/debarred-entities,text/html,1245,,0,dead,
+212,Gurugram Police (GP),Most Wanted Criminals,https://gurugrampolice.gov.in/most-wanted-criminals,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='gurugrampolice.gov.in', port=443): Max retries exceede"
+212,Gurugram Police (GP),Most Wanted Criminals,https://gurugrampolice.gov.in/most-wanted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='gurugrampolice.gov.in', port=443): Max retries exceede"
+212,Gurugram Police (GP),Most Wanted Criminals,https://gurugrampolice.gov.in/most,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='gurugrampolice.gov.in', port=443): Max retries exceede"
+212,Gurugram Police (GP),Most Wanted Criminals,https://gurugrampolice.gov.in/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='gurugrampolice.gov.in', port=443): Max retries exceede"
+212,Gurugram Police (GP),Most Wanted Criminals,https://gurugrampolice.gov.in/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='gurugrampolice.gov.in', port=443): Max retries exceede"
+212,Gurugram Police (GP),Most Wanted Criminals,https://gurugrampolice.gov.in/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='gurugrampolice.gov.in', port=443): Max retries exceede"
+212,Gurugram Police (GP),Most Wanted Criminals,https://gurugrampolice.gov.in/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='gurugrampolice.gov.in', port=443): Max retries exceede"
+212,Gurugram Police (GP),Most Wanted Criminals,https://gurugrampolice.gov.in/debarred-firms,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='gurugrampolice.gov.in', port=443): Max retries exceede"
+213,Haryana Police,Unauthorized Recruitment Agencies List,https://haryanapolice.gov.in/unauthorized-recruitment-agencies-list,404,https://haryanapolice.gov.in/unauthorized-recruitment-agencies-list,,0,,0,dead,
+213,Haryana Police,Unauthorized Recruitment Agencies List,https://haryanapolice.gov.in/unauthorized-recruitment-agencies,404,https://haryanapolice.gov.in/unauthorized-recruitment-agencies,,0,,0,dead,
+213,Haryana Police,Unauthorized Recruitment Agencies List,https://haryanapolice.gov.in/unauthorized-recruitment,404,https://haryanapolice.gov.in/unauthorized-recruitment,,0,,0,dead,
+213,Haryana Police,Unauthorized Recruitment Agencies List,https://haryanapolice.gov.in/unauthorized,404,https://haryanapolice.gov.in/unauthorized,,0,,0,dead,
+213,Haryana Police,Unauthorized Recruitment Agencies List,https://haryanapolice.gov.in/blacklist,404,https://haryanapolice.gov.in/blacklist,,0,,0,dead,
+213,Haryana Police,Unauthorized Recruitment Agencies List,https://haryanapolice.gov.in/blacklisted,404,https://haryanapolice.gov.in/blacklisted,,0,,0,dead,
+213,Haryana Police,Unauthorized Recruitment Agencies List,https://haryanapolice.gov.in/debarred,404,https://haryanapolice.gov.in/debarred,,0,,0,dead,
+213,Haryana Police,Unauthorized Recruitment Agencies List,https://haryanapolice.gov.in/debarment,404,https://haryanapolice.gov.in/debarment,,0,,0,dead,
+219,Nagaland Police (NP),Most Wanted,https://nagapol.gov.in/most-wanted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='nagapol.gov.in', port=443): Max retries exceeded with "
+219,Nagaland Police (NP),Most Wanted,https://nagapol.gov.in/most,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='nagapol.gov.in', port=443): Max retries exceeded with "
+219,Nagaland Police (NP),Most Wanted,https://nagapol.gov.in/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='nagapol.gov.in', port=443): Max retries exceeded with "
+219,Nagaland Police (NP),Most Wanted,https://nagapol.gov.in/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='nagapol.gov.in', port=443): Max retries exceeded with "
+219,Nagaland Police (NP),Most Wanted,https://nagapol.gov.in/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='nagapol.gov.in', port=443): Max retries exceeded with "
+219,Nagaland Police (NP),Most Wanted,https://nagapol.gov.in/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='nagapol.gov.in', port=443): Max retries exceeded with "
+219,Nagaland Police (NP),Most Wanted,https://nagapol.gov.in/debarred-firms,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='nagapol.gov.in', port=443): Max retries exceeded with "
+219,Nagaland Police (NP),Most Wanted,https://nagapol.gov.in/debarred-entities,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='nagapol.gov.in', port=443): Max retries exceeded with "
+220,Tripura Police (TP),Wanted Criminal,https://tripurapolice.gov.in/wanted-criminal,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='tripurapolice.gov.in', port=443): Max retries exceeded"
+220,Tripura Police (TP),Wanted Criminal,https://tripurapolice.gov.in/wanted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='tripurapolice.gov.in', port=443): Max retries exceeded"
+220,Tripura Police (TP),Wanted Criminal,https://tripurapolice.gov.in/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='tripurapolice.gov.in', port=443): Max retries exceeded"
+220,Tripura Police (TP),Wanted Criminal,https://tripurapolice.gov.in/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='tripurapolice.gov.in', port=443): Max retries exceeded"
+220,Tripura Police (TP),Wanted Criminal,https://tripurapolice.gov.in/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='tripurapolice.gov.in', port=443): Max retries exceeded"
+220,Tripura Police (TP),Wanted Criminal,https://tripurapolice.gov.in/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='tripurapolice.gov.in', port=443): Max retries exceeded"
+220,Tripura Police (TP),Wanted Criminal,https://tripurapolice.gov.in/debarred-firms,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='tripurapolice.gov.in', port=443): Max retries exceeded"
+220,Tripura Police (TP),Wanted Criminal,https://tripurapolice.gov.in/debarred-entities,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='tripurapolice.gov.in', port=443): Max retries exceeded"
+224,Criminal Investigation Department Maharashtra State (CIDMS),Absconder List,https://mahacidcrime.gov.in/absconder-list,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='mahacidcrime.gov.in', port=443): Max retries exceeded "
+224,Criminal Investigation Department Maharashtra State (CIDMS),Absconder List,https://mahacidcrime.gov.in/absconder,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='mahacidcrime.gov.in', port=443): Max retries exceeded "
+224,Criminal Investigation Department Maharashtra State (CIDMS),Absconder List,https://mahacidcrime.gov.in/blacklist,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='mahacidcrime.gov.in', port=443): Max retries exceeded "
+224,Criminal Investigation Department Maharashtra State (CIDMS),Absconder List,https://mahacidcrime.gov.in/blacklisted,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='mahacidcrime.gov.in', port=443): Max retries exceeded "
+224,Criminal Investigation Department Maharashtra State (CIDMS),Absconder List,https://mahacidcrime.gov.in/debarred,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='mahacidcrime.gov.in', port=443): Max retries exceeded "
+224,Criminal Investigation Department Maharashtra State (CIDMS),Absconder List,https://mahacidcrime.gov.in/debarment,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='mahacidcrime.gov.in', port=443): Max retries exceeded "
+224,Criminal Investigation Department Maharashtra State (CIDMS),Absconder List,https://mahacidcrime.gov.in/debarred-firms,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='mahacidcrime.gov.in', port=443): Max retries exceeded "
+224,Criminal Investigation Department Maharashtra State (CIDMS),Absconder List,https://mahacidcrime.gov.in/debarred-entities,,,,0,,0,dead,"ConnectionError: HTTPSConnectionPool(host='mahacidcrime.gov.in', port=443): Max retries exceeded "
+227,Ministry of Home Affairs (MHA),Gazette Notifications,https://mha.gov.in/gazette-notifications,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+227,Ministry of Home Affairs (MHA),Gazette Notifications,https://mha.gov.in/gazette,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+227,Ministry of Home Affairs (MHA),Gazette Notifications,https://mha.gov.in/blacklist,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+227,Ministry of Home Affairs (MHA),Gazette Notifications,https://mha.gov.in/blacklisted,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+227,Ministry of Home Affairs (MHA),Gazette Notifications,https://mha.gov.in/debarred,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+227,Ministry of Home Affairs (MHA),Gazette Notifications,https://mha.gov.in/debarment,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+227,Ministry of Home Affairs (MHA),Gazette Notifications,https://mha.gov.in/debarred-firms,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+227,Ministry of Home Affairs (MHA),Gazette Notifications,https://mha.gov.in/debarred-entities,,,,0,,0,dead,TooManyRedirects: Exceeded 30 redirects.
+228,Telecom Regulatory Authority of India (TRAI),Mobile Number Revocation list,https://trai.gov.in/mobile-number-revocation-list,404,https://trai.gov.in/mobile-number-revocation-list,text/html; charset=UTF-8,0,,0,dead,
+228,Telecom Regulatory Authority of India (TRAI),Mobile Number Revocation list,https://trai.gov.in/mobile-number-revocation,404,https://trai.gov.in/mobile-number-revocation,text/html; charset=UTF-8,0,,0,dead,
+228,Telecom Regulatory Authority of India (TRAI),Mobile Number Revocation list,https://trai.gov.in/mobile-number,404,https://trai.gov.in/mobile-number,text/html; charset=UTF-8,0,,0,dead,
+228,Telecom Regulatory Authority of India (TRAI),Mobile Number Revocation list,https://trai.gov.in/mobile,404,https://trai.gov.in/mobile,text/html; charset=UTF-8,0,,0,dead,
+228,Telecom Regulatory Authority of India (TRAI),Mobile Number Revocation list,https://trai.gov.in/blacklist,404,https://trai.gov.in/blacklist,text/html; charset=UTF-8,0,,0,dead,
+228,Telecom Regulatory Authority of India (TRAI),Mobile Number Revocation list,https://trai.gov.in/blacklisted,404,https://trai.gov.in/blacklisted,text/html; charset=UTF-8,0,,0,dead,
+228,Telecom Regulatory Authority of India (TRAI),Mobile Number Revocation list,https://trai.gov.in/debarred,404,https://trai.gov.in/debarred,text/html; charset=UTF-8,0,,0,dead,
+228,Telecom Regulatory Authority of India (TRAI),Mobile Number Revocation list,https://trai.gov.in/debarment,404,https://trai.gov.in/debarment,text/html; charset=UTF-8,0,,0,dead,
+229,Reserve Bank of India (RBI),List of Full Fledged Money Changer (FFMC) Licenses Cancelled,https://rbi.org.in/list-of-full-fledged-money-changer-ffmc-licenses-cancelled,418,https://rbi.org.in/list-of-full-fledged-money-changer-ffmc-licenses-cancelled,text/html; charset=utf-8,627,,0,dead,
+229,Reserve Bank of India (RBI),List of Full Fledged Money Changer (FFMC) Licenses Cancelled,https://rbi.org.in/full-fledged-money-changer-ffmc-licenses-cancelled,418,https://rbi.org.in/full-fledged-money-changer-ffmc-licenses-cancelled,text/html; charset=utf-8,627,,0,dead,
+229,Reserve Bank of India (RBI),List of Full Fledged Money Changer (FFMC) Licenses Cancelled,https://rbi.org.in/full-fledged,418,https://rbi.org.in/full-fledged,text/html; charset=utf-8,627,,0,dead,
+229,Reserve Bank of India (RBI),List of Full Fledged Money Changer (FFMC) Licenses Cancelled,https://rbi.org.in/full,418,https://rbi.org.in/full,text/html; charset=utf-8,627,,0,dead,
+229,Reserve Bank of India (RBI),List of Full Fledged Money Changer (FFMC) Licenses Cancelled,https://rbi.org.in/blacklist,418,https://rbi.org.in/blacklist,text/html; charset=utf-8,627,,0,dead,
+229,Reserve Bank of India (RBI),List of Full Fledged Money Changer (FFMC) Licenses Cancelled,https://rbi.org.in/blacklisted,418,https://rbi.org.in/blacklisted,text/html; charset=utf-8,627,,0,dead,
+229,Reserve Bank of India (RBI),List of Full Fledged Money Changer (FFMC) Licenses Cancelled,https://rbi.org.in/debarred,418,https://rbi.org.in/debarred,text/html; charset=utf-8,627,,0,dead,
+229,Reserve Bank of India (RBI),List of Full Fledged Money Changer (FFMC) Licenses Cancelled,https://rbi.org.in/debarment,418,https://rbi.org.in/debarment,text/html; charset=utf-8,627,,0,dead,
+230,Reserve Bank of India (RBI),List of Non-Bank AD Cat-II Entities and FFMCs on which penalties have been imposed for contraventions of FEMA 1999,https://rbi.org.in/list-of-non-bank-ad-cat-ii-entities-and-ffmcs-on-which-penalties-have-been-imposed-for-contraventions-of-fema-1999,418,https://rbi.org.in/list-of-non-bank-ad-cat-ii-entities-and-ffmcs-on-which-penalties-have-been-imposed-for-contraventions-of-fema-1999,text/html; charset=utf-8,627,,0,dead,
+230,Reserve Bank of India (RBI),List of Non-Bank AD Cat-II Entities and FFMCs on which penalties have been imposed for contraventions of FEMA 1999,https://rbi.org.in/non-bank-cat-entities-ffmcs-which-penalties-have-been-imposed-contraventions-fema-1999,418,https://rbi.org.in/non-bank-cat-entities-ffmcs-which-penalties-have-been-imposed-contraventions-fema-1999,text/html; charset=utf-8,627,,0,dead,
+230,Reserve Bank of India (RBI),List of Non-Bank AD Cat-II Entities and FFMCs on which penalties have been imposed for contraventions of FEMA 1999,https://rbi.org.in/non-bank,418,https://rbi.org.in/non-bank,text/html; charset=utf-8,628,,0,dead,
+230,Reserve Bank of India (RBI),List of Non-Bank AD Cat-II Entities and FFMCs on which penalties have been imposed for contraventions of FEMA 1999,https://rbi.org.in/non,418,https://rbi.org.in/non,text/html; charset=utf-8,627,,0,dead,
+230,Reserve Bank of India (RBI),List of Non-Bank AD Cat-II Entities and FFMCs on which penalties have been imposed for contraventions of FEMA 1999,https://rbi.org.in/blacklist,418,https://rbi.org.in/blacklist,text/html; charset=utf-8,627,,0,dead,
+230,Reserve Bank of India (RBI),List of Non-Bank AD Cat-II Entities and FFMCs on which penalties have been imposed for contraventions of FEMA 1999,https://rbi.org.in/blacklisted,418,https://rbi.org.in/blacklisted,text/html; charset=utf-8,627,,0,dead,
+230,Reserve Bank of India (RBI),List of Non-Bank AD Cat-II Entities and FFMCs on which penalties have been imposed for contraventions of FEMA 1999,https://rbi.org.in/debarred,418,https://rbi.org.in/debarred,text/html; charset=utf-8,627,,0,dead,
+230,Reserve Bank of India (RBI),List of Non-Bank AD Cat-II Entities and FFMCs on which penalties have been imposed for contraventions of FEMA 1999,https://rbi.org.in/debarment,418,https://rbi.org.in/debarment,text/html; charset=utf-8,627,,0,dead,
+232,Rajasthan Police (RP),Wanted Persons,https://police.rajasthan.gov.in/wanted-persons,404,https://police.rajasthan.gov.in/wanted-persons,text/html,555,,0,dead,
+232,Rajasthan Police (RP),Wanted Persons,https://police.rajasthan.gov.in/wanted,404,https://police.rajasthan.gov.in/wanted,text/html,555,,0,dead,
+232,Rajasthan Police (RP),Wanted Persons,https://police.rajasthan.gov.in/blacklist,404,https://police.rajasthan.gov.in/blacklist,text/html,555,,0,dead,
+232,Rajasthan Police (RP),Wanted Persons,https://police.rajasthan.gov.in/blacklisted,404,https://police.rajasthan.gov.in/blacklisted,text/html,555,,0,dead,
+232,Rajasthan Police (RP),Wanted Persons,https://police.rajasthan.gov.in/debarred,404,https://police.rajasthan.gov.in/debarred,text/html,555,,0,dead,
+232,Rajasthan Police (RP),Wanted Persons,https://police.rajasthan.gov.in/debarment,404,https://police.rajasthan.gov.in/debarment,text/html,555,,0,dead,
+232,Rajasthan Police (RP),Wanted Persons,https://police.rajasthan.gov.in/debarred-firms,404,https://police.rajasthan.gov.in/debarred-firms,text/html,555,,0,dead,
+232,Rajasthan Police (RP),Wanted Persons,https://police.rajasthan.gov.in/debarred-entities,404,https://police.rajasthan.gov.in/debarred-entities,text/html,555,,0,dead,
+233,Criminal Investigation Department of West Bengal (CIDWB),Most Wanted Criminals,https://cidwestbengal.gov.in/most-wanted-criminals,,,,0,,0,dead,"ConnectTimeout: HTTPSConnectionPool(host='cidwestbengal.gov.in', port=443): Max retries exceeded"
+233,Criminal Investigation Department of West Bengal (CIDWB),Most Wanted Criminals,https://cidwestbengal.gov.in/most-wanted,,,,0,,0,dead,"ConnectTimeout: HTTPSConnectionPool(host='cidwestbengal.gov.in', port=443): Max retries exceeded"
+233,Criminal Investigation Department of West Bengal (CIDWB),Most Wanted Criminals,https://cidwestbengal.gov.in/most,,,,0,,0,dead,"ConnectTimeout: HTTPSConnectionPool(host='cidwestbengal.gov.in', port=443): Max retries exceeded"
+233,Criminal Investigation Department of West Bengal (CIDWB),Most Wanted Criminals,https://cidwestbengal.gov.in/blacklist,,,,0,,0,dead,"ConnectTimeout: HTTPSConnectionPool(host='cidwestbengal.gov.in', port=443): Max retries exceeded"
+233,Criminal Investigation Department of West Bengal (CIDWB),Most Wanted Criminals,https://cidwestbengal.gov.in/blacklisted,,,,0,,0,dead,"ConnectTimeout: HTTPSConnectionPool(host='cidwestbengal.gov.in', port=443): Max retries exceeded"
+233,Criminal Investigation Department of West Bengal (CIDWB),Most Wanted Criminals,https://cidwestbengal.gov.in/debarred,,,,0,,0,dead,"ConnectTimeout: HTTPSConnectionPool(host='cidwestbengal.gov.in', port=443): Max retries exceeded"
+233,Criminal Investigation Department of West Bengal (CIDWB),Most Wanted Criminals,https://cidwestbengal.gov.in/debarment,,,,0,,0,dead,"ConnectTimeout: HTTPSConnectionPool(host='cidwestbengal.gov.in', port=443): Max retries exceeded"
+233,Criminal Investigation Department of West Bengal (CIDWB),Most Wanted Criminals,https://cidwestbengal.gov.in/debarred-firms,,,,0,,0,dead,"ConnectTimeout: HTTPSConnectionPool(host='cidwestbengal.gov.in', port=443): Max retries exceeded"
+235,NSE Clearing Limited (NSECL),Arbitration Awards,https://nscclindia.com/arbitration-awards,404,https://www.nseclearing.in/arbitration-awards,text/html; charset=UTF-8,0,,0,dead,
+235,NSE Clearing Limited (NSECL),Arbitration Awards,https://nscclindia.com/arbitration,404,https://www.nseclearing.in/arbitration,text/html; charset=UTF-8,0,,0,dead,
+235,NSE Clearing Limited (NSECL),Arbitration Awards,https://nscclindia.com/blacklist,404,https://www.nseclearing.in/blacklist,text/html; charset=UTF-8,0,,0,dead,
+235,NSE Clearing Limited (NSECL),Arbitration Awards,https://nscclindia.com/blacklisted,,,,0,,0,dead,"ReadTimeout: HTTPSConnectionPool(host='nscclindia.com', port=443): Read timed out. (read time"
+235,NSE Clearing Limited (NSECL),Arbitration Awards,https://nscclindia.com/debarred,404,https://www.nseclearing.in/debarred,text/html; charset=UTF-8,0,,0,dead,
+235,NSE Clearing Limited (NSECL),Arbitration Awards,https://nscclindia.com/debarment,404,https://www.nseclearing.in/debarment,text/html; charset=UTF-8,0,,0,dead,
+235,NSE Clearing Limited (NSECL),Arbitration Awards,https://nscclindia.com/debarred-firms,404,https://www.nseclearing.in/debarred-firms,text/html; charset=UTF-8,0,,0,dead,
+235,NSE Clearing Limited (NSECL),Arbitration Awards,https://nscclindia.com/debarred-entities,404,https://www.nseclearing.in/debarred-entities,text/html; charset=UTF-8,0,,0,dead,

@@ -1,0 +1,3685 @@
+{
+  "domain": "epfindia.gov.in",
+  "status": "success",
+  "framework": "React",
+  "pages_crawled": 25,
+  "total_links_found": 429,
+  "discoveries": [
+    {
+      "url": "https://epfindia.gov.in/site_hi/Exemption.php?id=sm4_index",
+      "title": "\u0915.\u092d.\u0928\u093f.\u0938\u0902 || \u091b\u0942\u091f",
+      "score": 60,
+      "keywords_found": [],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 20,
+      "downloadable_files": [
+        "ro_pro.pdf",
+        "CitizenCharter_Hindi.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023.pdf",
+        "Complaints_EPFO_Vigilance_27102023.pdf",
+        "EPS1995_PensionDisbursingAgenciesList.pdf",
+        "Niwasoffice.pdf",
+        "PMAY.pdf",
+        "GNFC_Notification.pdf",
+        "Raja_Bahadur_Notification.pdf",
+        "Bapalal_Notification.pdf",
+        "Dunlop_Notification.pdf",
+        "Punjabi_Khadi_Mandal_0001041000_can.pdf",
+        "MDMDU000019700A_notification.pdf",
+        "TNMAS0012115000_notification.pdf",
+        "KRKCH0000165000_notification.pdf",
+        "Progressive_notification.pdf",
+        "Wahid_Sandhar_cancellation_notification.pdf",
+        "I3703552023LABR-25011(13)32023-LWMW.pdf",
+        "CK_SEN_Notification_WB3484.pdf",
+        "Fertilisrers_Notification_KCH3805.pdf",
+        "Gujarat_Alkalies_Notification_BRD10042.pdf",
+        "Cancellation_Notification_TNMAS23703.pdf",
+        "surr_exemp_BNBNG-42680.pdf",
+        "surr_exemp_TNMAS-11184.pdf"
+      ],
+      "page_size_kb": 31.1,
+      "depth": 1
+    },
+    {
+      "url": "https://www.epfindia.gov.in/site_en/Disablitity.php",
+      "title": "EPFO || Screen Readers",
+      "score": 60,
+      "keywords_found": [],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 6,
+      "downloadable_files": [
+        "ro_pro.pdf",
+        "CitizenCharter.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023.pdf",
+        "Complaints_EPFO_Vigilance_27102023.pdf",
+        "EPS1995_PensionDisbursingAgenciesList.pdf",
+        "Niwasoffice.pdf",
+        "PMAY.pdf",
+        "WhatsApp_Helpline.pdf"
+      ],
+      "page_size_kb": 77.9,
+      "depth": 1
+    },
+    {
+      "url": "https://www.epfindia.gov.in/site_en/Location_an_office.php",
+      "title": "EPFO || Location An Office",
+      "score": 60,
+      "keywords_found": [],
+      "strong_keywords": [],
+      "has_table": true,
+      "table_row_count": 4,
+      "downloadable_files": [
+        "ro_pro.pdf",
+        "CitizenCharter.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023.pdf",
+        "Complaints_EPFO_Vigilance_27102023.pdf",
+        "EPS1995_PensionDisbursingAgenciesList.pdf",
+        "Niwasoffice.pdf",
+        "PMAY.pdf",
+        "WhatsApp_Helpline.pdf"
+      ],
+      "page_size_kb": 114.5,
+      "depth": 1
+    },
+    {
+      "url": "https://epfindia.gov.in/site_en/index.php",
+      "title": "Employees' Provident Fund Organisation",
+      "score": 40,
+      "keywords_found": [
+        "fraud",
+        "vigilance"
+      ],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [
+        "ro_pro.pdf",
+        "CitizenCharter.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023.pdf",
+        "Complaints_EPFO_Vigilance_27102023.pdf",
+        "EPS1995_PensionDisbursingAgenciesList.pdf",
+        "Niwasoffice.pdf",
+        "PMAY.pdf",
+        "WhatsApp_Helpline.pdf",
+        "OfficeOrder_SSA_WaitingListOf_1190_Candidates.pdf",
+        "EOI_NextGenSOC_05012024.pdf",
+        "..\\site_docs\\PDFs\\MiscPDFs\\Top_75_establishments.pdf",
+        "FD_COI_E.pdf",
+        "Process_Flow_Creatives.pdf",
+        "ROKolkata_CAfirm.pdf",
+        "VenuDetailsOfCamp_NAN_27042026.pdf",
+        "ExtensionOfDate_UttrakhanStateAdvocatePanel_02042026.pdf",
+        "ExtensionOfDate_DelhiStateAdvocatePanel_02042026.pdf",
+        "OM_AdEnclosures_ROUttrakhand.pdf",
+        "Updated_VenuDetilas_March202NAN_18032026.pdf",
+        "ACCDL&UK_OM_PanelOfAdvocates.pdf",
+        "EmpanelmentOfAdvoacate_ACCHR_Order10032026.pdf",
+        "Revised_NANVenueDetails_February2026.pdf",
+        "EMPANELMENTOFADVOCATES_TELANGANAZONE.pdf",
+        "CALetter_RORanchi.pdf",
+        "VENUEDETAILS_AAPKENIKAT2.0_January2026.pdf",
+        "UpdatedNotice_EmpanelmentAdvocates_16012026.pdf",
+        "EmpanelmentCA_RORanchi.pdf",
+        "ConsolidatedBanners_07012026.pdf",
+        "VenueDetailsOfCamps_NidhiAapkeNikat_29122025_Updated.pdf",
+        "ExtensionOfLastDate_Notice.pdf",
+        "VenueDetailsOfNidhiAapkeNikat2.0Camps_27112025.pdf",
+        "Advertisement_EMPANELMENTOFADVOCATESFOR_2025-28.pdf",
+        "Venue Details_NidhiAapkeNikat2.0Camps_27102025.pdf",
+        "EmpanellmentOfCAFirms_TPAOfEPFExemptedTrusts_Odisha.pdf",
+        "VenueDetailsOfCampsUnder_NAN2.0_SEP2025.pdf",
+        "ZOGujarat_EmpanelmentBlockYear_2025_2028.pdf",
+        "VENUEDETAILS_CAMPSUNDERNIDHIAAPKENIKAT_August 2025.pdf",
+        "ListOfSelectedAdvocates_Rajasthan_BlockYear2025_2028.pdf",
+        "NoticeToEligibleAdvocates_ACCRajasthan.pdf",
+        "VenueDetailsUnder_NidhiAapkeNikatCamp_28072025.pdf",
+        "EmpanelmentOfAdvocatesIn_HaryanaZone.pdf",
+        "VenueDetailsUnder_NidhiAapkeNikat_27062025.pdf",
+        "EmpanelmentOfAdvocates_PuneZone.pdf",
+        "VENUE DETAILS_CAMPSUNDERNIDHIAAPKENIKAT_27052025.pdf",
+        "2025_2028.pdf",
+        "EmpanelmentOfCAFirmsFor_ROVadodara.pdf",
+        "VenueDetailsOfNidhiAapkeNikat_April2025.pdf",
+        "Exension_Notice.pdf",
+        "NDC Approval.pdf",
+        "EmpanelmentAdvocate_ChennaiPuducherry.pdf",
+        "EmpanelmentNotice_ExtensionOfTime.pdf",
+        "VenueDetailsOf_NidhiAapkeNikat_March2025.pdf",
+        "NOTICE_merged.pdf",
+        "TPA_Empanelment_Odisha.pdf",
+        "EmpanelmentAdvocatesNotice_Pune04032025.pdf",
+        "ExtensionOfLastDate_PanelAdvocate_Kolkata.pdf",
+        "NOTICEINVITINGAPPLICATION_ROCoimbatore_21022025.pdf",
+        "Final AdvCopy_Pune.pdf",
+        "VenueDetails _NidhiAapkeNikat_27022025.pdf",
+        "ConstitutionOfFreshPanelOfAdvocates_OdishaZone2025_28.pdf",
+        "EmpanelmentAdvocates_Gujarat_14022025.pdf",
+        "PanelForAdvocates_KOLKATA.pdf",
+        "EmpanelmentAdvocatesNotice_Pune.pdf",
+        "Notice&Guidelines_Empanelment OfAdvocate_RAJASTHAN ZONE.pdf",
+        "CA_for_TPA_Organized.pdf",
+        "Venue Details under Nidhi Aapke Nikat - Jan 2025.pdf",
+        "Documents_PanelOFAdvocates_Gujarat.pdf",
+        "Notice_InvitingEoIforpreparationofAnnualFinancialStatementsOfEPFO.pdf",
+        "NoticeforEmpanelAdvocates_2025TO2028.pdf",
+        "OM in J&K and Annxure.pdf",
+        "EmpanelmentOfAdvocates_PBHP.pdf",
+        "December_2024_NidhiAapkeNikatVenueDetails.pdf",
+        "EmpenlmentOfAdvocates_Bhopal.pdf",
+        "Final Advertisment Empanelment of Chartered Accountant Firms.pdf",
+        "notice 29.11.24 - _compressed.pdf",
+        "Extension Notice.pdf",
+        "November 2024 Nidhi Aapke Nikat Venue Details.pdf",
+        "GeM-Bid document for Audit_Guntur.pdf",
+        "Corrigendum.pdf",
+        "NoticeEmpanelment2025_2028.pdf",
+        "EOI_Hubli_28102024.pdf",
+        "EOI_Advocates_28102024.pdf",
+        "NAN-OCTOBER_28102024.pdf",
+        "Empanlment_Adv_ Vijayawada_15102024.pdf",
+        "Corrigendum_Empanelment_Advocated_Odisha_07102024.pdf",
+        "Empanelment_Advocates_Delhi_ZTI_01102024.pdf",
+        "Empanelment_Guwahati_01102024.pdf",
+        "EOI_Advocates_Thane_30092024.pdf",
+        "NAN-SEPTEMBER_23092024.pdf",
+        "EPF_EPS_CREDIT_KOUTONS CONTRACT EMPLOYEES.pdf",
+        "Notice_Ambattur_06092024.pdf",
+        "Notice_Advocates_Mumbai_23082024.pdf",
+        "NOtice_Odisha_23082024.pdf",
+        "Venue_Details_NAN_27August2024.pdf",
+        "Empanelment_of_Charted_Account_Firm__ZO_Mumbai.pdf",
+        "Quarterly Newsletter.pdf",
+        "NAN_July2024_VenueDetails_23072024.pdf",
+        "EmpanelmentAdvocates_Odisha_19072024_1.pdf",
+        "Venue_Details_NAN_27June.pdf",
+        "EK SAMRATMAK PEHAL.pdf",
+        "Venue_Details_NAN_new_22052024.pdf",
+        "Empanelment_CA_Chennai_10052024.pdf",
+        "Notice_Extension_UP_26042024.pdf",
+        "VENUE_NAN_April 2024.pdf",
+        "Empanelment_Advocates_04042024.pdf",
+        "VENUE_NAN_March2024.pdf",
+        "Tender_Agra_05032024.pdf",
+        "Venue_NAN_Feb2024.pdf",
+        "Venue_NidhiAapkeNikat_January 2024.pdf",
+        "EOI_NextGenSOC_05012024.pdf",
+        "EMPANELMENT_Advocates_03022024.pdf",
+        "Venue_NidhiAapkeNikat_December 2023.pdf",
+        "Venue_NidhiAapkeNikat_November 2023.pdf",
+        "NAN_Venue_Oct_27102023.pdf",
+        "EOI_CAFirms_DLS_10102023.pdf",
+        "NAN_Camps_Venue_Details-September 2023 - FINAL 1 PM.pdf",
+        "Inquiry_Officer_DAR_01092023.pdf",
+        "NAN_Camps_Venue_Details-28082023.pdf",
+        "NAN_Camps_Venue_Details-28-August-2023.pdf",
+        "EOI_CA_Firm_Barkatpura_21082023.pdf",
+        "RFP_ActurialConsultant_Pension_08082023.pdf",
+        "tender_peenya_26072023.pdf",
+        "EOI_CA_Firms_Peenya_25072023.pdf",
+        "NAN_Camps_Venue_Details-27-July-2023.pdf",
+        "NAN_Camps_Venue_Details-27-June-2023.pdf",
+        "EOI_EMPANELMENT OF CA FIRMS_14.06.2023_compressed.pdf",
+        "List_empanelled_advocates.pdf",
+        "EOI_CA Firms_Udupi_23052023.pdf",
+        "Venue_NidhiAapkeNikat_23052023.pdf",
+        "Empanelment_advocate_uttarakhand.pdf",
+        "empanelment_advocates_vijyawada_15052023.pdf",
+        "VENUE_DETAILS_NIDHIAAPKENIKAT_24042023.pdf",
+        "Extension_of_EOI.pdf",
+        "Window Advertisement of SSA & Steno 2023.pdf",
+        "EOI_EPFO_Yelahanka_21032023.pdf",
+        "VENUE_DETAILS_NIDHIAAPKENIKAT2.0_23032023.pdf",
+        "EOI_Bhopal_13032023.pdf",
+        "EOI_CA_Firms_Meerut_13032023.pdf",
+        "EOI_CA Firms__Bhopal_13032023.pdf",
+        "EOI_CA_Agra_13032023.pdf",
+        "CA_Firms_Hyderabad_03032023.pdf",
+        "CA_Firms_shivamoga_03032023.pdf",
+        "APPROVED_NOTICE_02032023.pdf",
+        "Empaneled_Advocates_Delhi_01032023_1.pdf",
+        "Empanelment_CAFirms_Bhopal_01032023.pdf",
+        "EOI_ZO_Kolkata_01032023.pdf",
+        "Tender_Shimoga_23022023.pdf",
+        "Venue_Details_NAN_Feb2023.pdf",
+        "Empanelment_Advocates_ZO_Haryana_13022023.pdf",
+        "adv_panel_haryana_upto_31122025.pdf",
+        "EPFO_Vision_2047.pdf",
+        "Chintan_Shivir_final.pdf",
+        "Corrigendum_for_Delhi_State_Adv_08122022.pdf",
+        "Appli_empa_advo_uttara_08122022_merged.pdf",
+        "Empanelment_Advocates_Telengana_23112022.pdf",
+        "Tender_rajkot_21112022.pdf",
+        "CORRIGENDUM_Pension_14112022.pdf",
+        "EOI_empanelment_CA_Hyderabad_14112022.pdf",
+        "RFP_acturialconsultant_10112022.pdf",
+        "OFFICE_ORDER_Advocates_NER.pdf",
+        "Empanelment_Advocate_Uttarakhand_11102022.pdf",
+        "Empanelment_Advocates_Delhi_11102022.pdf",
+        "RFP_empanelment_Advocates_30092022.pdf",
+        "NLC_digital_25_26Aug2022.pdf",
+        "Booklet_Training_Policy.pdf",
+        "RFP_20092022.pdf",
+        "Corrigendum_Para6.19_ RFP_ETF_20092022.pdf",
+        "Corrigendum_RFP_ETFs_IMC_23082022.pdf",
+        "Corrigendum_RFP_ETFs_IMC_08082022.pdf",
+        "Tender_Notice_Parkstreet_05082022.pdf",
+        "Notice_empanelment_of_advocates_Bandra_05082022.pdf",
+        "Expression_of_Interest_Ranchi.pdf",
+        "Tender_for_EOI_Bhubneshwar_04082022.pdf",
+        "Extension_of_tenure_of_panel_of_advocates_Odisha_zone.pdf",
+        "Empanelment_of_CA_Firm_Ranchi_27072022.pdf",
+        "Empanelment_of_Advocates_NER_26072022.pdf",
+        "Clarifications post pre-bid conference.pdf",
+        "Empanelment_Advocates_BR_21072022.pdf",
+        "Notice_empanelment_of_Advocates_Mumbai-I_Zone.pdf",
+        "Notice_Advocates_ACC_HR_14072022_1.pdf",
+        "Empanelment_merged_2022-2025_ACC_TNKR_14072022.pdf",
+        "Office_Order_Empanelment_11072022.pdf",
+        "REQUEST_FOR_PROPOSAL.pdf",
+        "Circular_with_Attachments_Advocates.pdf",
+        "REQUEST_FOR_PROPOSAL_pension_05072022.pdf.pdf",
+        "empanelment_of_CA_firm_22062022.pdf",
+        "EOI_FOR_CA_FIRMS_08062022.pdf",
+        "RFP_for_ECA_v11_03062022_compressed.pdf",
+        "EmpanelmentAdvocate_SC_HO_052022.pdf",
+        "EmpanelmentAdovate_Selection_ZOPB_052022.pdf",
+        "PanelAdvocate_Extn_ZOPune_042022.pdf",
+        "Success_Story_EPFO.pdf",
+        "EmpanelmentAdovate_Selection_ZOGJ_042022.pdf",
+        "EmpanelmentCA_Bharuch_032022.pdf",
+        "Shortlist_EmpAdv_ZOWB_032022.pdf",
+        "EmpanelmentAdovate_Selection_ZORJ_032022.pdf",
+        "EmpanelmentCA_Gorakhpur_032022.pdf",
+        "EmpanelmentCA_Raipur_032022.pdf",
+        "Shortlist_EmpAdv_ZORJ_032022.pdf",
+        "EmpanelmantCA_Vadodara_032022.pdf",
+        "EmpanelmentAdvocate_ZOBR_032022.pdf",
+        "PressRelease_20022022.pdf",
+        "PressRelease_29012022.pdf",
+        "EmpanelmentCA_ZOMumbai_022022.pdf",
+        "EmpanelmentCA_Jaipur_022022.pdf",
+        "Covid_response2.pdf",
+        "Nirbadh_EPFO_to_e EPFO.pdf",
+        "EmpanelmentAdvocate_ZORJ_012022.pdf",
+        "EmpanelmentAdvocate_ZOWB_Addendum_012022.pdf",
+        "EmpanelmentAdvocate_ZOPune_012022.pdf",
+        "EmpanelmentCA_ChennaiNorth_012022.pdf",
+        "EmpanelmentAdvocate_ZOGJ_ExtnDate_012022.pdf",
+        "EmpanelmentAdvocate_Jabalpur_012022.pdf",
+        "EmpanelmentAdvocate_Raipur_012022.pdf",
+        "EmpanelmentAdvocates_ZOPune_012022.pdf",
+        "EmpanelmentAdvocate_Indore_012022.pdf",
+        "EmpanelmentAdvocate_Ujjain_012022.pdf",
+        "EmpanelmentAdvocate_Bhopal_012022.pdf",
+        "EmpanelmentAdvocate_Gwalior_012022.pdf",
+        "EmpanelmentAdvocate_ZOPBHP_012022.pdf",
+        "EmpanelmentAdvocate_Selection_ZOOR_012022.pdf",
+        "EmpanelmentAdvocate_ZOCHPD_012022.pdf",
+        "EmpanelmentAdvocate_ZOUP_Selection_122021.pdf",
+        "EmpanelmentCA_DateExtn_Nasik_122021.pdf",
+        "EmpanelmentAdvocate_ZOGJ_122021.pdf",
+        "EmpanelmentCA_Jammu_122021.pdf",
+        "EmpanelmentCA_DateEx_Tambaram_122021.pdf",
+        "EmpanelmentCA_Kolhapur_122021.pdf",
+        "PressRelease_20122021.pdf",
+        "EmpanelmentAdvocate_Corrg_ZOKolkata_122021.pdf",
+        "EmpanelmentCA_Bareilly_122021.pdf",
+        "EmpanelmentCA_Varanasi_122021.pdf",
+        "EmpanelmentCA_BNGCentral_122021.pdf",
+        "EmpanelmentCA_Tambaram_122021.pdf",
+        "EmpanelmentAdvocate_ZOKolkata_122021.pdf",
+        "EmpanelmentCA_Dehradun_122021.pdf",
+        "EmpanelmentAdvocate_ZOPune_Selection_122021.pdf",
+        "EmpanelmentAdvocate_ZOVijayawada_122021.pdf",
+        "EmpanelmentCA_Haldwani_122021.pdf",
+        "e_shram_english.pdf",
+        "Interview_EmpanelAdv_Orissa_122021.pdf",
+        "EmpanelmentCA_NASIK_122021.pdf",
+        "EmpanelmentAdvocate_ZOHubli_112021.pdf",
+        "EmpanelmentCA_Surat_112021.pdf",
+        "EmpanelmentCA_BNGEC_Extn_112021.pdf",
+        "EmpanelmentCA_GurgaonEast_112021.pdf",
+        "EmpanelmentCA_BNGM_112021.pdf",
+        "EmpanelmentCA_Faridabad_112021.pdf",
+        "EmpanelmentAdvocate_ZOThane_Extn_102021.pdf",
+        "EmpanelmentCA_BNGEC_102021.pdf",
+        "EmpanelmentAdvocate_ZONER_102021.pdf",
+        "EmpanelmentAdvocte_ZOThane_102021.pdf",
+        "EmpanelmentAdvocateMH_Kolhapur_092021.pdf",
+        "EmpanelmentAdvocate_ZOOR_092021.pdf",
+        "EmpanelmentAdvocate_ZOPune_092021.pdf",
+        "EmpanelmentAdvocate_Kottayam_092021.pdf",
+        "EmpanelmentCA_Rajkot_092021.pdf",
+        "EmpanelmentCA_Noida_072021.pdf",
+        "EmpanelmentCA_DelhiCentral_072021.pdf",
+        "EmpanelmentCA_Allahabad_072021.pdf",
+        "EmpanelmentCA_Ludhiana_072021.pdf",
+        "EmpanelmentAdvocate_UK_062021.pdf",
+        "EmpanelmentAdvocate_ZODLUK_062021.pdf",
+        "EmpanelmentCA_KandivaliEast_052021.pdf",
+        "EmpanelmentCA_Goa_042021.pdf",
+        "EmpanelmentAdvocate_Jalandhar_042021.pdf",
+        "EmpanelmentAdvocate_Ludhiana_AddlInfo_042021.pdf",
+        "EmpanelmentAdvocate_Ludhiana_042021.pdf",
+        "EmpanelmentAdvocate_Amritsar_042021.pdf",
+        "EmpanelmentAdvocate_Shimla_042021.pdf",
+        "EmpanelmentAdvocate_Chandigarh_042021.pdf",
+        "EmpanelmentCA_Vashi_042021.pdf",
+        "EmpanelmentCA_Gorakhpur_042021.pdf",
+        "EmpanelmentAdvocate_Bhatinda_042021.pdf",
+        "Empanelment_CA_Ambattur_032021.pdf",
+        "EmpanelmentAdvocate_Bhopal_032021.pdf",
+        "EmpanelmentCA_Vapi_032021.pdf",
+        "EmpanelmentCA_Ambattur_032021.pdf",
+        "EmpanelmentAdvocate_ZOHR_032021.pdf",
+        "EmpanelmentCA_Jamshedpur_032021.pdf",
+        "EmpanelmentAdvocate_ZOUP_032021.pdf",
+        "EmpanelmentAdvocate_Gwalior_032021.pdf",
+        "EmpanelmentAdvocate_Goa_032021.pdf",
+        "EmpanelmentAdvocate_Raipur_032021.pdf",
+        "EmpanelmentAdvocate_Jabalpur_032021.pdf",
+        "EmpanelmentAdvocate_Uttarakhand_032021.pdf",
+        "EmpanelmentAdvocate_Delhi_032021.pdf",
+        "EmpanelmentAdvocate_Ujjain_032021.pdf",
+        "EmpanelmentAdvocate_Indore_032021.pdf",
+        "EmpanelmentAdvocate_Sagar_032021.pdf",
+        "EmpanelmentAuditor_Jalandhar_022021.pdf",
+        "EmpanelmentCA_KandivaliWest_022021.pdf",
+        "EmpanelmentCA_Vashi_022021.pdf",
+        "EmpanelmentCA_Agra_012021.pdf",
+        "Empanellment_of_Advocates_hyderbad.pdf",
+        "sbsm_va_2020_cvo_msg.pdf",
+        "Empanelment_Advocate_Vashi_112020.pdf",
+        "FAQ_Reduced_rate_of_contribution_20052020.pdf",
+        "19_05_2020_Press_brief_reduction_in_EPF_contribution.pdf",
+        "PR06052020.pdf",
+        "PR30042020.pdf",
+        "PressRelease_28042020.pdf",
+        "covid_faq_26042020.pdf",
+        "PRCovid23042020.pdf",
+        "PR21042020.pdf",
+        "PIB1614747.pdf",
+        "PRESS_RELEASECOVID19_16.04.2020.pdf",
+        "PR_PMGKY.pdf",
+        "PR_COVID19advance.pdf",
+        "Press_releaseDOB.pdf",
+        "covid_faq_claim_04042020.pdf",
+        "Pension_press_corona.pdf",
+        "Empanelment_Advocates_Ranchi.pdf",
+        "Empnlmnt_Advocates_Rajasthan_1196.pdf",
+        "PIB_EPFAct.pdf",
+        "Shortlisted_Advocates_ BiharJharkhand_022020.pdf",
+        "Interview_EmpAdvocates_Rajasthan_022020.pdf",
+        "Empanel_Advocates_ACC_Jaipur_012020.pdf",
+        "Empanel_Advocates_ BiharJharkhand_012020.pdf",
+        "List_Empanel_Advocates__Maharashtra_122019.pdf",
+        "GHM_EPFO.pdf",
+        "PDNASS_EE_CEO_1132.pdf",
+        "PDNASS_TrgCal_2019-20_1107.pdf",
+        "Exam_Assistant_EWS_117.pdf",
+        "Exam_Recruit_SSA_109.pdf",
+        "Add2-Exam_RR_Assistan_51.pdf",
+        "Corrigendum_Assistants_81.pdf",
+        "Add-Exam_RR_Assistan_51.pdf",
+        "SelectedAdvocates_UPzone_052019.pdf",
+        "Exam_RR_Assistan_51.pdf",
+        "Panel_Advocates_HO_052019.pdf",
+        "HRM1Depudation_ISD_1243.pdf",
+        "HO_Empanelment_Advocates_032019.pdf",
+        "Ludhiana_Empanelment_Advocates_032019.pdf",
+        "Empanelment_Advocate_HeadOffice_032019.pdf",
+        "Selection_Advocates_DLUK_022019_1528.pdf",
+        "Interview_EmpanelAdv_Uttarakhand_ZODLUK_022019.pdf",
+        "Selection_Advocates_DLUK_022019_1437.pdf",
+        "EmpanelmentAdvocate_SCND_012019.pdf",
+        "EmpanelmentAdvocate_DLUK_1321.pdf",
+        "HRM7_DepuVacancy_DDVig_16761.pdf",
+        "HRM7_VacPos_Engg_16481.pdf",
+        "AddlPanelAdvocate_UP_012019.pdf",
+        "PressRelease_01112018.pdf",
+        "ITAdvocate_Muzaffarpur_012019.pdf",
+        "EmpanelmentAdvocate_Uttarakhand_ZODLUK_122018.pdf",
+        "EmpanelmentAdvocate_ZODL_122018.pdf",
+        "EmpanelmentAuditor_Muzaffarpur_122018.pdf",
+        "SelectionAdvocate_ZOMumbaiThane_102018.pdf",
+        "EmpanelmentAuditor_Muzaffarpur_16102018.pdf",
+        "PDNASS_IntlTrgProg_MSSS_082018.pdf",
+        "PDNASS_IntlTrgProg_MSSS_072018.pdf",
+        "EmpanelmentCA_Jamshedpur_082018.pdf",
+        "Beneficiary_UPBLY1151_98_99.pdf",
+        "Beneficiary_UPBLY1151_99_00.pdf",
+        "HR_Empanelment_InqOff.pdf",
+        "PDUNASS_Result__Second_Fellowship.pdf",
+        "Beneficiary_List_UPBLY1151.pdf",
+        "IntegrityPledge_CVC_2017.pdf",
+        "InternshipScheme_2017.pdf",
+        "PDUNASS_Selection_ResearchFellowship.pdf",
+        "PMRPY_PMPRPY.pdf",
+        "EaseOfDoingBusiness_MoLE_Initiatives.pdf",
+        "Presentation_ERservices062016.pdf",
+        "EPFO_ShortCodeSMS.pdf",
+        "Annual_Report_2022-23.pdf",
+        "ACT_081951_15111951.pdf",
+        "EPF_Bill_1952.pdf",
+        "EPFAct1952.pdf",
+        "OrgChart_Eng.pdf",
+        "abr18.pdf",
+        "EPFScheme.pdf",
+        "EPS95.pdf",
+        "EDLI_1976.pdf",
+        "Missed_Call_Service.pdf",
+        "Short_Code_SMS_Service.pdf"
+      ],
+      "page_size_kb": 303.5,
+      "depth": 1
+    },
+    {
+      "url": "https://epfindia.gov.in",
+      "title": "\u0915\u0930\u094d\u092e\u091a\u093e\u0930\u0940 \u092d\u0935\u093f\u0937\u094d\u092f \u0928\u093f\u0927\u093f \u0938\u0902\u0917\u0920\u0928",
+      "score": 30,
+      "keywords_found": [],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [
+        "ro_pro.pdf",
+        "CitizenCharter_Hindi.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023.pdf",
+        "Complaints_EPFO_Vigilance_27102023.pdf",
+        "EPS1995_PensionDisbursingAgenciesList.pdf",
+        "Niwasoffice.pdf",
+        "PMAY.pdf",
+        "WhatsApp_Helpline.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023_hi.pdf",
+        "..\\site_docs\\PDFs\\MiscPDFs\\Top_75_establishments.pdf",
+        "..\\site_docs\\PDFs\\MiscPDFs\\Top_75SSA_Top_7SS_Top_5AO.pdf",
+        "Process_Flow_Creatives.pdf",
+        "ROKolkata_CAfirm.pdf",
+        "VenuDetailsOfCamp_NAN_27042026.pdf",
+        "ExtensionOfDate_UttrakhanStateAdvocatePanel_02042026.pdf",
+        "ExtensionOfDate_DelhiStateAdvocatePanel_02042026.pdf",
+        "OM_AdEnclosures_ROUttrakhand.pdf",
+        "Updated_VenuDetilas_March202NAN_18032026.pdf",
+        "ACCDL&UK_OM_PanelOfAdvocates.pdf",
+        "EmpanelmentOfAdvoacate_ACCHR_Order10032026.pdf",
+        "Revised_NANVenueDetails_February2026.pdf",
+        "EMPANELMENTOFADVOCATES_TELANGANAZONE.pdf",
+        "CALetter_RORanchi.pdf",
+        "VENUEDETAILS_AAPKENIKAT2.0_January2026.pdf",
+        "UpdatedNotice_EmpanelmentAdvocates_16012026.pdf",
+        "EmpanelmentCA_RORanchi.pdf",
+        "ConsolidatedBanners_07012026.pdf",
+        "VenueDetailsOfCamps_NidhiAapkeNikat_29122025_Updated.pdf",
+        "ExtensionOfLastDate_Notice.pdf",
+        "VenueDetailsOfNidhiAapkeNikat2.0Camps_27112025.pdf",
+        "Advertisement_EMPANELMENTOFADVOCATESFOR_2025-28.pdf",
+        "Venue Details_NidhiAapkeNikat2.0Camps_27102025.pdf",
+        "EmpanellmentOfCAFirms_TPAOfEPFExemptedTrusts_Odisha.pdf",
+        "VenueDetailsOfCampsUnder_NAN2.0_SEP2025.pdf",
+        "ZOGujarat_EmpanelmentBlockYear_2025_2028.pdf",
+        "VENUEDETAILS_CAMPSUNDERNIDHIAAPKENIKAT_August 2025.pdf",
+        "ListOfSelectedAdvocates_Rajasthan_BlockYear2025_2028.pdf",
+        "NoticeToEligibleAdvocates_ACCRajasthan.pdf",
+        "VenueDetailsUnder_NidhiAapkeNikatCamp_28072025.pdf",
+        "EmpanelmentOfAdvocatesIn_HaryanaZone.pdf",
+        "VenueDetailsUnder_NidhiAapkeNikat_27062025.pdf",
+        "EmpanelmentOfAdvocates_PuneZone.pdf",
+        "VENUE DETAILS_CAMPSUNDERNIDHIAAPKENIKAT_27052025.pdf",
+        "2025_2028.pdf",
+        "EmpanelmentOfCAFirmsFor_ROVadodara.pdf",
+        "VenueDetailsOfNidhiAapkeNikat_April2025.pdf",
+        "Exension_Notice.pdf",
+        "NDC Approval.pdf",
+        "EmpanelmentAdvocate_ChennaiPuducherry.pdf",
+        "EmpanelmentNotice_ExtensionOfTime.pdf",
+        "VenueDetailsOf_NidhiAapkeNikat_March2025.pdf",
+        "NOTICE_merged.pdf",
+        "TPA_Empanelment_Odisha.pdf",
+        "EmpanelmentAdvocatesNotice_Pune04032025.pdf",
+        "ExtensionOfLastDate_PanelAdvocate_Kolkata.pdf",
+        "NOTICEINVITINGAPPLICATION_ROCoimbatore_21022025.pdf",
+        "Final AdvCopy_Pune.pdf",
+        "VenueDetails _NidhiAapkeNikat_27022025.pdf",
+        "ConstitutionOfFreshPanelOfAdvocates_OdishaZone2025_28.pdf",
+        "EmpanelmentAdvocates_Gujarat_14022025.pdf",
+        "PanelForAdvocates_KOLKATA.pdf",
+        "EmpanelmentAdvocatesNotice_Pune.pdf",
+        "Notice&Guidelines_Empanelment OfAdvocate_RAJASTHAN ZONE.pdf",
+        "CA_for_TPA_Organized.pdf",
+        "Venue Details under Nidhi Aapke Nikat - Jan 2025.pdf",
+        "Documents_PanelOFAdvocates_Gujarat.pdf",
+        "Notice_InvitingEoIforpreparationofAnnualFinancialStatementsOfEPFO.pdf",
+        "NoticeforEmpanelAdvocates_2025TO2028.pdf",
+        "OM in J&K and Annxure.pdf",
+        "EmpanelmentOfAdvocates_PBHP.pdf",
+        "December_2024_NidhiAapkeNikatVenueDetails.pdf",
+        "EmpenlmentOfAdvocates_Bhopal.pdf",
+        "Final Advertisment Empanelment of Chartered Accountant Firms.pdf",
+        "notice 29.11.24 - _compressed.pdf",
+        "Extension Notice.pdf",
+        "November 2024 Nidhi Aapke Nikat Venue Details.pdf",
+        "GeM-Bid document for Audit_Guntur.pdf",
+        "Corrigendum.pdf",
+        "NoticeEmpanelment2025_2028.pdf",
+        "EOI_Hubli_28102024.pdf",
+        "EOI_Advocates_28102024.pdf",
+        "NAN-OCTOBER_28102024.pdf",
+        "Empanlment_Adv_ Vijayawada_15102024.pdf",
+        "Corrigendum_Empanelment_Advocated_Odisha_07102024.pdf",
+        "Empanelment_Advocates_Delhi_ZTI_01102024.pdf",
+        "Empanelment_Guwahati_01102024.pdf",
+        "EOI_Advocates_Thane_30092024.pdf",
+        "NAN-SEPTEMBER_23092024.pdf",
+        "EPF_EPS_CREDIT_KOUTONS CONTRACT EMPLOYEES.pdf",
+        "Notice_Ambattur_06092024.pdf",
+        "Notice_Advocates_Mumbai_23082024.pdf",
+        "NOtice_Odisha_23082024.pdf",
+        "Venue_Details_NAN_27August2024.pdf",
+        "Empanelment_of_Charted_Account_Firm__ZO_Mumbai.pdf",
+        "Quarterly Newsletter.pdf",
+        "NAN_July2024_VenueDetails_23072024.pdf",
+        "EmpanelmentAdvocates_Odisha_19072024_1.pdf",
+        "Venue_Details_NAN_27June.pdf",
+        "EK SAMRATMAK PEHAL.pdf",
+        "Venue_Details_NAN_new_22052024.pdf",
+        "Empanelment_CA_Chennai_10052024.pdf",
+        "Notice_Extension_UP_26042024.pdf",
+        "VENUE_NAN_April 2024.pdf",
+        "Empanelment_Advocates_04042024.pdf",
+        "VENUE_NAN_March2024.pdf",
+        "Tender_Agra_05032024.pdf",
+        "Venue_NAN_Feb2024.pdf",
+        "Venue_NidhiAapkeNikat_January 2024.pdf",
+        "EOI_NextGenSOC_05012024.pdf",
+        "EMPANELMENT_Advocates_03022024.pdf",
+        "Venue_NidhiAapkeNikat_December 2023.pdf",
+        "Venue_NidhiAapkeNikat_November 2023.pdf",
+        "NAN_Venue_Oct_27102023.pdf",
+        "EOI_CAFirms_DLS_10102023.pdf",
+        "NAN_Camps_Venue_Details-September 2023 - FINAL 1 PM.pdf",
+        "Inquiry_Officer_DAR_01092023.pdf",
+        "NAN_Camps_Venue_Details-28082023.pdf",
+        "NAN_Camps_Venue_Details-28-August-2023.pdf",
+        "EOI_CA_Firm_Barkatpura_21082023.pdf",
+        "RFP_ActurialConsultant_Pension_08082023.pdf",
+        "tender_peenya_26072023.pdf",
+        "EOI_CA_Firms_Peenya_25072023.pdf",
+        "NAN_Camps_Venue_Details-27-July-2023.pdf",
+        "NAN_Camps_Venue_Details-27-June-2023.pdf",
+        "EOI_EMPANELMENT OF CA FIRMS_14.06.2023_compressed.pdf",
+        "List_empanelled_advocates.pdf",
+        "EOI_CA Firms_Udupi_23052023.pdf",
+        "Venue_NidhiAapkeNikat_23052023.pdf",
+        "Empanelment_advocate_uttarakhand.pdf",
+        "empanelment_advocates_vijyawada_15052023.pdf",
+        "VENUE_DETAILS_NIDHIAAPKENIKAT_24042023.pdf",
+        "Extension_of_EOI.pdf",
+        "Window Advertisement of SSA & Steno 2023.pdf",
+        "EOI_EPFO_Yelahanka_21032023.pdf",
+        "VENUE_DETAILS_NIDHIAAPKENIKAT2.0_23032023.pdf",
+        "EOI_Bhopal_13032023.pdf",
+        "EOI_CA_Firms_Meerut_13032023.pdf",
+        "EOI_CA Firms__Bhopal_13032023.pdf",
+        "EOI_CA_Agra_13032023.pdf",
+        "CA_Firms_Hyderabad_03032023.pdf",
+        "CA_Firms_shivamoga_03032023.pdf",
+        "APPROVED_NOTICE_02032023.pdf",
+        "Empaneled_Advocates_Delhi_01032023_1.pdf",
+        "Empanelment_CAFirms_Bhopal_01032023.pdf",
+        "EOI_ZO_Kolkata_01032023.pdf",
+        "Tender_Shimoga_23022023.pdf",
+        "Venue_Details_NAN_Feb2023.pdf",
+        "Empanelment_Advocates_ZO_Haryana_13022023.pdf",
+        "adv_panel_haryana_upto_31122025.pdf",
+        "EPFO_Vision_2047.pdf",
+        "Chintan_Shivir_final.pdf",
+        "Corrigendum_for_Delhi_State_Adv_08122022.pdf",
+        "Appli_empa_advo_uttara_08122022_merged.pdf",
+        "Empanelment_Advocates_Telengana_23112022.pdf",
+        "Tender_rajkot_21112022.pdf",
+        "CORRIGENDUM_Pension_14112022.pdf",
+        "EOI_empanelment_CA_Hyderabad_14112022.pdf",
+        "RFP_acturialconsultant_10112022.pdf",
+        "OFFICE_ORDER_Advocates_NER.pdf",
+        "Empanelment_Advocate_Uttarakhand_11102022.pdf",
+        "Empanelment_Advocates_Delhi_11102022.pdf",
+        "RFP_empanelment_Advocates_30092022.pdf",
+        "NLC_digital_25_26Aug2022.pdf",
+        "Booklet_Training_Policy.pdf",
+        "RFP_20092022.pdf",
+        "Corrigendum_Para6.19_ RFP_ETF_20092022.pdf",
+        "Corrigendum_RFP_ETFs_IMC_23082022.pdf",
+        "Corrigendum_RFP_ETFs_IMC_08082022.pdf",
+        "Tender_Notice_Parkstreet_05082022.pdf",
+        "Notice_empanelment_of_advocates_Bandra_05082022.pdf",
+        "Expression_of_Interest_Ranchi.pdf",
+        "Tender_for_EOI_Bhubneshwar_04082022.pdf",
+        "Extension_of_tenure_of_panel_of_advocates_Odisha_zone.pdf",
+        "Empanelment_of_CA_Firm_Ranchi_27072022.pdf",
+        "Empanelment_of_Advocates_NER_26072022.pdf",
+        "Clarifications post pre-bid conference.pdf",
+        "Empanelment_Advocates_BR_21072022.pdf",
+        "Notice_empanelment_of_Advocates_Mumbai-I_Zone.pdf",
+        "Notice_Advocates_ACC_HR_14072022_1.pdf",
+        "Empanelment_merged_2022-2025_ACC_TNKR_14072022.pdf",
+        "Office_Order_Empanelment_11072022.pdf",
+        "REQUEST_FOR_PROPOSAL.pdf",
+        "Circular_with_Attachments_Advocates.pdf",
+        "REQUEST_FOR_PROPOSAL_pension_05072022.pdf.pdf",
+        "empanelment_of_CA_firm_22062022.pdf",
+        "EOI_FOR_CA_FIRMS_08062022.pdf",
+        "RFP_for_ECA_v11_03062022_compressed.pdf",
+        "EmpanelmentAdvocate_SC_HO_052022.pdf",
+        "EmpanelmentAdovate_Selection_ZOPB_052022.pdf",
+        "PanelAdvocate_Extn_ZOPune_042022.pdf",
+        "Success_Story_EPFO.pdf",
+        "EmpanelmentAdovate_Selection_ZOGJ_042022.pdf",
+        "EmpanelmentCA_Bharuch_032022.pdf",
+        "Shortlist_EmpAdv_ZOWB_032022.pdf",
+        "EmpanelmentAdovate_Selection_ZORJ_032022.pdf",
+        "EmpanelmentCA_Gorakhpur_032022.pdf",
+        "EmpanelmentCA_Raipur_032022.pdf",
+        "Shortlist_EmpAdv_ZORJ_032022.pdf",
+        "EmpanelmantCA_Vadodara_032022.pdf",
+        "EmpanelmentAdvocate_ZOBR_032022.pdf",
+        "PressRelease_20022022.pdf",
+        "PressRelease_29012022.pdf",
+        "EmpanelmentCA_ZOMumbai_022022.pdf",
+        "EmpanelmentCA_Jaipur_022022.pdf",
+        "Covid_response2.pdf",
+        "Nirbadh_EPFO_to_e EPFO.pdf",
+        "EmpanelmentAdvocate_ZORJ_012022.pdf",
+        "EmpanelmentAdvocate_ZOWB_Addendum_012022.pdf",
+        "EmpanelmentAdvocate_ZOPune_012022.pdf",
+        "EmpanelmentCA_ChennaiNorth_012022.pdf",
+        "EmpanelmentAdvocate_ZOGJ_ExtnDate_012022.pdf",
+        "EmpanelmentAdvocate_Jabalpur_012022.pdf",
+        "EmpanelmentAdvocate_Raipur_012022.pdf",
+        "EmpanelmentAdvocates_ZOPune_012022.pdf",
+        "EmpanelmentAdvocate_Indore_012022.pdf",
+        "EmpanelmentAdvocate_Ujjain_012022.pdf",
+        "EmpanelmentAdvocate_Bhopal_012022.pdf",
+        "EmpanelmentAdvocate_Gwalior_012022.pdf",
+        "EmpanelmentAdvocate_ZOPBHP_012022.pdf",
+        "EmpanelmentAdvocate_Selection_ZOOR_012022.pdf",
+        "EmpanelmentAdvocate_ZOCHPD_012022.pdf",
+        "EmpanelmentAdvocate_ZOUP_Selection_122021.pdf",
+        "EmpanelmentCA_DateExtn_Nasik_122021.pdf",
+        "EmpanelmentAdvocate_ZOGJ_122021.pdf",
+        "EmpanelmentCA_Jammu_122021.pdf",
+        "EmpanelmentCA_DateEx_Tambaram_122021.pdf",
+        "EmpanelmentCA_Kolhapur_122021.pdf",
+        "PressRelease_20122021.pdf",
+        "EmpanelmentAdvocate_Corrg_ZOKolkata_122021.pdf",
+        "EmpanelmentCA_Bareilly_122021.pdf",
+        "EmpanelmentCA_Varanasi_122021.pdf",
+        "EmpanelmentCA_BNGCentral_122021.pdf",
+        "EmpanelmentCA_Tambaram_122021.pdf",
+        "EmpanelmentAdvocate_ZOKolkata_122021.pdf",
+        "EmpanelmentCA_Dehradun_122021.pdf",
+        "EmpanelmentAdvocate_ZOPune_Selection_122021.pdf",
+        "EmpanelmentAdvocate_ZOVijayawada_122021.pdf",
+        "EmpanelmentCA_Haldwani_122021.pdf",
+        "e_shram_english.pdf",
+        "Interview_EmpanelAdv_Orissa_122021.pdf",
+        "EmpanelmentCA_NASIK_122021.pdf",
+        "EmpanelmentAdvocate_ZOHubli_112021.pdf",
+        "EmpanelmentCA_Surat_112021.pdf",
+        "EmpanelmentCA_BNGEC_Extn_112021.pdf",
+        "EmpanelmentCA_GurgaonEast_112021.pdf",
+        "EmpanelmentCA_BNGM_112021.pdf",
+        "EmpanelmentCA_Faridabad_112021.pdf",
+        "EmpanelmentAdvocate_ZOThane_Extn_102021.pdf",
+        "EmpanelmentCA_BNGEC_102021.pdf",
+        "EmpanelmentAdvocate_ZONER_102021.pdf",
+        "EmpanelmentAdvocte_ZOThane_102021.pdf",
+        "EmpanelmentAdvocateMH_Kolhapur_092021.pdf",
+        "EmpanelmentAdvocate_ZOOR_092021.pdf",
+        "EmpanelmentAdvocate_ZOPune_092021.pdf",
+        "EmpanelmentAdvocate_Kottayam_092021.pdf",
+        "EmpanelmentCA_Rajkot_092021.pdf",
+        "EmpanelmentCA_Noida_072021.pdf",
+        "EmpanelmentCA_DelhiCentral_072021.pdf",
+        "EmpanelmentCA_Allahabad_072021.pdf",
+        "EmpanelmentCA_Ludhiana_072021.pdf",
+        "EmpanelmentAdvocate_UK_062021.pdf",
+        "EmpanelmentAdvocate_ZODLUK_062021.pdf",
+        "EmpanelmentCA_KandivaliEast_052021.pdf",
+        "EmpanelmentCA_Goa_042021.pdf",
+        "EmpanelmentAdvocate_Jalandhar_042021.pdf",
+        "EmpanelmentAdvocate_Ludhiana_AddlInfo_042021.pdf",
+        "EmpanelmentAdvocate_Ludhiana_042021.pdf",
+        "EmpanelmentAdvocate_Amritsar_042021.pdf",
+        "EmpanelmentAdvocate_Shimla_042021.pdf",
+        "EmpanelmentAdvocate_Chandigarh_042021.pdf",
+        "EmpanelmentCA_Vashi_042021.pdf",
+        "EmpanelmentCA_Gorakhpur_042021.pdf",
+        "EmpanelmentAdvocate_Bhatinda_042021.pdf",
+        "Empanelment_CA_Ambattur_032021.pdf",
+        "EmpanelmentAdvocate_Bhopal_032021.pdf",
+        "EmpanelmentCA_Vapi_032021.pdf",
+        "EmpanelmentCA_Ambattur_032021.pdf",
+        "EmpanelmentAdvocate_ZOHR_032021.pdf",
+        "EmpanelmentCA_Jamshedpur_032021.pdf",
+        "EmpanelmentAdvocate_ZOUP_032021.pdf",
+        "EmpanelmentAdvocate_Gwalior_032021.pdf",
+        "EmpanelmentAdvocate_Goa_032021.pdf",
+        "EmpanelmentAdvocate_Raipur_032021.pdf",
+        "EmpanelmentAdvocate_Jabalpur_032021.pdf",
+        "EmpanelmentAdvocate_Uttarakhand_032021.pdf",
+        "EmpanelmentAdvocate_Delhi_032021.pdf",
+        "EmpanelmentAdvocate_Ujjain_032021.pdf",
+        "EmpanelmentAdvocate_Indore_032021.pdf",
+        "EmpanelmentAdvocate_Sagar_032021.pdf",
+        "EmpanelmentAuditor_Jalandhar_022021.pdf",
+        "EmpanelmentCA_KandivaliWest_022021.pdf",
+        "EmpanelmentCA_Vashi_022021.pdf",
+        "EmpanelmentCA_Agra_012021.pdf",
+        "Empanellment_of_Advocates_hyderbad.pdf",
+        "sbsm_va_2020_cvo_msg.pdf",
+        "Empanelment_Advocate_Vashi_112020.pdf",
+        "FAQ_Reduced_rate_of_contribution_20052020.pdf",
+        "19_05_2020_Press_brief_reduction_in_EPF_contribution.pdf",
+        "PR06052020.pdf",
+        "PR30042020.pdf",
+        "PressRelease_28042020.pdf",
+        "covid_faq_26042020.pdf",
+        "PRCovid23042020.pdf",
+        "PR21042020.pdf",
+        "PIB1614747.pdf",
+        "PRESS_RELEASECOVID19_16.04.2020.pdf",
+        "PR_PMGKY.pdf",
+        "PR_COVID19advance.pdf",
+        "Press_releaseDOB.pdf",
+        "covid_faq_claim_04042020.pdf",
+        "Pension_press_corona.pdf",
+        "Empanelment_Advocates_Ranchi.pdf",
+        "Empnlmnt_Advocates_Rajasthan_1196.pdf",
+        "PIB_EPFAct.pdf",
+        "Shortlisted_Advocates_ BiharJharkhand_022020.pdf",
+        "Interview_EmpAdvocates_Rajasthan_022020.pdf",
+        "Empanel_Advocates_ACC_Jaipur_012020.pdf",
+        "Empanel_Advocates_ BiharJharkhand_012020.pdf",
+        "List_Empanel_Advocates__Maharashtra_122019.pdf",
+        "GHM_EPFO.pdf",
+        "PDNASS_EE_CEO_1132.pdf",
+        "PDNASS_TrgCal_2019-20_1107.pdf",
+        "Exam_Assistant_EWS_117.pdf",
+        "Exam_Recruit_SSA_109.pdf",
+        "Add2-Exam_RR_Assistan_51.pdf",
+        "Corrigendum_Assistants_81.pdf",
+        "Add-Exam_RR_Assistan_51.pdf",
+        "SelectedAdvocates_UPzone_052019.pdf",
+        "Exam_RR_Assistan_51.pdf",
+        "Panel_Advocates_HO_052019.pdf",
+        "HRM1Depudation_ISD_1243.pdf",
+        "HO_Empanelment_Advocates_032019.pdf",
+        "Ludhiana_Empanelment_Advocates_032019.pdf",
+        "Empanelment_Advocate_HeadOffice_032019.pdf",
+        "Selection_Advocates_DLUK_022019_1528.pdf",
+        "Interview_EmpanelAdv_Uttarakhand_ZODLUK_022019.pdf",
+        "Selection_Advocates_DLUK_022019_1437.pdf",
+        "EmpanelmentAdvocate_SCND_012019.pdf",
+        "EmpanelmentAdvocate_DLUK_1321.pdf",
+        "HRM7_DepuVacancy_DDVig_16761.pdf",
+        "HRM7_VacPos_Engg_16481.pdf",
+        "AddlPanelAdvocate_UP_012019.pdf",
+        "PressRelease_01112018.pdf",
+        "ITAdvocate_Muzaffarpur_012019.pdf",
+        "EmpanelmentAdvocate_Uttarakhand_ZODLUK_122018.pdf",
+        "EmpanelmentAdvocate_ZODL_122018.pdf",
+        "EmpanelmentAuditor_Muzaffarpur_122018.pdf",
+        "SelectionAdvocate_ZOMumbaiThane_102018.pdf",
+        "EmpanelmentAuditor_Muzaffarpur_16102018.pdf",
+        "PDNASS_IntlTrgProg_MSSS_082018.pdf",
+        "PDNASS_IntlTrgProg_MSSS_072018.pdf",
+        "EmpanelmentCA_Jamshedpur_082018.pdf",
+        "Beneficiary_UPBLY1151_98_99.pdf",
+        "Beneficiary_UPBLY1151_99_00.pdf",
+        "HR_Empanelment_InqOff.pdf",
+        "PDUNASS_Result__Second_Fellowship.pdf",
+        "Beneficiary_List_UPBLY1151.pdf",
+        "IntegrityPledge_CVC_2017.pdf",
+        "InternshipScheme_2017.pdf",
+        "PDUNASS_Selection_ResearchFellowship.pdf",
+        "PMRPY_PMPRPY.pdf",
+        "EaseOfDoingBusiness_MoLE_Initiatives.pdf",
+        "Presentation_ERservices062016.pdf",
+        "EPFO_ShortCodeSMS.pdf",
+        "ACT_081951_15111951.pdf",
+        "EPF_Bill_1952.pdf",
+        "EPFAct1952.pdf",
+        "OrgChart_Hi.pdf",
+        "EPFScheme.pdf",
+        "EPS95.pdf",
+        "EDLI_1976.pdf",
+        "Missed_Call_Service.pdf",
+        "Short_Code_SMS_Service.pdf"
+      ],
+      "page_size_kb": 269.3,
+      "depth": 1
+    },
+    {
+      "url": "https://epfindia.gov.in/",
+      "title": "\u0915\u0930\u094d\u092e\u091a\u093e\u0930\u0940 \u092d\u0935\u093f\u0937\u094d\u092f \u0928\u093f\u0927\u093f \u0938\u0902\u0917\u0920\u0928",
+      "score": 30,
+      "keywords_found": [],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [
+        "ro_pro.pdf",
+        "CitizenCharter_Hindi.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023.pdf",
+        "Complaints_EPFO_Vigilance_27102023.pdf",
+        "EPS1995_PensionDisbursingAgenciesList.pdf",
+        "Niwasoffice.pdf",
+        "PMAY.pdf",
+        "WhatsApp_Helpline.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023_hi.pdf",
+        "..\\site_docs\\PDFs\\MiscPDFs\\Top_75_establishments.pdf",
+        "..\\site_docs\\PDFs\\MiscPDFs\\Top_75SSA_Top_7SS_Top_5AO.pdf",
+        "Process_Flow_Creatives.pdf",
+        "ROKolkata_CAfirm.pdf",
+        "VenuDetailsOfCamp_NAN_27042026.pdf",
+        "ExtensionOfDate_UttrakhanStateAdvocatePanel_02042026.pdf",
+        "ExtensionOfDate_DelhiStateAdvocatePanel_02042026.pdf",
+        "OM_AdEnclosures_ROUttrakhand.pdf",
+        "Updated_VenuDetilas_March202NAN_18032026.pdf",
+        "ACCDL&UK_OM_PanelOfAdvocates.pdf",
+        "EmpanelmentOfAdvoacate_ACCHR_Order10032026.pdf",
+        "Revised_NANVenueDetails_February2026.pdf",
+        "EMPANELMENTOFADVOCATES_TELANGANAZONE.pdf",
+        "CALetter_RORanchi.pdf",
+        "VENUEDETAILS_AAPKENIKAT2.0_January2026.pdf",
+        "UpdatedNotice_EmpanelmentAdvocates_16012026.pdf",
+        "EmpanelmentCA_RORanchi.pdf",
+        "ConsolidatedBanners_07012026.pdf",
+        "VenueDetailsOfCamps_NidhiAapkeNikat_29122025_Updated.pdf",
+        "ExtensionOfLastDate_Notice.pdf",
+        "VenueDetailsOfNidhiAapkeNikat2.0Camps_27112025.pdf",
+        "Advertisement_EMPANELMENTOFADVOCATESFOR_2025-28.pdf",
+        "Venue Details_NidhiAapkeNikat2.0Camps_27102025.pdf",
+        "EmpanellmentOfCAFirms_TPAOfEPFExemptedTrusts_Odisha.pdf",
+        "VenueDetailsOfCampsUnder_NAN2.0_SEP2025.pdf",
+        "ZOGujarat_EmpanelmentBlockYear_2025_2028.pdf",
+        "VENUEDETAILS_CAMPSUNDERNIDHIAAPKENIKAT_August 2025.pdf",
+        "ListOfSelectedAdvocates_Rajasthan_BlockYear2025_2028.pdf",
+        "NoticeToEligibleAdvocates_ACCRajasthan.pdf",
+        "VenueDetailsUnder_NidhiAapkeNikatCamp_28072025.pdf",
+        "EmpanelmentOfAdvocatesIn_HaryanaZone.pdf",
+        "VenueDetailsUnder_NidhiAapkeNikat_27062025.pdf",
+        "EmpanelmentOfAdvocates_PuneZone.pdf",
+        "VENUE DETAILS_CAMPSUNDERNIDHIAAPKENIKAT_27052025.pdf",
+        "2025_2028.pdf",
+        "EmpanelmentOfCAFirmsFor_ROVadodara.pdf",
+        "VenueDetailsOfNidhiAapkeNikat_April2025.pdf",
+        "Exension_Notice.pdf",
+        "NDC Approval.pdf",
+        "EmpanelmentAdvocate_ChennaiPuducherry.pdf",
+        "EmpanelmentNotice_ExtensionOfTime.pdf",
+        "VenueDetailsOf_NidhiAapkeNikat_March2025.pdf",
+        "NOTICE_merged.pdf",
+        "TPA_Empanelment_Odisha.pdf",
+        "EmpanelmentAdvocatesNotice_Pune04032025.pdf",
+        "ExtensionOfLastDate_PanelAdvocate_Kolkata.pdf",
+        "NOTICEINVITINGAPPLICATION_ROCoimbatore_21022025.pdf",
+        "Final AdvCopy_Pune.pdf",
+        "VenueDetails _NidhiAapkeNikat_27022025.pdf",
+        "ConstitutionOfFreshPanelOfAdvocates_OdishaZone2025_28.pdf",
+        "EmpanelmentAdvocates_Gujarat_14022025.pdf",
+        "PanelForAdvocates_KOLKATA.pdf",
+        "EmpanelmentAdvocatesNotice_Pune.pdf",
+        "Notice&Guidelines_Empanelment OfAdvocate_RAJASTHAN ZONE.pdf",
+        "CA_for_TPA_Organized.pdf",
+        "Venue Details under Nidhi Aapke Nikat - Jan 2025.pdf",
+        "Documents_PanelOFAdvocates_Gujarat.pdf",
+        "Notice_InvitingEoIforpreparationofAnnualFinancialStatementsOfEPFO.pdf",
+        "NoticeforEmpanelAdvocates_2025TO2028.pdf",
+        "OM in J&K and Annxure.pdf",
+        "EmpanelmentOfAdvocates_PBHP.pdf",
+        "December_2024_NidhiAapkeNikatVenueDetails.pdf",
+        "EmpenlmentOfAdvocates_Bhopal.pdf",
+        "Final Advertisment Empanelment of Chartered Accountant Firms.pdf",
+        "notice 29.11.24 - _compressed.pdf",
+        "Extension Notice.pdf",
+        "November 2024 Nidhi Aapke Nikat Venue Details.pdf",
+        "GeM-Bid document for Audit_Guntur.pdf",
+        "Corrigendum.pdf",
+        "NoticeEmpanelment2025_2028.pdf",
+        "EOI_Hubli_28102024.pdf",
+        "EOI_Advocates_28102024.pdf",
+        "NAN-OCTOBER_28102024.pdf",
+        "Empanlment_Adv_ Vijayawada_15102024.pdf",
+        "Corrigendum_Empanelment_Advocated_Odisha_07102024.pdf",
+        "Empanelment_Advocates_Delhi_ZTI_01102024.pdf",
+        "Empanelment_Guwahati_01102024.pdf",
+        "EOI_Advocates_Thane_30092024.pdf",
+        "NAN-SEPTEMBER_23092024.pdf",
+        "EPF_EPS_CREDIT_KOUTONS CONTRACT EMPLOYEES.pdf",
+        "Notice_Ambattur_06092024.pdf",
+        "Notice_Advocates_Mumbai_23082024.pdf",
+        "NOtice_Odisha_23082024.pdf",
+        "Venue_Details_NAN_27August2024.pdf",
+        "Empanelment_of_Charted_Account_Firm__ZO_Mumbai.pdf",
+        "Quarterly Newsletter.pdf",
+        "NAN_July2024_VenueDetails_23072024.pdf",
+        "EmpanelmentAdvocates_Odisha_19072024_1.pdf",
+        "Venue_Details_NAN_27June.pdf",
+        "EK SAMRATMAK PEHAL.pdf",
+        "Venue_Details_NAN_new_22052024.pdf",
+        "Empanelment_CA_Chennai_10052024.pdf",
+        "Notice_Extension_UP_26042024.pdf",
+        "VENUE_NAN_April 2024.pdf",
+        "Empanelment_Advocates_04042024.pdf",
+        "VENUE_NAN_March2024.pdf",
+        "Tender_Agra_05032024.pdf",
+        "Venue_NAN_Feb2024.pdf",
+        "Venue_NidhiAapkeNikat_January 2024.pdf",
+        "EOI_NextGenSOC_05012024.pdf",
+        "EMPANELMENT_Advocates_03022024.pdf",
+        "Venue_NidhiAapkeNikat_December 2023.pdf",
+        "Venue_NidhiAapkeNikat_November 2023.pdf",
+        "NAN_Venue_Oct_27102023.pdf",
+        "EOI_CAFirms_DLS_10102023.pdf",
+        "NAN_Camps_Venue_Details-September 2023 - FINAL 1 PM.pdf",
+        "Inquiry_Officer_DAR_01092023.pdf",
+        "NAN_Camps_Venue_Details-28082023.pdf",
+        "NAN_Camps_Venue_Details-28-August-2023.pdf",
+        "EOI_CA_Firm_Barkatpura_21082023.pdf",
+        "RFP_ActurialConsultant_Pension_08082023.pdf",
+        "tender_peenya_26072023.pdf",
+        "EOI_CA_Firms_Peenya_25072023.pdf",
+        "NAN_Camps_Venue_Details-27-July-2023.pdf",
+        "NAN_Camps_Venue_Details-27-June-2023.pdf",
+        "EOI_EMPANELMENT OF CA FIRMS_14.06.2023_compressed.pdf",
+        "List_empanelled_advocates.pdf",
+        "EOI_CA Firms_Udupi_23052023.pdf",
+        "Venue_NidhiAapkeNikat_23052023.pdf",
+        "Empanelment_advocate_uttarakhand.pdf",
+        "empanelment_advocates_vijyawada_15052023.pdf",
+        "VENUE_DETAILS_NIDHIAAPKENIKAT_24042023.pdf",
+        "Extension_of_EOI.pdf",
+        "Window Advertisement of SSA & Steno 2023.pdf",
+        "EOI_EPFO_Yelahanka_21032023.pdf",
+        "VENUE_DETAILS_NIDHIAAPKENIKAT2.0_23032023.pdf",
+        "EOI_Bhopal_13032023.pdf",
+        "EOI_CA_Firms_Meerut_13032023.pdf",
+        "EOI_CA Firms__Bhopal_13032023.pdf",
+        "EOI_CA_Agra_13032023.pdf",
+        "CA_Firms_Hyderabad_03032023.pdf",
+        "CA_Firms_shivamoga_03032023.pdf",
+        "APPROVED_NOTICE_02032023.pdf",
+        "Empaneled_Advocates_Delhi_01032023_1.pdf",
+        "Empanelment_CAFirms_Bhopal_01032023.pdf",
+        "EOI_ZO_Kolkata_01032023.pdf",
+        "Tender_Shimoga_23022023.pdf",
+        "Venue_Details_NAN_Feb2023.pdf",
+        "Empanelment_Advocates_ZO_Haryana_13022023.pdf",
+        "adv_panel_haryana_upto_31122025.pdf",
+        "EPFO_Vision_2047.pdf",
+        "Chintan_Shivir_final.pdf",
+        "Corrigendum_for_Delhi_State_Adv_08122022.pdf",
+        "Appli_empa_advo_uttara_08122022_merged.pdf",
+        "Empanelment_Advocates_Telengana_23112022.pdf",
+        "Tender_rajkot_21112022.pdf",
+        "CORRIGENDUM_Pension_14112022.pdf",
+        "EOI_empanelment_CA_Hyderabad_14112022.pdf",
+        "RFP_acturialconsultant_10112022.pdf",
+        "OFFICE_ORDER_Advocates_NER.pdf",
+        "Empanelment_Advocate_Uttarakhand_11102022.pdf",
+        "Empanelment_Advocates_Delhi_11102022.pdf",
+        "RFP_empanelment_Advocates_30092022.pdf",
+        "NLC_digital_25_26Aug2022.pdf",
+        "Booklet_Training_Policy.pdf",
+        "RFP_20092022.pdf",
+        "Corrigendum_Para6.19_ RFP_ETF_20092022.pdf",
+        "Corrigendum_RFP_ETFs_IMC_23082022.pdf",
+        "Corrigendum_RFP_ETFs_IMC_08082022.pdf",
+        "Tender_Notice_Parkstreet_05082022.pdf",
+        "Notice_empanelment_of_advocates_Bandra_05082022.pdf",
+        "Expression_of_Interest_Ranchi.pdf",
+        "Tender_for_EOI_Bhubneshwar_04082022.pdf",
+        "Extension_of_tenure_of_panel_of_advocates_Odisha_zone.pdf",
+        "Empanelment_of_CA_Firm_Ranchi_27072022.pdf",
+        "Empanelment_of_Advocates_NER_26072022.pdf",
+        "Clarifications post pre-bid conference.pdf",
+        "Empanelment_Advocates_BR_21072022.pdf",
+        "Notice_empanelment_of_Advocates_Mumbai-I_Zone.pdf",
+        "Notice_Advocates_ACC_HR_14072022_1.pdf",
+        "Empanelment_merged_2022-2025_ACC_TNKR_14072022.pdf",
+        "Office_Order_Empanelment_11072022.pdf",
+        "REQUEST_FOR_PROPOSAL.pdf",
+        "Circular_with_Attachments_Advocates.pdf",
+        "REQUEST_FOR_PROPOSAL_pension_05072022.pdf.pdf",
+        "empanelment_of_CA_firm_22062022.pdf",
+        "EOI_FOR_CA_FIRMS_08062022.pdf",
+        "RFP_for_ECA_v11_03062022_compressed.pdf",
+        "EmpanelmentAdvocate_SC_HO_052022.pdf",
+        "EmpanelmentAdovate_Selection_ZOPB_052022.pdf",
+        "PanelAdvocate_Extn_ZOPune_042022.pdf",
+        "Success_Story_EPFO.pdf",
+        "EmpanelmentAdovate_Selection_ZOGJ_042022.pdf",
+        "EmpanelmentCA_Bharuch_032022.pdf",
+        "Shortlist_EmpAdv_ZOWB_032022.pdf",
+        "EmpanelmentAdovate_Selection_ZORJ_032022.pdf",
+        "EmpanelmentCA_Gorakhpur_032022.pdf",
+        "EmpanelmentCA_Raipur_032022.pdf",
+        "Shortlist_EmpAdv_ZORJ_032022.pdf",
+        "EmpanelmantCA_Vadodara_032022.pdf",
+        "EmpanelmentAdvocate_ZOBR_032022.pdf",
+        "PressRelease_20022022.pdf",
+        "PressRelease_29012022.pdf",
+        "EmpanelmentCA_ZOMumbai_022022.pdf",
+        "EmpanelmentCA_Jaipur_022022.pdf",
+        "Covid_response2.pdf",
+        "Nirbadh_EPFO_to_e EPFO.pdf",
+        "EmpanelmentAdvocate_ZORJ_012022.pdf",
+        "EmpanelmentAdvocate_ZOWB_Addendum_012022.pdf",
+        "EmpanelmentAdvocate_ZOPune_012022.pdf",
+        "EmpanelmentCA_ChennaiNorth_012022.pdf",
+        "EmpanelmentAdvocate_ZOGJ_ExtnDate_012022.pdf",
+        "EmpanelmentAdvocate_Jabalpur_012022.pdf",
+        "EmpanelmentAdvocate_Raipur_012022.pdf",
+        "EmpanelmentAdvocates_ZOPune_012022.pdf",
+        "EmpanelmentAdvocate_Indore_012022.pdf",
+        "EmpanelmentAdvocate_Ujjain_012022.pdf",
+        "EmpanelmentAdvocate_Bhopal_012022.pdf",
+        "EmpanelmentAdvocate_Gwalior_012022.pdf",
+        "EmpanelmentAdvocate_ZOPBHP_012022.pdf",
+        "EmpanelmentAdvocate_Selection_ZOOR_012022.pdf",
+        "EmpanelmentAdvocate_ZOCHPD_012022.pdf",
+        "EmpanelmentAdvocate_ZOUP_Selection_122021.pdf",
+        "EmpanelmentCA_DateExtn_Nasik_122021.pdf",
+        "EmpanelmentAdvocate_ZOGJ_122021.pdf",
+        "EmpanelmentCA_Jammu_122021.pdf",
+        "EmpanelmentCA_DateEx_Tambaram_122021.pdf",
+        "EmpanelmentCA_Kolhapur_122021.pdf",
+        "PressRelease_20122021.pdf",
+        "EmpanelmentAdvocate_Corrg_ZOKolkata_122021.pdf",
+        "EmpanelmentCA_Bareilly_122021.pdf",
+        "EmpanelmentCA_Varanasi_122021.pdf",
+        "EmpanelmentCA_BNGCentral_122021.pdf",
+        "EmpanelmentCA_Tambaram_122021.pdf",
+        "EmpanelmentAdvocate_ZOKolkata_122021.pdf",
+        "EmpanelmentCA_Dehradun_122021.pdf",
+        "EmpanelmentAdvocate_ZOPune_Selection_122021.pdf",
+        "EmpanelmentAdvocate_ZOVijayawada_122021.pdf",
+        "EmpanelmentCA_Haldwani_122021.pdf",
+        "e_shram_english.pdf",
+        "Interview_EmpanelAdv_Orissa_122021.pdf",
+        "EmpanelmentCA_NASIK_122021.pdf",
+        "EmpanelmentAdvocate_ZOHubli_112021.pdf",
+        "EmpanelmentCA_Surat_112021.pdf",
+        "EmpanelmentCA_BNGEC_Extn_112021.pdf",
+        "EmpanelmentCA_GurgaonEast_112021.pdf",
+        "EmpanelmentCA_BNGM_112021.pdf",
+        "EmpanelmentCA_Faridabad_112021.pdf",
+        "EmpanelmentAdvocate_ZOThane_Extn_102021.pdf",
+        "EmpanelmentCA_BNGEC_102021.pdf",
+        "EmpanelmentAdvocate_ZONER_102021.pdf",
+        "EmpanelmentAdvocte_ZOThane_102021.pdf",
+        "EmpanelmentAdvocateMH_Kolhapur_092021.pdf",
+        "EmpanelmentAdvocate_ZOOR_092021.pdf",
+        "EmpanelmentAdvocate_ZOPune_092021.pdf",
+        "EmpanelmentAdvocate_Kottayam_092021.pdf",
+        "EmpanelmentCA_Rajkot_092021.pdf",
+        "EmpanelmentCA_Noida_072021.pdf",
+        "EmpanelmentCA_DelhiCentral_072021.pdf",
+        "EmpanelmentCA_Allahabad_072021.pdf",
+        "EmpanelmentCA_Ludhiana_072021.pdf",
+        "EmpanelmentAdvocate_UK_062021.pdf",
+        "EmpanelmentAdvocate_ZODLUK_062021.pdf",
+        "EmpanelmentCA_KandivaliEast_052021.pdf",
+        "EmpanelmentCA_Goa_042021.pdf",
+        "EmpanelmentAdvocate_Jalandhar_042021.pdf",
+        "EmpanelmentAdvocate_Ludhiana_AddlInfo_042021.pdf",
+        "EmpanelmentAdvocate_Ludhiana_042021.pdf",
+        "EmpanelmentAdvocate_Amritsar_042021.pdf",
+        "EmpanelmentAdvocate_Shimla_042021.pdf",
+        "EmpanelmentAdvocate_Chandigarh_042021.pdf",
+        "EmpanelmentCA_Vashi_042021.pdf",
+        "EmpanelmentCA_Gorakhpur_042021.pdf",
+        "EmpanelmentAdvocate_Bhatinda_042021.pdf",
+        "Empanelment_CA_Ambattur_032021.pdf",
+        "EmpanelmentAdvocate_Bhopal_032021.pdf",
+        "EmpanelmentCA_Vapi_032021.pdf",
+        "EmpanelmentCA_Ambattur_032021.pdf",
+        "EmpanelmentAdvocate_ZOHR_032021.pdf",
+        "EmpanelmentCA_Jamshedpur_032021.pdf",
+        "EmpanelmentAdvocate_ZOUP_032021.pdf",
+        "EmpanelmentAdvocate_Gwalior_032021.pdf",
+        "EmpanelmentAdvocate_Goa_032021.pdf",
+        "EmpanelmentAdvocate_Raipur_032021.pdf",
+        "EmpanelmentAdvocate_Jabalpur_032021.pdf",
+        "EmpanelmentAdvocate_Uttarakhand_032021.pdf",
+        "EmpanelmentAdvocate_Delhi_032021.pdf",
+        "EmpanelmentAdvocate_Ujjain_032021.pdf",
+        "EmpanelmentAdvocate_Indore_032021.pdf",
+        "EmpanelmentAdvocate_Sagar_032021.pdf",
+        "EmpanelmentAuditor_Jalandhar_022021.pdf",
+        "EmpanelmentCA_KandivaliWest_022021.pdf",
+        "EmpanelmentCA_Vashi_022021.pdf",
+        "EmpanelmentCA_Agra_012021.pdf",
+        "Empanellment_of_Advocates_hyderbad.pdf",
+        "sbsm_va_2020_cvo_msg.pdf",
+        "Empanelment_Advocate_Vashi_112020.pdf",
+        "FAQ_Reduced_rate_of_contribution_20052020.pdf",
+        "19_05_2020_Press_brief_reduction_in_EPF_contribution.pdf",
+        "PR06052020.pdf",
+        "PR30042020.pdf",
+        "PressRelease_28042020.pdf",
+        "covid_faq_26042020.pdf",
+        "PRCovid23042020.pdf",
+        "PR21042020.pdf",
+        "PIB1614747.pdf",
+        "PRESS_RELEASECOVID19_16.04.2020.pdf",
+        "PR_PMGKY.pdf",
+        "PR_COVID19advance.pdf",
+        "Press_releaseDOB.pdf",
+        "covid_faq_claim_04042020.pdf",
+        "Pension_press_corona.pdf",
+        "Empanelment_Advocates_Ranchi.pdf",
+        "Empnlmnt_Advocates_Rajasthan_1196.pdf",
+        "PIB_EPFAct.pdf",
+        "Shortlisted_Advocates_ BiharJharkhand_022020.pdf",
+        "Interview_EmpAdvocates_Rajasthan_022020.pdf",
+        "Empanel_Advocates_ACC_Jaipur_012020.pdf",
+        "Empanel_Advocates_ BiharJharkhand_012020.pdf",
+        "List_Empanel_Advocates__Maharashtra_122019.pdf",
+        "GHM_EPFO.pdf",
+        "PDNASS_EE_CEO_1132.pdf",
+        "PDNASS_TrgCal_2019-20_1107.pdf",
+        "Exam_Assistant_EWS_117.pdf",
+        "Exam_Recruit_SSA_109.pdf",
+        "Add2-Exam_RR_Assistan_51.pdf",
+        "Corrigendum_Assistants_81.pdf",
+        "Add-Exam_RR_Assistan_51.pdf",
+        "SelectedAdvocates_UPzone_052019.pdf",
+        "Exam_RR_Assistan_51.pdf",
+        "Panel_Advocates_HO_052019.pdf",
+        "HRM1Depudation_ISD_1243.pdf",
+        "HO_Empanelment_Advocates_032019.pdf",
+        "Ludhiana_Empanelment_Advocates_032019.pdf",
+        "Empanelment_Advocate_HeadOffice_032019.pdf",
+        "Selection_Advocates_DLUK_022019_1528.pdf",
+        "Interview_EmpanelAdv_Uttarakhand_ZODLUK_022019.pdf",
+        "Selection_Advocates_DLUK_022019_1437.pdf",
+        "EmpanelmentAdvocate_SCND_012019.pdf",
+        "EmpanelmentAdvocate_DLUK_1321.pdf",
+        "HRM7_DepuVacancy_DDVig_16761.pdf",
+        "HRM7_VacPos_Engg_16481.pdf",
+        "AddlPanelAdvocate_UP_012019.pdf",
+        "PressRelease_01112018.pdf",
+        "ITAdvocate_Muzaffarpur_012019.pdf",
+        "EmpanelmentAdvocate_Uttarakhand_ZODLUK_122018.pdf",
+        "EmpanelmentAdvocate_ZODL_122018.pdf",
+        "EmpanelmentAuditor_Muzaffarpur_122018.pdf",
+        "SelectionAdvocate_ZOMumbaiThane_102018.pdf",
+        "EmpanelmentAuditor_Muzaffarpur_16102018.pdf",
+        "PDNASS_IntlTrgProg_MSSS_082018.pdf",
+        "PDNASS_IntlTrgProg_MSSS_072018.pdf",
+        "EmpanelmentCA_Jamshedpur_082018.pdf",
+        "Beneficiary_UPBLY1151_98_99.pdf",
+        "Beneficiary_UPBLY1151_99_00.pdf",
+        "HR_Empanelment_InqOff.pdf",
+        "PDUNASS_Result__Second_Fellowship.pdf",
+        "Beneficiary_List_UPBLY1151.pdf",
+        "IntegrityPledge_CVC_2017.pdf",
+        "InternshipScheme_2017.pdf",
+        "PDUNASS_Selection_ResearchFellowship.pdf",
+        "PMRPY_PMPRPY.pdf",
+        "EaseOfDoingBusiness_MoLE_Initiatives.pdf",
+        "Presentation_ERservices062016.pdf",
+        "EPFO_ShortCodeSMS.pdf",
+        "ACT_081951_15111951.pdf",
+        "EPF_Bill_1952.pdf",
+        "EPFAct1952.pdf",
+        "OrgChart_Hi.pdf",
+        "EPFScheme.pdf",
+        "EPS95.pdf",
+        "EDLI_1976.pdf",
+        "Missed_Call_Service.pdf",
+        "Short_Code_SMS_Service.pdf"
+      ],
+      "page_size_kb": 269.3,
+      "depth": 0
+    },
+    {
+      "url": "https://epfindia.gov.in/index.php",
+      "title": "\u0915\u0930\u094d\u092e\u091a\u093e\u0930\u0940 \u092d\u0935\u093f\u0937\u094d\u092f \u0928\u093f\u0927\u093f \u0938\u0902\u0917\u0920\u0928",
+      "score": 30,
+      "keywords_found": [],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [
+        "ro_pro.pdf",
+        "CitizenCharter_Hindi.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023.pdf",
+        "Complaints_EPFO_Vigilance_27102023.pdf",
+        "EPS1995_PensionDisbursingAgenciesList.pdf",
+        "Niwasoffice.pdf",
+        "PMAY.pdf",
+        "WhatsApp_Helpline.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023_hi.pdf",
+        "..\\site_docs\\PDFs\\MiscPDFs\\Top_75_establishments.pdf",
+        "..\\site_docs\\PDFs\\MiscPDFs\\Top_75SSA_Top_7SS_Top_5AO.pdf",
+        "Process_Flow_Creatives.pdf",
+        "ROKolkata_CAfirm.pdf",
+        "VenuDetailsOfCamp_NAN_27042026.pdf",
+        "ExtensionOfDate_UttrakhanStateAdvocatePanel_02042026.pdf",
+        "ExtensionOfDate_DelhiStateAdvocatePanel_02042026.pdf",
+        "OM_AdEnclosures_ROUttrakhand.pdf",
+        "Updated_VenuDetilas_March202NAN_18032026.pdf",
+        "ACCDL&UK_OM_PanelOfAdvocates.pdf",
+        "EmpanelmentOfAdvoacate_ACCHR_Order10032026.pdf",
+        "Revised_NANVenueDetails_February2026.pdf",
+        "EMPANELMENTOFADVOCATES_TELANGANAZONE.pdf",
+        "CALetter_RORanchi.pdf",
+        "VENUEDETAILS_AAPKENIKAT2.0_January2026.pdf",
+        "UpdatedNotice_EmpanelmentAdvocates_16012026.pdf",
+        "EmpanelmentCA_RORanchi.pdf",
+        "ConsolidatedBanners_07012026.pdf",
+        "VenueDetailsOfCamps_NidhiAapkeNikat_29122025_Updated.pdf",
+        "ExtensionOfLastDate_Notice.pdf",
+        "VenueDetailsOfNidhiAapkeNikat2.0Camps_27112025.pdf",
+        "Advertisement_EMPANELMENTOFADVOCATESFOR_2025-28.pdf",
+        "Venue Details_NidhiAapkeNikat2.0Camps_27102025.pdf",
+        "EmpanellmentOfCAFirms_TPAOfEPFExemptedTrusts_Odisha.pdf",
+        "VenueDetailsOfCampsUnder_NAN2.0_SEP2025.pdf",
+        "ZOGujarat_EmpanelmentBlockYear_2025_2028.pdf",
+        "VENUEDETAILS_CAMPSUNDERNIDHIAAPKENIKAT_August 2025.pdf",
+        "ListOfSelectedAdvocates_Rajasthan_BlockYear2025_2028.pdf",
+        "NoticeToEligibleAdvocates_ACCRajasthan.pdf",
+        "VenueDetailsUnder_NidhiAapkeNikatCamp_28072025.pdf",
+        "EmpanelmentOfAdvocatesIn_HaryanaZone.pdf",
+        "VenueDetailsUnder_NidhiAapkeNikat_27062025.pdf",
+        "EmpanelmentOfAdvocates_PuneZone.pdf",
+        "VENUE DETAILS_CAMPSUNDERNIDHIAAPKENIKAT_27052025.pdf",
+        "2025_2028.pdf",
+        "EmpanelmentOfCAFirmsFor_ROVadodara.pdf",
+        "VenueDetailsOfNidhiAapkeNikat_April2025.pdf",
+        "Exension_Notice.pdf",
+        "NDC Approval.pdf",
+        "EmpanelmentAdvocate_ChennaiPuducherry.pdf",
+        "EmpanelmentNotice_ExtensionOfTime.pdf",
+        "VenueDetailsOf_NidhiAapkeNikat_March2025.pdf",
+        "NOTICE_merged.pdf",
+        "TPA_Empanelment_Odisha.pdf",
+        "EmpanelmentAdvocatesNotice_Pune04032025.pdf",
+        "ExtensionOfLastDate_PanelAdvocate_Kolkata.pdf",
+        "NOTICEINVITINGAPPLICATION_ROCoimbatore_21022025.pdf",
+        "Final AdvCopy_Pune.pdf",
+        "VenueDetails _NidhiAapkeNikat_27022025.pdf",
+        "ConstitutionOfFreshPanelOfAdvocates_OdishaZone2025_28.pdf",
+        "EmpanelmentAdvocates_Gujarat_14022025.pdf",
+        "PanelForAdvocates_KOLKATA.pdf",
+        "EmpanelmentAdvocatesNotice_Pune.pdf",
+        "Notice&Guidelines_Empanelment OfAdvocate_RAJASTHAN ZONE.pdf",
+        "CA_for_TPA_Organized.pdf",
+        "Venue Details under Nidhi Aapke Nikat - Jan 2025.pdf",
+        "Documents_PanelOFAdvocates_Gujarat.pdf",
+        "Notice_InvitingEoIforpreparationofAnnualFinancialStatementsOfEPFO.pdf",
+        "NoticeforEmpanelAdvocates_2025TO2028.pdf",
+        "OM in J&K and Annxure.pdf",
+        "EmpanelmentOfAdvocates_PBHP.pdf",
+        "December_2024_NidhiAapkeNikatVenueDetails.pdf",
+        "EmpenlmentOfAdvocates_Bhopal.pdf",
+        "Final Advertisment Empanelment of Chartered Accountant Firms.pdf",
+        "notice 29.11.24 - _compressed.pdf",
+        "Extension Notice.pdf",
+        "November 2024 Nidhi Aapke Nikat Venue Details.pdf",
+        "GeM-Bid document for Audit_Guntur.pdf",
+        "Corrigendum.pdf",
+        "NoticeEmpanelment2025_2028.pdf",
+        "EOI_Hubli_28102024.pdf",
+        "EOI_Advocates_28102024.pdf",
+        "NAN-OCTOBER_28102024.pdf",
+        "Empanlment_Adv_ Vijayawada_15102024.pdf",
+        "Corrigendum_Empanelment_Advocated_Odisha_07102024.pdf",
+        "Empanelment_Advocates_Delhi_ZTI_01102024.pdf",
+        "Empanelment_Guwahati_01102024.pdf",
+        "EOI_Advocates_Thane_30092024.pdf",
+        "NAN-SEPTEMBER_23092024.pdf",
+        "EPF_EPS_CREDIT_KOUTONS CONTRACT EMPLOYEES.pdf",
+        "Notice_Ambattur_06092024.pdf",
+        "Notice_Advocates_Mumbai_23082024.pdf",
+        "NOtice_Odisha_23082024.pdf",
+        "Venue_Details_NAN_27August2024.pdf",
+        "Empanelment_of_Charted_Account_Firm__ZO_Mumbai.pdf",
+        "Quarterly Newsletter.pdf",
+        "NAN_July2024_VenueDetails_23072024.pdf",
+        "EmpanelmentAdvocates_Odisha_19072024_1.pdf",
+        "Venue_Details_NAN_27June.pdf",
+        "EK SAMRATMAK PEHAL.pdf",
+        "Venue_Details_NAN_new_22052024.pdf",
+        "Empanelment_CA_Chennai_10052024.pdf",
+        "Notice_Extension_UP_26042024.pdf",
+        "VENUE_NAN_April 2024.pdf",
+        "Empanelment_Advocates_04042024.pdf",
+        "VENUE_NAN_March2024.pdf",
+        "Tender_Agra_05032024.pdf",
+        "Venue_NAN_Feb2024.pdf",
+        "Venue_NidhiAapkeNikat_January 2024.pdf",
+        "EOI_NextGenSOC_05012024.pdf",
+        "EMPANELMENT_Advocates_03022024.pdf",
+        "Venue_NidhiAapkeNikat_December 2023.pdf",
+        "Venue_NidhiAapkeNikat_November 2023.pdf",
+        "NAN_Venue_Oct_27102023.pdf",
+        "EOI_CAFirms_DLS_10102023.pdf",
+        "NAN_Camps_Venue_Details-September 2023 - FINAL 1 PM.pdf",
+        "Inquiry_Officer_DAR_01092023.pdf",
+        "NAN_Camps_Venue_Details-28082023.pdf",
+        "NAN_Camps_Venue_Details-28-August-2023.pdf",
+        "EOI_CA_Firm_Barkatpura_21082023.pdf",
+        "RFP_ActurialConsultant_Pension_08082023.pdf",
+        "tender_peenya_26072023.pdf",
+        "EOI_CA_Firms_Peenya_25072023.pdf",
+        "NAN_Camps_Venue_Details-27-July-2023.pdf",
+        "NAN_Camps_Venue_Details-27-June-2023.pdf",
+        "EOI_EMPANELMENT OF CA FIRMS_14.06.2023_compressed.pdf",
+        "List_empanelled_advocates.pdf",
+        "EOI_CA Firms_Udupi_23052023.pdf",
+        "Venue_NidhiAapkeNikat_23052023.pdf",
+        "Empanelment_advocate_uttarakhand.pdf",
+        "empanelment_advocates_vijyawada_15052023.pdf",
+        "VENUE_DETAILS_NIDHIAAPKENIKAT_24042023.pdf",
+        "Extension_of_EOI.pdf",
+        "Window Advertisement of SSA & Steno 2023.pdf",
+        "EOI_EPFO_Yelahanka_21032023.pdf",
+        "VENUE_DETAILS_NIDHIAAPKENIKAT2.0_23032023.pdf",
+        "EOI_Bhopal_13032023.pdf",
+        "EOI_CA_Firms_Meerut_13032023.pdf",
+        "EOI_CA Firms__Bhopal_13032023.pdf",
+        "EOI_CA_Agra_13032023.pdf",
+        "CA_Firms_Hyderabad_03032023.pdf",
+        "CA_Firms_shivamoga_03032023.pdf",
+        "APPROVED_NOTICE_02032023.pdf",
+        "Empaneled_Advocates_Delhi_01032023_1.pdf",
+        "Empanelment_CAFirms_Bhopal_01032023.pdf",
+        "EOI_ZO_Kolkata_01032023.pdf",
+        "Tender_Shimoga_23022023.pdf",
+        "Venue_Details_NAN_Feb2023.pdf",
+        "Empanelment_Advocates_ZO_Haryana_13022023.pdf",
+        "adv_panel_haryana_upto_31122025.pdf",
+        "EPFO_Vision_2047.pdf",
+        "Chintan_Shivir_final.pdf",
+        "Corrigendum_for_Delhi_State_Adv_08122022.pdf",
+        "Appli_empa_advo_uttara_08122022_merged.pdf",
+        "Empanelment_Advocates_Telengana_23112022.pdf",
+        "Tender_rajkot_21112022.pdf",
+        "CORRIGENDUM_Pension_14112022.pdf",
+        "EOI_empanelment_CA_Hyderabad_14112022.pdf",
+        "RFP_acturialconsultant_10112022.pdf",
+        "OFFICE_ORDER_Advocates_NER.pdf",
+        "Empanelment_Advocate_Uttarakhand_11102022.pdf",
+        "Empanelment_Advocates_Delhi_11102022.pdf",
+        "RFP_empanelment_Advocates_30092022.pdf",
+        "NLC_digital_25_26Aug2022.pdf",
+        "Booklet_Training_Policy.pdf",
+        "RFP_20092022.pdf",
+        "Corrigendum_Para6.19_ RFP_ETF_20092022.pdf",
+        "Corrigendum_RFP_ETFs_IMC_23082022.pdf",
+        "Corrigendum_RFP_ETFs_IMC_08082022.pdf",
+        "Tender_Notice_Parkstreet_05082022.pdf",
+        "Notice_empanelment_of_advocates_Bandra_05082022.pdf",
+        "Expression_of_Interest_Ranchi.pdf",
+        "Tender_for_EOI_Bhubneshwar_04082022.pdf",
+        "Extension_of_tenure_of_panel_of_advocates_Odisha_zone.pdf",
+        "Empanelment_of_CA_Firm_Ranchi_27072022.pdf",
+        "Empanelment_of_Advocates_NER_26072022.pdf",
+        "Clarifications post pre-bid conference.pdf",
+        "Empanelment_Advocates_BR_21072022.pdf",
+        "Notice_empanelment_of_Advocates_Mumbai-I_Zone.pdf",
+        "Notice_Advocates_ACC_HR_14072022_1.pdf",
+        "Empanelment_merged_2022-2025_ACC_TNKR_14072022.pdf",
+        "Office_Order_Empanelment_11072022.pdf",
+        "REQUEST_FOR_PROPOSAL.pdf",
+        "Circular_with_Attachments_Advocates.pdf",
+        "REQUEST_FOR_PROPOSAL_pension_05072022.pdf.pdf",
+        "empanelment_of_CA_firm_22062022.pdf",
+        "EOI_FOR_CA_FIRMS_08062022.pdf",
+        "RFP_for_ECA_v11_03062022_compressed.pdf",
+        "EmpanelmentAdvocate_SC_HO_052022.pdf",
+        "EmpanelmentAdovate_Selection_ZOPB_052022.pdf",
+        "PanelAdvocate_Extn_ZOPune_042022.pdf",
+        "Success_Story_EPFO.pdf",
+        "EmpanelmentAdovate_Selection_ZOGJ_042022.pdf",
+        "EmpanelmentCA_Bharuch_032022.pdf",
+        "Shortlist_EmpAdv_ZOWB_032022.pdf",
+        "EmpanelmentAdovate_Selection_ZORJ_032022.pdf",
+        "EmpanelmentCA_Gorakhpur_032022.pdf",
+        "EmpanelmentCA_Raipur_032022.pdf",
+        "Shortlist_EmpAdv_ZORJ_032022.pdf",
+        "EmpanelmantCA_Vadodara_032022.pdf",
+        "EmpanelmentAdvocate_ZOBR_032022.pdf",
+        "PressRelease_20022022.pdf",
+        "PressRelease_29012022.pdf",
+        "EmpanelmentCA_ZOMumbai_022022.pdf",
+        "EmpanelmentCA_Jaipur_022022.pdf",
+        "Covid_response2.pdf",
+        "Nirbadh_EPFO_to_e EPFO.pdf",
+        "EmpanelmentAdvocate_ZORJ_012022.pdf",
+        "EmpanelmentAdvocate_ZOWB_Addendum_012022.pdf",
+        "EmpanelmentAdvocate_ZOPune_012022.pdf",
+        "EmpanelmentCA_ChennaiNorth_012022.pdf",
+        "EmpanelmentAdvocate_ZOGJ_ExtnDate_012022.pdf",
+        "EmpanelmentAdvocate_Jabalpur_012022.pdf",
+        "EmpanelmentAdvocate_Raipur_012022.pdf",
+        "EmpanelmentAdvocates_ZOPune_012022.pdf",
+        "EmpanelmentAdvocate_Indore_012022.pdf",
+        "EmpanelmentAdvocate_Ujjain_012022.pdf",
+        "EmpanelmentAdvocate_Bhopal_012022.pdf",
+        "EmpanelmentAdvocate_Gwalior_012022.pdf",
+        "EmpanelmentAdvocate_ZOPBHP_012022.pdf",
+        "EmpanelmentAdvocate_Selection_ZOOR_012022.pdf",
+        "EmpanelmentAdvocate_ZOCHPD_012022.pdf",
+        "EmpanelmentAdvocate_ZOUP_Selection_122021.pdf",
+        "EmpanelmentCA_DateExtn_Nasik_122021.pdf",
+        "EmpanelmentAdvocate_ZOGJ_122021.pdf",
+        "EmpanelmentCA_Jammu_122021.pdf",
+        "EmpanelmentCA_DateEx_Tambaram_122021.pdf",
+        "EmpanelmentCA_Kolhapur_122021.pdf",
+        "PressRelease_20122021.pdf",
+        "EmpanelmentAdvocate_Corrg_ZOKolkata_122021.pdf",
+        "EmpanelmentCA_Bareilly_122021.pdf",
+        "EmpanelmentCA_Varanasi_122021.pdf",
+        "EmpanelmentCA_BNGCentral_122021.pdf",
+        "EmpanelmentCA_Tambaram_122021.pdf",
+        "EmpanelmentAdvocate_ZOKolkata_122021.pdf",
+        "EmpanelmentCA_Dehradun_122021.pdf",
+        "EmpanelmentAdvocate_ZOPune_Selection_122021.pdf",
+        "EmpanelmentAdvocate_ZOVijayawada_122021.pdf",
+        "EmpanelmentCA_Haldwani_122021.pdf",
+        "e_shram_english.pdf",
+        "Interview_EmpanelAdv_Orissa_122021.pdf",
+        "EmpanelmentCA_NASIK_122021.pdf",
+        "EmpanelmentAdvocate_ZOHubli_112021.pdf",
+        "EmpanelmentCA_Surat_112021.pdf",
+        "EmpanelmentCA_BNGEC_Extn_112021.pdf",
+        "EmpanelmentCA_GurgaonEast_112021.pdf",
+        "EmpanelmentCA_BNGM_112021.pdf",
+        "EmpanelmentCA_Faridabad_112021.pdf",
+        "EmpanelmentAdvocate_ZOThane_Extn_102021.pdf",
+        "EmpanelmentCA_BNGEC_102021.pdf",
+        "EmpanelmentAdvocate_ZONER_102021.pdf",
+        "EmpanelmentAdvocte_ZOThane_102021.pdf",
+        "EmpanelmentAdvocateMH_Kolhapur_092021.pdf",
+        "EmpanelmentAdvocate_ZOOR_092021.pdf",
+        "EmpanelmentAdvocate_ZOPune_092021.pdf",
+        "EmpanelmentAdvocate_Kottayam_092021.pdf",
+        "EmpanelmentCA_Rajkot_092021.pdf",
+        "EmpanelmentCA_Noida_072021.pdf",
+        "EmpanelmentCA_DelhiCentral_072021.pdf",
+        "EmpanelmentCA_Allahabad_072021.pdf",
+        "EmpanelmentCA_Ludhiana_072021.pdf",
+        "EmpanelmentAdvocate_UK_062021.pdf",
+        "EmpanelmentAdvocate_ZODLUK_062021.pdf",
+        "EmpanelmentCA_KandivaliEast_052021.pdf",
+        "EmpanelmentCA_Goa_042021.pdf",
+        "EmpanelmentAdvocate_Jalandhar_042021.pdf",
+        "EmpanelmentAdvocate_Ludhiana_AddlInfo_042021.pdf",
+        "EmpanelmentAdvocate_Ludhiana_042021.pdf",
+        "EmpanelmentAdvocate_Amritsar_042021.pdf",
+        "EmpanelmentAdvocate_Shimla_042021.pdf",
+        "EmpanelmentAdvocate_Chandigarh_042021.pdf",
+        "EmpanelmentCA_Vashi_042021.pdf",
+        "EmpanelmentCA_Gorakhpur_042021.pdf",
+        "EmpanelmentAdvocate_Bhatinda_042021.pdf",
+        "Empanelment_CA_Ambattur_032021.pdf",
+        "EmpanelmentAdvocate_Bhopal_032021.pdf",
+        "EmpanelmentCA_Vapi_032021.pdf",
+        "EmpanelmentCA_Ambattur_032021.pdf",
+        "EmpanelmentAdvocate_ZOHR_032021.pdf",
+        "EmpanelmentCA_Jamshedpur_032021.pdf",
+        "EmpanelmentAdvocate_ZOUP_032021.pdf",
+        "EmpanelmentAdvocate_Gwalior_032021.pdf",
+        "EmpanelmentAdvocate_Goa_032021.pdf",
+        "EmpanelmentAdvocate_Raipur_032021.pdf",
+        "EmpanelmentAdvocate_Jabalpur_032021.pdf",
+        "EmpanelmentAdvocate_Uttarakhand_032021.pdf",
+        "EmpanelmentAdvocate_Delhi_032021.pdf",
+        "EmpanelmentAdvocate_Ujjain_032021.pdf",
+        "EmpanelmentAdvocate_Indore_032021.pdf",
+        "EmpanelmentAdvocate_Sagar_032021.pdf",
+        "EmpanelmentAuditor_Jalandhar_022021.pdf",
+        "EmpanelmentCA_KandivaliWest_022021.pdf",
+        "EmpanelmentCA_Vashi_022021.pdf",
+        "EmpanelmentCA_Agra_012021.pdf",
+        "Empanellment_of_Advocates_hyderbad.pdf",
+        "sbsm_va_2020_cvo_msg.pdf",
+        "Empanelment_Advocate_Vashi_112020.pdf",
+        "FAQ_Reduced_rate_of_contribution_20052020.pdf",
+        "19_05_2020_Press_brief_reduction_in_EPF_contribution.pdf",
+        "PR06052020.pdf",
+        "PR30042020.pdf",
+        "PressRelease_28042020.pdf",
+        "covid_faq_26042020.pdf",
+        "PRCovid23042020.pdf",
+        "PR21042020.pdf",
+        "PIB1614747.pdf",
+        "PRESS_RELEASECOVID19_16.04.2020.pdf",
+        "PR_PMGKY.pdf",
+        "PR_COVID19advance.pdf",
+        "Press_releaseDOB.pdf",
+        "covid_faq_claim_04042020.pdf",
+        "Pension_press_corona.pdf",
+        "Empanelment_Advocates_Ranchi.pdf",
+        "Empnlmnt_Advocates_Rajasthan_1196.pdf",
+        "PIB_EPFAct.pdf",
+        "Shortlisted_Advocates_ BiharJharkhand_022020.pdf",
+        "Interview_EmpAdvocates_Rajasthan_022020.pdf",
+        "Empanel_Advocates_ACC_Jaipur_012020.pdf",
+        "Empanel_Advocates_ BiharJharkhand_012020.pdf",
+        "List_Empanel_Advocates__Maharashtra_122019.pdf",
+        "GHM_EPFO.pdf",
+        "PDNASS_EE_CEO_1132.pdf",
+        "PDNASS_TrgCal_2019-20_1107.pdf",
+        "Exam_Assistant_EWS_117.pdf",
+        "Exam_Recruit_SSA_109.pdf",
+        "Add2-Exam_RR_Assistan_51.pdf",
+        "Corrigendum_Assistants_81.pdf",
+        "Add-Exam_RR_Assistan_51.pdf",
+        "SelectedAdvocates_UPzone_052019.pdf",
+        "Exam_RR_Assistan_51.pdf",
+        "Panel_Advocates_HO_052019.pdf",
+        "HRM1Depudation_ISD_1243.pdf",
+        "HO_Empanelment_Advocates_032019.pdf",
+        "Ludhiana_Empanelment_Advocates_032019.pdf",
+        "Empanelment_Advocate_HeadOffice_032019.pdf",
+        "Selection_Advocates_DLUK_022019_1528.pdf",
+        "Interview_EmpanelAdv_Uttarakhand_ZODLUK_022019.pdf",
+        "Selection_Advocates_DLUK_022019_1437.pdf",
+        "EmpanelmentAdvocate_SCND_012019.pdf",
+        "EmpanelmentAdvocate_DLUK_1321.pdf",
+        "HRM7_DepuVacancy_DDVig_16761.pdf",
+        "HRM7_VacPos_Engg_16481.pdf",
+        "AddlPanelAdvocate_UP_012019.pdf",
+        "PressRelease_01112018.pdf",
+        "ITAdvocate_Muzaffarpur_012019.pdf",
+        "EmpanelmentAdvocate_Uttarakhand_ZODLUK_122018.pdf",
+        "EmpanelmentAdvocate_ZODL_122018.pdf",
+        "EmpanelmentAuditor_Muzaffarpur_122018.pdf",
+        "SelectionAdvocate_ZOMumbaiThane_102018.pdf",
+        "EmpanelmentAuditor_Muzaffarpur_16102018.pdf",
+        "PDNASS_IntlTrgProg_MSSS_082018.pdf",
+        "PDNASS_IntlTrgProg_MSSS_072018.pdf",
+        "EmpanelmentCA_Jamshedpur_082018.pdf",
+        "Beneficiary_UPBLY1151_98_99.pdf",
+        "Beneficiary_UPBLY1151_99_00.pdf",
+        "HR_Empanelment_InqOff.pdf",
+        "PDUNASS_Result__Second_Fellowship.pdf",
+        "Beneficiary_List_UPBLY1151.pdf",
+        "IntegrityPledge_CVC_2017.pdf",
+        "InternshipScheme_2017.pdf",
+        "PDUNASS_Selection_ResearchFellowship.pdf",
+        "PMRPY_PMPRPY.pdf",
+        "EaseOfDoingBusiness_MoLE_Initiatives.pdf",
+        "Presentation_ERservices062016.pdf",
+        "EPFO_ShortCodeSMS.pdf",
+        "ACT_081951_15111951.pdf",
+        "EPF_Bill_1952.pdf",
+        "EPFAct1952.pdf",
+        "OrgChart_Hi.pdf",
+        "EPFScheme.pdf",
+        "EPS95.pdf",
+        "EDLI_1976.pdf",
+        "Missed_Call_Service.pdf",
+        "Short_Code_SMS_Service.pdf"
+      ],
+      "page_size_kb": 269.3,
+      "depth": 1
+    },
+    {
+      "url": "https://epfindia.gov.in/site_hi/Exempted_Return.php?id=sm3_index",
+      "title": "\u091b\u0942\u091f || \u0938\u094d\u0925\u093e\u092a\u0928\u093e",
+      "score": 30,
+      "keywords_found": [],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [
+        "ro_pro.pdf",
+        "CitizenCharter_Hindi.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023.pdf",
+        "Complaints_EPFO_Vigilance_27102023.pdf",
+        "EPS1995_PensionDisbursingAgenciesList.pdf",
+        "Niwasoffice.pdf",
+        "PMAY.pdf",
+        "WhatsApp_Helpline.pdf",
+        "Exempted_ReturnManual.pdf",
+        "SOP_Management_Regulation_EPF_Exemption_29112023.pdf"
+      ],
+      "page_size_kb": 51.1,
+      "depth": 1
+    },
+    {
+      "url": "https://epfindia.gov.in/site_hi/Exempted_list.php?id=sm1_index",
+      "title": "\u091b\u0942\u091f || \u0938\u094d\u0925\u093e\u092a\u0928\u093e",
+      "score": 30,
+      "keywords_found": [],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [
+        "ro_pro.pdf",
+        "CitizenCharter_Hindi.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023.pdf",
+        "Complaints_EPFO_Vigilance_27102023.pdf",
+        "EPS1995_PensionDisbursingAgenciesList.pdf",
+        "Niwasoffice.pdf",
+        "PMAY.pdf",
+        "WhatsApp_Helpline.pdf",
+        "exempted_est_list.pdf"
+      ],
+      "page_size_kb": 50.9,
+      "depth": 1
+    },
+    {
+      "url": "https://epfindia.gov.in/site_hi/Per_Exempted.php?id=sm2_index",
+      "title": "\u091b\u0942\u091f || \u0938\u094d\u0925\u093e\u092a\u0928\u093e",
+      "score": 30,
+      "keywords_found": [],
+      "strong_keywords": [],
+      "has_table": false,
+      "table_row_count": 0,
+      "downloadable_files": [
+        "ro_pro.pdf",
+        "CitizenCharter_Hindi.pdf",
+        "Vig_Guidelines_filingofcomplaints_01082023.pdf",
+        "Complaints_EPFO_Vigilance_27102023.pdf",
+        "EPS1995_PensionDisbursingAgenciesList.pdf",
+        "Niwasoffice.pdf",
+        "PMAY.pdf",
+        "WhatsApp_Helpline.pdf",
+        "perform_exempted_est_Sept_2023.pdf",
+        "perform_exempted_est_Aug_2023.pdf",
+        "perform_exempted_est_July_2023.pdf",
+        "perform_exempted_est_June_2023.pdf",
+        "perform_exempted_est_May_2023.pdf",
+        "perform_exempted_est_April_2023.pdf",
+        "perform_exempted_est_March_2023.pdf",
+        "perform_exempted_est_Feb_2023.pdf",
+        "perform_exempted_est_Jan_2023.pdf",
+        "perform_exempted_est_Dec_2022.pdf",
+        "perform_exempted_est_Nov_2022.pdf",
+        "perform_exempted_est_Oct_2022.pdf",
+        "perform_exempted_est_Sep_2022.pdf",
+        "perform_exempted_est_Aug_2022.pdf",
+        "perform_exempted_est_Jul_2022.pdf",
+        "perform_exempted_est_Jun_2022.pdf",
+        "perform_exempted_est_May_2022.pdf",
+        "perform_exempted_est_Mar_2022.pdf",
+        "perform_exempted_est_Dec_2021.pdf",
+        "perform_exempted_est_Nov_2021.pdf",
+        "perform_exempted_est_Oct_2021.pdf",
+        "perform_exempted_est_Sept_2021.pdf",
+        "perform_exempted_est_Aug_2021.pdf",
+        "perform_exempted_est_June_2021.pdf",
+        "perform_exempted_est_May_2021.pdf",
+        "perform_exempted_est_April_2021.pdf",
+        "perform_exempted_est_March_2021.pdf",
+        "perform_exempted_est_Feb_2021.pdf",
+        "perform_exempted_est_Jan_2021.pdf",
+        "perform_exempted_est_Dec_2020.pdf",
+        "perform_exempted_est_Nov_2020.pdf",
+        "perform_exempted_est_Oct_2020.pdf",
+        "perform_exempted_est_Sep_2020.pdf",
+        "perform_exempted_est_Aug_2020.pdf",
+        "perform_exempted_est_Jul_2020.pdf",
+        "perform_exempted_est_Jun_2020.pdf",
+        "perform_exempted_est_May_2020.pdf",
+        "perform_exempted_est_Apr_2020.pdf",
+        "perform_exempted_est_Mar_2020.pdf",
+        "perform_exempted_est_Feb_2020.pdf",
+        "perform_exempted_est_Jan_2020.pdf",
+        "perform_exempted_est_Dec_2019.pdf",
+        "perform_exempted_est_Nov_2019.pdf",
+        "perform_exempted_est_Oct_2019.pdf",
+        "perform_exempted_est_Sep_2019.pdf",
+        "perform_exempted_est_Aug_2019.pdf",
+        "perform_exempted_est_July_2019.pdf",
+        "perform_exempted_est_June_2019.pdf",
+        "perform_exempted_est_May_2019.pdf",
+        "perform_exempted_est_Apr_2019.pdf",
+        "perform_exempted_est_Mar_2019.pdf",
+        "perform_exempted_est_Feb_2019.pdf",
+        "perform_exempted_est_Jan_2019.pdf",
+        "perform_exempted_est_Dec_2018.pdf",
+        "perform_exempted_est_Nov_2018.pdf",
+        "perform_exempted_est_Oct_2018.pdf",
+        "perform_exempted_est_Sep_2018.pdf",
+        "perform_exempted_est_Aug_2018.pdf",
+        "perform_exempted_est_Jul_2018.pdf",
+        "perform_exempted_est_Jun_2018.pdf",
+        "perform_exempted_est_May_2018.pdf",
+        "perform_exempted_est_Apr_2018.pdf",
+        "perform_exempted_est_Mar_2018.pdf",
+        "perform_exempted_est_Feb_2018.pdf",
+        "perform_exempted_est_Jan_2018.pdf",
+        "perform_exempted_est_Dec_2017.pdf",
+        "perform_exempted_est_Nov_rev_2017.pdf",
+        "perform_exempted_est_Nov_2017.pdf",
+        "perform_exempted_est_Oct_2017.pdf",
+        "perform_exempted_est_Sep_2017.pdf",
+        "perform_exempted_est_Aug_2017.pdf",
+        "perform_exempted_est_july_2017.pdf"
+      ],
+      "page_size_kb": 73.0,
+      "depth": 1
+    }
+  ],
+  "all_downloadable_files": [
+    {
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/Contact_PDF/ro_pro.pdf",
+      "filename": "ro_pro.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/MiscPDFs/CitizenCharter_Hindi.pdf",
+      "filename": "CitizenCharter_Hindi.pdf"
+    },
+    {
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/Circulars/Y2023-2024/Vig_Guidelines_filingofcomplaints_01082023.pdf",
+      "filename": "Vig_Guidelines_filingofcomplaints_01082023.pdf"
+    },
+    {
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/Circulars/Y2023-2024/Complaints_EPFO_Vigilance_27102023.pdf",
+      "filename": "Complaints_EPFO_Vigilance_27102023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/MiscPDFs/EPS1995_PensionDisbursingAgenciesList.pdf",
+      "filename": "EPS1995_PensionDisbursingAgenciesList.pdf"
+    },
+    {
+      "url": "http://www.hudco.org/writereaddata/Niwasoffice.pdf",
+      "filename": "Niwasoffice.pdf"
+    },
+    {
+      "url": "http://hudco.org/writereaddata/PMAY.pdf",
+      "filename": "PMAY.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/WhatsApp_Helpline.pdf",
+      "filename": "WhatsApp_Helpline.pdf"
+    },
+    {
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/Circulars/Y2023-2024/Vig_Guidelines_filingofcomplaints_01082023_hi.pdf",
+      "filename": "Vig_Guidelines_filingofcomplaints_01082023_hi.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/..\\site_docs\\PDFs\\MiscPDFs\\Top_75_establishments.pdf",
+      "filename": "..\\site_docs\\PDFs\\MiscPDFs\\Top_75_establishments.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/..\\site_docs\\PDFs\\MiscPDFs\\Top_75SSA_Top_7SS_Top_5AO.pdf",
+      "filename": "..\\site_docs\\PDFs\\MiscPDFs\\Top_75SSA_Top_7SS_Top_5AO.pdf"
+    },
+    {
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/MiscPDFs/Process_Flow_Creatives.pdf",
+      "filename": "Process_Flow_Creatives.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ROKolkata_CAfirm.pdf",
+      "filename": "ROKolkata_CAfirm.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VenuDetailsOfCamp_NAN_27042026.pdf",
+      "filename": "VenuDetailsOfCamp_NAN_27042026.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ExtensionOfDate_UttrakhanStateAdvocatePanel_02042026.pdf",
+      "filename": "ExtensionOfDate_UttrakhanStateAdvocatePanel_02042026.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ExtensionOfDate_DelhiStateAdvocatePanel_02042026.pdf",
+      "filename": "ExtensionOfDate_DelhiStateAdvocatePanel_02042026.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/OM_AdEnclosures_ROUttrakhand.pdf",
+      "filename": "OM_AdEnclosures_ROUttrakhand.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Updated_VenuDetilas_March202NAN_18032026.pdf",
+      "filename": "Updated_VenuDetilas_March202NAN_18032026.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ACCDL&UK_OM_PanelOfAdvocates.pdf",
+      "filename": "ACCDL&UK_OM_PanelOfAdvocates.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentOfAdvoacate_ACCHR_Order10032026.pdf",
+      "filename": "EmpanelmentOfAdvoacate_ACCHR_Order10032026.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Revised_NANVenueDetails_February2026.pdf",
+      "filename": "Revised_NANVenueDetails_February2026.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EMPANELMENTOFADVOCATES_TELANGANAZONE.pdf",
+      "filename": "EMPANELMENTOFADVOCATES_TELANGANAZONE.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/CALetter_RORanchi.pdf",
+      "filename": "CALetter_RORanchi.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VENUEDETAILS_AAPKENIKAT2.0_January2026.pdf",
+      "filename": "VENUEDETAILS_AAPKENIKAT2.0_January2026.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/UpdatedNotice_EmpanelmentAdvocates_16012026.pdf",
+      "filename": "UpdatedNotice_EmpanelmentAdvocates_16012026.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_RORanchi.pdf",
+      "filename": "EmpanelmentCA_RORanchi.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ConsolidatedBanners_07012026.pdf",
+      "filename": "ConsolidatedBanners_07012026.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VenueDetailsOfCamps_NidhiAapkeNikat_29122025_Updated.pdf",
+      "filename": "VenueDetailsOfCamps_NidhiAapkeNikat_29122025_Updated.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ExtensionOfLastDate_Notice.pdf",
+      "filename": "ExtensionOfLastDate_Notice.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VenueDetailsOfNidhiAapkeNikat2.0Camps_27112025.pdf",
+      "filename": "VenueDetailsOfNidhiAapkeNikat2.0Camps_27112025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Advertisement_EMPANELMENTOFADVOCATESFOR_2025-28.pdf",
+      "filename": "Advertisement_EMPANELMENTOFADVOCATESFOR_2025-28.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue Details_NidhiAapkeNikat2.0Camps_27102025.pdf",
+      "filename": "Venue Details_NidhiAapkeNikat2.0Camps_27102025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanellmentOfCAFirms_TPAOfEPFExemptedTrusts_Odisha.pdf",
+      "filename": "EmpanellmentOfCAFirms_TPAOfEPFExemptedTrusts_Odisha.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VenueDetailsOfCampsUnder_NAN2.0_SEP2025.pdf",
+      "filename": "VenueDetailsOfCampsUnder_NAN2.0_SEP2025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ZOGujarat_EmpanelmentBlockYear_2025_2028.pdf",
+      "filename": "ZOGujarat_EmpanelmentBlockYear_2025_2028.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VENUEDETAILS_CAMPSUNDERNIDHIAAPKENIKAT_August 2025.pdf",
+      "filename": "VENUEDETAILS_CAMPSUNDERNIDHIAAPKENIKAT_August 2025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ListOfSelectedAdvocates_Rajasthan_BlockYear2025_2028.pdf",
+      "filename": "ListOfSelectedAdvocates_Rajasthan_BlockYear2025_2028.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NoticeToEligibleAdvocates_ACCRajasthan.pdf",
+      "filename": "NoticeToEligibleAdvocates_ACCRajasthan.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VenueDetailsUnder_NidhiAapkeNikatCamp_28072025.pdf",
+      "filename": "VenueDetailsUnder_NidhiAapkeNikatCamp_28072025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentOfAdvocatesIn_HaryanaZone.pdf",
+      "filename": "EmpanelmentOfAdvocatesIn_HaryanaZone.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VenueDetailsUnder_NidhiAapkeNikat_27062025.pdf",
+      "filename": "VenueDetailsUnder_NidhiAapkeNikat_27062025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentOfAdvocates_PuneZone.pdf",
+      "filename": "EmpanelmentOfAdvocates_PuneZone.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VENUE DETAILS_CAMPSUNDERNIDHIAAPKENIKAT_27052025.pdf",
+      "filename": "VENUE DETAILS_CAMPSUNDERNIDHIAAPKENIKAT_27052025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/2025_2028.pdf",
+      "filename": "2025_2028.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentOfCAFirmsFor_ROVadodara.pdf",
+      "filename": "EmpanelmentOfCAFirmsFor_ROVadodara.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VenueDetailsOfNidhiAapkeNikat_April2025.pdf",
+      "filename": "VenueDetailsOfNidhiAapkeNikat_April2025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Exension_Notice.pdf",
+      "filename": "Exension_Notice.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NDC Approval.pdf",
+      "filename": "NDC Approval.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ChennaiPuducherry.pdf",
+      "filename": "EmpanelmentAdvocate_ChennaiPuducherry.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentNotice_ExtensionOfTime.pdf",
+      "filename": "EmpanelmentNotice_ExtensionOfTime.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VenueDetailsOf_NidhiAapkeNikat_March2025.pdf",
+      "filename": "VenueDetailsOf_NidhiAapkeNikat_March2025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NOTICE_merged.pdf",
+      "filename": "NOTICE_merged.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/TPA_Empanelment_Odisha.pdf",
+      "filename": "TPA_Empanelment_Odisha.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocatesNotice_Pune04032025.pdf",
+      "filename": "EmpanelmentAdvocatesNotice_Pune04032025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ExtensionOfLastDate_PanelAdvocate_Kolkata.pdf",
+      "filename": "ExtensionOfLastDate_PanelAdvocate_Kolkata.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NOTICEINVITINGAPPLICATION_ROCoimbatore_21022025.pdf",
+      "filename": "NOTICEINVITINGAPPLICATION_ROCoimbatore_21022025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Final AdvCopy_Pune.pdf",
+      "filename": "Final AdvCopy_Pune.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VenueDetails _NidhiAapkeNikat_27022025.pdf",
+      "filename": "VenueDetails _NidhiAapkeNikat_27022025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ConstitutionOfFreshPanelOfAdvocates_OdishaZone2025_28.pdf",
+      "filename": "ConstitutionOfFreshPanelOfAdvocates_OdishaZone2025_28.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocates_Gujarat_14022025.pdf",
+      "filename": "EmpanelmentAdvocates_Gujarat_14022025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PanelForAdvocates_KOLKATA.pdf",
+      "filename": "PanelForAdvocates_KOLKATA.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocatesNotice_Pune.pdf",
+      "filename": "EmpanelmentAdvocatesNotice_Pune.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Notice&Guidelines_Empanelment OfAdvocate_RAJASTHAN ZONE.pdf",
+      "filename": "Notice&Guidelines_Empanelment OfAdvocate_RAJASTHAN ZONE.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/CA_for_TPA_Organized.pdf",
+      "filename": "CA_for_TPA_Organized.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue Details under Nidhi Aapke Nikat - Jan 2025.pdf",
+      "filename": "Venue Details under Nidhi Aapke Nikat - Jan 2025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Documents_PanelOFAdvocates_Gujarat.pdf",
+      "filename": "Documents_PanelOFAdvocates_Gujarat.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Notice_InvitingEoIforpreparationofAnnualFinancialStatementsOfEPFO.pdf",
+      "filename": "Notice_InvitingEoIforpreparationofAnnualFinancialStatementsOfEPFO.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NoticeforEmpanelAdvocates_2025TO2028.pdf",
+      "filename": "NoticeforEmpanelAdvocates_2025TO2028.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/OM in J&K and Annxure.pdf",
+      "filename": "OM in J&K and Annxure.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentOfAdvocates_PBHP.pdf",
+      "filename": "EmpanelmentOfAdvocates_PBHP.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/December_2024_NidhiAapkeNikatVenueDetails.pdf",
+      "filename": "December_2024_NidhiAapkeNikatVenueDetails.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpenlmentOfAdvocates_Bhopal.pdf",
+      "filename": "EmpenlmentOfAdvocates_Bhopal.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Final Advertisment Empanelment of Chartered Accountant Firms.pdf",
+      "filename": "Final Advertisment Empanelment of Chartered Accountant Firms.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/notice 29.11.24 - _compressed.pdf",
+      "filename": "notice 29.11.24 - _compressed.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Extension Notice.pdf",
+      "filename": "Extension Notice.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/November 2024 Nidhi Aapke Nikat Venue Details.pdf",
+      "filename": "November 2024 Nidhi Aapke Nikat Venue Details.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/GeM-Bid document for Audit_Guntur.pdf",
+      "filename": "GeM-Bid document for Audit_Guntur.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Corrigendum.pdf",
+      "filename": "Corrigendum.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NoticeEmpanelment2025_2028.pdf",
+      "filename": "NoticeEmpanelment2025_2028.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_Hubli_28102024.pdf",
+      "filename": "EOI_Hubli_28102024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_Advocates_28102024.pdf",
+      "filename": "EOI_Advocates_28102024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NAN-OCTOBER_28102024.pdf",
+      "filename": "NAN-OCTOBER_28102024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanlment_Adv_ Vijayawada_15102024.pdf",
+      "filename": "Empanlment_Adv_ Vijayawada_15102024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Corrigendum_Empanelment_Advocated_Odisha_07102024.pdf",
+      "filename": "Corrigendum_Empanelment_Advocated_Odisha_07102024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Advocates_Delhi_ZTI_01102024.pdf",
+      "filename": "Empanelment_Advocates_Delhi_ZTI_01102024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Guwahati_01102024.pdf",
+      "filename": "Empanelment_Guwahati_01102024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_Advocates_Thane_30092024.pdf",
+      "filename": "EOI_Advocates_Thane_30092024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NAN-SEPTEMBER_23092024.pdf",
+      "filename": "NAN-SEPTEMBER_23092024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EPF_EPS_CREDIT_KOUTONS CONTRACT EMPLOYEES.pdf",
+      "filename": "EPF_EPS_CREDIT_KOUTONS CONTRACT EMPLOYEES.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Notice_Ambattur_06092024.pdf",
+      "filename": "Notice_Ambattur_06092024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Notice_Advocates_Mumbai_23082024.pdf",
+      "filename": "Notice_Advocates_Mumbai_23082024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NOtice_Odisha_23082024.pdf",
+      "filename": "NOtice_Odisha_23082024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue_Details_NAN_27August2024.pdf",
+      "filename": "Venue_Details_NAN_27August2024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_of_Charted_Account_Firm__ZO_Mumbai.pdf",
+      "filename": "Empanelment_of_Charted_Account_Firm__ZO_Mumbai.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Quarterly Newsletter.pdf",
+      "filename": "Quarterly Newsletter.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NAN_July2024_VenueDetails_23072024.pdf",
+      "filename": "NAN_July2024_VenueDetails_23072024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocates_Odisha_19072024_1.pdf",
+      "filename": "EmpanelmentAdvocates_Odisha_19072024_1.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue_Details_NAN_27June.pdf",
+      "filename": "Venue_Details_NAN_27June.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EK SAMRATMAK PEHAL.pdf",
+      "filename": "EK SAMRATMAK PEHAL.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue_Details_NAN_new_22052024.pdf",
+      "filename": "Venue_Details_NAN_new_22052024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_CA_Chennai_10052024.pdf",
+      "filename": "Empanelment_CA_Chennai_10052024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Notice_Extension_UP_26042024.pdf",
+      "filename": "Notice_Extension_UP_26042024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VENUE_NAN_April 2024.pdf",
+      "filename": "VENUE_NAN_April 2024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Advocates_04042024.pdf",
+      "filename": "Empanelment_Advocates_04042024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VENUE_NAN_March2024.pdf",
+      "filename": "VENUE_NAN_March2024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Tender_Agra_05032024.pdf",
+      "filename": "Tender_Agra_05032024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue_NAN_Feb2024.pdf",
+      "filename": "Venue_NAN_Feb2024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue_NidhiAapkeNikat_January 2024.pdf",
+      "filename": "Venue_NidhiAapkeNikat_January 2024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_NextGenSOC_05012024.pdf",
+      "filename": "EOI_NextGenSOC_05012024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EMPANELMENT_Advocates_03022024.pdf",
+      "filename": "EMPANELMENT_Advocates_03022024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue_NidhiAapkeNikat_December 2023.pdf",
+      "filename": "Venue_NidhiAapkeNikat_December 2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue_NidhiAapkeNikat_November 2023.pdf",
+      "filename": "Venue_NidhiAapkeNikat_November 2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NAN_Venue_Oct_27102023.pdf",
+      "filename": "NAN_Venue_Oct_27102023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_CAFirms_DLS_10102023.pdf",
+      "filename": "EOI_CAFirms_DLS_10102023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NAN_Camps_Venue_Details-September 2023 - FINAL 1 PM.pdf",
+      "filename": "NAN_Camps_Venue_Details-September 2023 - FINAL 1 PM.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Inquiry_Officer_DAR_01092023.pdf",
+      "filename": "Inquiry_Officer_DAR_01092023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NAN_Camps_Venue_Details-28082023.pdf",
+      "filename": "NAN_Camps_Venue_Details-28082023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NAN_Camps_Venue_Details-28-August-2023.pdf",
+      "filename": "NAN_Camps_Venue_Details-28-August-2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_CA_Firm_Barkatpura_21082023.pdf",
+      "filename": "EOI_CA_Firm_Barkatpura_21082023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/RFP_ActurialConsultant_Pension_08082023.pdf",
+      "filename": "RFP_ActurialConsultant_Pension_08082023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/tender_peenya_26072023.pdf",
+      "filename": "tender_peenya_26072023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_CA_Firms_Peenya_25072023.pdf",
+      "filename": "EOI_CA_Firms_Peenya_25072023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NAN_Camps_Venue_Details-27-July-2023.pdf",
+      "filename": "NAN_Camps_Venue_Details-27-July-2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NAN_Camps_Venue_Details-27-June-2023.pdf",
+      "filename": "NAN_Camps_Venue_Details-27-June-2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_EMPANELMENT OF CA FIRMS_14.06.2023_compressed.pdf",
+      "filename": "EOI_EMPANELMENT OF CA FIRMS_14.06.2023_compressed.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/List_empanelled_advocates.pdf",
+      "filename": "List_empanelled_advocates.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_CA Firms_Udupi_23052023.pdf",
+      "filename": "EOI_CA Firms_Udupi_23052023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue_NidhiAapkeNikat_23052023.pdf",
+      "filename": "Venue_NidhiAapkeNikat_23052023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_advocate_uttarakhand.pdf",
+      "filename": "Empanelment_advocate_uttarakhand.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/empanelment_advocates_vijyawada_15052023.pdf",
+      "filename": "empanelment_advocates_vijyawada_15052023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VENUE_DETAILS_NIDHIAAPKENIKAT_24042023.pdf",
+      "filename": "VENUE_DETAILS_NIDHIAAPKENIKAT_24042023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Extension_of_EOI.pdf",
+      "filename": "Extension_of_EOI.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Window Advertisement of SSA & Steno 2023.pdf",
+      "filename": "Window Advertisement of SSA & Steno 2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_EPFO_Yelahanka_21032023.pdf",
+      "filename": "EOI_EPFO_Yelahanka_21032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/VENUE_DETAILS_NIDHIAAPKENIKAT2.0_23032023.pdf",
+      "filename": "VENUE_DETAILS_NIDHIAAPKENIKAT2.0_23032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_Bhopal_13032023.pdf",
+      "filename": "EOI_Bhopal_13032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_CA_Firms_Meerut_13032023.pdf",
+      "filename": "EOI_CA_Firms_Meerut_13032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_CA Firms__Bhopal_13032023.pdf",
+      "filename": "EOI_CA Firms__Bhopal_13032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_CA_Agra_13032023.pdf",
+      "filename": "EOI_CA_Agra_13032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/CA_Firms_Hyderabad_03032023.pdf",
+      "filename": "CA_Firms_Hyderabad_03032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/CA_Firms_shivamoga_03032023.pdf",
+      "filename": "CA_Firms_shivamoga_03032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/APPROVED_NOTICE_02032023.pdf",
+      "filename": "APPROVED_NOTICE_02032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empaneled_Advocates_Delhi_01032023_1.pdf",
+      "filename": "Empaneled_Advocates_Delhi_01032023_1.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_CAFirms_Bhopal_01032023.pdf",
+      "filename": "Empanelment_CAFirms_Bhopal_01032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_ZO_Kolkata_01032023.pdf",
+      "filename": "EOI_ZO_Kolkata_01032023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Tender_Shimoga_23022023.pdf",
+      "filename": "Tender_Shimoga_23022023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Venue_Details_NAN_Feb2023.pdf",
+      "filename": "Venue_Details_NAN_Feb2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Advocates_ZO_Haryana_13022023.pdf",
+      "filename": "Empanelment_Advocates_ZO_Haryana_13022023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/adv_panel_haryana_upto_31122025.pdf",
+      "filename": "adv_panel_haryana_upto_31122025.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EPFO_Vision_2047.pdf",
+      "filename": "EPFO_Vision_2047.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Chintan_Shivir_final.pdf",
+      "filename": "Chintan_Shivir_final.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Corrigendum_for_Delhi_State_Adv_08122022.pdf",
+      "filename": "Corrigendum_for_Delhi_State_Adv_08122022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Appli_empa_advo_uttara_08122022_merged.pdf",
+      "filename": "Appli_empa_advo_uttara_08122022_merged.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Advocates_Telengana_23112022.pdf",
+      "filename": "Empanelment_Advocates_Telengana_23112022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Tender_rajkot_21112022.pdf",
+      "filename": "Tender_rajkot_21112022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/CORRIGENDUM_Pension_14112022.pdf",
+      "filename": "CORRIGENDUM_Pension_14112022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_empanelment_CA_Hyderabad_14112022.pdf",
+      "filename": "EOI_empanelment_CA_Hyderabad_14112022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/RFP_acturialconsultant_10112022.pdf",
+      "filename": "RFP_acturialconsultant_10112022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/OFFICE_ORDER_Advocates_NER.pdf",
+      "filename": "OFFICE_ORDER_Advocates_NER.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Advocate_Uttarakhand_11102022.pdf",
+      "filename": "Empanelment_Advocate_Uttarakhand_11102022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Advocates_Delhi_11102022.pdf",
+      "filename": "Empanelment_Advocates_Delhi_11102022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/RFP_empanelment_Advocates_30092022.pdf",
+      "filename": "RFP_empanelment_Advocates_30092022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/NLC_digital_25_26Aug2022.pdf",
+      "filename": "NLC_digital_25_26Aug2022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Booklet_Training_Policy.pdf",
+      "filename": "Booklet_Training_Policy.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/RFP_20092022.pdf",
+      "filename": "RFP_20092022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Corrigendum_Para6.19_ RFP_ETF_20092022.pdf",
+      "filename": "Corrigendum_Para6.19_ RFP_ETF_20092022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Corrigendum_RFP_ETFs_IMC_23082022.pdf",
+      "filename": "Corrigendum_RFP_ETFs_IMC_23082022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Corrigendum_RFP_ETFs_IMC_08082022.pdf",
+      "filename": "Corrigendum_RFP_ETFs_IMC_08082022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Tender_Notice_Parkstreet_05082022.pdf",
+      "filename": "Tender_Notice_Parkstreet_05082022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Notice_empanelment_of_advocates_Bandra_05082022.pdf",
+      "filename": "Notice_empanelment_of_advocates_Bandra_05082022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Expression_of_Interest_Ranchi.pdf",
+      "filename": "Expression_of_Interest_Ranchi.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Tender_for_EOI_Bhubneshwar_04082022.pdf",
+      "filename": "Tender_for_EOI_Bhubneshwar_04082022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Extension_of_tenure_of_panel_of_advocates_Odisha_zone.pdf",
+      "filename": "Extension_of_tenure_of_panel_of_advocates_Odisha_zone.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_of_CA_Firm_Ranchi_27072022.pdf",
+      "filename": "Empanelment_of_CA_Firm_Ranchi_27072022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_of_Advocates_NER_26072022.pdf",
+      "filename": "Empanelment_of_Advocates_NER_26072022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Clarifications post pre-bid conference.pdf",
+      "filename": "Clarifications post pre-bid conference.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Advocates_BR_21072022.pdf",
+      "filename": "Empanelment_Advocates_BR_21072022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Notice_empanelment_of_Advocates_Mumbai-I_Zone.pdf",
+      "filename": "Notice_empanelment_of_Advocates_Mumbai-I_Zone.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Notice_Advocates_ACC_HR_14072022_1.pdf",
+      "filename": "Notice_Advocates_ACC_HR_14072022_1.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_merged_2022-2025_ACC_TNKR_14072022.pdf",
+      "filename": "Empanelment_merged_2022-2025_ACC_TNKR_14072022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Office_Order_Empanelment_11072022.pdf",
+      "filename": "Office_Order_Empanelment_11072022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/REQUEST_FOR_PROPOSAL.pdf",
+      "filename": "REQUEST_FOR_PROPOSAL.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Circular_with_Attachments_Advocates.pdf",
+      "filename": "Circular_with_Attachments_Advocates.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/REQUEST_FOR_PROPOSAL_pension_05072022.pdf.pdf",
+      "filename": "REQUEST_FOR_PROPOSAL_pension_05072022.pdf.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/empanelment_of_CA_firm_22062022.pdf",
+      "filename": "empanelment_of_CA_firm_22062022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EOI_FOR_CA_FIRMS_08062022.pdf",
+      "filename": "EOI_FOR_CA_FIRMS_08062022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/RFP_for_ECA_v11_03062022_compressed.pdf",
+      "filename": "RFP_for_ECA_v11_03062022_compressed.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_SC_HO_052022.pdf",
+      "filename": "EmpanelmentAdvocate_SC_HO_052022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdovate_Selection_ZOPB_052022.pdf",
+      "filename": "EmpanelmentAdovate_Selection_ZOPB_052022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PanelAdvocate_Extn_ZOPune_042022.pdf",
+      "filename": "PanelAdvocate_Extn_ZOPune_042022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Success_Story_EPFO.pdf",
+      "filename": "Success_Story_EPFO.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdovate_Selection_ZOGJ_042022.pdf",
+      "filename": "EmpanelmentAdovate_Selection_ZOGJ_042022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Bharuch_032022.pdf",
+      "filename": "EmpanelmentCA_Bharuch_032022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Shortlist_EmpAdv_ZOWB_032022.pdf",
+      "filename": "Shortlist_EmpAdv_ZOWB_032022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdovate_Selection_ZORJ_032022.pdf",
+      "filename": "EmpanelmentAdovate_Selection_ZORJ_032022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Gorakhpur_032022.pdf",
+      "filename": "EmpanelmentCA_Gorakhpur_032022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Raipur_032022.pdf",
+      "filename": "EmpanelmentCA_Raipur_032022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Shortlist_EmpAdv_ZORJ_032022.pdf",
+      "filename": "Shortlist_EmpAdv_ZORJ_032022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmantCA_Vadodara_032022.pdf",
+      "filename": "EmpanelmantCA_Vadodara_032022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOBR_032022.pdf",
+      "filename": "EmpanelmentAdvocate_ZOBR_032022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PressRelease_20022022.pdf",
+      "filename": "PressRelease_20022022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PressRelease_29012022.pdf",
+      "filename": "PressRelease_29012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_ZOMumbai_022022.pdf",
+      "filename": "EmpanelmentCA_ZOMumbai_022022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Jaipur_022022.pdf",
+      "filename": "EmpanelmentCA_Jaipur_022022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Covid_response2.pdf",
+      "filename": "Covid_response2.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Nirbadh_EPFO_to_e EPFO.pdf",
+      "filename": "Nirbadh_EPFO_to_e EPFO.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZORJ_012022.pdf",
+      "filename": "EmpanelmentAdvocate_ZORJ_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOWB_Addendum_012022.pdf",
+      "filename": "EmpanelmentAdvocate_ZOWB_Addendum_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOPune_012022.pdf",
+      "filename": "EmpanelmentAdvocate_ZOPune_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_ChennaiNorth_012022.pdf",
+      "filename": "EmpanelmentCA_ChennaiNorth_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOGJ_ExtnDate_012022.pdf",
+      "filename": "EmpanelmentAdvocate_ZOGJ_ExtnDate_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Jabalpur_012022.pdf",
+      "filename": "EmpanelmentAdvocate_Jabalpur_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Raipur_012022.pdf",
+      "filename": "EmpanelmentAdvocate_Raipur_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocates_ZOPune_012022.pdf",
+      "filename": "EmpanelmentAdvocates_ZOPune_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Indore_012022.pdf",
+      "filename": "EmpanelmentAdvocate_Indore_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Ujjain_012022.pdf",
+      "filename": "EmpanelmentAdvocate_Ujjain_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Bhopal_012022.pdf",
+      "filename": "EmpanelmentAdvocate_Bhopal_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Gwalior_012022.pdf",
+      "filename": "EmpanelmentAdvocate_Gwalior_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOPBHP_012022.pdf",
+      "filename": "EmpanelmentAdvocate_ZOPBHP_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Selection_ZOOR_012022.pdf",
+      "filename": "EmpanelmentAdvocate_Selection_ZOOR_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOCHPD_012022.pdf",
+      "filename": "EmpanelmentAdvocate_ZOCHPD_012022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOUP_Selection_122021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOUP_Selection_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_DateExtn_Nasik_122021.pdf",
+      "filename": "EmpanelmentCA_DateExtn_Nasik_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOGJ_122021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOGJ_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Jammu_122021.pdf",
+      "filename": "EmpanelmentCA_Jammu_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_DateEx_Tambaram_122021.pdf",
+      "filename": "EmpanelmentCA_DateEx_Tambaram_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Kolhapur_122021.pdf",
+      "filename": "EmpanelmentCA_Kolhapur_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PressRelease_20122021.pdf",
+      "filename": "PressRelease_20122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Corrg_ZOKolkata_122021.pdf",
+      "filename": "EmpanelmentAdvocate_Corrg_ZOKolkata_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Bareilly_122021.pdf",
+      "filename": "EmpanelmentCA_Bareilly_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Varanasi_122021.pdf",
+      "filename": "EmpanelmentCA_Varanasi_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_BNGCentral_122021.pdf",
+      "filename": "EmpanelmentCA_BNGCentral_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Tambaram_122021.pdf",
+      "filename": "EmpanelmentCA_Tambaram_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOKolkata_122021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOKolkata_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Dehradun_122021.pdf",
+      "filename": "EmpanelmentCA_Dehradun_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOPune_Selection_122021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOPune_Selection_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOVijayawada_122021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOVijayawada_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Haldwani_122021.pdf",
+      "filename": "EmpanelmentCA_Haldwani_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/e_shram_english.pdf",
+      "filename": "e_shram_english.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Interview_EmpanelAdv_Orissa_122021.pdf",
+      "filename": "Interview_EmpanelAdv_Orissa_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_NASIK_122021.pdf",
+      "filename": "EmpanelmentCA_NASIK_122021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOHubli_112021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOHubli_112021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Surat_112021.pdf",
+      "filename": "EmpanelmentCA_Surat_112021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_BNGEC_Extn_112021.pdf",
+      "filename": "EmpanelmentCA_BNGEC_Extn_112021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_GurgaonEast_112021.pdf",
+      "filename": "EmpanelmentCA_GurgaonEast_112021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_BNGM_112021.pdf",
+      "filename": "EmpanelmentCA_BNGM_112021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Faridabad_112021.pdf",
+      "filename": "EmpanelmentCA_Faridabad_112021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOThane_Extn_102021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOThane_Extn_102021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_BNGEC_102021.pdf",
+      "filename": "EmpanelmentCA_BNGEC_102021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZONER_102021.pdf",
+      "filename": "EmpanelmentAdvocate_ZONER_102021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocte_ZOThane_102021.pdf",
+      "filename": "EmpanelmentAdvocte_ZOThane_102021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocateMH_Kolhapur_092021.pdf",
+      "filename": "EmpanelmentAdvocateMH_Kolhapur_092021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOOR_092021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOOR_092021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOPune_092021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOPune_092021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Kottayam_092021.pdf",
+      "filename": "EmpanelmentAdvocate_Kottayam_092021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Rajkot_092021.pdf",
+      "filename": "EmpanelmentCA_Rajkot_092021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Noida_072021.pdf",
+      "filename": "EmpanelmentCA_Noida_072021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_DelhiCentral_072021.pdf",
+      "filename": "EmpanelmentCA_DelhiCentral_072021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Allahabad_072021.pdf",
+      "filename": "EmpanelmentCA_Allahabad_072021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Ludhiana_072021.pdf",
+      "filename": "EmpanelmentCA_Ludhiana_072021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_UK_062021.pdf",
+      "filename": "EmpanelmentAdvocate_UK_062021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZODLUK_062021.pdf",
+      "filename": "EmpanelmentAdvocate_ZODLUK_062021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_KandivaliEast_052021.pdf",
+      "filename": "EmpanelmentCA_KandivaliEast_052021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Goa_042021.pdf",
+      "filename": "EmpanelmentCA_Goa_042021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Jalandhar_042021.pdf",
+      "filename": "EmpanelmentAdvocate_Jalandhar_042021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Ludhiana_AddlInfo_042021.pdf",
+      "filename": "EmpanelmentAdvocate_Ludhiana_AddlInfo_042021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Ludhiana_042021.pdf",
+      "filename": "EmpanelmentAdvocate_Ludhiana_042021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Amritsar_042021.pdf",
+      "filename": "EmpanelmentAdvocate_Amritsar_042021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Shimla_042021.pdf",
+      "filename": "EmpanelmentAdvocate_Shimla_042021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Chandigarh_042021.pdf",
+      "filename": "EmpanelmentAdvocate_Chandigarh_042021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Vashi_042021.pdf",
+      "filename": "EmpanelmentCA_Vashi_042021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Gorakhpur_042021.pdf",
+      "filename": "EmpanelmentCA_Gorakhpur_042021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Bhatinda_042021.pdf",
+      "filename": "EmpanelmentAdvocate_Bhatinda_042021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_CA_Ambattur_032021.pdf",
+      "filename": "Empanelment_CA_Ambattur_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Bhopal_032021.pdf",
+      "filename": "EmpanelmentAdvocate_Bhopal_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Vapi_032021.pdf",
+      "filename": "EmpanelmentCA_Vapi_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Ambattur_032021.pdf",
+      "filename": "EmpanelmentCA_Ambattur_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOHR_032021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOHR_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Jamshedpur_032021.pdf",
+      "filename": "EmpanelmentCA_Jamshedpur_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZOUP_032021.pdf",
+      "filename": "EmpanelmentAdvocate_ZOUP_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Gwalior_032021.pdf",
+      "filename": "EmpanelmentAdvocate_Gwalior_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Goa_032021.pdf",
+      "filename": "EmpanelmentAdvocate_Goa_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Raipur_032021.pdf",
+      "filename": "EmpanelmentAdvocate_Raipur_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Jabalpur_032021.pdf",
+      "filename": "EmpanelmentAdvocate_Jabalpur_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Uttarakhand_032021.pdf",
+      "filename": "EmpanelmentAdvocate_Uttarakhand_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Delhi_032021.pdf",
+      "filename": "EmpanelmentAdvocate_Delhi_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Ujjain_032021.pdf",
+      "filename": "EmpanelmentAdvocate_Ujjain_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Indore_032021.pdf",
+      "filename": "EmpanelmentAdvocate_Indore_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Sagar_032021.pdf",
+      "filename": "EmpanelmentAdvocate_Sagar_032021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAuditor_Jalandhar_022021.pdf",
+      "filename": "EmpanelmentAuditor_Jalandhar_022021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_KandivaliWest_022021.pdf",
+      "filename": "EmpanelmentCA_KandivaliWest_022021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Vashi_022021.pdf",
+      "filename": "EmpanelmentCA_Vashi_022021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Agra_012021.pdf",
+      "filename": "EmpanelmentCA_Agra_012021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanellment_of_Advocates_hyderbad.pdf",
+      "filename": "Empanellment_of_Advocates_hyderbad.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/sbsm_va_2020_cvo_msg.pdf",
+      "filename": "sbsm_va_2020_cvo_msg.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Advocate_Vashi_112020.pdf",
+      "filename": "Empanelment_Advocate_Vashi_112020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/FAQ_Reduced_rate_of_contribution_20052020.pdf",
+      "filename": "FAQ_Reduced_rate_of_contribution_20052020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/19_05_2020_Press_brief_reduction_in_EPF_contribution.pdf",
+      "filename": "19_05_2020_Press_brief_reduction_in_EPF_contribution.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PR06052020.pdf",
+      "filename": "PR06052020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PR30042020.pdf",
+      "filename": "PR30042020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PressRelease_28042020.pdf",
+      "filename": "PressRelease_28042020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/covid_faq_26042020.pdf",
+      "filename": "covid_faq_26042020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PRCovid23042020.pdf",
+      "filename": "PRCovid23042020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PR21042020.pdf",
+      "filename": "PR21042020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PIB1614747.pdf",
+      "filename": "PIB1614747.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PRESS_RELEASECOVID19_16.04.2020.pdf",
+      "filename": "PRESS_RELEASECOVID19_16.04.2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PR_PMGKY.pdf",
+      "filename": "PR_PMGKY.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PR_COVID19advance.pdf",
+      "filename": "PR_COVID19advance.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Press_releaseDOB.pdf",
+      "filename": "Press_releaseDOB.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/covid_faq_claim_04042020.pdf",
+      "filename": "covid_faq_claim_04042020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Pension_press_corona.pdf",
+      "filename": "Pension_press_corona.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Advocates_Ranchi.pdf",
+      "filename": "Empanelment_Advocates_Ranchi.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empnlmnt_Advocates_Rajasthan_1196.pdf",
+      "filename": "Empnlmnt_Advocates_Rajasthan_1196.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PIB_EPFAct.pdf",
+      "filename": "PIB_EPFAct.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Shortlisted_Advocates_ BiharJharkhand_022020.pdf",
+      "filename": "Shortlisted_Advocates_ BiharJharkhand_022020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Interview_EmpAdvocates_Rajasthan_022020.pdf",
+      "filename": "Interview_EmpAdvocates_Rajasthan_022020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanel_Advocates_ACC_Jaipur_012020.pdf",
+      "filename": "Empanel_Advocates_ACC_Jaipur_012020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanel_Advocates_ BiharJharkhand_012020.pdf",
+      "filename": "Empanel_Advocates_ BiharJharkhand_012020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/List_Empanel_Advocates__Maharashtra_122019.pdf",
+      "filename": "List_Empanel_Advocates__Maharashtra_122019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/GHM_EPFO.pdf",
+      "filename": "GHM_EPFO.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PDNASS_EE_CEO_1132.pdf",
+      "filename": "PDNASS_EE_CEO_1132.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PDNASS_TrgCal_2019-20_1107.pdf",
+      "filename": "PDNASS_TrgCal_2019-20_1107.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Exam_Assistant_EWS_117.pdf",
+      "filename": "Exam_Assistant_EWS_117.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Exam_Recruit_SSA_109.pdf",
+      "filename": "Exam_Recruit_SSA_109.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Add2-Exam_RR_Assistan_51.pdf",
+      "filename": "Add2-Exam_RR_Assistan_51.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Corrigendum_Assistants_81.pdf",
+      "filename": "Corrigendum_Assistants_81.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Add-Exam_RR_Assistan_51.pdf",
+      "filename": "Add-Exam_RR_Assistan_51.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/SelectedAdvocates_UPzone_052019.pdf",
+      "filename": "SelectedAdvocates_UPzone_052019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Exam_RR_Assistan_51.pdf",
+      "filename": "Exam_RR_Assistan_51.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Panel_Advocates_HO_052019.pdf",
+      "filename": "Panel_Advocates_HO_052019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/HRM1Depudation_ISD_1243.pdf",
+      "filename": "HRM1Depudation_ISD_1243.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/HO_Empanelment_Advocates_032019.pdf",
+      "filename": "HO_Empanelment_Advocates_032019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Ludhiana_Empanelment_Advocates_032019.pdf",
+      "filename": "Ludhiana_Empanelment_Advocates_032019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Empanelment_Advocate_HeadOffice_032019.pdf",
+      "filename": "Empanelment_Advocate_HeadOffice_032019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Selection_Advocates_DLUK_022019_1528.pdf",
+      "filename": "Selection_Advocates_DLUK_022019_1528.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Interview_EmpanelAdv_Uttarakhand_ZODLUK_022019.pdf",
+      "filename": "Interview_EmpanelAdv_Uttarakhand_ZODLUK_022019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Selection_Advocates_DLUK_022019_1437.pdf",
+      "filename": "Selection_Advocates_DLUK_022019_1437.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_SCND_012019.pdf",
+      "filename": "EmpanelmentAdvocate_SCND_012019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_DLUK_1321.pdf",
+      "filename": "EmpanelmentAdvocate_DLUK_1321.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/HRM7_DepuVacancy_DDVig_16761.pdf",
+      "filename": "HRM7_DepuVacancy_DDVig_16761.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/HRM7_VacPos_Engg_16481.pdf",
+      "filename": "HRM7_VacPos_Engg_16481.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/AddlPanelAdvocate_UP_012019.pdf",
+      "filename": "AddlPanelAdvocate_UP_012019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PressRelease_01112018.pdf",
+      "filename": "PressRelease_01112018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/ITAdvocate_Muzaffarpur_012019.pdf",
+      "filename": "ITAdvocate_Muzaffarpur_012019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_Uttarakhand_ZODLUK_122018.pdf",
+      "filename": "EmpanelmentAdvocate_Uttarakhand_ZODLUK_122018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAdvocate_ZODL_122018.pdf",
+      "filename": "EmpanelmentAdvocate_ZODL_122018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAuditor_Muzaffarpur_122018.pdf",
+      "filename": "EmpanelmentAuditor_Muzaffarpur_122018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/SelectionAdvocate_ZOMumbaiThane_102018.pdf",
+      "filename": "SelectionAdvocate_ZOMumbaiThane_102018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentAuditor_Muzaffarpur_16102018.pdf",
+      "filename": "EmpanelmentAuditor_Muzaffarpur_16102018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PDNASS_IntlTrgProg_MSSS_082018.pdf",
+      "filename": "PDNASS_IntlTrgProg_MSSS_082018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PDNASS_IntlTrgProg_MSSS_072018.pdf",
+      "filename": "PDNASS_IntlTrgProg_MSSS_072018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EmpanelmentCA_Jamshedpur_082018.pdf",
+      "filename": "EmpanelmentCA_Jamshedpur_082018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Beneficiary_UPBLY1151_98_99.pdf",
+      "filename": "Beneficiary_UPBLY1151_98_99.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Beneficiary_UPBLY1151_99_00.pdf",
+      "filename": "Beneficiary_UPBLY1151_99_00.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/HR_Empanelment_InqOff.pdf",
+      "filename": "HR_Empanelment_InqOff.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PDUNASS_Result__Second_Fellowship.pdf",
+      "filename": "PDUNASS_Result__Second_Fellowship.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Beneficiary_List_UPBLY1151.pdf",
+      "filename": "Beneficiary_List_UPBLY1151.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/IntegrityPledge_CVC_2017.pdf",
+      "filename": "IntegrityPledge_CVC_2017.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/InternshipScheme_2017.pdf",
+      "filename": "InternshipScheme_2017.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PDUNASS_Selection_ResearchFellowship.pdf",
+      "filename": "PDUNASS_Selection_ResearchFellowship.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/PMRPY_PMPRPY.pdf",
+      "filename": "PMRPY_PMPRPY.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EaseOfDoingBusiness_MoLE_Initiatives.pdf",
+      "filename": "EaseOfDoingBusiness_MoLE_Initiatives.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/Presentation_ERservices062016.pdf",
+      "filename": "Presentation_ERservices062016.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Updates/EPFO_ShortCodeSMS.pdf",
+      "filename": "EPFO_ShortCodeSMS.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/ACT_081951_15111951.pdf",
+      "filename": "ACT_081951_15111951.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPF_Bill_1952.pdf",
+      "filename": "EPF_Bill_1952.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPFAct1952.pdf",
+      "filename": "EPFAct1952.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/OrgChart_Hi.pdf",
+      "filename": "OrgChart_Hi.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPFScheme.pdf",
+      "filename": "EPFScheme.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EPS95.pdf",
+      "filename": "EPS95.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/EDLI_1976.pdf",
+      "filename": "EDLI_1976.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/MiscPDFs/Missed_Call_Service.pdf",
+      "filename": "Missed_Call_Service.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/MiscPDFs/Short_Code_SMS_Service.pdf",
+      "filename": "Short_Code_SMS_Service.pdf"
+    },
+    {
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/MiscPDFs/CitizenCharter.pdf",
+      "filename": "CitizenCharter.pdf"
+    },
+    {
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/MiscPDFs/EPS1995_PensionDisbursingAgenciesList.pdf",
+      "filename": "EPS1995_PensionDisbursingAgenciesList.pdf"
+    },
+    {
+      "url": "https://www.epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/WhatsApp_Helpline.pdf",
+      "filename": "WhatsApp_Helpline.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/MiscPDFs/CitizenCharter.pdf",
+      "filename": "CitizenCharter.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Transfer_Postings/Y2024-2025/OfficeOrder_SSA_WaitingListOf_1190_Candidates.pdf",
+      "filename": "OfficeOrder_SSA_WaitingListOf_1190_Candidates.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/MiscPDFs/EOI_NextGenSOC_05012024.pdf",
+      "filename": "EOI_NextGenSOC_05012024.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_en/..\\site_docs\\PDFs\\MiscPDFs\\Top_75_establishments.pdf",
+      "filename": "..\\site_docs\\PDFs\\MiscPDFs\\Top_75_establishments.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/FD_COI_E.pdf",
+      "filename": "FD_COI_E.pdf"
+    },
+    {
+      "url": "https://www.epfindia.gov.in/site_docs/Annual_Report/Annual_Report_2022-23.pdf",
+      "filename": "Annual_Report_2022-23.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/OrgChart_Eng.pdf",
+      "filename": "OrgChart_Eng.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/PDFs/Downloads_PDFs/abr18.pdf",
+      "filename": "abr18.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/exempted_est_list.pdf",
+      "filename": "exempted_est_list.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Sept_2023.pdf",
+      "filename": "perform_exempted_est_Sept_2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Aug_2023.pdf",
+      "filename": "perform_exempted_est_Aug_2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_July_2023.pdf",
+      "filename": "perform_exempted_est_July_2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_June_2023.pdf",
+      "filename": "perform_exempted_est_June_2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_May_2023.pdf",
+      "filename": "perform_exempted_est_May_2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_April_2023.pdf",
+      "filename": "perform_exempted_est_April_2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_March_2023.pdf",
+      "filename": "perform_exempted_est_March_2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Feb_2023.pdf",
+      "filename": "perform_exempted_est_Feb_2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jan_2023.pdf",
+      "filename": "perform_exempted_est_Jan_2023.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Dec_2022.pdf",
+      "filename": "perform_exempted_est_Dec_2022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Nov_2022.pdf",
+      "filename": "perform_exempted_est_Nov_2022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Oct_2022.pdf",
+      "filename": "perform_exempted_est_Oct_2022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Sep_2022.pdf",
+      "filename": "perform_exempted_est_Sep_2022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Aug_2022.pdf",
+      "filename": "perform_exempted_est_Aug_2022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jul_2022.pdf",
+      "filename": "perform_exempted_est_Jul_2022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jun_2022.pdf",
+      "filename": "perform_exempted_est_Jun_2022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_May_2022.pdf",
+      "filename": "perform_exempted_est_May_2022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Mar_2022.pdf",
+      "filename": "perform_exempted_est_Mar_2022.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Dec_2021.pdf",
+      "filename": "perform_exempted_est_Dec_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Nov_2021.pdf",
+      "filename": "perform_exempted_est_Nov_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Oct_2021.pdf",
+      "filename": "perform_exempted_est_Oct_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Sept_2021.pdf",
+      "filename": "perform_exempted_est_Sept_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Aug_2021.pdf",
+      "filename": "perform_exempted_est_Aug_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_June_2021.pdf",
+      "filename": "perform_exempted_est_June_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_May_2021.pdf",
+      "filename": "perform_exempted_est_May_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_April_2021.pdf",
+      "filename": "perform_exempted_est_April_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_March_2021.pdf",
+      "filename": "perform_exempted_est_March_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Feb_2021.pdf",
+      "filename": "perform_exempted_est_Feb_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jan_2021.pdf",
+      "filename": "perform_exempted_est_Jan_2021.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Dec_2020.pdf",
+      "filename": "perform_exempted_est_Dec_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Nov_2020.pdf",
+      "filename": "perform_exempted_est_Nov_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Oct_2020.pdf",
+      "filename": "perform_exempted_est_Oct_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Sep_2020.pdf",
+      "filename": "perform_exempted_est_Sep_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Aug_2020.pdf",
+      "filename": "perform_exempted_est_Aug_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jul_2020.pdf",
+      "filename": "perform_exempted_est_Jul_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jun_2020.pdf",
+      "filename": "perform_exempted_est_Jun_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_May_2020.pdf",
+      "filename": "perform_exempted_est_May_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Apr_2020.pdf",
+      "filename": "perform_exempted_est_Apr_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Mar_2020.pdf",
+      "filename": "perform_exempted_est_Mar_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Feb_2020.pdf",
+      "filename": "perform_exempted_est_Feb_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jan_2020.pdf",
+      "filename": "perform_exempted_est_Jan_2020.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Dec_2019.pdf",
+      "filename": "perform_exempted_est_Dec_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Nov_2019.pdf",
+      "filename": "perform_exempted_est_Nov_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Oct_2019.pdf",
+      "filename": "perform_exempted_est_Oct_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Sep_2019.pdf",
+      "filename": "perform_exempted_est_Sep_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Aug_2019.pdf",
+      "filename": "perform_exempted_est_Aug_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_July_2019.pdf",
+      "filename": "perform_exempted_est_July_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_June_2019.pdf",
+      "filename": "perform_exempted_est_June_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_May_2019.pdf",
+      "filename": "perform_exempted_est_May_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Apr_2019.pdf",
+      "filename": "perform_exempted_est_Apr_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Mar_2019.pdf",
+      "filename": "perform_exempted_est_Mar_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Feb_2019.pdf",
+      "filename": "perform_exempted_est_Feb_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jan_2019.pdf",
+      "filename": "perform_exempted_est_Jan_2019.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Dec_2018.pdf",
+      "filename": "perform_exempted_est_Dec_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Nov_2018.pdf",
+      "filename": "perform_exempted_est_Nov_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Oct_2018.pdf",
+      "filename": "perform_exempted_est_Oct_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Sep_2018.pdf",
+      "filename": "perform_exempted_est_Sep_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Aug_2018.pdf",
+      "filename": "perform_exempted_est_Aug_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jul_2018.pdf",
+      "filename": "perform_exempted_est_Jul_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jun_2018.pdf",
+      "filename": "perform_exempted_est_Jun_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_May_2018.pdf",
+      "filename": "perform_exempted_est_May_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Apr_2018.pdf",
+      "filename": "perform_exempted_est_Apr_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Mar_2018.pdf",
+      "filename": "perform_exempted_est_Mar_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Feb_2018.pdf",
+      "filename": "perform_exempted_est_Feb_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Jan_2018.pdf",
+      "filename": "perform_exempted_est_Jan_2018.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Dec_2017.pdf",
+      "filename": "perform_exempted_est_Dec_2017.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Nov_rev_2017.pdf",
+      "filename": "perform_exempted_est_Nov_rev_2017.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Nov_2017.pdf",
+      "filename": "perform_exempted_est_Nov_2017.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Oct_2017.pdf",
+      "filename": "perform_exempted_est_Oct_2017.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Sep_2017.pdf",
+      "filename": "perform_exempted_est_Sep_2017.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_Aug_2017.pdf",
+      "filename": "perform_exempted_est_Aug_2017.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/perform_exempted_est_july_2017.pdf",
+      "filename": "perform_exempted_est_july_2017.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/GNFC_Notification.pdf",
+      "filename": "GNFC_Notification.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/Raja_Bahadur_Notification.pdf",
+      "filename": "Raja_Bahadur_Notification.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/Bapalal_Notification.pdf",
+      "filename": "Bapalal_Notification.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/Dunlop_Notification.pdf",
+      "filename": "Dunlop_Notification.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/Punjabi_Khadi_Mandal_0001041000_can.pdf",
+      "filename": "Punjabi_Khadi_Mandal_0001041000_can.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/MDMDU000019700A_notification.pdf",
+      "filename": "MDMDU000019700A_notification.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/TNMAS0012115000_notification.pdf",
+      "filename": "TNMAS0012115000_notification.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/KRKCH0000165000_notification.pdf",
+      "filename": "KRKCH0000165000_notification.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/Progressive_notification.pdf",
+      "filename": "Progressive_notification.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/Wahid_Sandhar_cancellation_notification.pdf",
+      "filename": "Wahid_Sandhar_cancellation_notification.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/I3703552023LABR-25011(13)32023-LWMW.pdf",
+      "filename": "I3703552023LABR-25011(13)32023-LWMW.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/CK_SEN_Notification_WB3484.pdf",
+      "filename": "CK_SEN_Notification_WB3484.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/Fertilisrers_Notification_KCH3805.pdf",
+      "filename": "Fertilisrers_Notification_KCH3805.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/Gujarat_Alkalies_Notification_BRD10042.pdf",
+      "filename": "Gujarat_Alkalies_Notification_BRD10042.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/Cancellation_Notification_TNMAS23703.pdf",
+      "filename": "Cancellation_Notification_TNMAS23703.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/surr_exemp_BNBNG-42680.pdf",
+      "filename": "surr_exemp_BNBNG-42680.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/surr_exemp_TNMAS-11184.pdf",
+      "filename": "surr_exemp_TNMAS-11184.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/Exempted_ReturnManual.pdf",
+      "filename": "Exempted_ReturnManual.pdf"
+    },
+    {
+      "url": "https://epfindia.gov.in/site_docs/exmpted_est/SOP_Management_Regulation_EPF_Exemption_29112023.pdf",
+      "filename": "SOP_Management_Regulation_EPF_Exemption_29112023.pdf"
+    }
+  ],
+  "sitemap_urls_with_keywords": [],
+  "robots_disallowed_paths": [],
+  "error": null
+}

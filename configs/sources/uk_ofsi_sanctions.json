@@ -1,0 +1,30 @@
+{
+  "source_id": "uk_ofsi_sanctions",
+  "agency": "Office of Financial Sanctions Implementation (OFSI)",
+  "list_name": "UK Sanctions List",
+  "country": "UK",
+  "engine": "file_download",
+  "url": "https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
+  "format": "csv",
+  "encoding": "utf-8",
+  "delimiter": ",",
+  "skip_rows": 1,
+  "has_header": true,
+  "field_map": {
+    "name": "Name 1,Name 2,Name 3,Name 4,Name 5,Name 6",
+    "date_of_birth": "DOB",
+    "address": "Address 1,Address 2,Address 3,Address 4,Address 5,Address 6,Post/Zip Code,Country",
+    "details": "Title,Position,Nationality,Group Type,Alias Type,Regime,Listed On,UK Sanctions List Date Designated,Other Information"
+  },
+  "validation": {
+    "min_records": 1000,
+    "required_fields": ["name"],
+    "max_empty_name_pct": 10
+  },
+  "resilience": {
+    "retries": 3,
+    "retry_delay_seconds": 5,
+    "timeout_seconds": 180,
+    "snapshot_raw": true
+  }
+}

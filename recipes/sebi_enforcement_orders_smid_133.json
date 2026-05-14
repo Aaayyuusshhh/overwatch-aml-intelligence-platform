@@ -1,0 +1,47 @@
+{
+  "recipe_id": "sebi_enforcement_orders_smid_133",
+  "source_id": null,
+  "url": "https://www.sebi.gov.in/sebiweb/ajax/home/getnewslistinfo.jsp",
+  "method": "POST",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "X-Requested-With": "XMLHttpRequest",
+    "Referer": "https://www.sebi.gov.in/enforcement.html",
+    "Origin": "https://www.sebi.gov.in",
+    "Accept": "*/*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Content-Type": "application/x-www-form-urlencoded"
+  },
+  "params": {},
+  "body": {
+    "nextValue": "0",
+    "next": "n",
+    "search": "",
+    "fromDate": "",
+    "toDate": "",
+    "fromYear": "",
+    "toYear": "",
+    "deptId": "-1",
+    "sid": "2",
+    "ssid": "9",
+    "smid": "133",
+    "ssidhidden": "9",
+    "intmid": "-1",
+    "sText": "Enforcement",
+    "ssText": "Orders",
+    "smText": "Orders of ED / CGM",
+    "doDirect": "-1"
+  },
+  "cookies": {},
+  "response_type": "html",
+  "extract_strategy": "html_table",
+  "pagination": {
+    "param": "nextValue",
+    "start": 0,
+    "limit_param": null,
+    "limit": null,
+    "max_pages": 1500
+  },
+  "notes": "SEBI Enforcement Orders — smid 133 (Orders of ED / CGM). Returns 25-row HTML fragments; iterate nextValue 0..totalpage-1.",
+  "discovered_at": "2026-05-08"
+}

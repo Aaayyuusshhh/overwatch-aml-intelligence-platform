@@ -1,0 +1,33 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.claude/
+*.log
+logs/
+data/*.pdf
+data/*.xls
+data/*.xlsx
+data/*.doc
+data/*.docx
+data/raw/
+snapshots/
+work/
+*.bak
+data/backup/
+data/master_watchlist.csv
+*.egg-info/
+.DS_Store
+node_modules/
+# misc large/garbage files at repo root
+get-pip.py
+project_status.xlsx
+ource_agency*
+# Other Python / editor noise
+*.pyo
+.venv/
+.idea/
+.vscode/
+profiles/

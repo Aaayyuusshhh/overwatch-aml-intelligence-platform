@@ -1,0 +1,28 @@
+SOURCE: CBI Most Wanted - Announced Rewards
+DATE ANALYZED: 2025-05-04
+ANALYST: Aayush
+
+LIST PAGE URL: [write what you find]
+DETAIL PAGE URL PATTERN: cbi.gov.in/announce-reward-detail/[encoded-id]
+STAYS ON SAME DOMAIN: Yes
+DATA IN VIEW SOURCE: Yes
+REQUIRES LOGIN: No
+REQUIRES JAVASCRIPT: [check and fill]
+PAGINATION: [fill after checking]
+TOTAL RECORDS: [approximate]
+
+FIELDS AVAILABLE:
+- case_unit (yellow header text)
+- name
+- father_name
+- date_of_birth
+- gender
+- address
+- reward_amount
+- details
+- pdf_url (optional, not always present)
+
+NOTES:
+- Some records have PDF, some don't
+- PDF should be stored as URL, not downloaded initially
+- Reward amount needs cleaning (Rs. 10,000/- → 10000)

@@ -1,0 +1,167 @@
+severity,source,message
+WARNING,bse_defaulter_expelled_members_160.csv,name_quality: 1 names start with garbage prefix
+INFO,bse_defaulters_list_159.csv,name_quality: 1 empty names (inactive source)
+INFO,bse_defaulting_clients_239.csv,name_quality: 1 empty names (inactive source)
+INFO,bse_suspended_companies_160.csv,name_quality: 1 empty names (inactive source)
+INFO,cbec_central_excise___fraud_6.csv,name_quality: 1 empty names (inactive source)
+INFO,cbec_central_excise___penalty_7.csv,name_quality: 1 empty names (inactive source)
+INFO,cbec_customs___fraud_collusion_8.csv,name_quality: 1 empty names (inactive source)
+INFO,cbec_customs___penalty_interest_9.csv,name_quality: 1 empty names (inactive source)
+INFO,cbec_customs___seizure_10.csv,name_quality: 1 empty names (inactive source)
+WARNING,cbi_announced_rewards.csv,name_quality: 10 empty name(s) in 328 rows
+WARNING,cci_antitrust_orders_17.csv,name_quality: 20 names longer than 200 chars
+INFO,cvc_penalties_for_prosecution_16.csv,name_quality: 1 empty names (inactive source)
+INFO,dmrc_blacklisted_agencies_141.csv,name_quality: 1 empty names (inactive source)
+INFO,dmrc_debarred_agency_list_in_142.csv,name_quality: 1 empty names (inactive source)
+INFO,dmrc_debarred_ineligible_banned_suspended_143.csv,name_quality: 1 empty names (inactive source)
+INFO,dp_economic_offenses_wing_proclaimed_209.csv,name_quality: 1 empty names (inactive source)
+INFO,dp_wanted_criminals_of_economic_211.csv,name_quality: 1 empty names (inactive source)
+INFO,ed_press_release_23.csv,name_quality: 15 digit-only names (sample: 1)
+INFO,ed_red_corner_notices_24.csv,name_quality: 1 empty names (inactive source)
+INFO,epfo_orders_26.csv,name_quality: 1 empty names (inactive source)
+WARNING,fcra_registered_associations.csv,name_quality: 10 names start with garbage prefix
+WARNING,fiu_high_risk_nbfc_29.csv,name_quality: 1 names start with garbage prefix
+INFO,ib_wilful_defaulters_133.csv,name_quality: 1 empty names (inactive source)
+WARNING,income_tax_defaulters_35.csv,name_quality: 1 names start with garbage prefix
+WARNING,kp_wanted_214.csv,name_quality: 2 names start with garbage prefix
+INFO,mca_companies_not_filed_form_40.csv,name_quality: 1 empty names (inactive source)
+INFO,mca_companies_under_process_of_41.csv,name_quality: 1 empty names (inactive source)
+INFO,mca_list_of_companies_where_48.csv,name_quality: 1 empty names (inactive source)
+INFO,mca_list_of_directors_associated_49.csv,name_quality: 1 empty names (inactive source)
+INFO,mca_list_of_proclaimed_offenders_52.csv,name_quality: 1 empty names (inactive source)
+INFO,mca_list_of_proclaimed_offenders_53.csv,name_quality: 1 empty names (inactive source)
+INFO,mca_notice_of_strike_off_by_55.csv,name_quality: 1 empty names (inactive source)
+INFO,mcx_list_of_surrendered_ceased_180.csv,name_quality: 1 empty names (inactive source)
+WARNING,mha_banned_orgs.csv,name_quality: 1 names longer than 200 chars
+INFO,mha_list_of_fcra_registered_71.csv,name_quality: 1 empty names (inactive source)
+WARNING,mha_uapa_individual_terrorists.csv,name_quality: 1 names longer than 200 chars
+INFO,mse_arbitral_awards_242.csv,name_quality: 1 empty names (inactive source)
+INFO,mse_complaint_status_170.csv,name_quality: 1 empty names (inactive source)
+INFO,mse_final_enforcement_orders_passed_171.csv,name_quality: 1 empty names (inactive source)
+INFO,mse_list_of_debarred_entities_172.csv,name_quality: 1 empty names (inactive source)
+INFO,mse_list_of_debarred_entities_173.csv,name_quality: 1 empty names (inactive source)
+INFO,mse_list_of_defaulter_members_174.csv,name_quality: 1 empty names (inactive source)
+INFO,mse_list_of_expelled_members_175.csv,name_quality: 1 empty names (inactive source)
+INFO,mse_trading_clearing_members_236.csv,name_quality: 1 empty names (inactive source)
+INFO,msje_department_of_empowerment_of_75.csv,name_quality: 1 empty names (inactive source)
+INFO,msje_grants_suspended_list_blacklisted_76.csv,name_quality: 1 empty names (inactive source)
+INFO,msje_list_of_de_blacklisted_ngos_77.csv,name_quality: 1 empty names (inactive source)
+INFO,nabard_micro_credit_innovations_department_82.csv,name_quality: 1 empty names (inactive source)
+INFO,nabard_ngos_mfis_debarred_for_83.csv,name_quality: 1 empty names (inactive source)
+INFO,national_list_of_debarred_blacklisted_80.csv,name_quality: 1 empty names (inactive source)
+INFO,national_list_of_ngos_put_81.csv,name_quality: 1 empty names (inactive source)
+WARNING,ncdex_cessation_of_membership_183.csv,schema: 0 data rows
+WARNING,ncdex_list_of_expelled_members_187.csv,schema: 0 data rows
+INFO,nclt_cause_list_84.csv,name_quality: 1 empty names (inactive source)
+INFO,nclt_judgement_orders_by_judgment_85.csv,name_quality: 1 empty names (inactive source)
+WARNING,nhb_penalties_95.csv,name_quality: 3 names start with garbage prefix
+WARNING,nia_arrested_persons.csv,schema: 0 data rows
+WARNING,nse_caution_list_241.csv,name_quality: 1 names start with garbage prefix
+WARNING,nse_debarred_sebi.csv,name_quality: 1 names start with garbage prefix
+WARNING,nse_debarred_sebi.csv,name_quality: 1 names longer than 200 chars
+WARNING,ongc_banned_firms_152.csv,name_quality: 39 names longer than 200 chars
+INFO,press_accreditated_media_person_list_223.csv,name_quality: 1 empty names (inactive source)
+WARNING,rbi_list_of_authorised_dealers_231.csv,name_quality: 2 names longer than 200 chars
+WARNING,rbi_list_of_nbfcs_surrender_106.csv,name_quality: 2 names longer than 200 chars
+WARNING,sebi_enforcement_orders.csv,name_quality: 1 names longer than 200 chars
+WARNING,sebi_investor_alerts_108.csv,name_quality: 2 names start with garbage prefix
+WARNING,sebi_investor_alerts_108.csv,name_quality: 80 names longer than 200 chars
+WARNING,sebi_members_suspended_113.csv,name_quality: 25 names start with garbage prefix
+WARNING,sebi_members_suspended_113.csv,name_quality: 7 names longer than 200 chars
+WARNING,sebi_orders_of_aa_under_114.csv,name_quality: 11 names longer than 200 chars
+WARNING,sebi_orders_of_ao_119.csv,name_quality: 1 names start with garbage prefix
+WARNING,sebi_orders_of_ao_119.csv,name_quality: 24 names longer than 200 chars
+WARNING,sebi_orders_of_chairperson_member_115.csv,name_quality: 6 names start with garbage prefix
+WARNING,sebi_orders_of_chairperson_member_115.csv,name_quality: 56 names longer than 200 chars
+WARNING,sebi_orders_of_special_courts.csv,name_quality: 1 names longer than 200 chars
+WARNING,sebi_settlement_orders_116.csv,name_quality: 1 names longer than 200 chars
+WARNING,sebi_suspected_shell_companies_117.csv,name_quality: 1 names start with garbage prefix
+WARNING,sebi_suspected_shell_companies_117.csv,name_quality: 1 names longer than 200 chars
+INFO,uco_wilful_defaulters_137.csv,name_quality: 1 empty names (inactive source)
+WARNING,ugc_fake_universities_127.csv,name_quality: 2 names longer than 200 chars
+WARNING,unsc_consolidated_sanctions_32.csv,name_quality: 17 names longer than 200 chars
+INFO,mod_details_of_firms_debarred_62.csv,record_count: 82 rows > 2x expected_min (6) for 'Details of Firms Debarred Put on Hold Suspended' — review baseline
+INFO,fcra_registered_associations.csv,record_count: 14830 rows > 2x expected_min (5000) for 'FCRA Registered Associations' — review baseline
+INFO,nabard_blacklisted_ngos.csv,record_count: 108 rows > 2x expected_min (50) for 'Blacklisted/Debarred NGOs' — review baseline
+INFO,sebi_investor_alerts_108.csv,record_count: 18429 rows > 2x expected_min (3685) for 'Recovery Proceedings' — review baseline
+INFO,sebi_list_of_debarred_entities_109.csv,record_count: 6238 rows > 2x expected_min (1000) for 'List of Debarred Entities based on Orders / Directions' — review baseline
+INFO,sebi_list_of_debarred_entities_110.csv,record_count: 945 rows > 2x expected_min (200) for 'List of Debarred Entities Based on Orders / Directions from Other Competent Authorities' — review baseline
+INFO,sebi_members_suspended_113.csv,record_count: 4566 rows > 2x expected_min (913) for 'Unserved Summons/Notices' — review baseline
+INFO,sebi_orders_of_aa_under_114.csv,record_count: 365 rows > 2x expected_min (73) for 'Auction Notice under Recovery' — review baseline
+INFO,sebi_orders_of_chairperson_member_115.csv,record_count: 6388 rows > 2x expected_min (1000) for 'Orders of Chairperson/Members' — review baseline
+INFO,sebi_settlement_orders_116.csv,record_count: 1972 rows > 2x expected_min (200) for 'Settlement Orders' — review baseline
+INFO,sebi_suspected_shell_companies_117.csv,record_count: 636 rows > 2x expected_min (127) for 'Orders That Could Not be Served' — review baseline
+INFO,sebi_orders_of_ao_119.csv,record_count: 11943 rows > 2x expected_min (500) for 'Orders of AO' — review baseline
+INFO,iob_wilful_defaulters_134.csv,record_count: 2605 rows > 2x expected_min (1000) for 'Wilful & Large Defaulters' — review baseline
+INFO,bhel_banned_firms_139.csv,record_count: 15 rows > 2x expected_min (5) for 'Banned/Debarred Firms' — review baseline
+INFO,cil_debarment_list_140.csv,record_count: 11 rows > 2x expected_min (5) for 'Banning Orders' — review baseline
+INFO,rvnl_disqualified_contractors_and_consultants_154.csv,record_count: 368 rows > 2x expected_min (30) for 'Disqualified Contractors and Consultants' — review baseline
+INFO,ncdex_defaulter_members.csv,record_count: 10 rows > 2x expected_min (3) for 'List of Defaulter Members' — review baseline
+INFO,ncdex_list_surrender_member_188.csv,record_count: 5 rows > 2x expected_min (1) for 'List Surrender Member' — review baseline
+INFO,ncdex_inspection_penalty.csv,record_count: 10 rows > 2x expected_min (3) for 'Members Inspection Penalty List' — review baseline
+INFO,nse_authorized_person_ap_cancellation_199.csv,record_count: 54 rows > 2x expected_min (10) for 'Authorized Persons Cancelled by Trading Member due to Disciplinary Reason' — review baseline
+INFO,nse_list_of_defaulter_members_200.csv,record_count: 9 rows > 2x expected_min (1) for 'Members with Inadequate Networth' — review baseline
+INFO,mp_list_of_wanted_person_217.csv,record_count: 114 rows > 2x expected_min (50) for 'Wanted Persons' — review baseline
+INFO,uppolice_most_wanted.csv,record_count: 32 rows > 2x expected_min (5) for 'Most Wanted' — review baseline
+INFO,nse_caution_list_241.csv,record_count: 8149 rows > 2x expected_min (1629) for 'Non-Compliant Companies (Equity)' — review baseline
+INFO,bse_action_against_trading_members.csv,record_count: 5 rows > 2x expected_min (1) for 'Action Against Trading Members' — review baseline
+INFO,nse_debarred_sebi.csv,record_count: 11578 rows > 2x expected_min (5000) for 'Debarred Entities (SEBI Orders)' — review baseline
+INFO,nse_debarred_others.csv,record_count: 4423 rows > 2x expected_min (1000) for 'Debarred Entities (Other Competent Authorities)' — review baseline
+INFO,nse_promoter_freezing.csv,record_count: 1343 rows > 2x expected_min (200) for 'Non-Compliant Promoter Freezing / Z Movement' — review baseline
+INFO,nse_icdr_fines.csv,record_count: 169 rows > 2x expected_min (50) for 'ICDR Fines' — review baseline
+INFO,cbi_red_notices.csv,duplicates: 11 duplicate names in source (top: 'malkiat singh' x4)
+INFO,cbi_yellow_notices.csv,duplicates: 5 duplicate names in source (top: 'ravinder singh' x2)
+INFO,cci_antitrust_orders_17.csv,duplicates: 63 duplicate names in source (top: 'xyz' x28)
+INFO,cp_wanted_person_by_economic_208.csv,duplicates: 6 duplicate names in source (top: 'police' x4)
+INFO,fcra_registered_associations.csv,duplicates: 226 duplicate names in source (top: 'catholic church' x21)
+INFO,fiu_compliance_orders.csv,duplicates: 13 duplicate names in source (top: 'allahabad bank ltd' x3)
+INFO,fiu_judgements_28.csv,duplicates: 1 duplicate names in source (top: 'kotak securities limited' x2)
+INFO,fiu_non_compliant_nbfc_30.csv,duplicates: 2 duplicate names in source (top: 'westport export (p) ltd' x2)
+INFO,gail_banning_list_144.csv,duplicates: 2 duplicate names in source (top: 'm/s techno global services pvt. ltd.' x2)
+INFO,iob_wilful_defaulters_134.csv,duplicates: 497 duplicate names in source (top: 'subhashri bio- energies pvt lt' x28)
+INFO,irdai_public_notices_37.csv,duplicates: 1 duplicate names in source (top: 'non-archived' x9)
+INFO,irdai_warning_and_penalties_39.csv,duplicates: 1 duplicate names in source (top: 'non-archived' x20)
+INFO,kp_wanted_214.csv,duplicates: 1 duplicate names in source (top: 'home' x2)
+INFO,mod_details_of_firms_debarred_62.csv,"duplicates: 2 duplicate names in source (top: 'mod, corresponding _ penalty' x2)"
+INFO,mp_absconder_list_218.csv,duplicates: 2 duplicate names in source (top: 'sanjivan urfa chandu kujappa nair' x2)
+INFO,nfra_debarments_88.csv,duplicates: 7 duplicate names in source (top: 'ca lavitha shetty' x3)
+INFO,nfra_orders_89.csv,duplicates: 4 duplicate names in source (top: 'pankaj kumar' x2)
+INFO,nhb_companies_not_valid_90.csv,duplicates: 1 duplicate names in source (top: 'rose valley housing development finance' x2)
+INFO,nhb_company_against_which_prohibitory_92.csv,"duplicates: 1 duplicate names in source (top: 'september 29, 2023' x2)"
+INFO,nhb_penalties_95.csv,duplicates: 39 duplicate names in source (top: 'kerala housing finance limited' x9)
+INFO,nsdl_list_of_pan_demat_243.csv,duplicates: 332 duplicate names in source (top: 'kirtidan k gadhavi' x16)
+INFO,nse_caution_list_241.csv,duplicates: 810 duplicate names in source (top: 'lakshmi precision screws limited' x112)
+INFO,nse_debarred_others.csv,duplicates: 165 duplicate names in source (top: 'not available' x26)
+INFO,nse_debarred_sebi.csv,duplicates: 666 duplicate names in source (top: 'india focus cardinal fund' x11)
+INFO,nse_defaulting_clients_240.csv,duplicates: 17 duplicate names in source (top: 'satyanarayan ramgopal saboo' x3)
+INFO,nse_icdr_fines.csv,duplicates: 18 duplicate names in source (top: 'adani green energy limited' x10)
+INFO,nse_promoter_freezing.csv,duplicates: 182 duplicate names in source (top: 'rajesh exports limited' x46)
+INFO,nsel_details_of_amount_crystallised_193.csv,duplicates: 5 duplicate names in source (top: 'writ petition(s)(civil) no(s). 995/2019' x2)
+INFO,nsel_details_of_arbitration_conciliation_195.csv,duplicates: 2 duplicate names in source (top: 'i: uploaded on - 19/04/2024 i: downloaded on - 19/04/2024 13' x3)
+INFO,ongc_banned_firms_152.csv,"duplicates: 9 duplicate names in source (top: 'm/s tag offshore limited, c-2 block, skyline wealth spaces, ' x16)"
+INFO,rbi_list_of_authorised_dealers_231.csv,duplicates: 1 duplicate names in source (top: 'the reserve bank of india had issued the draft directions on' x2)
+INFO,rbi_list_of_nbfcs_surrender_106.csv,"duplicates: 1 duplicate names in source (top: 'the reserve bank, vide press release dated february 10, 2026' x2)"
+INFO,rvnl_disqualified_contractors_and_consultants_154.csv,duplicates: 25 duplicate names in source (top: 'dy.general manager/tender cell' x7)
+INFO,sebi_enforcement_orders.csv,duplicates: 4 duplicate names in source (top: 'kisley plantation limited' x2)
+INFO,sebi_investor_alerts_108.csv,duplicates: 3499 duplicate names in source (top: 'illiquid stock options' x150)
+INFO,sebi_list_of_debarred_entities_109.csv,duplicates: 525 duplicate names in source (top: 'wave mercantile private limited' x15)
+INFO,sebi_list_of_debarred_entities_110.csv,duplicates: 33 duplicate names in source (top: 'not provided' x151)
+INFO,sebi_members_suspended_113.csv,duplicates: 703 duplicate names in source (top: 'sun infoways ltd' x13)
+INFO,sebi_orders_of_aa_under_114.csv,duplicates: 58 duplicate names in source (top: 'hbn dairies and allied ltd. - 1 property' x25)
+INFO,sebi_orders_of_ao_119.csv,duplicates: 849 duplicate names in source (top: 'three entities' x19)
+INFO,sebi_orders_of_chairperson_member_115.csv,duplicates: 558 duplicate names in source (top: 'summary proceedings against the stock brokers who defaulted ' x16)
+INFO,sebi_orders_of_special_courts.csv,duplicates: 4 duplicate names in source (top: 'kisley plantation limited' x2)
+INFO,sebi_settlement_orders_116.csv,duplicates: 84 duplicate names in source (top: 'trading in the scrip of ece industries ltd' x5)
+INFO,sebi_suspected_shell_companies_117.csv,duplicates: 26 duplicate names in source (top: 'sunil purohit' x4)
+INFO,sfio_list_of_directors_convicted_120.csv,duplicates: 21 duplicate names in source (top: 'panther fincap & management services limited' x22)
+INFO,unsc_consolidated_sanctions_32.csv,duplicates: 1 duplicate names in source (top: 'hassan dahir aweys' x2)
+INFO,<cross-source>,duplicates: 'rajesh kumar' appears in 7 different source_lists
+INFO,<cross-source>,duplicates: 'kerala housing finance limited' appears in 7 different source_lists
+INFO,<cross-source>,duplicates: 'reliance home finance limited' appears in 7 different source_lists
+INFO,<cross-source>,duplicates: 'adarsh wealth ventures limited' appears in 7 different source_lists
+INFO,<cross-source>,duplicates: 'deepak sharma' appears in 7 different source_lists
+WARNING,mp_list_of_wanted_person_217.csv,freshness: no parseable scraped_at on any row
+WARNING,ncdex_cessation_of_membership_183.csv,freshness: no parseable scraped_at on any row
+WARNING,ncdex_list_of_expelled_members_187.csv,freshness: no parseable scraped_at on any row
+WARNING,nfra_orders_89.csv,freshness: no parseable scraped_at on any row
+WARNING,nia_arrested_persons.csv,freshness: no parseable scraped_at on any row
