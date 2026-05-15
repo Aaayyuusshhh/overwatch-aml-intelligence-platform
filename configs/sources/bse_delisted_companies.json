@@ -1,0 +1,21 @@
+{
+  "source_id": "bse_delisted_companies",
+  "agency": "Bombay Stock Exchange (BSE)",
+  "list_name": "Delisted Companies",
+  "country": "IN",
+  "engine": "api_json",
+  "url": "https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&Scripcode=&industry=&segment=Equity&status=Delisted",
+  "method": "GET",
+  "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Referer": "https://www.bseindia.com/"
+  },
+  "field_map": {
+    "name": "Scrip_Name",
+    "id_number": "SCRIP_CD",
+    "details": "Issuer_Name,Status,GROUP,ISIN_NUMBER,INDUSTRY,scrip_id,Segment"
+  },
+  "validation": {"min_records": 100, "required_fields": ["name"], "max_empty_name_pct": 10},
+  "resilience": {"retries": 3, "retry_delay_seconds": 5, "timeout_seconds": 90, "snapshot_raw": true}
+}
