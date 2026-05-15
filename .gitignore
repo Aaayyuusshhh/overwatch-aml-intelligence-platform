@@ -35,3 +35,6 @@ data/us_irs_revocations.csv
 data/icij_panama_papers_entities.csv
 data/icij_paradise_papers_entities.csv
 data/icij_paradise_papers_officers.csv
+data/*.csv
+data/*.zip
+data/*.pdf
