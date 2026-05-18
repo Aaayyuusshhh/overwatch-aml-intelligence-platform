@@ -1467,17 +1467,18 @@
     },
     {
       "id": "nia_most_wanted",
-      "agency": "NIA",
-      "list_name": "Most Wanted",
-      "url": "https://www.nia.gov.in/most-wanted",
-      "type": "html",
-      "scraper": "nia_most_wanted.py",
-      "expected_min_records": 332,
+      "agency": "National Investigation Agency (NIA)",
+      "list_name": "Most Wanted Photos",
+      "url": "https://nia.gov.in/most-wanted-photos",
+      "type": "custom_scraper",
+      "scraper": "scrapers/nia_most_wanted.py",
+      "expected_min_records": 300,
       "status": "active",
-      "change_detection": true,
-      "change_detection_selector": "div.wanted-modal-card",
-      "notes": "Phase 1 custom scraper - 332 records (paginated 17 pages)",
-      "ppt_number": 101
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "Paginated wanted-modal-card layout; ~332 persons",
+      "ppt_number": null,
+      "country": "IN"
     },
     {
       "id": "nia_reward_list_102",
