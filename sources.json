@@ -11240,6 +11240,51 @@
       "change_detection": false,
       "change_detection_selector": null,
       "notes": "split everypolitician country=ro"
+    },
+    {
+      "id": "pnb_wilful_defaulters",
+      "ppt_number": null,
+      "agency": "Punjab National Bank (PNB)",
+      "list_name": "Wilful Defaulters - Suit Filed Cases",
+      "country": "IN",
+      "url": "https://pnb.bank.in/wilful-defaulters.html",
+      "type": "custom_scraper",
+      "scraper": "scrapers/pnb_wilful_defaulters.py",
+      "expected_min_records": 2000,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "Wilful defaulter list (PDF/XLSX parsed)"
+    },
+    {
+      "id": "bob_wilful_defaulters",
+      "ppt_number": null,
+      "agency": "Bank of Baroda (BOB)",
+      "list_name": "Wilful Defaulters List",
+      "country": "IN",
+      "url": "https://bankofbaroda.bank.in/personal-banking/other-services/wilful-defaulter",
+      "type": "custom_scraper",
+      "scraper": "scrapers/bob_wilful_defaulters.py",
+      "expected_min_records": 2000,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "Wilful defaulter list (PDF/XLSX parsed)"
+    },
+    {
+      "id": "watchoutinvestors_wilful_defaulters",
+      "ppt_number": null,
+      "agency": "WatchOutInvestors (Consolidated)",
+      "list_name": "Bank-wise Wilful Defaulters",
+      "country": "IN",
+      "url": "https://watchoutinvestors.com/wilful_defaulters.asp",
+      "type": "custom_scraper",
+      "scraper": "scrapers/watchoutinvestors_wilful_defaulters.py",
+      "expected_min_records": 10000,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "Consolidated ~26.8k wilful defaulters, form-POST paginated"
     }
   ]
 }
