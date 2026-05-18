@@ -1303,7 +1303,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "Custom scraper paginates /document-category/orders/ 1..8; static fetch + bs4 table extract. ~85 NFRA orders under Companies Act \u00a7132(4)."
+      "notes": "Custom scraper paginates /document-category/orders/ 1..8; static fetch + bs4 table extract. ~85 NFRA orders under Companies Act §132(4)."
     },
     {
       "id": "nhb_companies_not_valid_90",
@@ -1317,7 +1317,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "URL-discovery hit. HTML table on /companies-whose-application-for-cor-have-been-cancelled/ \u2014 50 CoR-cancelled HFCs"
+      "notes": "URL-discovery hit. HTML table on /companies-whose-application-for-cor-have-been-cancelled/ — 50 CoR-cancelled HFCs"
     },
     {
       "id": "nhb_companies_whose_application_for_91",
@@ -1563,7 +1563,7 @@
       "change_detection": false,
       "change_detection_selector": null,
       "notes": "RBI links to the UNSC consolidated list which we already scrape under PPT #32 via the FIU site. Marking skipped to avoid duplicate ingestion.",
-      "failure_reason": "Data already covered by UNSC Consolidated List #32 (1,009 records \u2014 737 individuals, 272 entities)"
+      "failure_reason": "Data already covered by UNSC Consolidated List #32 (1,009 records — 737 individuals, 272 entities)"
     },
     {
       "id": "sebi_investor_alerts_108",
@@ -1577,7 +1577,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "REMAPPED slot \u2014 Original 'Investor Alerts' URL is JS-walled (homepage redirect). Slot reassigned to SEBI Recovery Proceedings (ssid=50). Original list name in canonical PPT: 'Investor Alerts'."
+      "notes": "REMAPPED slot — Original 'Investor Alerts' URL is JS-walled (homepage redirect). Slot reassigned to SEBI Recovery Proceedings (ssid=50). Original list name in canonical PPT: 'Investor Alerts'."
     },
     {
       "id": "sebi_list_of_debarred_entities_109",
@@ -1649,7 +1649,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "REMAPPED slot \u2014 Original 'Members Suspended' URL was empty SPA. Slot reassigned to SEBI Unserved Summons/Notices (ssid=13). Original list name in canonical PPT: 'Members Suspended'."
+      "notes": "REMAPPED slot — Original 'Members Suspended' URL was empty SPA. Slot reassigned to SEBI Unserved Summons/Notices (ssid=13). Original list name in canonical PPT: 'Members Suspended'."
     },
     {
       "id": "sebi_orders_of_aa_under_114",
@@ -1663,7 +1663,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "REMAPPED slot \u2014 Original 'Orders of AA under RTI Act' URL is empty. Slot reassigned to SEBI Auction Notice under Recovery (ssid=79). Original list name in canonical PPT: 'Orders of AA under the RTI Act'."
+      "notes": "REMAPPED slot — Original 'Orders of AA under RTI Act' URL is empty. Slot reassigned to SEBI Auction Notice under Recovery (ssid=79). Original list name in canonical PPT: 'Orders of AA under the RTI Act'."
     },
     {
       "id": "sebi_orders_of_chairperson_member_115",
@@ -1705,7 +1705,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "REMAPPED slot \u2014 Original 'Suspected Shell Companies' URL never had a real list. Slot reassigned to SEBI Orders That Could Not be Served (ssid=12). Original list name in canonical PPT: 'Suspected Shell Companies'."
+      "notes": "REMAPPED slot — Original 'Suspected Shell Companies' URL never had a real list. Slot reassigned to SEBI Orders That Could Not be Served (ssid=12). Original list name in canonical PPT: 'Suspected Shell Companies'."
     },
     {
       "id": "sebi_unsc_sanctions_committee_list_118",
@@ -1996,7 +1996,7 @@
       "change_detection": true,
       "change_detection_selector": null,
       "notes": "Punjab & Sind Bank wilful defaulters page | Constructed URL never verified to yield data; no scraper executed.",
-      "failure_reason": "Domain punjabandsindbank.co.in is parked \u2014 redirects to onlineresultsfinder.com (domain sale page). PSB has likely changed to a different domain."
+      "failure_reason": "Domain punjabandsindbank.co.in is parked — redirects to onlineresultsfinder.com (domain sale page). PSB has likely changed to a different domain."
     },
     {
       "id": "psb_wilful_defaulters_136",
@@ -2447,7 +2447,7 @@
       "status": "active",
       "change_detection": true,
       "change_detection_selector": null,
-      "notes": "The /defaulter-expelled-members route is an empty SPA stub. The actual list is a PDF linked from /Static/membership/regulatory_actions.aspx \u2014 Default_&_Expelled_Members.pdf (5 pages, 55 ICCL clearing members)."
+      "notes": "The /defaulter-expelled-members route is an empty SPA stub. The actual list is a PDF linked from /Static/membership/regulatory_actions.aspx — Default_&_Expelled_Members.pdf (5 pages, 55 ICCL clearing members)."
     },
     {
       "id": "icex_list_of_defaulter_members_167",
@@ -2694,7 +2694,7 @@
       "status": "partial",
       "change_detection": true,
       "change_detection_selector": null,
-      "notes": "Playwright extraction of Cessation table on suspended_member page; NCDEX has no current cessations (header-only table) \u2014 honest empty list | Source page rendered but list is empty; scraper success / no data to report.",
+      "notes": "Playwright extraction of Cessation table on suspended_member page; NCDEX has no current cessations (header-only table) — honest empty list | Source page rendered but list is empty; scraper success / no data to report.",
       "failure_reason": "source_has_no_entries"
     },
     {
@@ -2752,7 +2752,7 @@
       "status": "partial",
       "change_detection": true,
       "change_detection_selector": null,
-      "notes": "Playwright extraction of Expelled table on suspended_member page; NCDEX has no current expelled members (header-only table) \u2014 honest empty list | Source page rendered but list is empty; scraper success / no data to report.",
+      "notes": "Playwright extraction of Expelled table on suspended_member page; NCDEX has no current expelled members (header-only table) — honest empty list | Source page rendered but list is empty; scraper success / no data to report.",
       "failure_reason": "source_has_no_entries"
     },
     {
@@ -2925,7 +2925,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "REMAPPED slot \u2014 Direct semantic match \u2014 same data, slot was 'url_not_found' because the new URL wasn't recorded. Original list name in canonical PPT: 'Authorized Person (AP) Cancellation Done Due to Disciplinary Reason'."
+      "notes": "REMAPPED slot — Direct semantic match — same data, slot was 'url_not_found' because the new URL wasn't recorded. Original list name in canonical PPT: 'Authorized Person (AP) Cancellation Done Due to Disciplinary Reason'."
     },
     {
       "id": "nse_list_of_defaulter_members_200",
@@ -2939,7 +2939,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "REMAPPED slot \u2014 Original 'List of Defaulter Members' URL was JS-only. Slot reassigned to NSE Members with Inadequate Networth \u2014 both are lists of NSE members in regulatory default. Original list name in canonical PPT: 'List of Defaulter Members'."
+      "notes": "REMAPPED slot — Original 'List of Defaulter Members' URL was JS-only. Slot reassigned to NSE Members with Inadequate Networth — both are lists of NSE members in regulatory default. Original list name in canonical PPT: 'List of Defaulter Members'."
     },
     {
       "id": "nse_list_of_expelled_members_201",
@@ -3539,7 +3539,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "REMAPPED slot \u2014 Original 'Caution List' URL not found. Slot reassigned to NSE Non-Compliant Companies (Equity) \u2014 companies cautioned for LODR non-compliance. Original list name in canonical PPT: 'Caution List'."
+      "notes": "REMAPPED slot — Original 'Caution List' URL not found. Slot reassigned to NSE Non-Compliant Companies (Equity) — companies cautioned for LODR non-compliance. Original list name in canonical PPT: 'Caution List'."
     },
     {
       "id": "mse_arbitral_awards_242",
@@ -3610,7 +3610,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "Non-canonical (no PPT slot). Direct Excel download from NSE archives \u2014 entities debarred by SEBI orders, with PAN/DIN/CIN/Symbol."
+      "notes": "Non-canonical (no PPT slot). Direct Excel download from NSE archives — entities debarred by SEBI orders, with PAN/DIN/CIN/Symbol."
     },
     {
       "id": "nse_debarred_others",
@@ -3624,7 +3624,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "Non-canonical (no PPT slot). Direct Excel download from NSE archives \u2014 entities debarred by other competent authorities (police, courts, EOW)."
+      "notes": "Non-canonical (no PPT slot). Direct Excel download from NSE archives — entities debarred by other competent authorities (police, courts, EOW)."
     },
     {
       "id": "nse_promoter_freezing",
@@ -3638,7 +3638,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "NSE Excel: companies promoter-frozen + moved to Z category. ~1,343 records. Dated URL \u2014 needs re-discovery on rebuild."
+      "notes": "NSE Excel: companies promoter-frozen + moved to Z category. ~1,343 records. Dated URL — needs re-discovery on rebuild."
     },
     {
       "id": "nse_icdr_fines",
@@ -3859,7 +3859,7 @@
       "status": "active",
       "change_detection": true,
       "change_detection_selector": null,
-      "notes": "Index HTML table \u2014 names + per-person PDF notices (scanned, no text)"
+      "notes": "Index HTML table — names + per-person PDF notices (scanned, no text)"
     },
     {
       "id": "karnataka_police_wanted_214",
@@ -5530,7 +5530,7 @@
       "id": "br_ceis",
       "ppt_number": null,
       "agency": "Brazil CGU CEIS",
-      "list_name": "Cadastro Nacional de Empresas Inid\u00f4neas e Suspensas",
+      "list_name": "Cadastro Nacional de Empresas Inidôneas e Suspensas",
       "country": "BR",
       "url": "https://data.opensanctions.org/datasets/latest/br_ceis/targets.simple.csv",
       "type": "config",
@@ -5694,7 +5694,7 @@
     {
       "id": "cl_info_probidad",
       "ppt_number": null,
-      "agency": "Chile Informaci\u00f3n de Probidad",
+      "agency": "Chile Información de Probidad",
       "list_name": "Public Officials",
       "country": "CL",
       "url": "https://data.opensanctions.org/datasets/latest/cl_info_probidad/targets.simple.csv",
@@ -5739,7 +5739,7 @@
     {
       "id": "co_funcion_publica",
       "ppt_number": null,
-      "agency": "Colombia Funci\u00f3n P\u00fablica",
+      "agency": "Colombia Función Pública",
       "list_name": "PEP Declarations",
       "country": "CO",
       "url": "https://data.opensanctions.org/datasets/latest/co_funcion_publica/targets.simple.csv",
@@ -6009,7 +6009,7 @@
     {
       "id": "fr_tresor_gels_avoir",
       "ppt_number": null,
-      "agency": "France Tr\u00e9sor",
+      "agency": "France Trésor",
       "list_name": "National Asset Freezing System",
       "country": "FR",
       "url": "https://data.opensanctions.org/datasets/latest/fr_tresor_gels_avoir/targets.simple.csv",
@@ -7704,8 +7704,8 @@
     {
       "id": "ge_ot_list",
       "ppt_number": null,
-      "agency": "Georgian Otkhozoria\u2013Tatunashvili List",
-      "list_name": "Georgian Otkhozoria\u2013Tatunashvili List",
+      "agency": "Georgian Otkhozoria–Tatunashvili List",
+      "list_name": "Georgian Otkhozoria–Tatunashvili List",
       "country": "GE",
       "url": "https://data.opensanctions.org/datasets/latest/ge_ot_list/targets.simple.csv",
       "type": "config",
@@ -8590,7 +8590,7 @@
       "id": "eu_fsf_ukraine_russia",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Russia/Ukraine territorial integrity",
+      "list_name": "EU Sanctions — Russia/Ukraine territorial integrity",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8605,7 +8605,7 @@
       "id": "eu_fsf_human_rights",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Global Human Rights Regime",
+      "list_name": "EU Sanctions — Global Human Rights Regime",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8620,7 +8620,7 @@
       "id": "eu_fsf_iran",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Iran",
+      "list_name": "EU Sanctions — Iran",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8635,7 +8635,7 @@
       "id": "eu_fsf_russia_da",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Russia Disruptive Activities",
+      "list_name": "EU Sanctions — Russia Disruptive Activities",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8650,7 +8650,7 @@
       "id": "eu_fsf_north_korea",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Democratic People's Republic of Korea",
+      "list_name": "EU Sanctions — Democratic People's Republic of Korea",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8665,7 +8665,7 @@
       "id": "eu_fsf_syria",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Syria",
+      "list_name": "EU Sanctions — Syria",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8680,7 +8680,7 @@
       "id": "eu_fsf_afghanistan",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Afghanistan",
+      "list_name": "EU Sanctions — Afghanistan",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8695,7 +8695,7 @@
       "id": "eu_fsf_belarus",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Belarus",
+      "list_name": "EU Sanctions — Belarus",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8710,7 +8710,7 @@
       "id": "eu_fsf_myanmar",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Myanmar/Burma",
+      "list_name": "EU Sanctions — Myanmar/Burma",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8725,7 +8725,7 @@
       "id": "eu_fsf_terrorism",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Terrorism (Al-Qaida/ISIL)",
+      "list_name": "EU Sanctions — Terrorism (Al-Qaida/ISIL)",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8740,7 +8740,7 @@
       "id": "eu_fsf_russia_general",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Russia (general)",
+      "list_name": "EU Sanctions — Russia (general)",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8755,7 +8755,7 @@
       "id": "eu_fsf_venezuela",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Venezuela",
+      "list_name": "EU Sanctions — Venezuela",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8770,7 +8770,7 @@
       "id": "eu_fsf_drc",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Democratic Republic of the Congo",
+      "list_name": "EU Sanctions — Democratic Republic of the Congo",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8785,7 +8785,7 @@
       "id": "eu_fsf_libya",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Libya",
+      "list_name": "EU Sanctions — Libya",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8800,7 +8800,7 @@
       "id": "eu_fsf_iraq",
       "ppt_number": null,
       "agency": "European Union (EU FSF)",
-      "list_name": "EU Sanctions \u2014 Iraq",
+      "list_name": "EU Sanctions — Iraq",
       "country": "EU",
       "url": "https://data.opensanctions.org/datasets/latest/eu_fsf/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -8815,7 +8815,7 @@
       "id": "uk_ofsi_human_rights",
       "ppt_number": null,
       "agency": "UK OFSI (regime split)",
-      "list_name": "UK OFSI Sanctions \u2014 Global Human Rights",
+      "list_name": "UK OFSI Sanctions — Global Human Rights",
       "country": "UK",
       "url": "https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
       "type": "split_from_aggregate",
@@ -8830,7 +8830,7 @@
       "id": "uk_ofsi_russia",
       "ppt_number": null,
       "agency": "UK OFSI (regime split)",
-      "list_name": "UK OFSI Sanctions \u2014 Russia",
+      "list_name": "UK OFSI Sanctions — Russia",
       "country": "UK",
       "url": "https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
       "type": "split_from_aggregate",
@@ -8845,7 +8845,7 @@
       "id": "uk_ofsi_afghanistan",
       "ppt_number": null,
       "agency": "UK OFSI (regime split)",
-      "list_name": "UK OFSI Sanctions \u2014 Afghanistan",
+      "list_name": "UK OFSI Sanctions — Afghanistan",
       "country": "UK",
       "url": "https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
       "type": "split_from_aggregate",
@@ -8860,7 +8860,7 @@
       "id": "uk_ofsi_syria",
       "ppt_number": null,
       "agency": "UK OFSI (regime split)",
-      "list_name": "UK OFSI Sanctions \u2014 Syria",
+      "list_name": "UK OFSI Sanctions — Syria",
       "country": "UK",
       "url": "https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
       "type": "split_from_aggregate",
@@ -8875,7 +8875,7 @@
       "id": "uk_ofsi_iran",
       "ppt_number": null,
       "agency": "UK OFSI (regime split)",
-      "list_name": "UK OFSI Sanctions \u2014 Iran",
+      "list_name": "UK OFSI Sanctions — Iran",
       "country": "UK",
       "url": "https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
       "type": "split_from_aggregate",
@@ -8890,7 +8890,7 @@
       "id": "uk_ofsi_drc",
       "ppt_number": null,
       "agency": "UK OFSI (regime split)",
-      "list_name": "UK OFSI Sanctions \u2014 Democratic Republic of the Congo",
+      "list_name": "UK OFSI Sanctions — Democratic Republic of the Congo",
       "country": "UK",
       "url": "https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
       "type": "split_from_aggregate",
@@ -8905,7 +8905,7 @@
       "id": "uk_ofsi_belarus",
       "ppt_number": null,
       "agency": "UK OFSI (regime split)",
-      "list_name": "UK OFSI Sanctions \u2014 Belarus",
+      "list_name": "UK OFSI Sanctions — Belarus",
       "country": "UK",
       "url": "https://ofsistorage.blob.core.windows.net/publishlive/2022format/ConList.csv",
       "type": "split_from_aggregate",
@@ -8920,7 +8920,7 @@
       "id": "hhs_oig_medical_practice",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Medical Practice / MD",
+      "list_name": "HHS OIG LEIE — Medical Practice / MD",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -8935,7 +8935,7 @@
       "id": "hhs_oig_skilled_nursing",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Skilled Nursing Facilities",
+      "list_name": "HHS OIG LEIE — Skilled Nursing Facilities",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -8950,7 +8950,7 @@
       "id": "hhs_oig_nursing",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Nursing Profession",
+      "list_name": "HHS OIG LEIE — Nursing Profession",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -8965,7 +8965,7 @@
       "id": "hhs_oig_priv_employee",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Private Sector Employees",
+      "list_name": "HHS OIG LEIE — Private Sector Employees",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -8980,7 +8980,7 @@
       "id": "hhs_oig_lic_hc_pro",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Licensed Healthcare Service Providers",
+      "list_name": "HHS OIG LEIE — Licensed Healthcare Service Providers",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -8995,7 +8995,7 @@
       "id": "hhs_oig_physician",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Physicians",
+      "list_name": "HHS OIG LEIE — Physicians",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -9010,7 +9010,7 @@
       "id": "hhs_oig_unaffiliated_ind",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Unaffiliated Individuals",
+      "list_name": "HHS OIG LEIE — Unaffiliated Individuals",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -9025,7 +9025,7 @@
       "id": "icij_panama_papers_entities",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Panama Papers \u2014 Entities",
+      "list_name": "ICIJ Panama Papers — Entities",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9034,13 +9034,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Panama Papers entities"
+      "notes": "ICIJ Offshore Leaks Database — Panama Papers entities"
     },
     {
       "id": "icij_bahamas_leaks_entities",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Bahamas Leaks \u2014 Entities",
+      "list_name": "ICIJ Bahamas Leaks — Entities",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9049,13 +9049,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Bahamas Leaks entities"
+      "notes": "ICIJ Offshore Leaks Database — Bahamas Leaks entities"
     },
     {
       "id": "icij_offshore_leaks_entities",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Offshore Leaks \u2014 Entities",
+      "list_name": "ICIJ Offshore Leaks — Entities",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9064,13 +9064,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Offshore Leaks entities"
+      "notes": "ICIJ Offshore Leaks Database — Offshore Leaks entities"
     },
     {
       "id": "icij_paradise_papers_entities",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Paradise Papers \u2014 Entities",
+      "list_name": "ICIJ Paradise Papers — Entities",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9079,13 +9079,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Paradise Papers entities"
+      "notes": "ICIJ Offshore Leaks Database — Paradise Papers entities"
     },
     {
       "id": "icij_pandora_papers_entities",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Pandora Papers \u2014 Entities",
+      "list_name": "ICIJ Pandora Papers — Entities",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9094,13 +9094,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Pandora Papers entities"
+      "notes": "ICIJ Offshore Leaks Database — Pandora Papers entities"
     },
     {
       "id": "icij_panama_papers_officers",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Panama Papers \u2014 Officers",
+      "list_name": "ICIJ Panama Papers — Officers",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9109,13 +9109,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Panama Papers officers"
+      "notes": "ICIJ Offshore Leaks Database — Panama Papers officers"
     },
     {
       "id": "icij_offshore_leaks_officers",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Offshore Leaks \u2014 Officers",
+      "list_name": "ICIJ Offshore Leaks — Officers",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9124,13 +9124,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Offshore Leaks officers"
+      "notes": "ICIJ Offshore Leaks Database — Offshore Leaks officers"
     },
     {
       "id": "icij_bahamas_leaks_officers",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Bahamas Leaks \u2014 Officers",
+      "list_name": "ICIJ Bahamas Leaks — Officers",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9139,13 +9139,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Bahamas Leaks officers"
+      "notes": "ICIJ Offshore Leaks Database — Bahamas Leaks officers"
     },
     {
       "id": "icij_paradise_papers_officers",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Paradise Papers \u2014 Officers",
+      "list_name": "ICIJ Paradise Papers — Officers",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9154,13 +9154,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Paradise Papers officers"
+      "notes": "ICIJ Offshore Leaks Database — Paradise Papers officers"
     },
     {
       "id": "icij_pandora_papers_officers",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Pandora Papers \u2014 Officers",
+      "list_name": "ICIJ Pandora Papers — Officers",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9169,13 +9169,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Pandora Papers officers"
+      "notes": "ICIJ Offshore Leaks Database — Pandora Papers officers"
     },
     {
       "id": "icij_panama_papers_intermediaries",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Panama Papers \u2014 Intermediaries",
+      "list_name": "ICIJ Panama Papers — Intermediaries",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9184,13 +9184,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Panama Papers intermediaries"
+      "notes": "ICIJ Offshore Leaks Database — Panama Papers intermediaries"
     },
     {
       "id": "icij_offshore_leaks_intermediaries",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Offshore Leaks \u2014 Intermediaries",
+      "list_name": "ICIJ Offshore Leaks — Intermediaries",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9199,13 +9199,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Offshore Leaks intermediaries"
+      "notes": "ICIJ Offshore Leaks Database — Offshore Leaks intermediaries"
     },
     {
       "id": "icij_bahamas_leaks_intermediaries",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Bahamas Leaks \u2014 Intermediaries",
+      "list_name": "ICIJ Bahamas Leaks — Intermediaries",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9214,13 +9214,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Bahamas Leaks intermediaries"
+      "notes": "ICIJ Offshore Leaks Database — Bahamas Leaks intermediaries"
     },
     {
       "id": "icij_paradise_papers_intermediaries",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Paradise Papers \u2014 Intermediaries",
+      "list_name": "ICIJ Paradise Papers — Intermediaries",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9229,13 +9229,13 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Paradise Papers intermediaries"
+      "notes": "ICIJ Offshore Leaks Database — Paradise Papers intermediaries"
     },
     {
       "id": "icij_pandora_papers_intermediaries",
       "ppt_number": null,
       "agency": "International Consortium of Investigative Journalists (ICIJ)",
-      "list_name": "ICIJ Pandora Papers \u2014 Intermediaries",
+      "list_name": "ICIJ Pandora Papers — Intermediaries",
       "country": "International",
       "url": "https://offshoreleaks-data.icij.org/offshoreleaks/csv/full-oldb.LATEST.zip",
       "type": "icij_bulk",
@@ -9244,7 +9244,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "ICIJ Offshore Leaks Database \u2014 Pandora Papers intermediaries"
+      "notes": "ICIJ Offshore Leaks Database — Pandora Papers intermediaries"
     },
     {
       "id": "us_irs_revocations",
@@ -9274,7 +9274,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "CBI India enforcement press releases \u2014 case headlines"
+      "notes": "CBI India enforcement press releases — case headlines"
     },
     {
       "id": "cisa_kev",
@@ -9700,7 +9700,7 @@
       "id": "hhs_oig_pharmacy",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Pharmacies",
+      "list_name": "HHS OIG LEIE — Pharmacies",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -9715,7 +9715,7 @@
       "id": "hhs_oig_dme_company",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 DME (Durable Medical Equipment) Companies",
+      "list_name": "HHS OIG LEIE — DME (Durable Medical Equipment) Companies",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -9730,7 +9730,7 @@
       "id": "hhs_oig_private_citizen_entity",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Private Citizens / Entities",
+      "list_name": "HHS OIG LEIE — Private Citizens / Entities",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -9745,7 +9745,7 @@
       "id": "hhs_oig_hospital",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Hospitals",
+      "list_name": "HHS OIG LEIE — Hospitals",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -9760,7 +9760,7 @@
       "id": "hhs_oig_bus_owner_exec",
       "ppt_number": null,
       "agency": "HHS OIG LEIE (category split)",
-      "list_name": "HHS OIG LEIE \u2014 Business Owners / Executives",
+      "list_name": "HHS OIG LEIE — Business Owners / Executives",
       "country": "US",
       "url": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv",
       "type": "split_from_aggregate",
@@ -11020,7 +11020,7 @@
       "id": "everypolitician_cn",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (CN)",
-      "list_name": "Legislators \u2014 CN",
+      "list_name": "Legislators — CN",
       "country": "CN",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11035,7 +11035,7 @@
       "id": "everypolitician_fr",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (France)",
-      "list_name": "Legislators \u2014 France",
+      "list_name": "Legislators — France",
       "country": "FR",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11050,7 +11050,7 @@
       "id": "everypolitician_de",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Germany)",
-      "list_name": "Legislators \u2014 Germany",
+      "list_name": "Legislators — Germany",
       "country": "DE",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11065,7 +11065,7 @@
       "id": "everypolitician_tr",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Turkey)",
-      "list_name": "Legislators \u2014 Turkey",
+      "list_name": "Legislators — Turkey",
       "country": "TR",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11080,7 +11080,7 @@
       "id": "everypolitician_it",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Italy)",
-      "list_name": "Legislators \u2014 Italy",
+      "list_name": "Legislators — Italy",
       "country": "IT",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11095,7 +11095,7 @@
       "id": "everypolitician_us",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (United States)",
-      "list_name": "Legislators \u2014 United States",
+      "list_name": "Legislators — United States",
       "country": "US",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11110,7 +11110,7 @@
       "id": "everypolitician_gb",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (United Kingdom)",
-      "list_name": "Legislators \u2014 United Kingdom",
+      "list_name": "Legislators — United Kingdom",
       "country": "GB",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11125,7 +11125,7 @@
       "id": "everypolitician_pl",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Poland)",
-      "list_name": "Legislators \u2014 Poland",
+      "list_name": "Legislators — Poland",
       "country": "PL",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11140,7 +11140,7 @@
       "id": "everypolitician_se",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Sweden)",
-      "list_name": "Legislators \u2014 Sweden",
+      "list_name": "Legislators — Sweden",
       "country": "SE",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11155,7 +11155,7 @@
       "id": "everypolitician_bg",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Bulgaria)",
-      "list_name": "Legislators \u2014 Bulgaria",
+      "list_name": "Legislators — Bulgaria",
       "country": "BG",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11170,7 +11170,7 @@
       "id": "everypolitician_gr",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Greece)",
-      "list_name": "Legislators \u2014 Greece",
+      "list_name": "Legislators — Greece",
       "country": "GR",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11185,7 +11185,7 @@
       "id": "everypolitician_tz",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Tanzania)",
-      "list_name": "Legislators \u2014 Tanzania",
+      "list_name": "Legislators — Tanzania",
       "country": "TZ",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11200,7 +11200,7 @@
       "id": "everypolitician_br",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Brazil)",
-      "list_name": "Legislators \u2014 Brazil",
+      "list_name": "Legislators — Brazil",
       "country": "BR",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11215,7 +11215,7 @@
       "id": "everypolitician_pt",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Portugal)",
-      "list_name": "Legislators \u2014 Portugal",
+      "list_name": "Legislators — Portugal",
       "country": "PT",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11230,7 +11230,7 @@
       "id": "everypolitician_ro",
       "ppt_number": null,
       "agency": "EveryPolitician / MySociety (Romania)",
-      "list_name": "Legislators \u2014 Romania",
+      "list_name": "Legislators — Romania",
       "country": "RO",
       "url": "https://data.opensanctions.org/datasets/latest/everypolitician/targets.simple.csv",
       "type": "split_from_aggregate",
@@ -11285,6 +11285,20 @@
       "change_detection": false,
       "change_detection_selector": null,
       "notes": "Consolidated ~26.8k wilful defaulters, form-POST paginated"
+    },
+    {
+      "id": "boi_wilful_defaulters",
+      "ppt_number": null,
+      "agency": "Bank of India (BOI)",
+      "list_name": "Wilful Defaulters List",
+      "url": "https://bankofindia.bank.in/wilful-defaulters",
+      "type": "pdf",
+      "scraper": null,
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "Scanned 24-page PDF; Tesseract OCR + x-bbox column mapping (365 records)"
     }
   ]
 }
