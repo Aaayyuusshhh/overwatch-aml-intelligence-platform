@@ -38,3 +38,4 @@ data/icij_paradise_papers_officers.csv
 data/*.csv
 data/*.zip
 data/*.pdf
+*.dump
