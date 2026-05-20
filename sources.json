@@ -3470,19 +3470,18 @@
       "failure_reason": "MSEI deprecated list pages, 563-byte ASP.NET error redirect"
     },
     {
-      "id": "bse_arbitration_awards_237",
+      "id": "bse_arbitration_awards",
       "ppt_number": 237,
       "agency": "Bombay Stock Exchange (BSE)",
       "list_name": "Arbitration Awards",
       "url": "https://bseindia.com/arbitration-awards",
-      "type": "js",
-      "scraper": null,
+      "type": "json",
+      "scraper": "negative_list_loader.py",
       "expected_min_records": null,
-      "status": "failed",
+      "status": "active",
       "change_detection": true,
       "change_detection_selector": null,
-      "notes": "BSE static returns 12.6KB JS-required stub; browser-render not productive.",
-      "failure_reason": "No arbitration-awards route on redesigned BSE SPA. Only investors/arbitration-mechanism exists and it lists arbitration centres, not awards. URL bseindia.com/arbitration-awards is a dead route returning the SPA fallback shell."
+      "notes": "ScoreMe Negative List MongoDB JSON dump (5599 records). Live URL prior status: BSE static returns 12.6KB JS-required stub; browser-render not productive."
     },
     {
       "id": "rbi_press_release_238",
@@ -11299,6 +11298,76 @@
       "change_detection": false,
       "change_detection_selector": null,
       "notes": "Scanned 24-page PDF; Tesseract OCR + x-bbox column mapping (365 records)"
+    },
+    {
+      "id": "cbic_customs_fraud",
+      "ppt_number": null,
+      "agency": "Central Board of Indirect Taxes (CBIC)",
+      "list_name": "Customs Fraud & Collusion List",
+      "url": "https://www.cbic.gov.in/htdocs-cbec/customs/cs-instructions/cs-instructions-idx",
+      "type": "json",
+      "scraper": "negative_list_loader.py",
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "ScoreMe Negative List MongoDB JSON dump"
+    },
+    {
+      "id": "cbic_customs_penalty",
+      "ppt_number": null,
+      "agency": "Central Board of Indirect Taxes (CBIC)",
+      "list_name": "Customs Penalty/Interest List",
+      "url": "https://www.cbic.gov.in/htdocs-cbec/customs/cs-instructions/cs-instructions-idx",
+      "type": "json",
+      "scraper": "negative_list_loader.py",
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "ScoreMe Negative List MongoDB JSON dump"
+    },
+    {
+      "id": "cbic_service_tax_penalty",
+      "ppt_number": null,
+      "agency": "Central Board of Indirect Taxes (CBIC)",
+      "list_name": "Service Tax Penalty/Interest",
+      "url": "https://www.cbic.gov.in/htdocs-cbec/customs/cs-instructions/cs-instructions-idx",
+      "type": "json",
+      "scraper": "negative_list_loader.py",
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "ScoreMe Negative List MongoDB JSON dump"
+    },
+    {
+      "id": "mse_expelled_members",
+      "ppt_number": null,
+      "agency": "Metropolitan Stock Exchange (MSE)",
+      "list_name": "Expelled Members",
+      "url": "https://www.msei.in/investor-services/expelled-members",
+      "type": "json",
+      "scraper": "negative_list_loader.py",
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "ScoreMe Negative List MongoDB JSON dump"
+    },
+    {
+      "id": "mse_defaulter_members",
+      "ppt_number": null,
+      "agency": "Metropolitan Stock Exchange (MSE)",
+      "list_name": "Defaulter Members",
+      "url": "https://www.msei.in/investor-services/defaulter-members",
+      "type": "json",
+      "scraper": "negative_list_loader.py",
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "ScoreMe Negative List MongoDB JSON dump"
     }
   ]
 }
