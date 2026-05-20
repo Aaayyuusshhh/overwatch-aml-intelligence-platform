@@ -11872,6 +11872,20 @@
       "change_detection": false,
       "change_detection_selector": null,
       "notes": "Original URL 404; Azure replacement DNS fails to resolve"
+    },
+    {
+      "id": "sebi_orders_of_special_courts",
+      "ppt_number": null,
+      "agency": "SEBI",
+      "list_name": "Orders of Special Courts",
+      "url": "https://www.sebi.gov.in/sebiweb/other/OtherAction.do?doRecovery=yes",
+      "type": "html",
+      "scraper": null,
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "Registered retroactively to map 180 pre-existing orphan rows; no current scraper"
     }
   ]
 }
