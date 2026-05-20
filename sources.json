@@ -3834,16 +3834,16 @@
       "id": "bse_suspended",
       "ppt_number": null,
       "agency": "Bombay Stock Exchange (BSE)",
-      "list_name": "Suspended Companies",
+      "list_name": "Suspended Companies (legacy)",
       "country": "IN",
       "url": "https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&Scripcode=&industry=&segment=Equity&status=Suspended",
       "type": "config",
       "scraper": null,
       "expected_min_records": 500,
-      "status": "active",
+      "status": "superseded",
       "change_detection": true,
       "change_detection_selector": null,
-      "notes": "config-engine: file_download JSON; BSE public stock-list API; ScoreMe-verified data path"
+      "notes": "config-engine: file_download JSON; BSE public stock-list API; ScoreMe-verified data path | superseded by bse_suspended_companies_api (same URL, no CSV)"
     },
     {
       "id": "mumbai_police_absconders",
@@ -9804,7 +9804,7 @@
       "id": "global_ke_cma_decisions",
       "ppt_number": null,
       "agency": "CMA",
-      "list_name": "Decisions",
+      "list_name": "Decisions (Kenya)",
       "country": "KE",
       "url": "https://www.cma.or.ke/index.php?option=com_content&view=article&id=2&Itemid=129",
       "type": "playwright",
@@ -9813,7 +9813,7 @@
       "status": "active",
       "change_detection": false,
       "change_detection_selector": null,
-      "notes": "scraped via Playwright batch run; region=KE"
+      "notes": "scraped via Playwright batch run; region=KE | list_name disambiguated from Oman CMA"
     },
     {
       "id": "global_ae_difc_press",
