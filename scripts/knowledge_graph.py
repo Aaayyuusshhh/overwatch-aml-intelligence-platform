@@ -398,6 +398,12 @@ def stats():
 def search(query: str, k: int = 20):
     with connect() as conn, conn.cursor() as cur:
         _log(f"search: {query!r}")
+        # Tighten pg_trgm threshold for this session (not registered as a GUC
+        # so ALTER SYSTEM can't make it permanent — set per-session here).
+        try:
+            cur.execute("SET pg_trgm.similarity_threshold = 0.5;")
+        except Exception:
+            pass
         # 1) Exact-via-group
         cur.execute("""
             SELECT group_id, canonical_name, num_sources, num_records, risk_level, source_list
