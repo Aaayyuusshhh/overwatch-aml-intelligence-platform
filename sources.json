@@ -1871,15 +1871,15 @@
       "id": "ugc_fake_universities_127",
       "ppt_number": 127,
       "agency": "UGC",
-      "list_name": "Fake Universities",
+      "list_name": "Fake Universities (legacy)",
       "url": "https://www.ugc.gov.in/universitydetails/Fakeuniversity",
       "type": "html",
       "scraper": null,
       "expected_min_records": 20,
-      "status": "active",
+      "status": "superseded",
       "change_detection": true,
       "change_detection_selector": "table",
-      "notes": "Generic HTML engine extracts 32 rows from clean state-wise table"
+      "notes": "Generic HTML engine extracts 32 rows from clean state-wise table | superseded by ugc_fake_universities (cleaner name parsing)"
     },
     {
       "id": "wccb_convicts_128",
