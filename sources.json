@@ -11886,6 +11886,62 @@
       "change_detection": false,
       "change_detection_selector": null,
       "notes": "Registered retroactively to map 180 pre-existing orphan rows; no current scraper"
+    },
+    {
+      "id": "ugc_fake_universities",
+      "ppt_number": null,
+      "agency": "University Grants Commission (UGC)",
+      "list_name": "Fake Universities",
+      "url": "https://www.ugc.gov.in/universitydetails/Fakeuniversity",
+      "type": "html",
+      "scraper": "ugc_fake_and_defaulter.py",
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "HTML table; 32 entities (Feb 2026 snapshot)"
+    },
+    {
+      "id": "ugc_defaulter_state_private_universities",
+      "ppt_number": null,
+      "agency": "University Grants Commission (UGC)",
+      "list_name": "Defaulter State (Private) Universities",
+      "url": "https://www.ugc.gov.in/universitydetails/HEIs_Violating_Regulations?tab=Defaulter",
+      "type": "html",
+      "scraper": "ugc_fake_and_defaulter.py",
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "HTML table on combined-violators page"
+    },
+    {
+      "id": "ugc_heis_phd_regs_violators",
+      "ppt_number": null,
+      "agency": "University Grants Commission (UGC)",
+      "list_name": "HEIs Not Following PhD Regulations",
+      "url": "https://www.ugc.gov.in/universitydetails/HEIs_Violating_Regulations?tab=Defaulter",
+      "type": "html",
+      "scraper": "ugc_fake_and_defaulter.py",
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "co-located on the same violators page"
+    },
+    {
+      "id": "ugc_heis_without_ombudsperson",
+      "ppt_number": null,
+      "agency": "University Grants Commission (UGC)",
+      "list_name": "HEIs Without Ombudsperson",
+      "url": "https://www.ugc.gov.in/universitydetails/HEIs_Violating_Regulations?tab=Defaulter",
+      "type": "html",
+      "scraper": "ugc_fake_and_defaulter.py",
+      "expected_min_records": null,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "co-located on the same violators page"
     }
   ]
 }

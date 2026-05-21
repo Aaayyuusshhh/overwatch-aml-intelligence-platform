@@ -32,11 +32,20 @@ fi
 # shellcheck disable=SC1091
 source venv/bin/activate
 
+# Load .env if present (sets PG_HOST/PG_USER/PG_PASSWORD/PG_DB).
+if [ -f .env ]; then
+    set -a; source .env; set +a
+fi
+
+PG_HOST="${PG_HOST:-localhost}"
 PG_USER="${PG_USER:-aayush}"
 PG_DB="${PG_DB:-risk_pipeline}"
 PG_PASSWORD="${PG_PASSWORD:-aayush123}"
 
-pq() { PGPASSWORD="$PG_PASSWORD" psql -U "$PG_USER" -d "$PG_DB" -tAc "$1"; }
+# Mirror into psycopg2's standard env vars so Python scripts pick them up.
+export PGHOST="$PG_HOST" PGUSER="$PG_USER" PGDATABASE="$PG_DB" PGPASSWORD="$PG_PASSWORD"
+
+pq() { PGPASSWORD="$PG_PASSWORD" psql -h "$PG_HOST" -U "$PG_USER" -d "$PG_DB" -tAc "$1"; }
 
 log "=== daily_pipeline.sh start ==="
 
