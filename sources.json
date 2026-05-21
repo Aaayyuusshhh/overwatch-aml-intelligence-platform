@@ -1460,10 +1460,10 @@
       "type": "html",
       "scraper": null,
       "expected_min_records": null,
-      "status": "active",
+      "status": "blocked",
       "change_detection": true,
       "change_detection_selector": null,
-      "notes": "discovered via constructed"
+      "notes": "discovered via constructed | 2026-05-20 retry: page now JS-loaded; static HTML body has heading only"
     },
     {
       "id": "nia_most_wanted",
