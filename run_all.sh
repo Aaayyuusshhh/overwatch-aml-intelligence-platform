@@ -69,6 +69,15 @@ log "pre-run row count: $PRE_COUNT"
 
 MAIN_EXIT=0
 if [ "$DRY_RUN" = "0" ]; then
+    # Friday standalone scrapers (US/AU/NZ). These don't go through the
+    # sources.json dispatch table — they write CSVs directly into data/,
+    # which combine.py (inside main.py) then merges into master_watchlist.csv.
+    # Must run BEFORE main.py so the fresh CSVs are present at combine time.
+    log "running Friday US/AU/NZ scrapers ..."
+    ./venv/bin/python scrapers/friday_us_au_nz_scrapers.py >> "$RUN_LOG" 2>&1
+    FRIDAY_EXIT=$?
+    log "friday scrapers exit=$FRIDAY_EXIT"
+
     log "running main.py ..."
     ./venv/bin/python main.py >> "$RUN_LOG" 2>&1
     MAIN_EXIT=$?

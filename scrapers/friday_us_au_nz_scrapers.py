@@ -32,7 +32,9 @@ from bs4 import BeautifulSoup
 
 warnings.filterwarnings("ignore")
 
-DATA_DIR = "/home/aayush/risk-pipeline/data"
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(_PROJECT_ROOT, "data")
+os.makedirs(DATA_DIR, exist_ok=True)
 H = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/125.0 Safari/537.36",
