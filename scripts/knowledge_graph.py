@@ -245,7 +245,7 @@ def build_fuzzy(limit: int = 10_000, threshold: float = 0.7):
                 FROM entity_groups g
                 WHERE LENGTH(TRIM(g.canonical_name)) > 4
                   AND LOWER(TRIM(g.canonical_name)) <> ALL(%(blacklist)s)
-                ORDER BY g.num_records DESC, g.num_sources DESC
+                ORDER BY g.num_sources DESC, g.num_records DESC
                 LIMIT %(limit)s;
             """, {"blacklist": blacklist, "limit": limit})
             cands = cur.fetchall()
