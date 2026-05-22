@@ -2,7 +2,7 @@
 """WatchOutInvestors — Consolidated Bank-wise Wilful Defaulters.
 Form-POST pagination (form name='watchout', fields comp_name/ddl_quarter/
 prevsrch/cnt/currentpage). ~26.8k records @ 22/page. 17-col schema."""
-import csv, time, sys, warnings, re
+import csv, time, sys, warnings, re, os
 from datetime import datetime, timezone
 import requests
 from bs4 import BeautifulSoup
@@ -30,6 +30,24 @@ def rows_from(html):
             out.append((c[0], c[1] if len(c)>1 else ""))
     return out
 
+def safe_write(rows, dry_run_max_lost_pct=0.5):
+    """Write rows to OUT, but refuse if new data is <50% of existing rows
+    (signals partial scrape / network failure, not a genuine site shrink)."""
+    if os.path.exists(OUT):
+        try:
+            with open(OUT, encoding="utf-8") as f:
+                existing = sum(1 for _ in f) - 1  # minus header
+        except Exception:
+            existing = 0
+        if existing > 0 and len(rows) < existing * dry_run_max_lost_pct:
+            print(f"  SAFETY: new data has {len(rows)} rows but existing CSV has "
+                  f"{existing}. NOT overwriting — looks like a partial/failed scrape.")
+            return False
+    with open(OUT,"w",newline="",encoding="utf-8") as f:
+        w=csv.DictWriter(f,fieldnames=FIELDS,extrasaction="ignore")
+        w.writeheader(); w.writerows(rows)
+    return True
+
 def run():
     now=datetime.now(timezone.utc).isoformat()
     s=requests.Session()
@@ -39,10 +57,14 @@ def run():
     per=22
     pages=(total//per)+2
     print(f"total={total} -> ~{pages} pages")
-    rows=[]; seen=set(); empty=0
+    rows=[]; seen=set()
+    empty_pages = 0   # genuine empty (HTTP 200, parsed, 0 rows) — real end of pagination
+    net_errors  = 0   # consecutive ReadTimeout/ConnectionError — DO NOT confuse with empty
+    aborted_by_network = False
     for pno in range(1, pages+1):
         data={"comp_name":"","ddl_quarter":"","prevsrch":"","cnt":str(total),
               "currentpage":str(pno)}
+        page_failed = False
         try:
             resp=s.post(URL,headers=H,data=data,timeout=30,verify=False)
             recs=rows_from(resp.text)
@@ -52,8 +74,22 @@ def run():
             try:
                 resp=s.post(URL,headers=H,data=data,timeout=30,verify=False)
                 recs=rows_from(resp.text)
-            except Exception:
+            except Exception as e2:
+                print(f"  page {pno}: {type(e2).__name__} on retry; NETWORK ERROR")
                 recs=[]
+                page_failed = True
+        if page_failed:
+            net_errors += 1
+            empty_pages = 0  # reset — this is NOT an empty page, it's an error
+            if net_errors >= 3:
+                print(f"  3 consecutive network errors at page {pno}; ABORTING without write "
+                      f"to preserve existing CSV")
+                aborted_by_network = True
+                break
+            time.sleep(2)
+            continue
+        # successful HTTP fetch — reset network error counter
+        net_errors = 0
         added=0
         for name,amt in recs:
             name=name.strip()
@@ -68,18 +104,24 @@ def run():
                 "has_document":"No","document_url":"","detail_page_url":URL,
                 "interpol_notice_id":"","link_kind":"","scraped_at":now,
                 "enrichment_status":""})
-        empty = empty+1 if added==0 else 0
-        if empty>=3:
-            print(f"  3 empty pages at {pno}; stopping"); break
+        # genuine empty page (HTTP 200, parsed OK, 0 rows) → real end of pagination
+        empty_pages = empty_pages + 1 if added == 0 else 0
+        if empty_pages >= 3:
+            print(f"  3 genuine empty pages at {pno}; stopping (real end of pagination)")
+            break
         if pno%50==0:
             print(f"  page {pno}/{pages}: total {len(rows)}")
-            with open(OUT,"w",newline="",encoding="utf-8") as f:  # checkpoint
-                w=csv.DictWriter(f,fieldnames=FIELDS,extrasaction="ignore")
-                w.writeheader(); w.writerows(rows)
+            # checkpoint write — but still gated by safe_write
+            safe_write(rows)
         time.sleep(0.25)
-    with open(OUT,"w",newline="",encoding="utf-8") as f:
-        w=csv.DictWriter(f,fieldnames=FIELDS,extrasaction="ignore")
-        w.writeheader(); w.writerows(rows)
+    if aborted_by_network:
+        print(f"{SID}: ABORTED after network errors. {len(rows)} rows fetched; "
+              f"existing CSV preserved. Re-run later.")
+        return 0
+    wrote = safe_write(rows)
+    if not wrote:
+        print(f"{SID}: refusing to overwrite — existing CSV preserved.")
+        return 0
     print(f"{SID}: {len(rows)} rows -> {OUT} (empty names: {sum(1 for r in rows if not r['name'])})")
     for r in rows[:3]: print(" ",r["name"],"|",r["details"][:55])
     return len(rows)

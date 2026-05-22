@@ -94,8 +94,15 @@ POST_COUNT=$(count_rows)
 DELTA=$(( POST_COUNT - PRE_COUNT ))
 log "post-run row count: $POST_COUNT (delta=$DELTA)"
 
+# Daily report (HTML email via SES + rich Slack). Tolerant: failure here
+# does not fail the whole pipeline; the report itself reports its own status.
+log "sending daily report ..."
+./venv/bin/python scripts/send_daily_report.py >> "$RUN_LOG" 2>&1
+REPORT_EXIT=$?
+log "daily report exit=$REPORT_EXIT"
+
 # Final one-line summary — easy to grep / forward from cron mail.
-SUMMARY="rows ${PRE_COUNT}->${POST_COUNT} (delta ${DELTA}) | main.py exit=${MAIN_EXIT} | validator exit=${VALIDATOR_EXIT}"
+SUMMARY="rows ${PRE_COUNT}->${POST_COUNT} (delta ${DELTA}) | main.py exit=${MAIN_EXIT} | validator exit=${VALIDATOR_EXIT} | report exit=${REPORT_EXIT}"
 log "SUMMARY: $SUMMARY"
 log "=== run_all.sh end ==="
 

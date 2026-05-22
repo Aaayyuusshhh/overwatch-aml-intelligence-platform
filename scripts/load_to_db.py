@@ -1,31 +1,31 @@
-"""
-load_to_db.py - Load data/master_watchlist.csv into PostgreSQL.
+"""load_to_db.py - per-source targeted refresh of watchlist_records.
 
-Refresh-safe: for every (source_agency, source_list) pair present in
-the CSV, existing rows are deleted before inserting fresh ones, all
-inside one transaction. Sources not in the current CSV are left
-untouched.
-
-Resolves source_id by looking up the (source_agency, source_list) pair
-in sources.json; missing matches fall back to ''.
-
-Uses psycopg2.extras.execute_values for batch INSERT (fast enough at
-the current 1-10k row scale; if volume grows, swap to COPY).
+Refactored 2026-05-22. Replaces the old executemany version that hung on 2M+
+rows. Key changes:
+  * COPY FROM STDIN (10-100x faster than execute_values for bulk insert)
+  * Per-(source_agency, source_list) commits so progress survives a crash
+  * Skips pairs where CSV row count equals current DB row count (no-op)
+  * Creates an index on (source_agency, source_list) so per-pair DELETE is
+    an index seek instead of a 4.8M-row sequential scan
+  * NEVER does `DELETE FROM watchlist_records` (would cascade-wipe the KG)
 
 Usage:
     python scripts/load_to_db.py
     python scripts/load_to_db.py --csv path/to/other.csv
+    python scripts/load_to_db.py --dry-run
+    python scripts/load_to_db.py --limit-sources 5    # smoke test
+    python scripts/load_to_db.py --force-all          # ignore no-diff skip
 """
-
 import argparse
 import csv
+import io
 import json
 import os
 import sys
+import time
 from collections import defaultdict
 
 import psycopg2
-import psycopg2.extras
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEFAULT_CSV = os.path.join(PROJECT_ROOT, "data", "master_watchlist.csv")
@@ -39,119 +39,157 @@ DB_CONFIG = {
     "password": os.environ.get("PGPASSWORD", "aayush123"),
 }
 
-# Order MUST match the INSERT column order below.
-SCHEMA_COLS = [
-    "source_id", "source_agency", "source_list", "case_unit",
-    "name", "father_name", "date_of_birth", "gender", "address",
-    "reward_amount", "details", "has_document", "document_url",
-    "detail_page_url", "interpol_notice_id", "link_kind",
-    "scraped_at", "enrichment_status",
-]
-
-INSERT_SQL = f"""
-INSERT INTO watchlist_records ({", ".join(SCHEMA_COLS)})
-VALUES %s
-"""
+COPY_COLS = (
+    "source_id, source_agency, source_list, case_unit, name, father_name, "
+    "date_of_birth, gender, address, reward_amount, details, has_document, "
+    "document_url, detail_page_url, interpol_notice_id, link_kind, "
+    "scraped_at, enrichment_status"
+)
 
 
-def load_source_id_map():
-    """Map (source_agency, source_list) -> source_id from sources.json."""
-    if not os.path.exists(SOURCES_JSON):
-        return {}
-    with open(SOURCES_JSON, "r", encoding="utf-8") as f:
+def load_sid_map():
+    with open(SOURCES_JSON, encoding="utf-8") as f:
         data = json.load(f)
-    out = {}
-    for s in data.get("sources", []):
-        key = (s.get("agency", "").strip(), s.get("list_name", "").strip())
-        out[key] = s.get("id", "")
-    return out
-
-
-def read_csv_rows(csv_path):
-    """Yield (source_agency, source_list, row_tuple) for each CSV row."""
-    with open(csv_path, "r", encoding="utf-8", newline="") as f:
-        reader = csv.DictReader(f)
-        return list(reader)
+    return {
+        ((s.get("agency") or "").strip(), (s.get("list_name") or "").strip()):
+            s.get("id", "")
+        for s in data.get("sources", [])
+    }
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--csv", default=DEFAULT_CSV,
-                    help=f"input CSV (default: {DEFAULT_CSV})")
-    ap.add_argument("--dry-run", action="store_true",
-                    help="parse CSV but do not touch the database")
+    ap.add_argument("--csv", default=DEFAULT_CSV)
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--limit-sources", type=int, default=0,
+                    help="process only first N pairs (smoke test)")
+    ap.add_argument("--force-all", action="store_true",
+                    help="refresh every source even if CSV count == DB count")
     args = ap.parse_args()
 
+    t0 = time.time()
+
     if not os.path.exists(args.csv):
-        print(f"FATAL: input CSV not found: {args.csv}", file=sys.stderr)
-        sys.exit(2)
+        sys.exit(f"FATAL: input CSV not found: {args.csv}")
 
-    rows = read_csv_rows(args.csv)
-    print(f"Read {len(rows)} rows from {args.csv}")
-    if not rows:
-        print("Nothing to load.")
-        return
+    sid_map = load_sid_map()
+    print(f"sources.json: {len(sid_map)} (agency, list) -> source_id mappings")
 
-    sid_map = load_source_id_map()
-    print(f"sources.json provides {len(sid_map)} (agency, list_name) -> id mappings")
+    print(f"Reading {args.csv} ...")
+    by_pair = defaultdict(list)
+    with open(args.csv, encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for r in reader:
+            ag = (r.get("source_agency") or "").strip()
+            ls = (r.get("source_list") or "").strip()
+            by_pair[(ag, ls)].append(r)
 
-    # Prepare INSERT tuples and the set of (agency, list) pairs to refresh.
-    refresh_pairs = set()
-    insert_rows = []
-    missing_sid = 0
-    for r in rows:
-        agency = (r.get("source_agency") or "").strip()
-        slist = (r.get("source_list") or "").strip()
-        sid = sid_map.get((agency, slist), "")
-        if not sid:
-            missing_sid += 1
-        refresh_pairs.add((agency, slist))
-        insert_rows.append((
-            sid,
-            agency, slist,
-            r.get("case_unit", ""),
-            r.get("name", ""), r.get("father_name", ""),
-            r.get("date_of_birth", ""), r.get("gender", ""),
-            r.get("address", ""), r.get("reward_amount", ""),
-            r.get("details", ""), r.get("has_document", ""),
-            r.get("document_url", ""), r.get("detail_page_url", ""),
-            r.get("interpol_notice_id", ""), r.get("link_kind", ""),
-            r.get("scraped_at", ""), r.get("enrichment_status", ""),
-        ))
+    total_csv = sum(len(v) for v in by_pair.values())
+    print(f"  {total_csv:,} rows across {len(by_pair)} (agency, list) pairs")
 
-    if missing_sid:
-        print(f"NOTE: {missing_sid} rows had no matching source_id in sources.json")
+    unmatched = [k for k in by_pair if not sid_map.get(k)]
+    if unmatched:
+        print(f"  NOTE: {len(unmatched)} pairs have no source_id in sources.json "
+              f"(will be inserted with source_id='')")
 
     if args.dry_run:
-        print(f"DRY RUN: would refresh {len(refresh_pairs)} sources, "
-              f"insert {len(insert_rows)} rows")
+        print("DRY RUN: no DB changes.")
         return
 
-    print(f"Connecting to {DB_CONFIG['user']}@{DB_CONFIG['host']}/{DB_CONFIG['dbname']} ...")
     conn = psycopg2.connect(**DB_CONFIG)
-    deleted_total = 0
-    try:
-        with conn:
-            with conn.cursor() as cur:
-                # Delete-then-insert per (agency, list) pair, all in one txn.
-                if refresh_pairs:
-                    cur.executemany(
-                        "DELETE FROM watchlist_records "
-                        "WHERE source_agency = %s AND source_list = %s",
-                        list(refresh_pairs),
-                    )
-                    deleted_total = cur.rowcount  # last DELETE only; informational
-                psycopg2.extras.execute_values(
-                    cur, INSERT_SQL, insert_rows, page_size=500,
-                )
-                cur.execute("SELECT COUNT(*) FROM watchlist_records;")
-                total = cur.fetchone()[0]
-    finally:
-        conn.close()
+    conn.autocommit = True  # per-source commits
+    cur = conn.cursor()
 
-    print(f"Refreshed sources    : {len(refresh_pairs)}")
-    print(f"Rows inserted        : {len(insert_rows)}")
-    print(f"Total rows in table  : {total}")
+    print("Ensuring index on (source_agency, source_list) ...")
+    t_idx = time.time()
+    cur.execute(
+        "CREATE INDEX IF NOT EXISTS idx_source_agency_list "
+        "ON watchlist_records (source_agency, source_list)"
+    )
+    print(f"  index ready ({time.time() - t_idx:.1f}s)")
+
+    print("Fetching current DB counts ...")
+    t_cnt = time.time()
+    cur.execute(
+        "SELECT source_agency, source_list, COUNT(*) FROM watchlist_records "
+        "GROUP BY source_agency, source_list"
+    )
+    db_counts = {(ag, ls): n for ag, ls, n in cur.fetchall()}
+    print(f"  {len(db_counts)} pairs in DB ({time.time() - t_cnt:.1f}s)")
+
+    pairs = sorted(by_pair.keys())
+    if args.limit_sources:
+        pairs = pairs[: args.limit_sources]
+        print(f"TEST MODE: processing only first {len(pairs)} pairs")
+
+    processed = 0
+    skipped = 0
+    total_del = 0
+    total_ins = 0
+
+    for (ag, ls) in pairs:
+        rows = by_pair[(ag, ls)]
+        csv_n = len(rows)
+        db_n = db_counts.get((ag, ls), 0)
+        if not args.force_all and csv_n == db_n and csv_n > 0:
+            skipped += 1
+            continue
+        sid = sid_map.get((ag, ls), "")
+        t_pair = time.time()
+        cur.execute(
+            "DELETE FROM watchlist_records "
+            "WHERE source_agency = %s AND source_list = %s",
+            (ag, ls),
+        )
+        d = cur.rowcount
+        buf = io.StringIO()
+        w = csv.writer(buf, quoting=csv.QUOTE_MINIMAL)
+        for r in rows:
+            w.writerow([
+                sid,
+                ag, ls,
+                r.get("case_unit", ""),
+                r.get("name", ""),
+                r.get("father_name", ""),
+                r.get("date_of_birth", ""),
+                r.get("gender", ""),
+                r.get("address", ""),
+                r.get("reward_amount", ""),
+                r.get("details", ""),
+                r.get("has_document", ""),
+                r.get("document_url", ""),
+                r.get("detail_page_url", ""),
+                r.get("interpol_notice_id", ""),
+                r.get("link_kind", ""),
+                r.get("scraped_at", ""),
+                r.get("enrichment_status", ""),
+            ])
+        buf.seek(0)
+        cur.copy_expert(
+            f"COPY watchlist_records ({COPY_COLS}) FROM STDIN WITH CSV",
+            buf,
+        )
+        elapsed = time.time() - t_pair
+        total_del += d
+        total_ins += csv_n
+        processed += 1
+        tag = sid if sid else f"{ag[:20]}/{ls[:20]}"
+        print(f"  [{processed}/{len(pairs)}] {tag}: deleted {d}, "
+              f"inserted {csv_n} ({elapsed:.1f}s)")
+
+    cur.execute("SELECT COUNT(*) FROM watchlist_records")
+    total = cur.fetchone()[0]
+    elapsed = time.time() - t0
+    print()
+    print("=== load_to_db SUMMARY ===")
+    print(f"  Processed sources : {processed}")
+    print(f"  Skipped (no diff) : {skipped}")
+    print(f"  Rows deleted      : {total_del:,}")
+    print(f"  Rows inserted     : {total_ins:,}")
+    print(f"  Total in DB       : {total:,}")
+    print(f"  Elapsed           : {elapsed:.1f}s ({elapsed / 60:.1f}m)")
+
+    conn.close()
 
 
 if __name__ == "__main__":
