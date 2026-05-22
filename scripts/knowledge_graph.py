@@ -220,69 +220,77 @@ def build_exact(reset: bool):
 # -------------------------------------------------------------------- build-fuzzy
 
 def build_fuzzy(limit: int = 10_000, threshold: float = 0.7):
-    """For groups currently spanning only 1 source, try pg_trgm fuzzy matching
-    against names in OTHER sources. Slow — bounded by --limit."""
+    """Extend existing entity_groups with fuzzy (pg_trgm) matches from
+    watchlist_records in sources NOT already covered by the group.
+
+    Note: build_exact only emits groups with num_sources >= 2, so there are
+    no single-source groups to "merge in". The useful direction is the other
+    way around: take each existing multi-source group's canonical_name and
+    pull in fuzzy-matching records from sources that aren't yet represented
+    (e.g. group 'Maulana Masood Azhar' [in_mha_banned, pk_proscribed_persons]
+    + nia_most_wanted's 'Masood Azhar'). We add those as fuzzy entity_links
+    and update num_sources / source_list to reflect the expanded coverage.
+
+    Slow — bounded by --limit. Groups are picked largest-first by num_records
+    so the high-impact entities (terrorists, sanctioned orgs) are covered."""
     blacklist = list(NAME_BLACKLIST)
-    _log(f"build-fuzzy: scanning up to {limit:,} single-source groups, threshold={threshold}")
+    _log(f"build-fuzzy: scanning up to {limit:,} entity_groups, threshold={threshold}")
     with connect() as conn:
         conn.autocommit = False
         with conn.cursor() as cur:
             ensure_schema(cur)
             cur.execute("SET LOCAL work_mem = '512MB';")
-            # nominate candidate groups (single-source) — but only those whose
-            # name is interesting (length, not blacklist). We treat the
-            # entity_groups themselves as canonical and look for fuzzy matches
-            # in watchlist_records.
             cur.execute(f"""
-                SELECT g.group_id, g.canonical_name, (g.source_list)[1] AS only_src
+                SELECT g.group_id, g.canonical_name, g.source_list
                 FROM entity_groups g
-                WHERE g.num_sources = 1
-                  AND LENGTH(TRIM(g.canonical_name)) > 4
+                WHERE LENGTH(TRIM(g.canonical_name)) > 4
                   AND LOWER(TRIM(g.canonical_name)) <> ALL(%(blacklist)s)
-                ORDER BY LENGTH(g.canonical_name) DESC
+                ORDER BY g.num_records DESC, g.num_sources DESC
                 LIMIT %(limit)s;
             """, {"blacklist": blacklist, "limit": limit})
             cands = cur.fetchall()
-            _log(f"  {len(cands):,} candidate single-source groups")
+            _log(f"  {len(cands):,} candidate groups (largest-first)")
 
             n_links = 0
+            n_new_sources_total = 0
+            groups_extended = 0
             t0 = time.time()
-            for i, (gid, name, only_src) in enumerate(cands, 1):
+            for i, (gid, name, src_list) in enumerate(cands, 1):
+                # Find fuzzy records from sources NOT already in source_list.
+                # No prefix filter — relies on pg_trgm GIN index alone — so
+                # 'Masood Azhar' can match 'Maulana Masood Azhar' (Mas≠Mau).
                 cur.execute("""
                     SELECT id, name, source_id,
                            similarity(LOWER(name), LOWER(%s)) AS sim
                     FROM watchlist_records
-                    WHERE source_id <> %s
+                    WHERE source_id <> ALL(%s)
                       AND name %% %s
-                      AND LOWER(LEFT(TRIM(name),3)) = LOWER(LEFT(TRIM(%s),3))
                       AND similarity(LOWER(name), LOWER(%s)) > %s
                     ORDER BY sim DESC
-                    LIMIT 5;
-                """, (name, only_src, name, name, name, threshold))
+                    LIMIT 10;
+                """, (name, src_list, name, name, threshold))
                 rows = cur.fetchall()
                 if not rows:
                     continue
-                # Use the first known anchor record from entity_links for record_id_a
+                # anchor record = first existing link's record_id_a for this group
                 cur.execute("""
                     SELECT record_id_a, name_a, source_a FROM entity_links
                     WHERE entity_group_id = %s LIMIT 1;
                 """, (gid,))
                 anchor = cur.fetchone()
                 if not anchor:
-                    # single-source group has no link rows yet (only one record).
-                    # Pick any matching record from the group's only source.
-                    cur.execute("""
-                        SELECT id, name, source_id FROM watchlist_records
-                        WHERE source_id = %s AND LOWER(TRIM(name)) = LOWER(TRIM(%s))
-                        ORDER BY id LIMIT 1;
-                    """, (only_src, name))
-                    anchor = cur.fetchone()
-                    if not anchor:
-                        continue
+                    continue
                 aid, aname, asrc = anchor
+                # one fuzzy link per NEW source (don't spam multiple links from same source)
+                seen_src = set()
                 ins = []
                 for rid, rname, rsrc, sim in rows:
+                    if rsrc in seen_src:
+                        continue
+                    seen_src.add(rsrc)
                     ins.append((str(gid), aid, rid, aname, rname, asrc, rsrc, "fuzzy", float(sim)))
+                if not ins:
+                    continue
                 psycopg2.extras.execute_values(
                     cur,
                     """INSERT INTO entity_links
@@ -291,11 +299,31 @@ def build_fuzzy(limit: int = 10_000, threshold: float = 0.7):
                         match_type, similarity_score) VALUES %s""",
                     ins,
                 )
+                # extend the group's source_list / num_sources / num_records
+                new_srcs = sorted(seen_src - set(src_list))
+                if new_srcs:
+                    cur.execute("""
+                        UPDATE entity_groups
+                        SET source_list = (
+                                SELECT array_agg(DISTINCT s ORDER BY s)
+                                FROM unnest(source_list || %s::text[]) s
+                            ),
+                            num_sources = num_sources + %s,
+                            num_records = num_records + %s,
+                            updated_at = NOW()
+                        WHERE group_id = %s;
+                    """, (new_srcs, len(new_srcs), len(ins), str(gid)))
+                    n_new_sources_total += len(new_srcs)
                 n_links += len(ins)
+                groups_extended += 1
                 if i % 500 == 0:
-                    _log(f"  scanned {i:,}/{len(cands):,} groups, added {n_links:,} fuzzy links")
+                    _log(f"  scanned {i:,}/{len(cands):,} groups, "
+                         f"extended {groups_extended:,} groups, "
+                         f"+{n_links:,} fuzzy links, +{n_new_sources_total:,} new (group,source) edges")
             conn.commit()
-            _log(f"build-fuzzy done: added {n_links:,} fuzzy links in {time.time()-t0:.1f}s")
+            _log(f"build-fuzzy done: extended {groups_extended:,} groups, "
+                 f"+{n_links:,} fuzzy links, +{n_new_sources_total:,} new (group,source) "
+                 f"in {time.time()-t0:.1f}s")
 
 
 # --------------------------------------------------------------------- risk-score
