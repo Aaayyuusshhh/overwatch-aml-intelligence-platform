@@ -87,7 +87,7 @@ SOURCES = [
      "LLPs Under Process of Strike Off",
      "386",
      "https://www.mca.gov.in/content/mca/global/en/data-and-reports/company-llp-info/under-alert/llps-under-strike-off.html",
-     "companies"),
+     "llps"),
     # STK-6 public notices — 2458 PDFs total, recent ones are clean text
     ("mca_public_notices_stk6",
      "Public Notices (STK-6) U/S 248(2)",
@@ -101,6 +101,7 @@ SOURCES = [
 CIN_RE = re.compile(r"[LU]\d{5}[A-Z]{2}\d{4}[A-Z]{3}\d{6}")
 DIN_RE = re.compile(r"\b\d{6,8}\b")
 ROC_CODE_RE = re.compile(r"\bRC[-A-Z0-9]{2,8}\b")
+LLPIN_RE = re.compile(r"\b([A-Z]{2,3}-\d{4})\b")
 
 
 def get_session():
@@ -149,15 +150,22 @@ def download_pdf(session, doc_id, page_url):
         return b""
 
 
-def extract_text_all_pages(pdf_path):
-    """Return list of (page_num, text) for every page that has text."""
+def extract_text_all_pages(pdf_path, max_pages=None):
+    """Return list of (page_num, text) for every page that has text.
+
+    If max_pages is given, stop after that many pages (bounds memory on huge PDFs).
+    """
     out = []
     try:
         with pdfplumber.open(pdf_path) as pdf:
             for i, page in enumerate(pdf.pages, 1):
+                if max_pages and i > max_pages:
+                    break
                 t = page.extract_text() or ""
                 if t.strip():
                     out.append((i, t))
+                # Release pdfplumber's internal page cache to bound memory on huge PDFs
+                page.flush_cache()
     except Exception:
         pass
     return out
@@ -308,10 +316,45 @@ def parse_offenders_pdf(text_pages, doc_meta):
     return rows
 
 
+def parse_llps_pdf(text_pages, doc_meta):
+    """Parse LLP-strike-off PDFs. Table layout:
+       <SrNo> <LLPIN> <LLP_Name_partial> <Address_partial> <ROC_office> <SRN> <Date>
+    LLPIN format: AAC-1210, AAB-0938, MC-8951, AM-3132.
+    """
+    rows = []
+    pdf_title = doc_meta.get("column1", "")
+    roc = doc_meta.get("column2", "")
+    date = doc_meta.get("column3", "")
+    for page_num, text in text_pages:
+        for line in text.split("\n"):
+            line = line.strip()
+            m = LLPIN_RE.search(line)
+            if not m:
+                continue
+            llpin = m.group(1)
+            after = line[m.end():].strip()
+            # Try to split at "ROC " keyword
+            roc_pos = re.search(r"\bROC\s+[A-Z][a-z]+", after)
+            if roc_pos:
+                name_addr = after[:roc_pos.start()].strip()
+            else:
+                name_addr = after
+            name_addr = re.sub(r"^[\s,.]+", "", name_addr).strip()
+            if not name_addr or len(name_addr) < 3:
+                continue
+            details = (f"LLPIN: {llpin} | Source PDF: {pdf_title[:80]}"
+                       f" | ROC: {roc} | PDF date: {date}"
+                       f" | Section: LLP Act 75 / Rule 37 (Strike-Off)"
+                       f" | Address: {name_addr[:200]}")
+            rows.append({"name": name_addr[:200], "details": details})
+    return rows
+
+
 PARSERS = {
     "directors": parse_directors_pdf,
     "companies": parse_companies_pdf,
     "offenders": parse_offenders_pdf,
+    "llps": parse_llps_pdf,
 }
 
 
@@ -362,14 +405,12 @@ def run_source(sid, lst, folder, page_url, parser_kind, session, limit_pdfs, max
                     continue
                 with open(pdf_path, "wb") as pf:
                     pf.write(content)
-            text_pages = extract_text_all_pages(pdf_path)
+            text_pages = extract_text_all_pages(pdf_path, max_pages=max_pages)
             if not text_pages:
                 n_empty += 1
                 if i % 20 == 0:
                     print(f"  [{i}/{len(docs)}] {title}  scanned-image (no text)")
                 continue
-            if max_pages:
-                text_pages = text_pages[:max_pages]
             n_with_text += 1
             parsed = parser(text_pages, doc)
             new_rows = 0
