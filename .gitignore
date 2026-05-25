@@ -40,3 +40,4 @@ data/*.zip
 data/*.pdf
 *.dump
 data/sm_legal_data.negativeList.json
+data/mca_pdf_cache/
