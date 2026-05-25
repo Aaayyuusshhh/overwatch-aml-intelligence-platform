@@ -209,9 +209,10 @@ def _clean(s):
 
 
 def _parse_period(text):
-    """Extract (period_from, period_to) from 'From : DD/MM/YYYY ... To : DD/MM/YYYY'."""
+    """Extract (period_from, period_to). Handles both 'From : DD/MM/YYYY ... To : DD/MM/YYYY'
+    (modern files) and 'FROM DD/MM/YYYY TO DD/MM/YYYY' (older cumulative files, no colons)."""
     m = re.search(
-        r"From\s*:\s*(\d{2}/\d{2}/\d{4}).*?To\s*:\s*(\d{2}/\d{2}/\d{4})",
+        r"From\s*:?\s*(\d{2}/\d{2}/\d{4}).*?To\s*:?\s*(\d{2}/\d{2}/\d{4})",
         text, re.IGNORECASE | re.DOTALL,
     )
     if m:
@@ -320,9 +321,11 @@ def _rows_from_sheet(rows_iter):
 
 
 def parse_excel(path):
-    """Parse .xlsx (openpyxl) or .xls (xlrd). Return (period_label, rows)."""
+    """Parse .xlsx (openpyxl) or .xls (xlrd). Return (first_period_label, rows).
+    Each row carries its OWN sheet name in the 'period' key, so cumulative
+    historical files (multi-sheet) are handled correctly."""
     out = []
-    period_label = None
+    first_label = None
     is_xls = path.lower().endswith(".xls") and not path.lower().endswith(".xlsx")
     try:
         if is_xls:
@@ -335,9 +338,11 @@ def parse_excel(path):
                     tuple(ws.cell_value(i, j) for j in range(ws.ncols))
                     for i in range(ws.nrows)
                 )
-                if period_label is None:
-                    period_label = sname
-                out.extend(_rows_from_sheet(rows))
+                if first_label is None:
+                    first_label = sname
+                for r in _rows_from_sheet(rows):
+                    r["period"] = sname
+                    out.append(r)
         else:
             wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
             try:
@@ -345,15 +350,17 @@ def parse_excel(path):
                     if "summary" in sname.lower():
                         continue
                     ws = wb[sname]
-                    if period_label is None:
-                        period_label = sname
-                    out.extend(_rows_from_sheet(ws.iter_rows(values_only=True)))
+                    if first_label is None:
+                        first_label = sname
+                    for r in _rows_from_sheet(ws.iter_rows(values_only=True)):
+                        r["period"] = sname
+                        out.append(r)
             finally:
                 wb.close()
     except Exception as e:
         print(f"  ! parse error {os.path.basename(path)}: {e}")
         return None, []
-    return period_label, out
+    return first_label, out
 
 
 # --- Orchestration -----------------------------------------------------------
@@ -418,13 +425,16 @@ def main():
     all_rows = []
     scraped_at = datetime.utcnow().isoformat(timespec="seconds") + "Z"
     for entry, excel_url, path in excel_records:
-        period_label, rows = parse_excel(path)
+        first_label, rows = parse_excel(path)
         for r in rows:
             r["prid"] = entry["prid"]
             r["press_release_url"] = PRESS_URL.format(prid=entry["prid"])
             r["excel_url"] = excel_url
             r["excel_filename"] = os.path.basename(path)
-            r["period"] = period_label or entry["title"]
+            # parse_excel already set r["period"] to the sheet's own name.
+            # Only fall back to the press release title if parsing produced no period.
+            if not r.get("period"):
+                r["period"] = first_label or entry["title"]
             r["scraped_at"] = scraped_at
             all_rows.append(r)
         if len(rows) == 0:
