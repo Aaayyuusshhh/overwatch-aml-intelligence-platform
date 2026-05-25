@@ -98,7 +98,12 @@ def get_listing_prids(session, year):
         if not m:
             continue
         text = a.get_text(strip=True)
-        if "overseas direct investment" not in text.lower():
+        text_l = text.lower()
+        # Accept both "Overseas Direct Investment" and "Outward Foreign Direct
+        # Investment" - RBI used the latter for a handful of releases (e.g.
+        # Dec 2016, Dec 2017, Feb 2018).
+        if "overseas direct investment" not in text_l \
+                and "outward foreign direct investment" not in text_l:
             continue
         prid = m.group(1)
         if prid in seen:
@@ -220,23 +225,65 @@ def _parse_period(text):
     return None, None
 
 
+def _detect_columns(header_row, sub_header_row=None):
+    """Map logical field names to column indices using header (and optional
+    sub-header for the Equity/Loan/Guarantee/Total row).
+
+    Returns a dict like {'sr': 1, 'indian_party': 2, ...}. Some old files
+    have a leading empty column (Sr at col 1 instead of col 0), or no
+    'merged' empty column between Country and Activity. Detecting from
+    the actual header text handles both."""
+    col_map = {}
+
+    def _set(rows, key, predicate):
+        for row in rows:
+            for i, cell in enumerate(row):
+                if cell is None:
+                    continue
+                t = str(cell).strip().lower()
+                if predicate(t):
+                    col_map.setdefault(key, i)
+                    return
+
+    rows = [header_row]
+    if sub_header_row is not None:
+        rows.append(sub_header_row)
+
+    _set(rows, "sr",
+         lambda t: t in ("sr.", "sr", "s.no.", "s no", "s. no", "s.no")
+                    or (t.startswith("sr") and ("no" in t or t == "sr.")))
+    _set(rows, "indian_party",
+         lambda t: "indian party" in t or "applicant" in t)
+    _set(rows, "jv_wos_name",
+         lambda t: ("jv/wos" in t or "name of the jv" in t or "name of jv" in t)
+                    and "whether" not in t)
+    _set(rows, "jv_or_wos",
+         lambda t: "whether" in t and ("jv" in t or "wos" in t))
+    _set(rows, "country",
+         lambda t: "overseas country" in t or t == "country" or t.endswith("country"))
+    _set(rows, "activity",
+         lambda t: "major activity" in t or t == "activity")
+    _set(rows, "equity",
+         lambda t: t.startswith("equity"))
+    _set(rows, "loan",
+         lambda t: t.startswith("loan"))
+    _set(rows, "guarantee",
+         lambda t: t.startswith("guarantee"))
+    _set(rows, "total",
+         lambda t: t == "total" or t == "total*" or t.startswith("total "))
+
+    return col_map
+
+
 def _rows_from_sheet(rows_iter):
     """
-    Given iterable of row-tuples, find the period and header row, then yield
-    parsed data dicts.
+    Find the period and header row, then yield parsed data dicts.
 
-    Layout (all years 2017-2026):
-        col 0 = Sr.
-        col 1 = Indian Party
-        col 2 = JV/WOS name
-        col 3 = JV or WOS
-        col 4 = Country
-        col 5 = (empty / merged with country)
-        col 6 = Activity
-        col 7 = Equity (USD mn)
-        col 8 = Loan
-        col 9 = Guarantee Issued
-        col 10 = Total
+    Columns are detected dynamically from the header text. Common layouts:
+      Modern (2017+): Sr=0, IndianParty=1, JV/WOS=2, Whether=3, Country=4,
+                      (empty=5), Activity=6, Equity=7, Loan=8, Guarantee=9, Total=10
+      Older (2011-2015): same fields shifted by one (Sr=1, IndianParty=2, ...)
+                         because col 0 is blank
     """
     all_rows = list(rows_iter)
     period_from = period_to = None
@@ -265,58 +312,70 @@ def _rows_from_sheet(rows_iter):
     if header_idx is None:
         return
 
+    header_row = all_rows[header_idx]
+    sub_header_row = all_rows[header_idx + 1] if header_idx + 1 < len(all_rows) else None
+    col_map = _detect_columns(header_row, sub_header_row)
+
+    if "indian_party" not in col_map:
+        return
+
+    # Data starts after the header. If the next row has "Equity" anywhere,
+    # it's the sub-header row - skip it. Then skip any blank rows.
     data_start = header_idx + 1
-    # Skip sub-header row (contains "Equity")
     if data_start < len(all_rows):
-        if any(c and "equity" in str(c).lower() for c in all_rows[data_start] if c is not None):
+        nxt = all_rows[data_start]
+        if any(c and "equity" in str(c).lower() for c in nxt if c is not None):
             data_start += 1
-    # Skip blank rows
+    sr_col = col_map.get("sr", 0)
     while data_start < len(all_rows):
         r = all_rows[data_start]
-        if r and r[0] is not None and str(r[0]).strip():
+        if r and sr_col < len(r) and r[sr_col] is not None and str(r[sr_col]).strip():
             break
         data_start += 1
 
+    ip_col = col_map["indian_party"]
+    jv_col = col_map.get("jv_wos_name", ip_col + 1)
+    wh_col = col_map.get("jv_or_wos", jv_col + 1)
+    cn_col = col_map.get("country", wh_col + 1)
+    act_col = col_map.get("activity", cn_col + 2)
+    eq_col = col_map.get("equity", act_col + 1)
+    ln_col = col_map.get("loan", eq_col + 1)
+    gu_col = col_map.get("guarantee", ln_col + 1)
+    tot_col = col_map.get("total", gu_col + 1)
+
+    def _cell(row, idx):
+        return row[idx] if 0 <= idx < len(row) else None
+
     for row in all_rows[data_start:]:
-        if not row or len(row) < 7:
+        if not row:
             continue
-        sr = row[0]
+        sr = _cell(row, sr_col)
         if sr is None or str(sr).strip() == "":
             continue
         sr_int = _safe_int(sr)
         if sr_int is None:
-            # Hit a non-numeric (likely "Total" / footnote) - stop
             label = _clean(sr).lower()
             if "total" in label or "note" in label or "*" in label:
                 break
             continue
 
-        indian_party = _clean(row[1] if len(row) > 1 else "")
+        indian_party = _clean(_cell(row, ip_col))
         if not indian_party or len(indian_party) < 2:
             continue
-
-        jv_wos_name = _clean(row[2] if len(row) > 2 else "")
-        jv_or_wos = _clean(row[3] if len(row) > 3 else "")
-        country = _clean(row[4] if len(row) > 4 else "")
-        activity = _clean(row[6] if len(row) > 6 else "")
-        equity = _safe_float(row[7] if len(row) > 7 else None)
-        loan = _safe_float(row[8] if len(row) > 8 else None)
-        guarantee = _safe_float(row[9] if len(row) > 9 else None)
-        total = _safe_float(row[10] if len(row) > 10 else None)
 
         yield {
             "period_from": period_from,
             "period_to": period_to,
             "sr_no": sr_int,
             "indian_party": indian_party,
-            "jv_wos_name": jv_wos_name,
-            "jv_or_wos": jv_or_wos,
-            "country": country,
-            "activity": activity,
-            "equity_usd_mn": equity,
-            "loan_usd_mn": loan,
-            "guarantee_usd_mn": guarantee,
-            "total_usd_mn": total,
+            "jv_wos_name": _clean(_cell(row, jv_col)),
+            "jv_or_wos": _clean(_cell(row, wh_col)),
+            "country": _clean(_cell(row, cn_col)),
+            "activity": _clean(_cell(row, act_col)),
+            "equity_usd_mn": _safe_float(_cell(row, eq_col)),
+            "loan_usd_mn": _safe_float(_cell(row, ln_col)),
+            "guarantee_usd_mn": _safe_float(_cell(row, gu_col)),
+            "total_usd_mn": _safe_float(_cell(row, tot_col)),
         }
 
 
