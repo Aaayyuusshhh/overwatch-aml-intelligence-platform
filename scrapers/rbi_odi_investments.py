@@ -44,7 +44,7 @@ PRID_MANIFEST = os.path.join(CACHE_DIR, "_prid_manifest.json")
 LISTING_URL = "https://rbi.org.in/Scripts/Data_Overseas_Investment.aspx"
 PRESS_URL = "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid={prid}"
 
-YEARS = [str(y) for y in range(2026, 2016, -1)]  # 2017..2026
+YEARS = [str(y) for y in range(2026, 2010, -1)]  # 2017..2026
 
 HEADERS = {
     "User-Agent": (
