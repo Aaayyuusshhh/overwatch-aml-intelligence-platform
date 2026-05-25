@@ -288,30 +288,189 @@ def parse_companies_pdf(text_pages, doc_meta):
     return rows
 
 
+COMPANY_SUFFIX_RE = re.compile(
+    r"\b(?:Ltd\.?|Limited|LLP|Pvt\.?\s*Ltd\.?|Private\s+Limited|"
+    r"Corporation|Industries|Enterprises|Services|Solutions|Holdings|"
+    r"Estates|Builders|Exports|Imports|Traders|Finance|Financial)\b",
+    re.IGNORECASE)
+DIN_8DIGIT_RE = re.compile(r"\b\d{8}\b")
+DATE_RE = re.compile(r"\b\d{1,2}[./-]\d{1,2}[./-]\d{2,4}\b")
+PO_NOISE = {"sl", "no", "name", "of", "directors", "company", "section",
+            "date", "court", "when", "declared", "as", "po", "status",
+            "cases", "directors disqualified", "list", "the", "by", "honble",
+            "case", "din", "dob", "father", "page", "order", "details",
+            "other", "details(", "shri", "smt", "and", "for", "from", "to",
+            "do", "n/a", "not", "available", "page"}
+
+
+def _is_personish(s):
+    """Heuristic: True if s looks like a person name (not a company)."""
+    if not s or len(s) < 3 or len(s) > 80:
+        return False
+    if COMPANY_SUFFIX_RE.search(s):
+        return False
+    # Must start with an uppercase letter
+    if not re.match(r"^[A-Z]", s):
+        return False
+    # No digits
+    if re.search(r"\d", s):
+        return False
+    # Mostly letters/spaces/dots
+    if not re.match(r"^[A-Za-z .'-]+$", s):
+        return False
+    # Reject single-token unless 2+ chars uppercase
+    tokens = s.split()
+    if len(tokens) < 2:
+        return False
+    # Reject if mostly noise tokens
+    if sum(1 for t in tokens if t.lower() in PO_NOISE) >= len(tokens) / 2:
+        return False
+    return True
+
+
+def _is_companyish(s):
+    if not s or len(s) < 4 or len(s) > 150:
+        return False
+    if not re.match(r"^[A-Z]", s):
+        return False
+    if not COMPANY_SUFFIX_RE.search(s):
+        return False
+    return True
+
+
 def parse_offenders_pdf(text_pages, doc_meta):
-    """Parse proclaimed-offenders text. Very heterogeneous; capture lines
-    that look like "Name <space> S/o ..." or table-like entries."""
+    """Parse proclaimed-offenders text. Handles multiple layouts:
+       1) Tabular: <Sl> <Company-Ltd> <Director> <DIN> <Section> <Date> <Status>
+       2) Multi-director rows beneath same company (no serial repeat).
+       3) Tabular with father: <Sl> <Name> <Company> <DIN> <CaseNo> <Date> <Father>
+       4) Free-form "S/o" pattern in court orders.
+    Captures BOTH persons (directors/offenders) and companies."""
     rows = []
     pdf_title = doc_meta.get("column1", "")
     roc = doc_meta.get("column2", "")
     date = doc_meta.get("column3", "")
+    last_company = ""
+    last_case = ""
+
     for page_num, text in text_pages:
-        for line in text.split("\n"):
-            line = line.strip()
-            if not line or len(line) < 6:
+        for raw_line in text.split("\n"):
+            line = raw_line.strip()
+            if not line or len(line) < 4:
                 continue
-            # Look for lines with "S/o" or "Sh." pattern, common in PO lists
-            m = re.match(r"^(?:\d+[.)]\s*)?(?:Sh\.|Smt\.|Mr\.|Ms\.|Shri|Smt)?\s*"
-                         r"([A-Z][A-Za-z. ]{2,60}?)\s+"
-                         r"(?:S/o|D/o|W/o|s/o|d/o|w/o|son of|daughter of)",
-                         line)
-            if m:
-                name = m.group(1).strip()
-                if len(name) >= 3:
+            low = line.lower()
+            # Skip header lines
+            if any(h in low for h in
+                   ["sl. no", "sl no", "s. no", "s.no", "name of company",
+                    "case no", "cases in which", "name of pos",
+                    "po's identified", "po’s identified",
+                    "page no", "court order page", "list of proclaimed",
+                    "directors disqualified"]):
+                continue
+
+            # --- Strategy A: "S/o" / "D/o" pattern (court orders, free text)
+            so_m = re.search(
+                r"\b([A-Z][A-Za-z. ]{2,60}?)\s+"
+                r"(?:S/o|D/o|W/o|s/o|d/o|w/o|son of|daughter of)\s+"
+                r"([A-Z][A-Za-z. ]{2,60}?)(?:[,.;]|$)",
+                line)
+            if so_m:
+                name = re.sub(r"^\d+[.):\-]*\s*", "", so_m.group(1)).strip()
+                father = so_m.group(2).strip()
+                if _is_personish(name):
                     rows.append({
                         "name": name[:200],
-                        "details": (f"Source: {pdf_title[:80]} | ROC: {roc}"
-                                    f" | PDF date: {date} | Raw line: {line[:160]}"),
+                        "father_name": father[:200],
+                        "details": (f"Proclaimed Offender | Father: {father[:80]}"
+                                    f" | Source PDF: {pdf_title[:80]}"
+                                    f" | ROC: {roc} | PDF date: {date}"),
+                    })
+                    continue
+
+            # --- Strategy B: numbered tabular row starting with Sl number
+            # Extract company (if present on this line) and director name
+            num_m = re.match(r"^\s*(\d{1,3})[.):\s]+(.*)$", line)
+            if num_m:
+                rest = num_m.group(2).strip()
+                # Find company in rest (anything ending in Ltd/Limited etc.)
+                co_m = re.search(
+                    r"([A-Z][A-Za-z0-9&.,()\- /]{3,80}?\s+"
+                    r"(?:Ltd\.?|Limited|LLP|Pvt\.?\s*Ltd\.?|Private\s+Limited|"
+                    r"Corporation|Industries|Enterprises))\b",
+                    rest)
+                company = co_m.group(1).strip() if co_m else ""
+                if company:
+                    last_company = company
+                    after_co = rest[co_m.end():].strip()
+                    # Director name = the first capitalized phrase after the company
+                    dir_m = re.match(
+                        r"([A-Z][A-Za-z. ]{2,50}?)(?:\s+(?:\d|Not|N/A|-do-|None|$))",
+                        after_co)
+                    director = dir_m.group(1).strip() if dir_m else ""
+                    case_m = re.search(r"\b(\d{2,4}/\d{2,4})\b", rest)
+                    if case_m:
+                        last_case = case_m.group(1)
+                    # Record the company itself
+                    if _is_companyish(company):
+                        rows.append({
+                            "name": company[:200],
+                            "details": (f"Proclaimed Offender Company"
+                                        f" | Source PDF: {pdf_title[:80]}"
+                                        f" | ROC: {roc} | PDF date: {date}"
+                                        + (f" | Case: {last_case}" if last_case else "")),
+                        })
+                    # Record the director if extracted
+                    if director and _is_personish(director):
+                        rows.append({
+                            "name": director[:200],
+                            "details": (f"Proclaimed Offender (Director)"
+                                        f" | Company: {company[:80]}"
+                                        f" | Source PDF: {pdf_title[:80]}"
+                                        f" | ROC: {roc} | PDF date: {date}"
+                                        + (f" | Case: {last_case}" if last_case else "")),
+                        })
+                    continue
+
+                # No company on this numbered line - might be (name | company | din | ...)
+                # Try: first capitalized phrase is a person, rest may have company
+                # e.g., "1. NIDAMAROY KONDALA RAO UNIVERSAL VITA ALIMENTARE LIMITED ..."
+                # Split at first occurrence of company suffix word
+                pers_m = re.match(
+                    r"^([A-Z][A-Z .]{2,50}?)\s+([A-Z][A-Za-z0-9&.,()\- /]{3,80}?\s+"
+                    r"(?:Ltd\.?|Limited|LLP))\b", rest)
+                if pers_m:
+                    person = pers_m.group(1).strip()
+                    company2 = pers_m.group(2).strip()
+                    if _is_personish(person):
+                        rows.append({
+                            "name": person[:200],
+                            "details": (f"Proclaimed Offender"
+                                        f" | Company: {company2[:80]}"
+                                        f" | Source PDF: {pdf_title[:80]}"
+                                        f" | ROC: {roc} | PDF date: {date}"),
+                        })
+                    if _is_companyish(company2):
+                        rows.append({
+                            "name": company2[:200],
+                            "details": (f"Proclaimed Offender Company"
+                                        f" | Source PDF: {pdf_title[:80]}"
+                                        f" | ROC: {roc} | PDF date: {date}"),
+                        })
+                    last_company = company2
+                    continue
+
+            # --- Strategy C: continuation line — line is just a person name
+            # (occurs under multi-director companies)
+            if last_company and re.match(r"^[A-Z][A-Za-z. ]{2,60}$", line):
+                # Strip trailing tokens like "PO", "Not available"
+                clean = re.sub(r"\s+(?:PO|Not available|Disqualified|-do-).*$",
+                               "", line).strip()
+                if _is_personish(clean):
+                    rows.append({
+                        "name": clean[:200],
+                        "details": (f"Proclaimed Offender (Co-Director)"
+                                    f" | Company: {last_company[:80]}"
+                                    f" | Source PDF: {pdf_title[:80]}"
+                                    f" | ROC: {roc} | PDF date: {date}"),
                     })
     return rows
 
