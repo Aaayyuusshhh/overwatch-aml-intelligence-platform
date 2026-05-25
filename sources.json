@@ -1537,6 +1537,21 @@
       "notes": "127-page consolidated PDF (NBFCs + ARCs whose CoR was cancelled, as on March 31, 2026). 6,167 records."
     },
     {
+      "id": "rbi_odi_investments",
+      "agency": "Reserve Bank of India (RBI)",
+      "list_name": "Overseas Direct Investment (Monthly)",
+      "url": "https://rbi.org.in/Scripts/Data_Overseas_Investment.aspx",
+      "type": "excel",
+      "scraper": "rbi_odi_investments.py",
+      "loader": "scripts/load_rbi_odi_to_db.py",
+      "table": "rbi_odi_investments",
+      "expected_min_records": 50000,
+      "status": "active",
+      "change_detection": false,
+      "change_detection_selector": null,
+      "notes": "Monthly OFDI press releases 2017-2026 (107 Excel files, 61,092 investment records). Indian Party + JV/WOS + Country + Equity/Loan/Guarantee in USD mn. NOT a sanctions list - separate table, used for cross-referencing, not screening. 3 months (Aug-Oct 2019) are PDF-only and skipped."
+    },
+    {
       "id": "rbi_list_of_nbfcs_surrender_106",
       "ppt_number": 106,
       "agency": "Reserve Bank of India (RBI)",
