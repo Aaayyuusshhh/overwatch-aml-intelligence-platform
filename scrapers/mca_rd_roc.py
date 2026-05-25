@@ -67,6 +67,33 @@ SOURCES = [
      "433",
      "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/companies-struck-roc.html",
      "companies"),
+    # Under-alert pages — most PDFs are scanned images, but we register anyway
+    ("mca_defaulter_companies",
+     "Defaulter Companies (Filing Default)",
+     "382",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/company-llp-info/under-alert/defaulter-companies.html",
+     "companies"),
+    ("mca_defaulter_directors",
+     "Defaulter Directors (Filing Default)",
+     "383",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/company-llp-info/under-alert/defaulter-directors.html",
+     "directors"),
+    ("mca_dormant_companies",
+     "Dormant Companies (3yr Filing Default)",
+     "384",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/company-llp-info/under-alert/dormant-companies.html",
+     "companies"),
+    ("mca_llps_strike_off",
+     "LLPs Under Process of Strike Off",
+     "386",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/company-llp-info/under-alert/llps-under-strike-off.html",
+     "companies"),
+    # STK-6 public notices — 2458 PDFs total, recent ones are clean text
+    ("mca_public_notices_stk6",
+     "Public Notices (STK-6) U/S 248(2)",
+     "1443",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/public-notices-stk6.html",
+     "companies"),
 ]
 
 # Regexes for the disqualified-directors line format:
