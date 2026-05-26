@@ -13611,6 +13611,56 @@
       "region": "india",
       "list_type": "enforcement",
       "notes": "ibbi.gov.in returns HTTP 404 / 500. Existing source ibbi_public_announcement_244 still works for announcements."
+    },
+    {
+      "id": "opensanctions_debarment",
+      "agency": "OpenSanctions",
+      "list_name": "Debarment (Development Banks)",
+      "url": "https://data.opensanctions.org/datasets/latest/debarment/targets.simple.csv",
+      "status": "active",
+      "region": "global",
+      "list_type": "debarment",
+      "notes": "World Bank + ADB + IDB + AfDB + EBRD debarred firms/individuals. Updated daily."
+    },
+    {
+      "id": "opensanctions_crime",
+      "agency": "OpenSanctions",
+      "list_name": "Crime (Criminal Interest)",
+      "url": "https://data.opensanctions.org/datasets/latest/crime/targets.simple.csv",
+      "status": "active",
+      "region": "global",
+      "list_type": "criminal",
+      "notes": "Interpol + wanted persons + criminal interest. Updated daily."
+    },
+    {
+      "id": "opensanctions_peps",
+      "agency": "OpenSanctions",
+      "list_name": "Politically Exposed Persons (PEPs)",
+      "url": "https://data.opensanctions.org/datasets/latest/peps/targets.simple.csv",
+      "status": "active",
+      "region": "global",
+      "list_type": "pep",
+      "notes": "PEPs from 28+ countries. Updated daily."
+    },
+    {
+      "id": "fatf_blacklist",
+      "agency": "Financial Action Task Force (FATF)",
+      "list_name": "High-Risk Jurisdictions (Black List)",
+      "url": "https://www.fatf-gafi.org/en/countries/black-and-grey-lists.html",
+      "status": "active",
+      "region": "global",
+      "list_type": "jurisdiction_risk",
+      "notes": "DPRK, Iran, Myanmar. Updated 3x/year."
+    },
+    {
+      "id": "fatf_greylist",
+      "agency": "Financial Action Task Force (FATF)",
+      "list_name": "Jurisdictions under Increased Monitoring (Grey List)",
+      "url": "https://www.fatf-gafi.org/en/countries/black-and-grey-lists.html",
+      "status": "active",
+      "region": "global",
+      "list_type": "jurisdiction_risk",
+      "notes": "22 jurisdictions as of Feb 2026 plenary. Updated 3x/year."
     }
   ]
 }
