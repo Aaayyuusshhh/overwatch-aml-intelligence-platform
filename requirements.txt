@@ -10,4 +10,7 @@ pdf2image>=1.17.0
 # header/body shape matters). Project default remains Scrapling per PRD §10.
 requests>=2.31.0
 beautifulsoup4>=4.12.0
+# FastAPI for the RBI ODI REST API (api/odi_api.py)
+fastapi>=0.110
+uvicorn>=0.29
 # System deps (apt): tesseract-ocr (for pytesseract), poppler-utils (for pdf2image)
