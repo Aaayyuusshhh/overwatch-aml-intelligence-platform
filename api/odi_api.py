@@ -26,9 +26,10 @@ from decimal import Decimal
 from typing import Optional
 
 import psycopg2.extras
-from fastapi import FastAPI, HTTPException, Path, Query
+from fastapi import Depends, FastAPI, HTTPException, Path, Query, Security
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
+from fastapi.security import APIKeyHeader, APIKeyQuery
 from psycopg2.pool import ThreadedConnectionPool
 
 # ---------------------------------------------------------------------------
@@ -45,6 +46,11 @@ DB_TARGET = os.environ.get("ODI_DB", "local").lower()
 if DB_TARGET not in DB_CONFIGS:
     raise RuntimeError(f"ODI_DB must be one of {list(DB_CONFIGS)}; got {DB_TARGET!r}")
 DB_CONFIG = DB_CONFIGS[DB_TARGET]
+
+# API key auth. Set ODI_API_KEY in the environment (or systemd unit) to require
+# X-API-Key header / ?api_key= query param on all /api/odi/* endpoints.
+# /api/health, /, and /docs stay public regardless.
+API_KEY = os.environ.get("ODI_API_KEY", "")
 
 MAX_PER_PAGE = 1000
 DEFAULT_PER_PAGE = 50
@@ -82,6 +88,26 @@ def _startup():
 def _shutdown():
     if POOL is not None:
         POOL.closeall()
+
+
+_api_key_header = APIKeyHeader(name="X-API-Key", auto_error=False)
+_api_key_query = APIKeyQuery(name="api_key", auto_error=False)
+
+
+def verify_api_key(
+    header_key: Optional[str] = Security(_api_key_header),
+    query_key: Optional[str] = Security(_api_key_query),
+):
+    """Require a valid API key on protected endpoints. Accepts X-API-Key
+    header (preferred) or ?api_key= query param. If ODI_API_KEY isn't set
+    on the server, all requests are rejected - fail closed rather than
+    silently disabling auth."""
+    if not API_KEY:
+        raise HTTPException(status_code=503, detail="API key not configured on server")
+    presented = header_key or query_key
+    if not presented or presented != API_KEY:
+        raise HTTPException(status_code=401, detail="Invalid or missing API key")
+    return presented
 
 
 @contextmanager
@@ -209,7 +235,7 @@ def health():
         raise HTTPException(status_code=503, detail=f"db unavailable: {e}")
 
 
-@app.get("/api/odi/search")
+@app.get("/api/odi/search", dependencies=[Depends(verify_api_key)])
 def search(
     company: Optional[str] = Query(None, description="ILIKE on indian_party"),
     jv_wos: Optional[str] = Query(None, description="ILIKE on jv_wos_name"),
@@ -254,7 +280,7 @@ def search(
     }
 
 
-@app.get("/api/odi/company/{name}")
+@app.get("/api/odi/company/{name}", dependencies=[Depends(verify_api_key)])
 def company_detail(
     name: str = Path(..., min_length=2),
     exact: bool = Query(False, description="If true, exact (case-insensitive) match"),
@@ -293,7 +319,7 @@ def company_detail(
     }
 
 
-@app.get("/api/odi/stats")
+@app.get("/api/odi/stats", dependencies=[Depends(verify_api_key)])
 def stats(
     company: Optional[str] = Query(None),
     country: Optional[str] = Query(None),
@@ -366,7 +392,7 @@ def stats(
     }
 
 
-@app.get("/api/odi/countries")
+@app.get("/api/odi/countries", dependencies=[Depends(verify_api_key)])
 def countries():
     with cursor() as cur:
         cur.execute(
@@ -384,7 +410,7 @@ def countries():
     return {"count": len(rows), "countries": rows}
 
 
-@app.get("/api/odi/export")
+@app.get("/api/odi/export", dependencies=[Depends(verify_api_key)])
 def export(
     format: str = Query("json", pattern="^(json|csv)$"),
     company: Optional[str] = Query(None),
