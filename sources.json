@@ -12819,11 +12819,11 @@
       "url": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/disqualified-directors.html",
       "type": "pdf",
       "scraper": "scrapers/mca_rd_roc.py",
-      "expected_min_records": 1000,
+      "expected_min_records": 35000,
       "status": "active",
       "change_detection": false,
       "country": "IN",
-      "notes": "159 ROC-wise PDFs via MCA AEM dmslist API. Mix of text-PDFs (parseable) and scanned images (skipped). Parser handles 2 layouts (CIN-first and DIN-first)."
+      "notes": "All 159 PDFs processed (folder 435). 39,109 rows. Capped at 200 pages per PDF to avoid OOM. Memory-bounded extraction with flush_cache()."
     },
     {
       "id": "mca_companies_struck_off",
@@ -12832,11 +12832,11 @@
       "url": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/companies-struck-roc.html",
       "type": "pdf",
       "scraper": "scrapers/mca_rd_roc.py",
-      "expected_min_records": 500,
+      "expected_min_records": 120000,
       "status": "active",
       "change_detection": false,
       "country": "IN",
-      "notes": "260 ROC-wise PDFs via MCA AEM dmslist API. Some include CIN+English+Hindi columns. Parser extracts CIN-bearing lines."
+      "notes": "All 260 PDFs processed (folder 433). 128,227 rows. Mix of STK-7 notices and struck-off company lists with CIN numbers. ~half of PDFs return 0 bytes from MCA server."
     },
     {
       "id": "mca_proclaimed_offenders",
@@ -12845,11 +12845,11 @@
       "url": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/proclaimed-offenders.html",
       "type": "pdf",
       "scraper": "scrapers/mca_rd_roc.py",
-      "expected_min_records": 50,
+      "expected_min_records": 100,
       "status": "partial",
       "change_detection": false,
       "country": "IN",
-      "notes": "9 PDFs, formats vary widely across ROCs (some with 'S/o' pattern, some tabular). Current parser too strict. Pending heuristic improvements for full coverage."
+      "notes": "5 of 9 PDFs parsed (folder 436). 165 rows. Parser handles S/o pattern, numbered tabular, and multi-director rows. 3 PDFs broken (0 bytes), 1 scanned image."
     },
     {
       "id": "mca_directors_struck_off_companies",
@@ -12897,12 +12897,12 @@
       "url": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/roc-adjudication-orders.html",
       "type": "html",
       "scraper": null,
-      "expected_min_records": 0,
+      "expected_min_records": 2000,
       "status": "no_data",
       "change_detection": false,
       "country": "IN",
       "failure_reason": "no_data_published",
-      "notes": "Page loads (folder 479) but API returns totalResults=0. List currently empty."
+      "notes": "2,188 orders across 32 ROC offices via encrypted /bin/mca/ROCAdjudicationOrdersFilter API (AES-128-CBC, PBKDF2). JSON response \u2014 no PDF parsing needed."
     },
     {
       "id": "mca_defaulter_companies",
@@ -13032,11 +13032,11 @@
       "url": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/public-notices-stk6.html",
       "type": "pdf",
       "scraper": "scrapers/mca_rd_roc.py",
-      "expected_min_records": 200,
+      "expected_min_records": 10000,
       "status": "active",
       "change_detection": false,
       "country": "IN",
-      "notes": "2458 PDFs via AEM folder 1443. Each notice lists 5-15 companies with CIN. Scrape top-N by date; recent ones (May 2026) are clean text."
+      "notes": "500 of 2458 PDFs processed (folder 1443). 10,988 rows. Each notice lists 5-15 companies proposed for strike-off with CIN."
     },
     {
       "id": "mca_vanishing_companies",

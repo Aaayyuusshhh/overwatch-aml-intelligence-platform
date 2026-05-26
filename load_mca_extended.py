@@ -17,6 +17,14 @@ JOBS = [
     ('mca_llps_strike_off',         'data/mca_llps_strike_off.csv'),
     ('mca_companies_struck_off',    'data/mca_companies_struck_off.csv'),
     ('mca_disqualified_directors_164', 'data/mca_disqualified_directors_164.csv'),
+    ('mca_public_notices_stk6',     'data/mca_public_notices_stk6.csv'),
+    ('mca_proclaimed_offenders',    'data/mca_proclaimed_offenders.csv'),
+    ('mca_defaulter_companies',     'data/mca_defaulter_companies.csv'),
+    ('mca_defaulter_directors',     'data/mca_defaulter_directors.csv'),
+    ('mca_dormant_companies',       'data/mca_dormant_companies.csv'),
+    ('mca_vanishing_companies',     'data/mca_vanishing_companies.csv'),
+    ('mca_corporate_fraud_chit_fund', 'data/mca_corporate_fraud_chit_fund.csv'),
+    ('mca_dormant_companies_45',    'data/mca_dormant_companies_45.csv'),
 ]
 
 TARGETS = [

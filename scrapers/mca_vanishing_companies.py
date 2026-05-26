@@ -63,64 +63,108 @@ def split_persons(s: str) -> list[str]:
     return [p.strip() for p in parts if len(p.strip()) > 3]
 
 
-def run():
+def _fetch_page(page_num):
+    if page_num == 1:
+        url = URL
+    else:
+        url = f"https://www.watchoutinvestors.com/dcavanish.asp?cat=main&id=1181227&currentPage={page_num}"
+    r = requests.get(url, headers=H, timeout=90, verify=False)
+    return r, url
+
+
+def run(all_pages=True):
     now = datetime.now(timezone.utc).isoformat()
     out_path = os.path.join(DATA_DIR, f"{SID}.csv")
     print(f"[{SID}] {URL}")
-    r = requests.get(URL, headers=H, timeout=90, verify=False)
+    r, _ = _fetch_page(1)
     if r.status_code != 200:
         print(f"  status={r.status_code} — abort")
         return 0
     soup = BeautifulSoup(r.text, "html.parser")
-    tables = soup.find_all("table")
-    if not tables:
-        print("  no table found")
-        return 0
+    # Detect total pages from "Last" link.
+    # The site uses '&currentPage=N' which BeautifulSoup parses as '¤tPage=N'
+    # (HTML entity &curren;). Match either form.
+    total_pages = 1
+    for a in soup.find_all("a", href=True):
+        if a.get_text(strip=True).lower() == "last":
+            m = re.search(r"(?:currentPage|tPage)=(\d+)", a["href"])
+            if m:
+                total_pages = int(m.group(1))
+                break
+    print(f"  pagination: {total_pages} pages total")
+    if not all_pages:
+        total_pages = 1
+
     rows_out = []
     seen = set()
-    for tr in tables[0].find_all("tr"):
-        cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
-        if not cells or not cells[0].strip().isdigit():
-            continue
-        sno = cells[0].strip()
-        company = cells[1].strip() if len(cells) > 1 else ""
-        persons = cells[4].strip() if len(cells) > 4 else ""
-        charges_idx = None
-        # find charges + actions cells (variable position)
-        charges = next((c for c in cells[5:] if c and len(c) > 30), "")
-        if company and len(company) > 3:
-            k = ("co", company.lower())
-            if k not in seen:
+
+    def process_soup(soup_):
+        tables_ = soup_.find_all("table")
+        if not tables_:
+            return 0
+        added = 0
+        for tr in tables_[0].find_all("tr"):
+            cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
+            if not cells or not cells[0].strip().isdigit():
+                continue
+            sno = cells[0].strip()
+            company = cells[1].strip() if len(cells) > 1 else ""
+            persons = cells[4].strip() if len(cells) > 4 else ""
+            charges = next((c for c in cells[5:] if c and len(c) > 30), "")
+            if company and len(company) > 3:
+                k = ("co", company.lower())
+                if k not in seen:
+                    seen.add(k)
+                    rows_out.append({
+                        "source_agency": AG, "source_list": LST, "case_unit": sno,
+                        "name": company[:200], "father_name": "",
+                        "date_of_birth": "", "gender": "", "address": "",
+                        "reward_amount": "",
+                        "details": (f"Vanishing Company (MCA list) | Sl.No.: {sno}"
+                                    + (f" | Charges: {charges[:200]}" if charges else "")),
+                        "has_document": "No", "document_url": "",
+                        "detail_page_url": URL, "interpol_notice_id": "",
+                        "link_kind": "html", "scraped_at": now,
+                        "enrichment_status": "",
+                    })
+                    added += 1
+            for person in split_persons(persons):
+                k = ("p", person.lower())
+                if k in seen:
+                    continue
                 seen.add(k)
                 rows_out.append({
                     "source_agency": AG, "source_list": LST, "case_unit": sno,
-                    "name": company[:200], "father_name": "",
+                    "name": person[:200], "father_name": "",
                     "date_of_birth": "", "gender": "", "address": "",
                     "reward_amount": "",
-                    "details": (f"Vanishing Company (MCA list) | Sl.No.: {sno}"
-                                + (f" | Charges: {charges[:200]}" if charges else "")),
+                    "details": (f"Director / officer of vanishing company '{company[:80]}' "
+                                f"(MCA list) | Sl.No.: {sno}"),
                     "has_document": "No", "document_url": "",
                     "detail_page_url": URL, "interpol_notice_id": "",
                     "link_kind": "html", "scraped_at": now,
                     "enrichment_status": "",
                 })
-        for person in split_persons(persons):
-            k = ("p", person.lower())
-            if k in seen:
+                added += 1
+        return added
+
+    # process page 1
+    added = process_soup(soup)
+    print(f"  page 1: +{added} rows  (cum={len(rows_out)})")
+
+    # remaining pages
+    for p in range(2, total_pages + 1):
+        try:
+            rp, _ = _fetch_page(p)
+            if rp.status_code != 200:
+                print(f"  page {p}: status={rp.status_code} — skip")
                 continue
-            seen.add(k)
-            rows_out.append({
-                "source_agency": AG, "source_list": LST, "case_unit": sno,
-                "name": person[:200], "father_name": "",
-                "date_of_birth": "", "gender": "", "address": "",
-                "reward_amount": "",
-                "details": (f"Director / officer of vanishing company '{company[:80]}' "
-                            f"(MCA list) | Sl.No.: {sno}"),
-                "has_document": "No", "document_url": "",
-                "detail_page_url": URL, "interpol_notice_id": "",
-                "link_kind": "html", "scraped_at": now,
-                "enrichment_status": "",
-            })
+            soup_p = BeautifulSoup(rp.text, "html.parser")
+            added = process_soup(soup_p)
+            print(f"  page {p}: +{added} rows  (cum={len(rows_out)})")
+        except Exception as e:
+            print(f"  page {p}: ERR {e}")
+
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore")
         w.writeheader()
@@ -132,4 +176,6 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    import sys
+    all_pages = "--single-page" not in sys.argv
+    run(all_pages=all_pages)
