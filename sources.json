@@ -13661,6 +13661,56 @@
       "region": "global",
       "list_type": "jurisdiction_risk",
       "notes": "22 jurisdictions as of Feb 2026 plenary. Updated 3x/year."
+    },
+    {
+      "id": "mca_directors_struck_off_248",
+      "agency": "Ministry of Corporate Affairs (MCA)",
+      "list_name": "Directors Associated with Struck Off Companies U/S 248",
+      "url": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/directors-with-struckoff-companies.html",
+      "status": "active",
+      "country": "IN",
+      "list_type": "director_list",
+      "notes": "22 PDFs. Directors (with DINs) associated with companies struck off under Section 248."
+    },
+    {
+      "id": "mca_notice_strike_off_stk7",
+      "agency": "Ministry of Corporate Affairs (MCA)",
+      "list_name": "Notice of Strike-Off by Registrar (STK-7) Sec 248(1)",
+      "url": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/strike-off-notice-registrar.html",
+      "status": "active",
+      "country": "IN",
+      "list_type": "company_list",
+      "notes": "276 PDFs. Companies being struck off by Registrar under STK-7."
+    },
+    {
+      "id": "mca_public_notices_stk5",
+      "agency": "Ministry of Corporate Affairs (MCA)",
+      "list_name": "Public Notices (STK-5) U/S 248(1)",
+      "url": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/public-notices.html",
+      "status": "active",
+      "country": "IN",
+      "list_type": "company_list",
+      "notes": "218 PDFs. STK-5 public notices under Section 248(1)."
+    },
+    {
+      "id": "mca_extension_agm",
+      "agency": "Ministry of Corporate Affairs (MCA)",
+      "list_name": "Extension of AGM",
+      "url": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/extension-agm.html",
+      "status": "active",
+      "country": "IN",
+      "list_type": "company_list",
+      "notes": "50 PDFs. Companies granted extension of AGM (mostly scanned, OCR-only)."
+    },
+    {
+      "id": "mca_llp_strike_off_rule37",
+      "agency": "Ministry of Corporate Affairs (MCA)",
+      "list_name": "Notice of Strike-Off Under LLP Rule 37",
+      "url": "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/strike-off-notice.html",
+      "status": "active",
+      "country": "IN",
+      "list_type": "llp_list",
+      "notes": "226 PDFs. LLPs being struck off under Rule 37."
     }
   ]
 }

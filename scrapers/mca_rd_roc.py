@@ -94,7 +94,43 @@ SOURCES = [
      "1443",
      "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/public-notices-stk6.html",
      "companies"),
+    # Newly registered MCA pages (folder IDs discovered via data-dialog scan).
+    ("mca_directors_struck_off_248",
+     "Directors Associated with Struck Off Companies U/S 248",
+     "434",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/directors-with-struckoff-companies.html",
+     "directors"),
+    ("mca_notice_strike_off_stk7",
+     "Notice of Strike-Off by Registrar (STK-7) Sec 248(1)",
+     "438",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/strike-off-notice-registrar.html",
+     "companies"),
+    ("mca_public_notices_stk5",
+     "Public Notices (STK-5) U/S 248(1)",
+     "439",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/public-notices.html",
+     "companies"),
+    ("mca_extension_agm",
+     "Extension of AGM",
+     "432",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/extension-agm.html",
+     "companies"),
+    ("mca_llp_strike_off_rule37",
+     "Notice of Strike-Off Under LLP Rule 37",
+     "437",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/strike-off-notice.html",
+     "llps"),
+    ("mca_rd_compounding_orders",
+     "RD Compounding Orders",
+     "262121289",
+     "https://www.mca.gov.in/content/mca/global/en/data-and-reports/rd-roc-info/rd-Compounding-orders.html",
+     "compounding"),
 ]
+
+# Folders whose searchDocList API silently returns empty at perPage=1000.
+# For these we use a smaller perPage and combine multiple sort orders to
+# reach every doc (the server caps each sorted view at ~350 results).
+LARGE_FOLDER_IDS = {"262121289"}
 
 # Regexes for the disqualified-directors line format:
 # "<SrNo> <CIN-21char> <Company-words...> <DIN-6to8digits> <Director-words...> <RC###> <Status> <date> <date>"
@@ -110,8 +146,11 @@ def get_session():
     return s
 
 
-def list_docs(session, folder, page_url):
-    session.get(page_url, headers=H_BROWSER, timeout=30, verify=False)
+def _fetch_doc_page(session, page_url, folder, page, per_page, sort_field,
+                    sort_order, search_field="", search_keyword=""):
+    """Single searchDocList request. Returns (docs, total) or (None, 0) on
+    server-side empty (which the MCA API uses for both 'no more results' and
+    'too many results, refusing to paginate further')."""
     dialog = json.dumps({"folder": str(folder), "language": "English",
                          "totalColumns": 3,
                          "columns": ["Title", "ROC", "Date"]})
@@ -119,17 +158,79 @@ def list_docs(session, folder, page_url):
              "X-Requested-With": "XMLHttpRequest", "Referer": page_url,
              "Sec-Fetch-Dest": "empty", "Sec-Fetch-Mode": "cors",
              "Sec-Fetch-Site": "same-origin"}
-    params = {"page": 1, "perPage": 1000, "sortField": "Date", "sortOrder": "D",
-              "searchField": "", "searchKeyword": "",
-              "startDate": "", "endDate": "", "filter": "",
-              "dialog": dialog}
-    r = session.get("https://www.mca.gov.in/bin/dms/searchDocList",
-                    params=params, headers=H_api, timeout=60, verify=False)
-    if r.status_code != 200:
-        return [], 0
-    j = r.json()
-    docs = json.loads(j.get("documentDetails", "[]"))
-    return docs, int(j.get("totalResults", len(docs)) or 0)
+    params = {"page": page, "perPage": per_page,
+              "sortField": sort_field, "sortOrder": sort_order,
+              "searchField": search_field, "searchKeyword": search_keyword,
+              "startDate": "", "endDate": "", "filter": "", "dialog": dialog}
+    try:
+        r = session.get("https://www.mca.gov.in/bin/dms/searchDocList",
+                        params=params, headers=H_api, timeout=60, verify=False)
+    except Exception:
+        return None, 0
+    if r.status_code != 200 or not r.text.strip():
+        return None, 0
+    try:
+        j = r.json()
+    except Exception:
+        return None, 0
+    docs = json.loads(j.get("documentDetails", "[]") or "[]")
+    total = int(j.get("totalResults", 0) or 0)
+    return docs, total
+
+
+def list_docs(session, folder, page_url):
+    """Paginate over /bin/dms/searchDocList. Returns (all_docs, total).
+
+    Two strategies:
+      - small/normal folders: perPage=1000 paginated until exhausted.
+      - LARGE_FOLDER_IDS: perPage=50 across multiple sort orders, deduped by
+        docID, because the server silently returns empty past ~350 results in
+        any single sort view.
+    """
+    session.get(page_url, headers=H_BROWSER, timeout=30, verify=False)
+    folder_s = str(folder)
+    if folder_s in LARGE_FOLDER_IDS:
+        seen = set()
+        all_docs = []
+        total = 0
+        for sort_field, sort_order in (("Date", "D"), ("Date", "A"),
+                                        ("Title", "D"), ("Title", "A"),
+                                        ("ROC", "D"), ("ROC", "A")):
+            for page in range(1, 30):
+                docs, total_here = _fetch_doc_page(
+                    session, page_url, folder, page, 50, sort_field, sort_order)
+                if docs is None or not docs:
+                    break
+                total = max(total, total_here)
+                for d in docs:
+                    did = d.get("docID")
+                    if did and did not in seen:
+                        seen.add(did)
+                        all_docs.append(d)
+                if len(all_docs) >= total > 0:
+                    break
+                time.sleep(0.4)
+            if len(all_docs) >= total > 0:
+                break
+        return all_docs, total
+
+    all_docs = []
+    total = 0
+    page = 1
+    while True:
+        docs, total_here = _fetch_doc_page(
+            session, page_url, folder, page, 1000, "Date", "D")
+        if docs is None or not docs:
+            break
+        all_docs.extend(docs)
+        total = max(total, total_here, len(all_docs))
+        if len(all_docs) >= total:
+            break
+        page += 1
+        if page > 50:  # hard safety cap (50,000 docs)
+            break
+        time.sleep(0.4)
+    return all_docs, total
 
 
 def download_pdf(session, doc_id, page_url):
@@ -150,10 +251,12 @@ def download_pdf(session, doc_id, page_url):
         return b""
 
 
-def extract_text_all_pages(pdf_path, max_pages=None):
+def extract_text_all_pages(pdf_path, max_pages=None, ocr_fallback=True):
     """Return list of (page_num, text) for every page that has text.
 
     If max_pages is given, stop after that many pages (bounds memory on huge PDFs).
+    If ocr_fallback and pdfplumber returns no text, run Tesseract OCR on the
+    rendered page image.
     """
     out = []
     try:
@@ -162,6 +265,13 @@ def extract_text_all_pages(pdf_path, max_pages=None):
                 if max_pages and i > max_pages:
                     break
                 t = page.extract_text() or ""
+                if not t.strip() and ocr_fallback:
+                    try:
+                        import pytesseract
+                        img = page.to_image(resolution=300).original
+                        t = pytesseract.image_to_string(img) or ""
+                    except Exception:
+                        pass
                 if t.strip():
                     out.append((i, t))
                 # Release pdfplumber's internal page cache to bound memory on huge PDFs
@@ -509,11 +619,74 @@ def parse_llps_pdf(text_pages, doc_meta):
     return rows
 
 
+COMPOUNDING_COMPANY_RE = re.compile(
+    r"In\s+the\s+Matter\s+of\s+(?:M/s\.?\s+)?"
+    r"([A-Z][A-Z0-9&.,()\-'/ ]{3,140}?"
+    r"\s+(?:LIMITED|LTD\.?|LLP|PRIVATE\s+LIMITED|PVT\.?\s*LTD\.?))"
+    r"(?:\s+having|\s*[,.]|\s+CIN|\s*$)",
+    re.IGNORECASE)
+COMPOUNDING_PERSON_RE = re.compile(
+    r"^\s*\d+[.):\s]+"
+    r"(?:Mr\.?|Ms\.?|Mrs\.?|Shri|Smt\.?|Sh\.?|Dr\.?|Sri\.?)\s+"
+    r"([A-Z][A-Za-z .'-]{2,60}?)"
+    r"(?:[,.]|$)")
+SECTION_RE = re.compile(r"Section\s+(\d{1,4}[A-Z]?)\s+of", re.IGNORECASE)
+
+
+def parse_compounding_pdf(text_pages, doc_meta):
+    """Parse RD Compounding Orders. Each PDF is one order naming:
+       - one company (from 'In the Matter of <COMPANY>')
+       - one or more applicants/directors (from a numbered list)
+       The CIN is rarely present — we record what's there."""
+    rows = []
+    pdf_title = doc_meta.get("column1", "")
+    roc = doc_meta.get("column2", "")
+    date = doc_meta.get("column3", "")
+    full_text = "\n".join(t for _, t in text_pages)
+    cin_m = CIN_RE.search(full_text)
+    cin = cin_m.group(0) if cin_m else ""
+    section_m = SECTION_RE.search(pdf_title) or SECTION_RE.search(full_text[:800])
+    section = section_m.group(1) if section_m else ""
+    co_m = COMPOUNDING_COMPANY_RE.search(full_text)
+    company = co_m.group(1).strip() if co_m else ""
+    company = re.sub(r"\s+", " ", company)
+    base_details = (f"RD Compounding Order | Section: {section or 'N/A'}"
+                    f" | CIN: {cin or 'N/A'} | ROC: {roc} | PDF: {pdf_title[:80]}"
+                    f" | PDF date: {date}")
+    if company and _is_companyish(company):
+        rows.append({
+            "name": company[:200],
+            "details": base_details + " | Role: Subject Company",
+        })
+    seen_people = set()
+    for _, text in text_pages:
+        for line in text.split("\n"):
+            line = line.strip()
+            pm = COMPOUNDING_PERSON_RE.match(line)
+            if not pm:
+                continue
+            name = pm.group(1).strip().rstrip(".,;:")
+            name = re.sub(r"\s+", " ", name)
+            if not _is_personish(name):
+                continue
+            key = name.lower()
+            if key in seen_people:
+                continue
+            seen_people.add(key)
+            rows.append({
+                "name": name[:200],
+                "details": base_details + (f" | Role: Applicant"
+                                            + (f" | Company: {company[:80]}" if company else "")),
+            })
+    return rows
+
+
 PARSERS = {
     "directors": parse_directors_pdf,
     "companies": parse_companies_pdf,
     "offenders": parse_offenders_pdf,
     "llps": parse_llps_pdf,
+    "compounding": parse_compounding_pdf,
 }
 
 
