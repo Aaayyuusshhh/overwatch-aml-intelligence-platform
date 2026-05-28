@@ -67,6 +67,24 @@ log "=== run_all.sh start (dry_run=$DRY_RUN) ==="
 PRE_COUNT=$(count_rows)
 log "pre-run row count: $PRE_COUNT"
 
+# Backup data/ CSVs before any scraping. The healer's rollback path
+# (DATA_ZEROED alert) restores from this directory when a fresh scrape
+# zeros out an otherwise-populated source.
+log "backing up data/ CSVs ..."
+mkdir -p data/backup
+BAK_NEW=0
+for csv in data/*.csv; do
+    [ -f "$csv" ] || continue
+    [ -s "$csv" ] || continue
+    fname=$(basename "$csv")
+    bak="data/backup/$fname"
+    if [ ! -f "$bak" ] || [ "$csv" -nt "$bak" ]; then
+        cp -p "$csv" "$bak"
+        BAK_NEW=$((BAK_NEW + 1))
+    fi
+done
+log "backup: refreshed $BAK_NEW files ($(ls data/backup/*.csv 2>/dev/null | wc -l) total in data/backup/)"
+
 # Per-source pre-scrape counts. compare_counts.py reads this after the run
 # to compute deltas the daily report can show (e.g. "OpenSanctions PEPs: +85").
 log "saving pre-scrape per-source counts ..."
@@ -156,6 +174,18 @@ timeout 600 ./venv/bin/python scripts/source_monitor_v2.py --all --slack \
 MONITOR_EXIT=$?
 log "source monitor v2 exit=$MONITOR_EXIT"
 
+# Auto-healer: reads logs/source_monitor_v2.json and acts on its alerts.
+# Re-scrapes content-changed/stale/recovered sources, rolls back zeroed
+# data from data/backup/, tries Playwright fallback on newly-blocked HTML
+# sources, and re-downloads stale OpenSanctions / FATF feeds. Hard-skips
+# MCA (weekly cron) and any source still in 24h cooldown from yesterday.
+# Capped at 30 min wall-clock and 10 actions per run.
+log "running auto-healer ..."
+timeout 1800 ./venv/bin/python scripts/auto_healer.py --all --slack \
+    >> "$RUN_LOG" 2>&1
+HEALER_EXIT=$?
+log "auto-healer exit=$HEALER_EXIT"
+
 log "running validator ..."
 ./venv/bin/python scripts/validate_production.py \
     --report "reports/validation_${TODAY}.csv" \
@@ -183,7 +213,7 @@ REPORT_EXIT=$?
 log "daily report exit=$REPORT_EXIT"
 
 # Final one-line summary — easy to grep / forward from cron mail.
-SUMMARY="rows ${PRE_COUNT}->${POST_COUNT} (delta ${DELTA}) | main.py exit=${MAIN_EXIT} | monitor exit=${MONITOR_EXIT} | validator exit=${VALIDATOR_EXIT} | report exit=${REPORT_EXIT}"
+SUMMARY="rows ${PRE_COUNT}->${POST_COUNT} (delta ${DELTA}) | main.py exit=${MAIN_EXIT} | monitor exit=${MONITOR_EXIT} | healer exit=${HEALER_EXIT:-0} | validator exit=${VALIDATOR_EXIT} | report exit=${REPORT_EXIT}"
 log "SUMMARY: $SUMMARY"
 log "=== run_all.sh end ==="
 

@@ -23,6 +23,7 @@ ENV_PATH = os.path.join(PROJECT_ROOT, ".env")
 LOG_DIR = os.path.join(PROJECT_ROOT, "logs")
 DIFF_PATH = os.path.join(LOG_DIR, "post_scrape_diff.json")
 MONITOR_PATH = os.path.join(LOG_DIR, "source_monitor_v2.json")
+HEALER_PATH = os.path.join(LOG_DIR, "auto_healer_report.json")
 os.makedirs(LOG_DIR, exist_ok=True)
 
 
@@ -52,6 +53,20 @@ def load_monitor_report() -> dict:
         return {}
     try:
         with open(MONITOR_PATH) as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def load_healer_report() -> dict:
+    """Load logs/auto_healer_report.json written by scripts/auto_healer.py.
+
+    Empty {} if missing — daily report degrades gracefully without it.
+    """
+    if not os.path.exists(HEALER_PATH):
+        return {}
+    try:
+        with open(HEALER_PATH) as f:
             return json.load(f)
     except Exception:
         return {}
@@ -192,6 +207,9 @@ def collect_stats() -> dict:
     # Outside-in monitor — HTTP, content hash, layout, staleness across
     # all 942 sources (not just the ones we have DB data for).
     out["monitor"] = load_monitor_report()
+    # Auto-healer report — what the response layer DID about the monitor's
+    # alerts (re-scrapes, rollbacks, Playwright fallbacks).
+    out["healer"] = load_healer_report()
     return out
 
 
@@ -477,6 +495,135 @@ def render_html(s: dict, now_ist: datetime) -> str:
             + '</table></div>'
         )
 
+    # ── auto-healer: what the response layer DID about the alerts ──────
+    healer = s.get("healer") or {}
+    healer_html = ""
+    if healer and any(healer.get(k, 0) for k in
+                      ("healed", "rolled_back", "needs_human", "failed")):
+        hsum = healer.get("summary") or {}
+        # KPI strip: 4 counters (healed / rolled back / needs human / failed).
+        hcards = [
+            ("Healed",         healer.get("healed", 0),       "#16A34A"),
+            ("Rolled back",    healer.get("rolled_back", 0),  "#2563EB"),
+            ("Needs human",    healer.get("needs_human", 0),  "#D97706"),
+            ("Failed",         healer.get("failed", 0),       "#DC2626"),
+        ]
+        hcells = []
+        for label, value, accent in hcards:
+            hcells.append(
+                '<td style="padding:6px;text-align:center;vertical-align:top">'
+                '<div style="background:#FFFFFF;border:1px solid #E2E8F0;'
+                'border-radius:8px;padding:10px 6px;min-width:80px">'
+                f'<div style="font-size:18px;font-weight:700;color:{accent};'
+                f'font-family:{FONT};line-height:1.1">{value:,}</div>'
+                f'<div style="font-size:10px;color:#94A3B8;margin-top:4px;'
+                f'text-transform:uppercase;letter-spacing:0.4px">{label}</div>'
+                '</div></td>'
+            )
+        kpi_row = "<tr>" + "".join(hcells) + "</tr>"
+
+        # Detail rows: source · action · result · delta. Up to 12 lines split
+        # across healed + rolled_back + needs_attention.
+        rows_html: list[str] = []
+
+        def _row(sid: str, alert_kind: str, action: str,
+                 result: str, delta_str: str, accent: str) -> str:
+            return (
+                '<tr>'
+                f'<td style="padding:6px 8px;font-size:12px;color:#334155;'
+                f'font-family:{FONT};word-break:break-all">{sid}</td>'
+                f'<td style="padding:6px 8px;font-size:12px;color:{SECONDARY};'
+                f'font-family:{FONT}">{alert_kind}</td>'
+                f'<td style="padding:6px 8px;font-size:12px;color:#334155;'
+                f'font-family:{FONT}">{action}</td>'
+                f'<td style="padding:6px 8px;font-size:12px;color:{accent};'
+                f'font-family:{FONT};font-weight:600">{result}</td>'
+                f'<td style="padding:6px 8px;font-size:12px;color:#334155;'
+                f'font-family:{FONT};text-align:right">{delta_str}</td>'
+                '</tr>'
+            )
+
+        for h in (hsum.get("auto_healed") or [])[:8]:
+            d = h.get("delta", 0)
+            delta_s = f"+{d:,}" if isinstance(d, int) and d > 0 else (
+                f"{d:,}" if isinstance(d, int) else "ok")
+            rows_html.append(_row(
+                h.get("source_id", ""),
+                (h.get("reason") or "")[:40] or "monitor alert",
+                (h.get("action") or "rescrape").replace("_", " "),
+                "re-scraped",
+                delta_s, "#16A34A",
+            ))
+        for h in (hsum.get("rolled_back") or [])[:3]:
+            rows_html.append(_row(
+                h.get("source_id", ""),
+                "data zeroed",
+                "rollback from backup",
+                "restored",
+                f"{h.get('rows_restored', 0):,}",
+                "#2563EB",
+            ))
+        for h in (hsum.get("needs_attention") or [])[:3]:
+            rows_html.append(_row(
+                h.get("source_id", ""),
+                (h.get("message") or "")[:40],
+                h.get("status", "?"),
+                "needs human",
+                "—",
+                "#D97706",
+            ))
+
+        details_table = ""
+        if rows_html:
+            details_table = (
+                '<table cellpadding="0" cellspacing="0" border="0" '
+                'style="width:100%;border-collapse:collapse;margin-top:14px">'
+                '<thead><tr>'
+                '<th align="left" style="padding:6px 8px;font-size:10px;'
+                f'color:#94A3B8;text-transform:uppercase;letter-spacing:0.4px;'
+                f'border-bottom:1px solid #E2E8F0;font-family:{FONT}">Source</th>'
+                '<th align="left" style="padding:6px 8px;font-size:10px;'
+                f'color:#94A3B8;text-transform:uppercase;letter-spacing:0.4px;'
+                f'border-bottom:1px solid #E2E8F0;font-family:{FONT}">Alert</th>'
+                '<th align="left" style="padding:6px 8px;font-size:10px;'
+                f'color:#94A3B8;text-transform:uppercase;letter-spacing:0.4px;'
+                f'border-bottom:1px solid #E2E8F0;font-family:{FONT}">Action</th>'
+                '<th align="left" style="padding:6px 8px;font-size:10px;'
+                f'color:#94A3B8;text-transform:uppercase;letter-spacing:0.4px;'
+                f'border-bottom:1px solid #E2E8F0;font-family:{FONT}">Result</th>'
+                '<th align="right" style="padding:6px 8px;font-size:10px;'
+                f'color:#94A3B8;text-transform:uppercase;letter-spacing:0.4px;'
+                f'border-bottom:1px solid #E2E8F0;font-family:{FONT}">Rows</th>'
+                '</tr></thead><tbody>'
+                + "".join(rows_html)
+                + '</tbody></table>'
+            )
+
+        new_rows = healer.get("total_new_rows", 0)
+        restored = healer.get("rows_restored", 0)
+        impact_bits = []
+        if new_rows:
+            impact_bits.append(f"+{new_rows:,} new rows pulled in")
+        if restored:
+            impact_bits.append(f"{restored:,} rows restored from backup")
+        impact = " · ".join(impact_bits) or "no row-level impact"
+
+        healer_html = (
+            '<div style="padding:22px 32px">'
+            f'<h3 style="color:#1B3A6B;margin:0 0 12px;font-size:15px;'
+            f'font-weight:600;font-family:{FONT}">Auto-healer (response layer)</h3>'
+            f'<p style="color:{SECONDARY};font-size:12px;margin:0 0 12px;'
+            f'font-family:{FONT}">Autonomous response to monitor alerts: re-scrape, '
+            f'rollback from backup, or Playwright fallback. Impact today: '
+            f'<strong style="color:#1B3A6B">{impact}</strong>.</p>'
+            '<table cellpadding="0" cellspacing="0" border="0" '
+            'style="border-collapse:separate;border-spacing:0">'
+            + kpi_row
+            + '</table>'
+            + details_table
+            + '</div>'
+        )
+
     about = (
         '<div style="padding:22px 32px;background:#F8FAFC">'
         f'<p style="color:{SECONDARY};font-size:13px;line-height:1.65;margin:0;'
@@ -513,6 +660,7 @@ def render_html(s: dict, now_ist: datetime) -> str:
         + kpi_html
         + (sep + changes_html if changes_html else "")
         + (sep + monitor_html if monitor_html else "")
+        + (sep + healer_html if healer_html else "")
         + sep
         + about
         + footer
@@ -629,6 +777,56 @@ def _monitor_blocks(monitor: dict) -> list[dict]:
     ]
 
 
+def _healer_blocks(healer: dict) -> list[dict]:
+    """Slack section summarising auto_healer outcomes: healed / rolled back /
+    needs human / failed. Returns [] if the healer didn't run or had nothing
+    to do."""
+    if not healer:
+        return []
+    healed   = healer.get("healed", 0)
+    rolled   = healer.get("rolled_back", 0)
+    need     = healer.get("needs_human", 0)
+    failed   = healer.get("failed", 0)
+    skipped  = healer.get("skipped", 0)
+    new_rows = healer.get("total_new_rows", 0)
+    if not any((healed, rolled, need, failed)):
+        return []
+    head = [
+        f":wrench: Auto-healer ran on {healer.get('monitor_timestamp','-')}",
+        f"*Healed:* {healed} · *Rolled back:* {rolled} · "
+        f"*Need human:* {need} · *Failed:* {failed}"
+        + (f" · skipped: {skipped}" if skipped else ""),
+    ]
+    if new_rows:
+        head.append(f"+{new_rows:,} new rows pulled in by healing")
+
+    detail_lines: list[str] = []
+    summary = healer.get("summary") or {}
+    for h in (summary.get("auto_healed") or [])[:4]:
+        d = h.get("delta", 0)
+        tag = f"+{d:,}" if isinstance(d, int) and d > 0 else (
+            f"{d:,}" if isinstance(d, int) else "ok")
+        detail_lines.append(
+            f"• `{h['source_id']}` ({h.get('action','?')}): {tag} rows")
+    for h in (summary.get("rolled_back") or [])[:2]:
+        detail_lines.append(
+            f"• :arrows_counterclockwise: `{h['source_id']}` "
+            f"restored {h.get('rows_restored', 0):,} from backup")
+    for h in (summary.get("needs_attention") or [])[:3]:
+        detail_lines.append(
+            f"• :warning: `{h['source_id']}` _{h.get('status','?')}_: "
+            f"{(h.get('message') or '')[:100]}")
+
+    text = "*Auto-healer*\n" + "\n".join(head)
+    if detail_lines:
+        text += "\n\n" + "\n".join(detail_lines)
+    return [
+        {"type": "divider"},
+        {"type": "section",
+         "text": {"type": "mrkdwn", "text": text}},
+    ]
+
+
 def build_slack_payload(s: dict, now_ist: datetime) -> dict:
     """Slack daily message. All-clear path always includes the diff if any
     real changes happened; alert path keeps the alert list and appends diff
@@ -637,11 +835,13 @@ def build_slack_payload(s: dict, now_ist: datetime) -> dict:
     n_alerts = len(alerts)
     diff = s.get("pipeline_diff") or {}
     monitor = s.get("monitor") or {}
+    healer = s.get("healer") or {}
     total_short = fmt_short(s["total_records"])
     high_short  = fmt_short(s["kg_high_risk"])
     date_str    = now_ist.strftime("%A, %d %B %Y")
     diff_extra  = _diff_blocks(diff)
     monitor_extra = _monitor_blocks(monitor)
+    healer_extra = _healer_blocks(healer)
 
     if n_alerts == 0:
         blocks = [
@@ -655,6 +855,7 @@ def build_slack_payload(s: dict, now_ist: datetime) -> dict:
         ]
         blocks.extend(diff_extra)
         blocks.extend(monitor_extra)
+        blocks.extend(healer_extra)
         blocks.append({"type": "context", "elements": [
             {"type": "mrkdwn",
              "text": f"_Overwatch AML · Resurgent India · {date_str} · Next run: Tomorrow 6:00 AM IST_"}
@@ -684,6 +885,7 @@ def build_slack_payload(s: dict, now_ist: datetime) -> dict:
         f"All other *{ok_count}* sources healthy · *{total_short}* records · *{high_short}* high-risk"}})
     blocks.extend(diff_extra)
     blocks.extend(monitor_extra)
+    blocks.extend(healer_extra)
     blocks.append({"type": "context", "elements": [
         {"type": "mrkdwn", "text": f"_Overwatch AML · Resurgent India · {date_str}_"}
     ]})

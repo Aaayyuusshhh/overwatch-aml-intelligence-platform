@@ -714,6 +714,13 @@ def _monitor_v2_path() -> str:
     )
 
 
+def _healer_report_path() -> str:
+    return os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "logs", "auto_healer_report.json",
+    )
+
+
 @app.get("/api/pipeline/status")
 def pipeline_status():
     """Surface the most recent daily-pipeline diff + DB row count.
@@ -795,6 +802,28 @@ def pipeline_status():
         for r in added[:10]
     ]
 
+    # Auto-healer report — what the response layer DID with the monitor's
+    # alerts (re-scrapes, rollbacks, Playwright fallbacks).
+    healer: dict = {}
+    healer_available = False
+    hpath = _healer_report_path()
+    if os.path.exists(hpath):
+        try:
+            with open(hpath) as f:
+                healer = _pipeline_json.load(f)
+                healer_available = True
+        except Exception:
+            pass
+    h_summary = (healer.get("summary") or {}) if healer_available else {}
+    healed_sources = [
+        h.get("source_id") for h in (h_summary.get("auto_healed") or [])[:10]
+    ]
+    needs_attention = [
+        {"source_id": h.get("source_id"), "status": h.get("status"),
+         "message": (h.get("message") or "")[:200]}
+        for h in (h_summary.get("needs_attention") or [])[:10]
+    ]
+
     return {
         "status": "ok",
         "db_target": DB_TARGET,
@@ -821,6 +850,20 @@ def pipeline_status():
         "sources_stale": msum.get("stale", 0),
         "sources_very_stale": msum.get("very_stale", 0),
         "monitor_summary": msum,
+        "healer_available": healer_available,
+        "last_heal_run": healer.get("timestamp") if healer_available else None,
+        "healer": {
+            "healed":            healer.get("healed", 0),
+            "rolled_back":       healer.get("rolled_back", 0),
+            "needs_human":       healer.get("needs_human", 0),
+            "failed":            healer.get("failed", 0),
+            "skipped":           healer.get("skipped", 0),
+            "new_rows_from_healing": healer.get("total_new_rows", 0),
+            "rows_restored":     healer.get("rows_restored", 0),
+            "rows_reloaded_to_db": healer.get("rows_reloaded_to_db", 0),
+            "last_healed_sources": healed_sources,
+            "sources_needing_attention": needs_attention,
+        } if healer_available else None,
         "screening_api_version": "1.2.0",
         "screening_api_tests": "69/69",
         "summary": diff.get("summary") or [],
