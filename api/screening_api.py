@@ -24,6 +24,7 @@ import html
 import logging
 import logging.handlers
 import os
+import re
 import threading
 import time
 import unicodedata
@@ -142,9 +143,11 @@ app = FastAPI(
     description=(
         "Screen names and companies against 6.4M+ watchlist records: OFAC, "
         "UN, EU, FATF, Interpol, OpenSanctions, RBI, SEBI, MCA, FIU and more. "
-        "Returns matches with similarity scores and a risk level."
+        "Returns matches with similarity scores, a risk level, and direct "
+        "source URLs so clients can verify each match against the originating "
+        "watchlist."
     ),
-    version="1.1.0",
+    version="1.2.0",
 )
 app.add_middleware(
     CORSMiddleware,
@@ -160,6 +163,7 @@ POOL: Optional[ThreadedConnectionPool] = None
 def _startup():
     global POOL
     POOL = ThreadedConnectionPool(DB_POOL_MIN, DB_POOL_MAX, **DB_CONFIG)
+    _load_source_base_urls()
     _logger.info(f"startup db_target={DB_TARGET} pool={DB_POOL_MIN}-{DB_POOL_MAX}")
 
 
@@ -352,8 +356,62 @@ def _risk_level(matches: list[dict], odi_found: bool = False) -> str:
 
 WATCHLIST_COLS = (
     "id, source_id, source_agency, source_list, name, father_name, "
-    "date_of_birth, address, details, detail_page_url, link_kind"
+    "date_of_birth, address, details, detail_page_url, document_url, "
+    "link_kind"
 )
+
+
+# ---------------------------------------------------------------------------
+# Source URL lookup
+#
+# Many watchlist_records rows have empty detail_page_url and document_url
+# (especially aggregator sources like opensanctions_*, ofac_sdn, fatf_*).
+# For those we fall back to the source's base URL from sources.json so the
+# client always gets *some* link to verify the match against.
+#
+# Loaded once at startup; sources.json is ~500KB so the lookup is cheap.
+
+_SOURCE_BASE_URL: dict[str, str] = {}
+
+
+def _load_source_base_urls() -> None:
+    """Populate _SOURCE_BASE_URL from sources.json. Idempotent — safe to
+    re-run if sources.json is edited and the API is reloaded."""
+    path = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "sources.json",
+    )
+    try:
+        with open(path) as f:
+            import json as _json
+            data = _json.load(f)
+        n = 0
+        for s in data.get("sources", []):
+            sid = s.get("id")
+            url = s.get("url")
+            if sid and url:
+                _SOURCE_BASE_URL[sid] = url
+                n += 1
+        _logger.info(f"loaded {n} source base URLs from sources.json")
+    except Exception as e:
+        _logger.warning(f"could not load sources.json: {e}")
+
+
+def _resolve_source_url(record: dict) -> str:
+    """Pick the most useful URL to show a client for this match.
+
+    Order of preference:
+      1. detail_page_url — the exact page for this entity
+      2. document_url    — a PDF/document where the entity appears
+      3. sources.json base URL for this source_id — the source homepage
+
+    Returns '' if none of these are available.
+    """
+    for k in ("detail_page_url", "document_url"):
+        v = (record.get(k) or "").strip()
+        if v:
+            return v
+    return _SOURCE_BASE_URL.get(record.get("source_id") or "", "")
 
 
 def _search_watchlist(cur, query: str, threshold: float, max_results: int) -> list[dict]:
@@ -445,6 +503,15 @@ def _search_watchlist(cur, query: str, threshold: float, max_results: int) -> li
         r["similarity"] = round(float(r["similarity"]), 4)
         r["risk_category"] = _risk_category(r["source_id"])
         r["record_id"] = r.pop("id")
+        # Client-facing source attribution: best URL we can show for proof,
+        # plus the source's homepage as a stable fallback link.
+        r["source_url"] = _resolve_source_url(r)
+        r["source_page_url"] = _SOURCE_BASE_URL.get(r.get("source_id") or "", "")
+        # Normalize empties to "" so the JSON shape is stable across rows.
+        if r.get("document_url") is None:
+            r["document_url"] = ""
+        if r.get("detail_page_url") is None:
+            r["detail_page_url"] = ""
     return out
 
 
@@ -605,7 +672,7 @@ def _client_ip(request: Request) -> str:
 def root():
     return {
         "service": "AML Screening API",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "db_target": DB_TARGET,
         "endpoints": [
             "/api/health",
@@ -637,6 +704,13 @@ def _pipeline_diff_path() -> str:
     return os.path.join(
         os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
         "logs", "post_scrape_diff.json",
+    )
+
+
+def _monitor_v2_path() -> str:
+    return os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "logs", "source_monitor_v2.json",
     )
 
 
@@ -700,11 +774,34 @@ def pipeline_status():
     removed = diff.get("removed") or []
     zeroed = diff.get("zeroed") or []
     fc = diff.get("fatf_changes") or {}
+
+    # Layer the source_monitor_v2 report on top, if today's run produced one.
+    # The monitor sees things the scrape-counts diff can't (HTTP down sources,
+    # content/layout changes detected outside the DB).
+    monitor: dict = {}
+    monitor_available = False
+    mpath = _monitor_v2_path()
+    if os.path.exists(mpath):
+        try:
+            with open(mpath) as f:
+                monitor = _pipeline_json.load(f)
+                monitor_available = True
+        except Exception:
+            pass
+    msum = (monitor.get("summary") or {}) if monitor_available else {}
+    # Top sources by data delta — handy for dashboards.
+    top_added = [
+        {"source_id": r["source_id"], "delta": r["delta"]}
+        for r in added[:10]
+    ]
+
     return {
         "status": "ok",
         "db_target": DB_TARGET,
         "diff_available": diff_available,
+        "monitor_available": monitor_available,
         "last_scrape_run": diff.get("generated_at"),
+        "last_monitor_run": monitor.get("timestamp") if monitor_available else None,
         "last_scrape_delta": diff.get("delta_total"),
         "sources_refreshed": len(added),
         "sources_lost_rows": len(removed),
@@ -712,9 +809,19 @@ def pipeline_status():
         "sources_failed": len(failed),
         "failed_scrapers": failed[:20],
         "fatf_changes": fc,
+        "data_added": top_added,
         "db_records": db_records,
         "db_sources": db_sources,
-        "screening_api_version": "1.1.0",
+        "sources_registered": (monitor.get("total_sources_checked")
+                                if monitor_available else None),
+        "content_changes_detected": msum.get("content_changed", 0),
+        "layout_changes_detected": msum.get("layout_changed", 0),
+        "sources_down": msum.get("http_down", 0),
+        "sources_blocked": msum.get("http_blocked", 0),
+        "sources_stale": msum.get("stale", 0),
+        "sources_very_stale": msum.get("very_stale", 0),
+        "monitor_summary": msum,
+        "screening_api_version": "1.2.0",
         "screening_api_tests": "69/69",
         "summary": diff.get("summary") or [],
     }
@@ -820,11 +927,39 @@ def _render_html_report(r: dict) -> str:
     q = html.escape(r["query"], quote=True)
     rows_html = []
     for m in r["matches"]:
+        src_url = (m.get("source_url") or "").strip()
+        agency_label = html.escape(
+            (m.get("source_agency") or "") + " / " + (m.get("source_list") or "")
+        )
+        # Friendly agency label for the link text — "View on Interpol" reads
+        # better than the raw URL. Trim at word boundary, prefer the
+        # parenthesised acronym when available ("...(CBI)" → "CBI").
+        link_label = "View Source"
+        ag = (m.get("source_agency") or "").strip()
+        if ag:
+            acro_match = re.search(r"\(([A-Z]{2,8})\)", ag)
+            if acro_match:
+                short = acro_match.group(1)
+            else:
+                head = ag.split("(")[0].strip()
+                if len(head) <= 30:
+                    short = head
+                else:
+                    short = head[:30].rsplit(" ", 1)[0] or head[:30]
+            link_label = f"View on {html.escape(short or 'Source')}"
+        link_html = ""
+        if src_url:
+            link_html = (
+                f'<br><a href="{html.escape(src_url, quote=True)}" '
+                'target="_blank" rel="noopener noreferrer" '
+                'style="color:#1565c0;font-size:0.85em">'
+                f'{link_label} &rarr;</a>'
+            )
         rows_html.append(
             "<tr>"
             f"<td>{html.escape(m.get('name') or '')}</td>"
             f"<td>{m['similarity']:.2f}</td>"
-            f"<td>{html.escape((m.get('source_agency') or '') + ' / ' + (m.get('source_list') or ''))}</td>"
+            f"<td>{agency_label}{link_html}</td>"
             f"<td>{html.escape(m.get('risk_category') or '')}</td>"
             f"<td>{html.escape((m.get('details') or '')[:200])}</td>"
             "</tr>"

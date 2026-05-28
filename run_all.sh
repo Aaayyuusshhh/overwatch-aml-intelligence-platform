@@ -144,11 +144,17 @@ else
     log "DRY-RUN: skipping scrapers and main.py"
 fi
 
-log "running smart change detector ..."
-./venv/bin/python utils/smart_change_detector.py --all --slack \
+# Source monitor v2 — replaces the old smart_change_detector.
+# Checks every URL-bearing source from the outside (HTTP, content hash,
+# layout fingerprint, staleness) so a silently-failed scraper still surfaces
+# in the daily report. Writes logs/source_monitor_v2.json that the daily
+# report + /api/pipeline/status both read. Capped at 10 minutes — the full
+# HTTP+content sweep across 942 sources runs in ~5 min on a clean line.
+log "running source monitor v2 ..."
+timeout 600 ./venv/bin/python scripts/source_monitor_v2.py --all --slack \
     >> "$RUN_LOG" 2>&1
-DETECTOR_EXIT=$?
-log "change detector exit=$DETECTOR_EXIT"
+MONITOR_EXIT=$?
+log "source monitor v2 exit=$MONITOR_EXIT"
 
 log "running validator ..."
 ./venv/bin/python scripts/validate_production.py \
@@ -177,7 +183,7 @@ REPORT_EXIT=$?
 log "daily report exit=$REPORT_EXIT"
 
 # Final one-line summary — easy to grep / forward from cron mail.
-SUMMARY="rows ${PRE_COUNT}->${POST_COUNT} (delta ${DELTA}) | main.py exit=${MAIN_EXIT} | validator exit=${VALIDATOR_EXIT} | report exit=${REPORT_EXIT}"
+SUMMARY="rows ${PRE_COUNT}->${POST_COUNT} (delta ${DELTA}) | main.py exit=${MAIN_EXIT} | monitor exit=${MONITOR_EXIT} | validator exit=${VALIDATOR_EXIT} | report exit=${REPORT_EXIT}"
 log "SUMMARY: $SUMMARY"
 log "=== run_all.sh end ==="
 

@@ -22,6 +22,7 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENV_PATH = os.path.join(PROJECT_ROOT, ".env")
 LOG_DIR = os.path.join(PROJECT_ROOT, "logs")
 DIFF_PATH = os.path.join(LOG_DIR, "post_scrape_diff.json")
+MONITOR_PATH = os.path.join(LOG_DIR, "source_monitor_v2.json")
 os.makedirs(LOG_DIR, exist_ok=True)
 
 
@@ -36,6 +37,21 @@ def load_pipeline_diff() -> dict:
         return {}
     try:
         with open(DIFF_PATH) as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def load_monitor_report() -> dict:
+    """Load logs/source_monitor_v2.json written by scripts/source_monitor_v2.py.
+
+    Empty {} if missing — daily report still works without the monitor view,
+    just without the HTTP/content/layout breakdown.
+    """
+    if not os.path.exists(MONITOR_PATH):
+        return {}
+    try:
+        with open(MONITOR_PATH) as f:
             return json.load(f)
     except Exception:
         return {}
@@ -173,6 +189,9 @@ def collect_stats() -> dict:
 
     # Per-source change diff produced by scripts/compare_counts.py.
     out["pipeline_diff"] = load_pipeline_diff()
+    # Outside-in monitor — HTTP, content hash, layout, staleness across
+    # all 942 sources (not just the ones we have DB data for).
+    out["monitor"] = load_monitor_report()
     return out
 
 
@@ -409,6 +428,55 @@ def render_html(s: dict, now_ist: datetime) -> str:
                 + '</table></div>'
             )
 
+    # ── outside-in source monitor (HTTP / content / layout / staleness) ─
+    monitor = s.get("monitor") or {}
+    monitor_html = ""
+    if monitor.get("summary"):
+        sm = monitor["summary"]
+        total = monitor.get("total_sources_checked", 0)
+        probed = sm.get("http_checks", 0)
+        healthy = sm.get("healthy", 0)
+        cards = [
+            ("Sources scanned",     total,                "#1B3A6B"),
+            ("HTTP probes",         probed,               "#2563EB"),
+            ("Healthy (2xx)",       healthy,              "#16A34A"),
+            ("Content changed",     sm.get("content_changed", 0), "#7C3AED"),
+            ("Layout changed",      sm.get("layout_changed", 0),  "#DB2777"),
+            ("HTTP down",           sm.get("http_down", 0),       "#DC2626"),
+            ("HTTP blocked",        sm.get("http_blocked", 0),    "#D97706"),
+            ("Stale (7d+)",         sm.get("stale", 0),           "#94A3B8"),
+            ("Very stale (30d+)",   sm.get("very_stale", 0),      "#475569"),
+        ]
+        cells = []
+        for label, value, accent in cards:
+            cells.append(
+                '<td style="padding:6px;text-align:center;vertical-align:top">'
+                '<div style="background:#FFFFFF;border:1px solid #E2E8F0;'
+                'border-radius:8px;padding:10px 6px;min-width:80px">'
+                f'<div style="font-size:18px;font-weight:700;color:{accent};'
+                f'font-family:{FONT};line-height:1.1">{value:,}</div>'
+                f'<div style="font-size:10px;color:#94A3B8;margin-top:4px;'
+                f'text-transform:uppercase;letter-spacing:0.4px">{label}</div>'
+                '</div></td>'
+            )
+        # Three rows of three cards for a tidy grid.
+        rows = []
+        for i in range(0, len(cells), 3):
+            rows.append("<tr>" + "".join(cells[i:i+3]) + "</tr>")
+        monitor_html = (
+            '<div style="padding:22px 32px">'
+            f'<h3 style="color:#1B3A6B;margin:0 0 12px;font-size:15px;'
+            f'font-weight:600;font-family:{FONT}">Source monitor (outside-in)</h3>'
+            f'<p style="color:{SECONDARY};font-size:12px;margin:0 0 12px;'
+            f'font-family:{FONT}">HTTP, content-hash, layout-fingerprint, and '
+            f'staleness checks across every URL-bearing source. '
+            f'Detects upstream changes the data pipeline missed.</p>'
+            '<table cellpadding="0" cellspacing="0" border="0" '
+            'style="border-collapse:separate;border-spacing:0">'
+            + "".join(rows)
+            + '</table></div>'
+        )
+
     about = (
         '<div style="padding:22px 32px;background:#F8FAFC">'
         f'<p style="color:{SECONDARY};font-size:13px;line-height:1.65;margin:0;'
@@ -444,6 +512,7 @@ def render_html(s: dict, now_ist: datetime) -> str:
         + sep
         + kpi_html
         + (sep + changes_html if changes_html else "")
+        + (sep + monitor_html if monitor_html else "")
         + sep
         + about
         + footer
@@ -521,6 +590,45 @@ def _diff_blocks(diff: dict, max_rows: int = 6) -> list[dict]:
     ]
 
 
+def _monitor_blocks(monitor: dict) -> list[dict]:
+    """Slack section summarising source_monitor_v2 findings: HTTP health,
+    content/layout changes, staleness. Returns [] if the monitor didn't run
+    or has nothing alert-worthy to report."""
+    if not monitor:
+        return []
+    sm = monitor.get("summary") or {}
+    if not sm:
+        return []
+    lines: list[str] = []
+    total = monitor.get("total_sources_checked", 0)
+    probed = sm.get("http_checks", 0)
+    healthy = sm.get("healthy", 0)
+    lines.append(
+        f"Monitored *{total}* sources · *{probed}* HTTP probes · "
+        f"*{healthy}* healthy (HTTP 2xx)"
+    )
+    parts: list[str] = []
+    if sm.get("content_changed"):
+        parts.append(f"`content_changed={sm['content_changed']}`")
+    if sm.get("layout_changed"):
+        parts.append(f"`layout_changed={sm['layout_changed']}`")
+    if sm.get("http_down"):
+        parts.append(f"`http_down={sm['http_down']}`")
+    if sm.get("http_blocked"):
+        parts.append(f"`http_blocked={sm['http_blocked']}`")
+    if sm.get("very_stale"):
+        parts.append(f"`very_stale={sm['very_stale']}`")
+    if sm.get("stale"):
+        parts.append(f"`stale={sm['stale']}`")
+    if parts:
+        lines.append("Outside-in checks: " + " ".join(parts))
+    return [
+        {"type": "divider"},
+        {"type": "section",
+         "text": {"type": "mrkdwn", "text": "*Source monitor*\n" + "\n".join(lines)}},
+    ]
+
+
 def build_slack_payload(s: dict, now_ist: datetime) -> dict:
     """Slack daily message. All-clear path always includes the diff if any
     real changes happened; alert path keeps the alert list and appends diff
@@ -528,10 +636,12 @@ def build_slack_payload(s: dict, now_ist: datetime) -> dict:
     alerts = s.get("alerts") or []
     n_alerts = len(alerts)
     diff = s.get("pipeline_diff") or {}
+    monitor = s.get("monitor") or {}
     total_short = fmt_short(s["total_records"])
     high_short  = fmt_short(s["kg_high_risk"])
     date_str    = now_ist.strftime("%A, %d %B %Y")
     diff_extra  = _diff_blocks(diff)
+    monitor_extra = _monitor_blocks(monitor)
 
     if n_alerts == 0:
         blocks = [
@@ -544,6 +654,7 @@ def build_slack_payload(s: dict, now_ist: datetime) -> dict:
                 f"*{s['total_registered']}* registered · *{high_short}* high-risk entities"}},
         ]
         blocks.extend(diff_extra)
+        blocks.extend(monitor_extra)
         blocks.append({"type": "context", "elements": [
             {"type": "mrkdwn",
              "text": f"_Overwatch AML · Resurgent India · {date_str} · Next run: Tomorrow 6:00 AM IST_"}
@@ -572,6 +683,7 @@ def build_slack_payload(s: dict, now_ist: datetime) -> dict:
     blocks.append({"type": "section", "text": {"type": "mrkdwn", "text":
         f"All other *{ok_count}* sources healthy · *{total_short}* records · *{high_short}* high-risk"}})
     blocks.extend(diff_extra)
+    blocks.extend(monitor_extra)
     blocks.append({"type": "context", "elements": [
         {"type": "mrkdwn", "text": f"_Overwatch AML · Resurgent India · {date_str}_"}
     ]})
