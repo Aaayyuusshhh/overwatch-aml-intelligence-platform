@@ -67,23 +67,81 @@ log "=== run_all.sh start (dry_run=$DRY_RUN) ==="
 PRE_COUNT=$(count_rows)
 log "pre-run row count: $PRE_COUNT"
 
+# Per-source pre-scrape counts. compare_counts.py reads this after the run
+# to compute deltas the daily report can show (e.g. "OpenSanctions PEPs: +85").
+log "saving pre-scrape per-source counts ..."
+./venv/bin/python -c "
+import json, psycopg2, os, sys
+try:
+    conn = psycopg2.connect(host='${PG_HOST}', user='${PG_USER}',
+                             password='${PG_PASSWORD}', dbname='${PG_DB}')
+    cur = conn.cursor()
+    cur.execute(\"SELECT source_id, COUNT(*) FROM watchlist_records WHERE source_id IS NOT NULL AND source_id <> '' GROUP BY source_id\")
+    counts = dict(cur.fetchall())
+    json.dump(counts, open('logs/pre_scrape_counts.json', 'w'))
+    print(f'pre-scrape: saved {len(counts)} source counts')
+    conn.close()
+except Exception as e:
+    print(f'pre-scrape: WARN failed to snapshot counts: {e}', file=sys.stderr)
+" >> "$RUN_LOG" 2>&1
+
 MAIN_EXIT=0
 if [ "$DRY_RUN" = "0" ]; then
-    # Friday standalone scrapers (US/AU/NZ). These don't go through the
-    # sources.json dispatch table — they write CSVs directly into data/,
-    # which combine.py (inside main.py) then merges into master_watchlist.csv.
-    # Must run BEFORE main.py so the fresh CSVs are present at combine time.
+    # ---------------------------------------------------------------------
+    # Standalone scrapers. None of these go through main.py's sources.json
+    # dispatch table — they write CSVs directly into data/, which combine.py
+    # (inside main.py) then merges into master_watchlist.csv. They must run
+    # BEFORE main.py so the fresh CSVs are present at combine time.
+    #
+    # Each is wrapped in `timeout` + `|| log WARN ...` so one failing scraper
+    # never aborts the pipeline. Slow scrapers (MCA PDFs, etc.) are NOT in
+    # the daily cron — see scripts/run_mca_weekly.sh.
+    # ---------------------------------------------------------------------
+
+    # OpenSanctions: ~200MB download + transform, 5-10 min. The transform
+    # produces opensanctions_{debarment,crime,peps}.csv in data/.
+    log "refreshing OpenSanctions ..."
+    timeout 900 ./venv/bin/python scripts/download_opensanctions.py >> "$RUN_LOG" 2>&1
+    OS_DL_EXIT=$?
+    log "opensanctions download exit=$OS_DL_EXIT"
+    if [ "$OS_DL_EXIT" -eq 0 ]; then
+        timeout 300 ./venv/bin/python scripts/transform_opensanctions.py >> "$RUN_LOG" 2>&1
+        log "opensanctions transform exit=$?"
+    else
+        log "WARN: skipping OpenSanctions transform (download failed/timed out)"
+    fi
+
+    # FATF black/grey lists: ~25 rows, instant.
+    log "refreshing FATF lists ..."
+    timeout 60 ./venv/bin/python scripts/create_fatf_lists.py >> "$RUN_LOG" 2>&1 \
+        || log "WARN: FATF list refresh failed"
+
+    # Europe scrapers (CSSF Luxembourg, CONSOB Italy, FI Sweden).
+    log "running Europe scrapers ..."
+    timeout 300 ./venv/bin/python scrapers/europe_scrapers.py >> "$RUN_LOG" 2>&1 \
+        || log "WARN: europe scrapers timeout/error (exit=$?)"
+
+    # Latin America scrapers (Brazil COAF, Argentina CNV).
+    log "running Latin America scrapers ..."
+    timeout 300 ./venv/bin/python scrapers/latam_scrapers.py >> "$RUN_LOG" 2>&1 \
+        || log "WARN: latam scrapers timeout/error (exit=$?)"
+
+    # Friday standalone scrapers (US/AU/NZ).
     log "running Friday US/AU/NZ scrapers ..."
-    ./venv/bin/python scrapers/friday_us_au_nz_scrapers.py >> "$RUN_LOG" 2>&1
+    timeout 600 ./venv/bin/python scrapers/friday_us_au_nz_scrapers.py >> "$RUN_LOG" 2>&1
     FRIDAY_EXIT=$?
     log "friday scrapers exit=$FRIDAY_EXIT"
 
+    # ---------------------------------------------------------------------
+    # main.py: dispatches html/pdf/js/restricted/config sources from
+    # sources.json, then runs combine.py + load_to_db.py.
+    # ---------------------------------------------------------------------
     log "running main.py ..."
     ./venv/bin/python main.py >> "$RUN_LOG" 2>&1
     MAIN_EXIT=$?
     log "main.py exit=$MAIN_EXIT"
 else
-    log "DRY-RUN: skipping main.py"
+    log "DRY-RUN: skipping scrapers and main.py"
 fi
 
 log "running smart change detector ..."
@@ -102,6 +160,14 @@ log "validator exit=$VALIDATOR_EXIT"
 POST_COUNT=$(count_rows)
 DELTA=$(( POST_COUNT - PRE_COUNT ))
 log "post-run row count: $POST_COUNT (delta=$DELTA)"
+
+# Per-source diff: reads logs/pre_scrape_counts.json + queries current
+# counts, writes logs/post_scrape_diff.json. The daily report reads that
+# JSON to surface "+85 new OpenSanctions PEPs" instead of a vague total.
+log "comparing per-source counts ..."
+./venv/bin/python scripts/compare_counts.py >> "$RUN_LOG" 2>&1
+COMPARE_EXIT=$?
+log "compare_counts exit=$COMPARE_EXIT"
 
 # Daily report (HTML email via SES + rich Slack). Tolerant: failure here
 # does not fail the whole pipeline; the report itself reports its own status.

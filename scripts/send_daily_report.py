@@ -21,7 +21,24 @@ from datetime import datetime, timedelta, timezone
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ENV_PATH = os.path.join(PROJECT_ROOT, ".env")
 LOG_DIR = os.path.join(PROJECT_ROOT, "logs")
+DIFF_PATH = os.path.join(LOG_DIR, "post_scrape_diff.json")
 os.makedirs(LOG_DIR, exist_ok=True)
+
+
+def load_pipeline_diff() -> dict:
+    """Load logs/post_scrape_diff.json written by scripts/compare_counts.py.
+
+    Returns an empty {} if the file is missing (older run, or a run where
+    compare_counts didn't execute). The daily report degrades gracefully —
+    it just won't show per-source deltas in that case.
+    """
+    if not os.path.exists(DIFF_PATH):
+        return {}
+    try:
+        with open(DIFF_PATH) as f:
+            return json.load(f)
+    except Exception:
+        return {}
 
 # Indian Standard Time for "today" reporting (the team is in IST).
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -153,6 +170,9 @@ def collect_stats() -> dict:
             out["total_registered"] = len(json.load(f).get("sources", []))
     except Exception:
         out["total_registered"] = out["sources_active"]
+
+    # Per-source change diff produced by scripts/compare_counts.py.
+    out["pipeline_diff"] = load_pipeline_diff()
     return out
 
 
@@ -313,6 +333,82 @@ def render_html(s: dict, now_ist: datetime) -> str:
     )
 
     # ── about ───────────────────────────────────────────────────────────
+    # ── today's data changes (from compare_counts.py diff) ─────────────
+    diff = s.get("pipeline_diff") or {}
+    changes_html = ""
+    if diff:
+        added = diff.get("added") or []
+        removed = diff.get("removed") or []
+        zeroed = diff.get("zeroed") or []
+        failed = diff.get("failed_scrapers") or []
+        fc = diff.get("fatf_changes") or {}
+        fatf_any = any(fc.get(k) for k in ("black_added", "black_removed",
+                                           "grey_added", "grey_removed"))
+        delta_total = diff.get("delta_total", 0)
+
+        if added or removed or zeroed or failed or fatf_any or delta_total:
+            rows = []
+            if delta_total:
+                arrow = "&#x25B2;" if delta_total > 0 else "&#x25BC;"
+                color = "#16A34A" if delta_total > 0 else "#DC2626"
+                rows.append(
+                    f'<tr><td style="padding:6px 0;color:{BODY};font-size:13px">'
+                    f'<strong>Net change</strong></td>'
+                    f'<td style="padding:6px 0;text-align:right;color:{color};font-size:13px;font-weight:600">'
+                    f'{arrow} {delta_total:+,} records</td></tr>'
+                )
+            for r in added[:10]:
+                rows.append(
+                    f'<tr><td style="padding:4px 0;color:{BODY};font-size:13px">'
+                    f'{r["source_id"]}</td>'
+                    f'<td style="padding:4px 0;text-align:right;color:#16A34A;font-size:13px">'
+                    f'{r["pre"]:,} &rarr; {r["post"]:,} (+{r["delta"]:,})</td></tr>'
+                )
+            if len(added) > 10:
+                rows.append(
+                    f'<tr><td colspan="2" style="padding:4px 0;color:{SECONDARY};'
+                    f'font-size:12px;font-style:italic">'
+                    f'+{len(added) - 10} more sources gained rows</td></tr>'
+                )
+            for r in removed[:5]:
+                rows.append(
+                    f'<tr><td style="padding:4px 0;color:{BODY};font-size:13px">'
+                    f'{r["source_id"]}</td>'
+                    f'<td style="padding:4px 0;text-align:right;color:#DC2626;font-size:13px">'
+                    f'{r["pre"]:,} &rarr; {r["post"]:,} ({r["delta"]:,})</td></tr>'
+                )
+            for z in zeroed[:5]:
+                rows.append(
+                    f'<tr><td style="padding:4px 0;color:#991B1B;font-size:13px;font-weight:600">'
+                    f'&#x26A0; {z["source_id"]}</td>'
+                    f'<td style="padding:4px 0;text-align:right;color:#991B1B;font-size:13px">'
+                    f'dropped to ZERO ({z["pre"]:,} &rarr; 0)</td></tr>'
+                )
+            for fs in failed[:5]:
+                rows.append(
+                    f'<tr><td colspan="2" style="padding:4px 0;color:#92400E;font-size:13px">'
+                    f'&#x26A0; scraper failure: {fs}</td></tr>'
+                )
+            if fatf_any:
+                bits = []
+                if fc.get("black_added"):   bits.append("Black list added: " + ", ".join(fc["black_added"]))
+                if fc.get("black_removed"): bits.append("Black list removed: " + ", ".join(fc["black_removed"]))
+                if fc.get("grey_added"):    bits.append("Grey list added: " + ", ".join(fc["grey_added"]))
+                if fc.get("grey_removed"):  bits.append("Grey list removed: " + ", ".join(fc["grey_removed"]))
+                rows.append(
+                    f'<tr><td colspan="2" style="padding:6px 0;color:#1B3A6B;font-size:13px">'
+                    f'<strong>FATF list changes:</strong> {"; ".join(bits)}</td></tr>'
+                )
+
+            changes_html = (
+                '<div style="padding:22px 32px">'
+                f'<h3 style="color:#1B3A6B;margin:0 0 12px;font-size:15px;'
+                f'font-weight:600;font-family:{FONT}">Today\'s data changes</h3>'
+                '<table width="100%" cellpadding="0" cellspacing="0" border="0">'
+                + "".join(rows)
+                + '</table></div>'
+            )
+
     about = (
         '<div style="padding:22px 32px;background:#F8FAFC">'
         f'<p style="color:{SECONDARY};font-size:13px;line-height:1.65;margin:0;'
@@ -347,6 +443,7 @@ def render_html(s: dict, now_ist: datetime) -> str:
         + (alerts_html if is_alert else "")
         + sep
         + kpi_html
+        + (sep + changes_html if changes_html else "")
         + sep
         + about
         + footer
@@ -375,16 +472,69 @@ def send_email(subject: str, html_body: str) -> tuple[bool, str]:
 
 # --------------------------------------------------------------------- slack
 
+def _diff_blocks(diff: dict, max_rows: int = 6) -> list[dict]:
+    """Build Slack blocks from the per-source diff. Returns [] if nothing
+    interesting to say (e.g. first run with no pre-snapshot)."""
+    if not diff:
+        return []
+    added = diff.get("added") or []
+    removed = diff.get("removed") or []
+    zeroed = diff.get("zeroed") or []
+    failed = diff.get("failed_scrapers") or []
+    fc = diff.get("fatf_changes") or {}
+    fatf_any = any(fc.get(k) for k in ("black_added", "black_removed",
+                                       "grey_added", "grey_removed"))
+    delta_total = diff.get("delta_total", 0)
+
+    if not (added or removed or zeroed or failed or fatf_any) and delta_total == 0:
+        return []
+
+    lines: list[str] = []
+    if delta_total:
+        lines.append(f"*Net change today:* {delta_total:+,} records")
+    if added:
+        rows = ", ".join(f"`{r['source_id']}` +{r['delta']:,}" for r in added[:max_rows])
+        more = "" if len(added) <= max_rows else f" _(+{len(added) - max_rows} more)_"
+        lines.append(f"*New records ({len(added)} source{'s' if len(added) != 1 else ''}):* {rows}{more}")
+    if removed:
+        rows = ", ".join(f"`{r['source_id']}` {r['delta']:,}" for r in removed[:max_rows])
+        more = "" if len(removed) <= max_rows else f" _(+{len(removed) - max_rows} more)_"
+        lines.append(f"*Rows removed ({len(removed)}):* {rows}{more}")
+    if zeroed:
+        rows = ", ".join(f"`{z['source_id']}`" for z in zeroed[:max_rows])
+        lines.append(f":rotating_light: *Sources went to ZERO ({len(zeroed)}):* {rows}")
+    if failed:
+        rows = ", ".join(f"`{f}`" for f in failed[:max_rows])
+        lines.append(f":warning: *Scrapers reported failures:* {rows}")
+    if fatf_any:
+        bits = []
+        if fc.get("black_added"):   bits.append(f"black +{', '.join(fc['black_added'])}")
+        if fc.get("black_removed"): bits.append(f"black -{', '.join(fc['black_removed'])}")
+        if fc.get("grey_added"):    bits.append(f"grey +{', '.join(fc['grey_added'])}")
+        if fc.get("grey_removed"):  bits.append(f"grey -{', '.join(fc['grey_removed'])}")
+        lines.append(f":globe_with_meridians: *FATF list changed:* {'; '.join(bits)}")
+
+    return [
+        {"type": "divider"},
+        {"type": "section",
+         "text": {"type": "mrkdwn", "text": "*Today's data changes*\n" + "\n".join(lines)}},
+    ]
+
+
 def build_slack_payload(s: dict, now_ist: datetime) -> dict:
-    """Minimal Slack message — three blocks for all-clear, alert blocks added if needed."""
+    """Slack daily message. All-clear path always includes the diff if any
+    real changes happened; alert path keeps the alert list and appends diff
+    underneath."""
     alerts = s.get("alerts") or []
     n_alerts = len(alerts)
+    diff = s.get("pipeline_diff") or {}
     total_short = fmt_short(s["total_records"])
     high_short  = fmt_short(s["kg_high_risk"])
     date_str    = now_ist.strftime("%A, %d %B %Y")
+    diff_extra  = _diff_blocks(diff)
 
     if n_alerts == 0:
-        return {"blocks": [
+        blocks = [
             {"type": "header",
              "text": {"type": "plain_text", "text": "✅ Overwatch AML — All Systems Operational"}},
             {"type": "section", "text": {"type": "mrkdwn", "text":
@@ -392,11 +542,13 @@ def build_slack_payload(s: dict, now_ist: datetime) -> dict:
                 f"no issues detected.\n\n"
                 f"*{s['sources_active']}* sources monitored · *{total_short}* records · "
                 f"*{s['total_registered']}* registered · *{high_short}* high-risk entities"}},
-            {"type": "context", "elements": [
-                {"type": "mrkdwn",
-                 "text": f"_Overwatch AML · Resurgent India · {date_str} · Next run: Tomorrow 6:00 AM IST_"}
-            ]},
-        ]}
+        ]
+        blocks.extend(diff_extra)
+        blocks.append({"type": "context", "elements": [
+            {"type": "mrkdwn",
+             "text": f"_Overwatch AML · Resurgent India · {date_str} · Next run: Tomorrow 6:00 AM IST_"}
+        ]})
+        return {"blocks": blocks}
 
     # Alerts mode
     blocks = [
@@ -419,6 +571,7 @@ def build_slack_payload(s: dict, now_ist: datetime) -> dict:
     blocks.append({"type": "divider"})
     blocks.append({"type": "section", "text": {"type": "mrkdwn", "text":
         f"All other *{ok_count}* sources healthy · *{total_short}* records · *{high_short}* high-risk"}})
+    blocks.extend(diff_extra)
     blocks.append({"type": "context", "elements": [
         {"type": "mrkdwn", "text": f"_Overwatch AML · Resurgent India · {date_str}_"}
     ]})

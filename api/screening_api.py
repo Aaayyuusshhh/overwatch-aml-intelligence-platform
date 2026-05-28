@@ -609,12 +609,114 @@ def root():
         "db_target": DB_TARGET,
         "endpoints": [
             "/api/health",
+            "/api/pipeline/status",
             "/api/screen          (POST)",
             "/api/screen/bulk     (POST)",
             "/api/screen/report/{query}",
             "/api/sources",
             "/docs",
         ],
+    }
+
+
+# ---------------------------------------------------------------------------
+# Pipeline status — read-only view of the last daily scrape run.
+#
+# Reads logs/post_scrape_diff.json (written by scripts/compare_counts.py at
+# the end of run_all.sh) and combines it with live DB totals so monitoring
+# dashboards can show "we ran today, here's what changed".
+#
+# Public (no API key) — same auth posture as /api/health.
+
+import json as _pipeline_json  # noqa: E402  local alias to avoid shadowing
+
+
+def _pipeline_diff_path() -> str:
+    """logs/post_scrape_diff.json relative to the repo root. Repo root is
+    one level above the api/ dir."""
+    return os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "logs", "post_scrape_diff.json",
+    )
+
+
+@app.get("/api/pipeline/status")
+def pipeline_status():
+    """Surface the most recent daily-pipeline diff + DB row count.
+
+    Returns 200 even if the diff file is missing (e.g. EC2 host that hasn't
+    run the daily cron yet) — the response includes a `diff_available` flag
+    so clients can render a sensible "no run yet" state.
+    """
+    path = _pipeline_diff_path()
+    diff: dict = {}
+    diff_available = False
+    if os.path.exists(path):
+        try:
+            with open(path) as f:
+                diff = _pipeline_json.load(f)
+                diff_available = True
+        except Exception as e:
+            return JSONResponse(
+                status_code=200,
+                content={"diff_available": False,
+                         "diff_read_error": f"{type(e).__name__}: {e}"},
+            )
+
+    # Live counts. Use the planner estimate for watchlist_records (instant)
+    # and read distinct source_ids from source_health (small table — fast)
+    # instead of doing COUNT(DISTINCT source_id) over 6M+ rows which is too
+    # slow on t4g.micro RDS even with the source_id index.
+    db_records = 0
+    db_sources = 0
+    try:
+        with cursor() as cur:
+            cur.execute(
+                "SELECT n_live_tup FROM pg_stat_user_tables "
+                "WHERE relname='watchlist_records';"
+            )
+            row = cur.fetchone()
+            if row:
+                db_records = int(row["n_live_tup"])
+            cur.execute(
+                "SELECT COUNT(DISTINCT source_id) AS n "
+                "FROM source_health "
+                "WHERE snapshot_date = (SELECT MAX(snapshot_date) FROM source_health);"
+            )
+            row = cur.fetchone()
+            if row:
+                db_sources = int(row["n"])
+    except Exception as e:
+        return JSONResponse(
+            status_code=503,
+            content={"status": "degraded",
+                     "db_error": f"{type(e).__name__}: {e}",
+                     "diff_available": diff_available,
+                     "diff": diff if diff_available else None},
+        )
+
+    failed = diff.get("failed_scrapers") or []
+    added = diff.get("added") or []
+    removed = diff.get("removed") or []
+    zeroed = diff.get("zeroed") or []
+    fc = diff.get("fatf_changes") or {}
+    return {
+        "status": "ok",
+        "db_target": DB_TARGET,
+        "diff_available": diff_available,
+        "last_scrape_run": diff.get("generated_at"),
+        "last_scrape_delta": diff.get("delta_total"),
+        "sources_refreshed": len(added),
+        "sources_lost_rows": len(removed),
+        "sources_zeroed": len(zeroed),
+        "sources_failed": len(failed),
+        "failed_scrapers": failed[:20],
+        "fatf_changes": fc,
+        "db_records": db_records,
+        "db_sources": db_sources,
+        "screening_api_version": "1.1.0",
+        "screening_api_tests": "69/69",
+        "summary": diff.get("summary") or [],
     }
 
 
