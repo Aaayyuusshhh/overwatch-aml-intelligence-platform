@@ -690,8 +690,9 @@ PARSERS = {
 }
 
 
-def run_source(sid, lst, folder, page_url, parser_kind, session, limit_pdfs, max_pages):
-    print(f"\n=== {sid}  folder={folder}  parser={parser_kind} ===")
+def run_source(sid, lst, folder, page_url, parser_kind, session, limit_pdfs,
+               max_pages, resume=False):
+    print(f"\n=== {sid}  folder={folder}  parser={parser_kind}  resume={resume} ===")
     docs, total = list_docs(session, folder, page_url)
     print(f"  found {total} docs (got {len(docs)})")
     if not docs:
@@ -718,13 +719,30 @@ def run_source(sid, lst, folder, page_url, parser_kind, session, limit_pdfs, max
     n_empty = 0
     n_broken = 0
     seen = set()
-    with open(out_path, "w", newline="", encoding="utf-8") as f:
+    done_doc_urls = set()
+    # Resume mode: read existing CSV, prime dedup set + done-doc set, then append.
+    open_mode = "w"
+    if resume and os.path.exists(out_path) and os.path.getsize(out_path) > 0:
+        with open(out_path, "r", encoding="utf-8") as rf:
+            rdr = csv.DictReader(rf)
+            for row in rdr:
+                total_rows += 1
+                seen.add((row.get("name", "").lower(),
+                          row.get("details", "")[:50]))
+                if row.get("document_url"):
+                    done_doc_urls.add(row["document_url"])
+        print(f"  resume: {total_rows} existing rows, {len(done_doc_urls)} PDFs already processed")
+        open_mode = "a"
+    with open(out_path, open_mode, newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore")
-        w.writeheader()
+        if open_mode == "w":
+            w.writeheader()
         for i, doc in enumerate(docs, 1):
             doc_id = doc.get("docID", "")
             title = doc.get("column1", "")[:60]
             doc_url = f"https://www.mca.gov.in/bin/dms/getdocument?mds={doc_id}"
+            if doc_url in done_doc_urls:
+                continue
             # Cache by docID hash to allow reruns
             cache_name = hashlib.md5(doc_id.encode()).hexdigest()[:16] + ".pdf"
             pdf_path = os.path.join(PDF_CACHE, cache_name)
@@ -764,6 +782,8 @@ def run_source(sid, lst, folder, page_url, parser_kind, session, limit_pdfs, max
                 w.writerow(row_full)
                 new_rows += 1
                 total_rows += 1
+            f.flush()
+            done_doc_urls.add(doc_url)
             if i % 5 == 0 or new_rows > 1000:
                 print(f"  [{i}/{len(docs)}] {title[:50]:50s}  "
                       f"pages={len(text_pages)}  +{new_rows} rows  (total={total_rows})")
@@ -780,6 +800,8 @@ def main():
     ap.add_argument("--max-pages", type=int, default=200,
                     help="cap pages per PDF parsed (0 = all). Default 200")
     ap.add_argument("--only", help="run only one source_id")
+    ap.add_argument("--resume", action="store_true",
+                    help="resume from existing CSV (skip PDFs whose doc_url is already present)")
     args = ap.parse_args()
 
     session = get_session()
@@ -791,7 +813,8 @@ def main():
             n_rows, n_docs = run_source(sid, lst, folder, page_url, parser_kind,
                                         session,
                                         args.limit_pdfs or None,
-                                        args.max_pages or None)
+                                        args.max_pages or None,
+                                        resume=args.resume)
             summary.append((sid, n_docs, n_rows))
         except Exception as e:
             print(f"  EXCEPTION in {sid}: {type(e).__name__}: {e}")
