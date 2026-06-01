@@ -1,0 +1,890 @@
+{
+  "started_at": "2026-06-01T06:44:09.737393+00:00",
+  "playwright_enabled": false,
+  "results": [
+    {
+      "id": "fca_warning_list",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "fca_final_notices",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "fca_cancelled_permissions",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.9
+    },
+    {
+      "id": "fca_decision_notices",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 1.4
+    },
+    {
+      "id": "mas_investor_alert_list",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 0.9
+    },
+    {
+      "id": "bursa_malaysia_disciplinary",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.2
+    },
+    {
+      "id": "sfc_hk_enforcement",
+      "status": "success",
+      "rows": 3,
+      "strategy": "html_table",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_sfc_hk_enforcement.csv",
+      "elapsed_s": 1.1
+    },
+    {
+      "id": "dfsa_regulatory_actions",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.5
+    },
+    {
+      "id": "dfsa_alerts",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "qcb_qatar_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 3.2
+    },
+    {
+      "id": "cma_kuwait_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectTimeout: HTTPSConnectionPool(host='www.cma.gov.kw', port=443): Max retries exceeded with  ; pdf ConnectTimeout: HTTPSConnectionPool(host='www.cma.gov.kw', port=443): Max retries exceeded with ",
+      "elapsed_s": 52.6
+    },
+    {
+      "id": "sarb_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) ; pdf no link",
+      "elapsed_s": 11.6
+    },
+    {
+      "id": "eacc_kenya",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 5.3
+    },
+    {
+      "id": "cbn_nigeria_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 2.1
+    },
+    {
+      "id": "cma_saudi_enforcement",
+      "status": "success",
+      "rows": 5,
+      "strategy": "html_table",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_cma_saudi_enforcement.csv",
+      "elapsed_s": 5.6
+    },
+    {
+      "id": "sama_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 6.8
+    },
+    {
+      "id": "efcc_nigeria_convictions",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.2
+    },
+    {
+      "id": "us_state_tx_sos_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.6
+    },
+    {
+      "id": "us_state_fl_ofr_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectTimeout: HTTPSConnectionPool(host='www.flofr.gov', port=443): Max retries exceeded with u ; pdf ConnectTimeout: HTTPSConnectionPool(host='www.flofr.gov', port=443): Max retries exceeded with u",
+      "elapsed_s": 56.2
+    },
+    {
+      "id": "au_austrac_media_releases",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ReadTimeout: HTTPSConnectionPool(host='www.austrac.gov.au', port=443): Read timed out. (read  ; pdf ReadTimeout: HTTPSConnectionPool(host='www.austrac.gov.au', port=443): Read timed out. (read ",
+      "elapsed_s": 51.4
+    },
+    {
+      "id": "nz_rbnz_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.7
+    },
+    {
+      "id": "au_asic_banned_and_disqualified",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 3.7
+    },
+    {
+      "id": "mexico_cnbv_sanciones",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 0.4
+    },
+    {
+      "id": "dnb_netherlands_register",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.4
+    },
+    {
+      "id": "consob_italy_warnings",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.6
+    },
+    {
+      "id": "argentina_cnv",
+      "status": "success",
+      "rows": 98,
+      "strategy": "pdf",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_argentina_cnv.csv",
+      "elapsed_s": 16.3
+    },
+    {
+      "id": "mca_directors_struck_off_companies",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.2
+    },
+    {
+      "id": "mca_notice_strike_off",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.2
+    },
+    {
+      "id": "mca_directors_struck_off_companies_v2",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.1
+    },
+    {
+      "id": "mca_notice_strike_off_v2",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.2
+    },
+    {
+      "id": "mca_rd_compounding_orders_v2",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.2
+    },
+    {
+      "id": "cbi_ireland_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.5
+    },
+    {
+      "id": "finanstilsynet_no_warnings",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 6.9
+    },
+    {
+      "id": "asic_banned_persons",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 302 ; pdf no link",
+      "elapsed_s": 2.6
+    },
+    {
+      "id": "asic_banned_organisations",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 302 ; pdf no link",
+      "elapsed_s": 1.4
+    },
+    {
+      "id": "mexico_uif",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.8
+    },
+    {
+      "id": "mexico_cnbv_sanctions",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.4
+    },
+    {
+      "id": "chile_cmf_sanciones",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectTimeout: HTTPSConnectionPool(host='www.cmfchile.cl', port=443): Max retries exceeded with ; pdf ConnectTimeout: HTTPSConnectionPool(host='www.cmfchile.cl', port=443): Max retries exceeded with",
+      "elapsed_s": 51.6
+    },
+    {
+      "id": "peru_sbs_pla",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 3.2
+    },
+    {
+      "id": "colombia_sfc_sanciones",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 4.6
+    },
+    {
+      "id": "ojk_indonesia_sanksi",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectTimeout: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with u ; pdf ConnectTimeout: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with u",
+      "elapsed_s": 56.6
+    },
+    {
+      "id": "sec_thailand_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 1.7
+    },
+    {
+      "id": "sec_philippines_cdo",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.2
+    },
+    {
+      "id": "amla_philippines_news",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ReadTimeout: HTTPSConnectionPool(host='www.amlc.gov.ph', port=443): Read timed out. (read tim ; pdf ReadTimeout: HTTPSConnectionPool(host='www.amlc.gov.ph', port=443): Read timed out. (read tim",
+      "elapsed_s": 50.8
+    },
+    {
+      "id": "bot_thailand_penalties",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 1.6
+    },
+    {
+      "id": "fsc_korea_press",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) ; pdf ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "elapsed_s": 2.8
+    },
+    {
+      "id": "qfcra_qatar_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 13.4
+    },
+    {
+      "id": "jsc_jordan_decisions",
+      "status": "success",
+      "rows": 30,
+      "strategy": "html_table",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_jsc_jordan_decisions.csv",
+      "elapsed_s": 3.3
+    },
+    {
+      "id": "bafin_germany_warnings",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 11.2
+    },
+    {
+      "id": "afm_netherlands_warnings",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 6.1
+    },
+    {
+      "id": "ibbi_enforcement_orders",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 2.0
+    },
+    {
+      "id": "ibbi_disciplinary_committee_orders",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 4.1
+    },
+    {
+      "id": "ibbi_ip_deregistration",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 2.2
+    },
+    {
+      "id": "pfrda_enforcement_orders",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 3.0
+    },
+    {
+      "id": "pfrda_cra_blacklist",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.1
+    },
+    {
+      "id": "sidbi_blacklisted_entities",
+      "status": "success",
+      "rows": 16,
+      "strategy": "pdf",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_sidbi_blacklisted_entities.csv",
+      "elapsed_s": 4.9
+    },
+    {
+      "id": "msei_defaulting_clients",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectionError: HTTPSConnectionPool(host='www.msei.in', port=443): Max retries exceeded with url ; pdf ConnectionError: HTTPSConnectionPool(host='www.msei.in', port=443): Max retries exceeded with url",
+      "elapsed_s": 1.1
+    },
+    {
+      "id": "icai_disciplinary_orders",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 1.6
+    },
+    {
+      "id": "icsi_disciplinary_orders",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 1.3
+    },
+    {
+      "id": "icmai_disciplinary_orders",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 1.2
+    },
+    {
+      "id": "bar_council_india_disbarred",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.1
+    },
+    {
+      "id": "nmc_doctors_removed_register",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 4.0
+    },
+    {
+      "id": "election_commission_disqualified_candidates",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 3.1
+    },
+    {
+      "id": "rera_maharashtra_blacklist",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 7.8
+    },
+    {
+      "id": "rera_karnataka_blacklist",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.3
+    },
+    {
+      "id": "rera_uttar_pradesh_blacklist",
+      "status": "success",
+      "rows": 8,
+      "strategy": "html_table",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_rera_uttar_pradesh_blacklist.csv",
+      "elapsed_s": 3.1
+    },
+    {
+      "id": "rera_gujarat_blacklist",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html SSLError: HTTPSConnectionPool(host='gujrera.gujarat.gov.in', port=443): Max retries exceed ; pdf SSLError: HTTPSConnectionPool(host='gujrera.gujarat.gov.in', port=443): Max retries exceed",
+      "elapsed_s": 0.5
+    },
+    {
+      "id": "rera_tamil_nadu_blacklist",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 3.6
+    },
+    {
+      "id": "rera_delhi_blacklist",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 500 ; pdf no link",
+      "elapsed_s": 30.6
+    },
+    {
+      "id": "rera_haryana_blacklist",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 0.9
+    },
+    {
+      "id": "rera_telangana_blacklist",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 3.6
+    },
+    {
+      "id": "fssai_blacklisted_food_businesses",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 0.2
+    },
+    {
+      "id": "cpcb_polluting_industries",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 0.7
+    },
+    {
+      "id": "dgft_iec_cancelled",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "gst_defaulters_central",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 0.6
+    },
+    {
+      "id": "ed_pmla_attachments",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "dri_smugglers_wanted",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ReadTimeout: HTTPSConnectionPool(host='dri.nic.in', port=443): Read timed out. (read timeout= ; pdf no link",
+      "elapsed_s": 349.8
+    },
+    {
+      "id": "up_police_wanted",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 0.8
+    },
+    {
+      "id": "maharashtra_police_wanted",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.0
+    },
+    {
+      "id": "karnataka_police_wanted",
+      "status": "success",
+      "rows": 6,
+      "strategy": "html_table",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_karnataka_police_wanted.csv",
+      "elapsed_s": 1.1
+    },
+    {
+      "id": "tamil_nadu_police_wanted",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 0.4
+    },
+    {
+      "id": "gujarat_police_wanted",
+      "status": "success",
+      "rows": 31,
+      "strategy": "html_table",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_gujarat_police_wanted.csv",
+      "elapsed_s": 0.6
+    },
+    {
+      "id": "rajasthan_police_wanted",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 0.9
+    },
+    {
+      "id": "mp_police_wanted",
+      "status": "success",
+      "rows": 3,
+      "strategy": "pdf",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_mp_police_wanted.csv",
+      "elapsed_s": 3.5
+    },
+    {
+      "id": "bihar_police_wanted",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectionError: HTTPSConnectionPool(host='biharpolice.bihar.gov.in', port=443): Max retries exce ; pdf ConnectionError: HTTPSConnectionPool(host='biharpolice.bihar.gov.in', port=443): Max retries exce",
+      "elapsed_s": 0.4
+    },
+    {
+      "id": "jharkhand_police_wanted",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 13.1
+    },
+    {
+      "id": "odisha_police_wanted",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectTimeout: HTTPSConnectionPool(host='odishapolice.gov.in', port=443): Max retries exceeded  ; pdf ConnectTimeout: HTTPSConnectionPool(host='odishapolice.gov.in', port=443): Max retries exceeded ",
+      "elapsed_s": 50.2
+    },
+    {
+      "id": "punjab_police_wanted",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html SSLError: HTTPSConnectionPool(host='punjabpolice.gov.in', port=443): Max retries exceeded  ; pdf SSLError: HTTPSConnectionPool(host='punjabpolice.gov.in', port=443): Max retries exceeded ",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "kerala_police_wanted",
+      "status": "success",
+      "rows": 36,
+      "strategy": "pdf",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_kerala_police_wanted.csv",
+      "elapsed_s": 2.3
+    },
+    {
+      "id": "japan_fsa_administrative_actions",
+      "status": "success",
+      "rows": 86,
+      "strategy": "pdf",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_japan_fsa_administrative_actions.csv",
+      "elapsed_s": 4.1
+    },
+    {
+      "id": "japan_fsa_warnings_unregistered",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 0.5
+    },
+    {
+      "id": "south_korea_fss_sanctions",
+      "status": "success",
+      "rows": 5,
+      "strategy": "html_table",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_south_korea_fss_sanctions.csv",
+      "elapsed_s": 3.7
+    },
+    {
+      "id": "south_korea_fsc_press",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) ; pdf ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "elapsed_s": 1.9
+    },
+    {
+      "id": "bot_thailand_warning_list",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 1.0
+    },
+    {
+      "id": "ojk_indonesia_blacklist",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html ConnectTimeout: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with u ; pdf ConnectTimeout: HTTPSConnectionPool(host='www.ojk.go.id', port=443): Max retries exceeded with u",
+      "elapsed_s": 51.6
+    },
+    {
+      "id": "sec_philippines_advisories",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.9
+    },
+    {
+      "id": "bafin_germany_administrative_orders",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 6.1
+    },
+    {
+      "id": "dnb_netherlands_warnings",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "finma_switzerland_enforcement_orders",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 9.6
+    },
+    {
+      "id": "fca_uk_unauthorized_firms",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.7
+    },
+    {
+      "id": "central_bank_ireland_warnings",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.4
+    },
+    {
+      "id": "central_bank_ireland_enforcement_actions",
+      "status": "success",
+      "rows": 2,
+      "strategy": "pdf",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_central_bank_ireland_enforcement_actions.csv",
+      "elapsed_s": 5.3
+    },
+    {
+      "id": "bank_of_spain_warnings",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 3.3
+    },
+    {
+      "id": "consob_italy_administrative_orders",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 3.0
+    },
+    {
+      "id": "cmvm_portugal_warnings",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 4.1
+    },
+    {
+      "id": "cnmv_spain_warnings",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 5.4
+    },
+    {
+      "id": "afm_netherlands_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 5.2
+    },
+    {
+      "id": "israel_isa_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.6
+    },
+    {
+      "id": "turkey_brsa_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 404 ; pdf no link",
+      "elapsed_s": 3.6
+    },
+    {
+      "id": "brazil_bacen_punicoes",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.1
+    },
+    {
+      "id": "brazil_cvm_processos_sancionadores",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 3.4
+    },
+    {
+      "id": "south_korea_kofia_disciplinary",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 4.1
+    },
+    {
+      "id": "world_bank_debarred_firms_individuals",
+      "status": "success",
+      "rows": 9,
+      "strategy": "html_table",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_world_bank_debarred_firms_individuals.csv",
+      "elapsed_s": 0.2
+    },
+    {
+      "id": "adb_debarred_firms_individuals",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "afdb_debarment_decisions",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.4
+    },
+    {
+      "id": "iadb_sanctioned_firms",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "ebrd_ineligible_entities",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 2.8
+    },
+    {
+      "id": "oecd_anti_bribery_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.1
+    },
+    {
+      "id": "mas_singapore_prohibition_orders",
+      "status": "success",
+      "rows": 10,
+      "strategy": "html_table",
+      "csv": "/home/aayush/risk-pipeline/data/blocked_mas_singapore_prohibition_orders.csv",
+      "elapsed_s": 0.5
+    },
+    {
+      "id": "asic_australia_banned_persons",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html no table ; pdf no link",
+      "elapsed_s": 3.8
+    },
+    {
+      "id": "rbnz_new_zealand_enforcement",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.5
+    },
+    {
+      "id": "bnm_malaysia_administrative_actions",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 202 ; pdf no link",
+      "elapsed_s": 0.2
+    },
+    {
+      "id": "sebi_philippines_revoked_secondary_licenses",
+      "status": "empty",
+      "rows": 0,
+      "strategy": "html RuntimeError: HTTP 403 ; pdf no link",
+      "elapsed_s": 0.2
+    }
+  ],
+  "finished_at": "2026-06-01T07:02:32.841324+00:00",
+  "totals": {
+    "success": 15,
+    "empty": 108,
+    "error": 0,
+    "deadline": 0,
+    "total_rows": 348
+  }
+}
