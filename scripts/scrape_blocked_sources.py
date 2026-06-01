@@ -34,6 +34,21 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+
+def _fresh_get(url, **kw):
+    """One-shot GET on a fresh Session that closes its connection on exit.
+    urllib3's default connection pool grows globally across _fresh_get()
+    calls; if any one source eats a long ConnectTimeout the pool can poison
+    every subsequent call (instant 0.0s ConnectionError). A throw-away
+    Session sidesteps that — each source pays its own connection cost but
+    no cross-source corruption."""
+    s = requests.Session()
+    s.headers.update({"Connection": "close"})
+    try:
+        return s.get(url, **kw)
+    finally:
+        s.close()
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 warnings.filterwarnings("ignore")
 
@@ -201,7 +216,7 @@ def _extract_rows_from_table(t, agency: str, list_name: str,
 
 def _try_html(source: dict) -> list[dict]:
     url = source["url"]
-    r = requests.get(url, headers=H_BROWSER, timeout=HTTP_TIMEOUT_S,
+    r = _fresh_get(url, headers=H_BROWSER, timeout=HTTP_TIMEOUT_S,
                      verify=False, allow_redirects=True)
     if r.status_code != 200:
         raise RuntimeError(f"HTTP {r.status_code}")
@@ -230,7 +245,7 @@ def _try_pdf(source: dict) -> list[dict]:
     it and extract tables via pdfplumber. Conservative: only attempts when
     one PDF is obvious to avoid downloading hundreds of PDFs per source."""
     url = source["url"]
-    r = requests.get(url, headers=H_BROWSER, timeout=HTTP_TIMEOUT_S,
+    r = _fresh_get(url, headers=H_BROWSER, timeout=HTTP_TIMEOUT_S,
                      verify=False, allow_redirects=True)
     if r.status_code != 200:
         return []
@@ -250,7 +265,7 @@ def _try_pdf(source: dict) -> list[dict]:
     rows: list[dict] = []
     for pdf_url in pdf_links[:2]:  # at most 2 PDFs
         try:
-            pr = requests.get(pdf_url, headers=H_BROWSER,
+            pr = _fresh_get(pdf_url, headers=H_BROWSER,
                               timeout=HTTP_TIMEOUT_S, verify=False)
             if pr.status_code != 200 or not pr.content.startswith(b"%PDF"):
                 continue
