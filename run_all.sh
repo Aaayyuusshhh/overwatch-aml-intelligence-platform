@@ -141,7 +141,7 @@ if [ "$DRY_RUN" = "0" ]; then
 
     # Latin America scrapers (Brazil COAF, Argentina CNV).
     log "running Latin America scrapers ..."
-    timeout 300 ./venv/bin/python scrapers/latam_scrapers.py >> "$RUN_LOG" 2>&1 \
+    timeout 900 ./venv/bin/python scrapers/latam_scrapers.py >> "$RUN_LOG" 2>&1 \
         || log "WARN: latam scrapers timeout/error (exit=$?)"
 
     # Friday standalone scrapers (US/AU/NZ).

@@ -12,6 +12,7 @@ import os
 import time
 
 from engines import html_scraper
+from handlers._scraper_dispatch import resolve as _resolve_scraper
 
 
 def _count_rows(csv_path):
@@ -27,10 +28,9 @@ def handle(source):
     scraper_file = source.get("scraper")
 
     if scraper_file:
-        module_name = scraper_file[:-3] if scraper_file.endswith(".py") else scraper_file
         try:
-            module = importlib.import_module(f"scrapers.{module_name}")
-            module.run()
+            module, callable_name = _resolve_scraper(scraper_file)
+            getattr(module, callable_name)()
             csv_path = getattr(module, "OUTPUT_FILE", None)
             return {"status": "success",
                     "record_count": _count_rows(csv_path),
