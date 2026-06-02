@@ -46,10 +46,21 @@ def _discover_pdf_url():
     body = r.body if hasattr(r, "body") else r.content
     if isinstance(body, bytes):
         body = body.decode("utf-8", "ignore")
-    pat = re.compile(r'''href=["']([^"']*Banned_firms_list_BHEL[^"']*\.pdf[^"']*)["']''', re.I)
-    m = pat.search(body)
+    # BHEL renamed the PDF (Apr 2026): was Banned_firms_list_BHEL_<date>.pdf,
+    # now "Debarred Firms List - BHEL.pdf". Match either filename pattern by
+    # falling back to any anchor whose href looks like a debarred/banned PDF.
+    patterns = [
+        r'''href=["']([^"']*Banned_firms_list_BHEL[^"']*\.pdf[^"']*)["']''',
+        r'''href=["']([^"']*Debarred[^"']*Firms[^"']*\.pdf[^"']*)["']''',
+        r'''href=["']([^"']*Banned[^"']*Firms[^"']*\.pdf[^"']*)["']''',
+    ]
+    m = None
+    for p in patterns:
+        m = re.search(p, body, re.I)
+        if m:
+            break
     if not m:
-        raise RuntimeError("BHEL: no Banned_firms_list_BHEL_*.pdf anchor on /list-debarred-firms")
+        raise RuntimeError("BHEL: no debarred/banned-firms PDF anchor on /list-debarred-firms")
     href = m.group(1)
     if href.startswith("http"):
         return href

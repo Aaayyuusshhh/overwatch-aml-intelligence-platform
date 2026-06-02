@@ -185,11 +185,16 @@ def run_defaulters():
     print("=" * 60)
     print("NCDEX Defaulter Members scraper (#186)")
     print("=" * 60)
+    # NCDEX publishes the Defaulter Members table on /suspended_member; the
+    # table is sometimes header-only (no current defaulters) — same legitimate
+    # empty-list state already honoured by run_expelled / run_cessation. Treat
+    # zero rows as a successful empty-list snapshot, not a scraper failure.
     recs = _scrape_one(DEFAULTER_URL,
                        source_list="List of Defaulter Members",
                        link_kind="ncdex_defaulter",
-                       header_must_contain=("member name", "date of defaulter"))
-    _save_csv(recs, DEFAULTER_OUT)
+                       header_must_contain=("member name", "date of defaulter"),
+                       allow_empty=True)
+    _save_csv(recs, DEFAULTER_OUT, allow_empty=True)
 
 
 def run_penalties():
