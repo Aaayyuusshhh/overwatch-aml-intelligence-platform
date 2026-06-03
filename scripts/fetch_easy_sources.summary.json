@@ -1,0 +1,110 @@
+{
+  "started_at": "2026-06-02T13:02:23+00:00",
+  "results": [
+    {
+      "id": "us_hhs_oig_exclusions",
+      "status": "success",
+      "rows": 82083,
+      "csv": "/home/aayush/risk-pipeline/data/us_hhs_oig_exclusions.csv",
+      "elapsed_s": 3.3
+    },
+    {
+      "id": "sg_government_directory",
+      "status": "success",
+      "rows": 19705,
+      "csv": "/home/aayush/risk-pipeline/data/sg_government_directory.csv",
+      "elapsed_s": 1.4
+    },
+    {
+      "id": "us_finra_enforcement_actions",
+      "status": "success",
+      "rows": 14714,
+      "csv": "/home/aayush/risk-pipeline/data/us_finra_enforcement_actions.csv",
+      "elapsed_s": 0.9
+    },
+    {
+      "id": "ca_sema_consolidated_sanctions",
+      "status": "success",
+      "rows": 5438,
+      "csv": "/home/aayush/risk-pipeline/data/ca_sema_consolidated_sanctions.csv",
+      "elapsed_s": 0.9
+    },
+    {
+      "id": "egypt_domestic_terrorist_list",
+      "status": "success",
+      "rows": 4066,
+      "csv": "/home/aayush/risk-pipeline/data/egypt_domestic_terrorist_list.csv",
+      "elapsed_s": 0.8
+    },
+    {
+      "id": "au_dfat_consolidated_sanctions",
+      "status": "success",
+      "rows": 3732,
+      "csv": "/home/aayush/risk-pipeline/data/au_dfat_consolidated_sanctions.csv",
+      "elapsed_s": 0.9
+    },
+    {
+      "id": "fr_hatvp_interest_declarations",
+      "status": "success",
+      "rows": 2556,
+      "csv": "/home/aayush/risk-pipeline/data/fr_hatvp_interest_declarations.csv",
+      "elapsed_s": 0.6
+    },
+    {
+      "id": "pt_assembleia_republica_members",
+      "status": "success",
+      "rows": 1129,
+      "csv": "/home/aayush/risk-pipeline/data/pt_assembleia_republica_members.csv",
+      "elapsed_s": 0.5
+    },
+    {
+      "id": "us_cftc_enforcement_actions",
+      "status": "success",
+      "rows": 769,
+      "csv": "/home/aayush/risk-pipeline/data/us_cftc_enforcement_actions.csv",
+      "elapsed_s": 0.4
+    },
+    {
+      "id": "us_navy_leadership",
+      "status": "success",
+      "rows": 297,
+      "csv": "/home/aayush/risk-pipeline/data/us_navy_leadership.csv",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "us_state_dept_senior_officials",
+      "status": "success",
+      "rows": 234,
+      "csv": "/home/aayush/risk-pipeline/data/us_state_dept_senior_officials.csv",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "si_national_assembly_members",
+      "status": "success",
+      "rows": 90,
+      "csv": "/home/aayush/risk-pipeline/data/si_national_assembly_members.csv",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "be_walloon_parliament_members",
+      "status": "success",
+      "rows": 75,
+      "csv": "/home/aayush/risk-pipeline/data/be_walloon_parliament_members.csv",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "sg_targeted_financial_sanctions_terrorists",
+      "status": "success",
+      "rows": 40,
+      "csv": "/home/aayush/risk-pipeline/data/sg_targeted_financial_sanctions_terrorists.csv",
+      "elapsed_s": 0.3
+    },
+    {
+      "id": "us_fincen_311_9714_special_measures",
+      "status": "success",
+      "rows": 36,
+      "csv": "/home/aayush/risk-pipeline/data/us_fincen_311_9714_special_measures.csv",
+      "elapsed_s": 0.3
+    }
+  ]
+}
