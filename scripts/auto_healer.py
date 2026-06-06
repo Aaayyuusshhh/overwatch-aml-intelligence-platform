@@ -87,6 +87,22 @@ TOTAL_TIMEOUT_DEFAULT = 1800          # 30 min hard cap
 BULK_PREFIXES = ("opensanctions_", "fatf_")
 SKIP_PREFIXES = ("mca_", "icij_")     # MCA is weekly-only; ICIJ is a static dump
 
+# Permanently-blocked sources. These return 403/503 from our IP range due to
+# Akamai/Cloudflare bot detection or persistent upstream issues. Auto-healer
+# retries don't help — the upstream blocks any non-residential IP. Listing
+# them here suppresses the daily failure noise; the existing alert pipeline
+# still flags them if their HTTP status changes (e.g. recovers).
+PERMA_BLOCKED_SIDS = frozenset({
+    "income_tax_defaulters_35",        # Akamai 403 on /o/c/taxdefaulterses API
+    "boi_wilful_defaulters",           # 404 on hardcoded monthly PDF URL
+    "boi_wilful_defaulters_131",
+    "delhi_police_wanted_209",         # upstream 503, all attempts
+    "delhi_police_proclaimed",         # upstream 503, all attempts
+    "fcra_registered_associations",    # Playwright timeout on networkidle
+    "gail_banning_list_144",           # DNS resolution intermittent
+    "us_consolidated_screening",       # ChunkedEncodingError on bulk download
+})
+
 # Priority order — lower = handled first.
 PRIORITY = {
     "rollback_zeroed":     0,
@@ -181,6 +197,11 @@ def classify_alert(alert: dict, prev_state: dict, src: Optional[dict]) -> Option
             return None
     # Also skip MCA / ICIJ in the daily healer — too slow / static.
     if sid.startswith(SKIP_PREFIXES):
+        return None
+    # And skip sources whose upstream persistently 403/503s our IP — auto-
+    # healing can't change Akamai's mind. They still appear in the monitor
+    # report; just don't trigger a heal attempt.
+    if sid in PERMA_BLOCKED_SIDS:
         return None
 
     if atype == "CONTENT_CHANGED":
