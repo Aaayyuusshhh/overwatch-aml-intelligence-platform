@@ -1,0 +1,111 @@
+{
+  "finished_at": "2026-06-03T06:28:23.287628+00:00",
+  "results": [
+    {
+      "id": "uk_ofsi_conlist_csv",
+      "status": "empty"
+    },
+    {
+      "id": "ofac_sdn_direct_csv",
+      "status": "success",
+      "rows": 19024,
+      "elapsed_s": 21.3
+    },
+    {
+      "id": "ofac_consolidated_primary_csv",
+      "status": "success",
+      "rows": 442,
+      "elapsed_s": 8.6
+    },
+    {
+      "id": "bis_entity_list_direct_csv",
+      "status": "empty"
+    },
+    {
+      "id": "kz_afmrk_sanctions",
+      "status": "success",
+      "rows": 2558,
+      "elapsed_s": 4.0
+    },
+    {
+      "id": "ru_fedsfm_terror",
+      "status": "success",
+      "rows": 12841,
+      "elapsed_s": 5.4
+    },
+    {
+      "id": "at_nationalrat",
+      "status": "404"
+    },
+    {
+      "id": "ie_oireachtas",
+      "status": "404"
+    },
+    {
+      "id": "dk_folketing",
+      "status": "404"
+    },
+    {
+      "id": "se_riksdagen",
+      "status": "404"
+    },
+    {
+      "id": "lt_seimas_os",
+      "status": "success",
+      "rows": 141,
+      "elapsed_s": 2.7
+    },
+    {
+      "id": "hr_sabor",
+      "status": "404"
+    },
+    {
+      "id": "rs_parliament",
+      "status": "404"
+    },
+    {
+      "id": "bg_parliament",
+      "status": "404"
+    },
+    {
+      "id": "sk_nrsr",
+      "status": "404"
+    },
+    {
+      "id": "cz_senate",
+      "status": "404"
+    },
+    {
+      "id": "hu_parliament",
+      "status": "404"
+    },
+    {
+      "id": "ro_cdep",
+      "status": "404"
+    },
+    {
+      "id": "mt_parliament",
+      "status": "404"
+    },
+    {
+      "id": "md_parliament",
+      "status": "404"
+    },
+    {
+      "id": "me_skupstina",
+      "status": "404"
+    },
+    {
+      "id": "al_parliament",
+      "status": "404"
+    },
+    {
+      "id": "mk_parliament",
+      "status": "404"
+    },
+    {
+      "id": "ba_parliament",
+      "status": "404"
+    }
+  ]
+}
